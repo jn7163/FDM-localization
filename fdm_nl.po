@@ -1,0 +1,2113 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: nl_NL\n"
+"X-Source-Language: en\n"
+"X-Qt-Contexts: true\n"
+
+#: ../../fdm/downloads/downloadfiletree.cpp:7
+msgctxt "DownloadFileInfo|"
+msgid "Skip"
+msgstr ""
+
+#: ../../fdm/downloads/downloadfiletree.cpp:8
+#, fuzzy
+msgctxt "DownloadFileInfo|"
+msgid "Low"
+msgstr "Laag"
+
+#: ../../fdm/downloads/downloadfiletree.cpp:9
+msgctxt "DownloadFileInfo|"
+msgid "Normal"
+msgstr ""
+
+#: ../../fdm/downloads/downloadfiletree.cpp:10
+#, fuzzy
+msgctxt "DownloadFileInfo|"
+msgid "High"
+msgstr "Hoog"
+
+#: ../../fdm/downloads/downloadinfo.cpp:5
+#, fuzzy
+msgctxt "DownloadInfo|"
+msgid "Low"
+msgstr "Laag"
+
+#: ../../fdm/downloads/downloadinfo.cpp:6
+msgctxt "DownloadInfo|"
+msgid "Normal"
+msgstr ""
+
+#: ../../fdm/downloads/downloadinfo.cpp:7
+#, fuzzy
+msgctxt "DownloadInfo|"
+msgid "High"
+msgstr "Hoog"
+
+#: ../../fdm/menu/macmainmenu.cpp:143
+msgctxt "MacMainMenu|"
+msgid "File"
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:53 ../../fdm/menu/macmainmenu.cpp:137
+msgctxt "MacMainMenu|"
+msgid "Add Download from URL..."
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:57 ../../fdm/menu/macmainmenu.cpp:138
+msgctxt "MacMainMenu|"
+msgid "Open Torrent File..."
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:130
+#, qt-format
+msgctxt "MacMainMenu|"
+msgid "About %1"
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:132
+msgctxt "MacMainMenu|"
+msgid "Check for Updates..."
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:144
+#, fuzzy
+msgctxt "MacMainMenu|"
+msgid "Downloads"
+msgstr "Downloads"
+
+#: ../../fdm/menu/macmainmenu.cpp:133
+msgctxt "MacMainMenu|"
+msgid "Start Selected"
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:134
+msgctxt "MacMainMenu|"
+msgid "Pause Selected"
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:135
+msgctxt "MacMainMenu|"
+msgid "Restart Selected"
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:129 ../../fdm/menu/macmainmenu.cpp:136
+msgctxt "MacMainMenu|"
+msgid "Remove from List"
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:145
+msgctxt "MacMainMenu|"
+msgid "Help"
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:139
+msgctxt "MacMainMenu|"
+msgid "Contact Support"
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:140
+msgctxt "MacMainMenu|"
+msgid "Vote for New Features"
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:131
+#, fuzzy
+msgctxt "MacMainMenu|"
+msgid "Preferences..."
+msgstr "Voorkeuren..."
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:8
+#, fuzzy
+msgctxt "QObject|"
+msgid "About Free Download Manager"
+msgstr "Over Free Download Manager"
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:9
+msgctxt "QObject|"
+msgid "Preferences"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:10
+msgctxt "QObject|"
+msgid "Check for Updates..."
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:11
+msgctxt "QObject|"
+msgid "Window"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:12
+msgctxt "QObject|"
+msgid "Minimize"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:13
+msgctxt "QObject|"
+msgid "Zoom"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:14
+msgctxt "QObject|"
+msgid "Enter Full Screen"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:15
+msgctxt "QObject|"
+msgid "Bring All to Front"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:16
+msgctxt "QObject|"
+msgid "Contact Support"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:17
+msgctxt "QObject|"
+msgid "Open Torrent File..."
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:18
+msgctxt "QObject|"
+msgid "File"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:19
+#, fuzzy
+msgctxt "QObject|"
+msgid "Select All"
+msgstr "Alles selecteren"
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:20
+msgctxt "QObject|"
+msgid "Delete"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:21
+msgctxt "QObject|"
+msgid "Paste"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:22
+msgctxt "QObject|"
+msgid "Copy"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:23
+msgctxt "QObject|"
+msgid "Cut"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:24
+msgctxt "QObject|"
+msgid "Edit"
+msgstr ""
+
+#: ../../fdm/menu/mac/macmenudicitionary.h:25
+msgctxt "QObject|"
+msgid "Help"
+msgstr ""
+
+# [ RPCLocalization| ] should be ignored. Translate the text from the 'Source text' field that corresponds the line. This is true for all lines with the marking.
+#: ../../fdm/rpc/rpclocalization.cpp:7
+msgctxt "RPCLocalization|"
+msgid "locale"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:9
+msgctxt "RPCLocalization|"
+msgid "Drag & Drop"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:10
+msgctxt "RPCLocalization|"
+msgid "URL or torrent here"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:11
+msgctxt "RPCLocalization|"
+msgid "Add tag"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:12
+msgctxt "RPCLocalization|"
+msgid "Preferences"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:14
+msgctxt "RPCLocalization|"
+msgid "Unlimited"
+msgstr "Onbeperkt"
+
+#: ../../fdm/rpc/rpclocalization.cpp:15
+msgctxt "RPCLocalization|"
+msgid "Manual..."
+msgstr "Handmatig..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:16
+msgctxt "RPCLocalization|"
+msgid "Set limits manually"
+msgstr "Limieten handmatig instellen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:18
+msgctxt "RPCLocalization|"
+msgid "Download: unlimited, Upload: unlimited"
+msgstr "Download: onbeperkt, Upload: onbeperkt"
+
+#: ../../fdm/rpc/rpclocalization.cpp:19
+msgctxt "RPCLocalization|"
+msgid "Download:"
+msgstr "Download:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:20
+msgctxt "RPCLocalization|"
+msgid "Upload:"
+msgstr "Upload:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:21
+msgctxt "RPCLocalization|"
+msgid "unlimited"
+msgstr "onbeperkt"
+
+#: ../../fdm/rpc/rpclocalization.cpp:22
+msgctxt "RPCLocalization|"
+msgid "Snail mode frees bandwidth without stopping downloads."
+msgstr "Slakkenmodus maakt bandbreedte vrij zonder downloads te stoppen."
+
+#: ../../fdm/rpc/rpclocalization.cpp:23
+msgctxt "RPCLocalization|"
+msgid "Hide details"
+msgstr "Details verbergen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:24
+msgctxt "RPCLocalization|"
+msgid "Show details"
+msgstr "Details weergeven"
+
+#: ../../fdm/rpc/rpclocalization.cpp:25
+#, qt-format
+msgctxt "RPCLocalization|"
+msgid "%n files selected."
+msgid_plural "%n files selected."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:26
+msgctxt "RPCLocalization|"
+msgid "Show in folder"
+msgstr "In map weergeven"
+
+#: ../../fdm/rpc/rpclocalization.cpp:27
+msgctxt "RPCLocalization|"
+msgid "Reveal in Finder"
+msgstr "Bekendmaken in Finder"
+
+#: ../../fdm/rpc/rpclocalization.cpp:28
+msgctxt "RPCLocalization|"
+msgid "Pause"
+msgstr "Pauzeren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:29
+msgctxt "RPCLocalization|"
+msgid "Restart"
+msgstr "Herstarten"
+
+#: ../../fdm/rpc/rpclocalization.cpp:30
+msgctxt "RPCLocalization|"
+msgid "Start"
+msgstr "Starten"
+
+#: ../../fdm/rpc/rpclocalization.cpp:31
+msgctxt "RPCLocalization|"
+msgid "Selected size:"
+msgstr "Geselecteerde grootte:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:32
+msgctxt "RPCLocalization|"
+msgid "Size:"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:33
+msgctxt "RPCLocalization|"
+msgid "File size:"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:34
+msgctxt "RPCLocalization|"
+msgid "Disk space:"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:35
+msgctxt "RPCLocalization|"
+msgid "Total size:"
+msgstr "Totale grootte:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:36
+msgctxt "RPCLocalization|"
+msgid "Checked size:"
+msgstr "Gecontroleerde grootte:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:37
+msgctxt "RPCLocalization|"
+msgid "Downloaded:"
+msgstr "Gedownload:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:38
+msgctxt "RPCLocalization|"
+msgid "Download speed:"
+msgstr "Downloadsnelheid:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:39
+msgctxt "RPCLocalization|"
+msgid "Seeds:"
+msgstr "Seeds:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:40
+msgctxt "RPCLocalization|"
+msgid "Domain:"
+msgstr "Domein:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:41
+msgctxt "RPCLocalization|"
+msgid "Uploaded:"
+msgstr "Geüpload:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:42
+msgctxt "RPCLocalization|"
+msgid "Upload speed:"
+msgstr "Uploadsnelheid:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:43
+msgctxt "RPCLocalization|"
+msgid "Peers:"
+msgstr "Peers:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:44
+msgctxt "RPCLocalization|"
+msgid "Share ratio:"
+msgstr "Deel ratio:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:45
+msgctxt "RPCLocalization|"
+msgid "Availability:"
+msgstr "Beschikbaarheid:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:46
+msgctxt "RPCLocalization|"
+msgid "DHT nodes:"
+msgstr "DHT nodes:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:47
+msgctxt "RPCLocalization|"
+msgid "IP"
+msgstr "IP"
+
+#: ../../fdm/rpc/rpclocalization.cpp:48
+msgctxt "RPCLocalization|"
+msgid "Client"
+msgstr "Client"
+
+#: ../../fdm/rpc/rpclocalization.cpp:49
+msgctxt "RPCLocalization|"
+msgid "Flags"
+msgstr "Vlaggen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:50
+msgctxt "RPCLocalization|"
+msgid "Requests"
+msgstr "Aanvragen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:51
+msgctxt "RPCLocalization|"
+msgid "Downloaded"
+msgstr "Gedownload"
+
+#: ../../fdm/rpc/rpclocalization.cpp:52
+msgctxt "RPCLocalization|"
+msgid "Uploaded"
+msgstr "Geüpload"
+
+#: ../../fdm/rpc/rpclocalization.cpp:53
+msgctxt "RPCLocalization|"
+msgid "Files"
+msgstr "Bestanden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:54
+msgctxt "RPCLocalization|"
+msgid "Trackers"
+msgstr "Trackers"
+
+#: ../../fdm/rpc/rpclocalization.cpp:55
+msgctxt "RPCLocalization|"
+msgid "Peers"
+msgstr "Peers"
+
+#: ../../fdm/rpc/rpclocalization.cpp:56
+msgctxt "RPCLocalization|"
+msgid "Log"
+msgstr "Log"
+
+#: ../../fdm/rpc/rpclocalization.cpp:57
+msgctxt "RPCLocalization|"
+msgid "Enable seeding"
+msgstr "Seeding inschakelen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:58
+msgctxt "RPCLocalization|"
+msgid "Progress"
+msgstr "Voortgang"
+
+#: ../../fdm/rpc/rpclocalization.cpp:59
+msgctxt "RPCLocalization|"
+msgid "Priority"
+msgstr "Prioriteit"
+
+#: ../../fdm/rpc/rpclocalization.cpp:60
+msgctxt "RPCLocalization|"
+msgid "URL"
+msgstr "URL"
+
+#: ../../fdm/rpc/rpclocalization.cpp:61
+msgctxt "RPCLocalization|"
+msgid "Next announce"
+msgstr "Volgende aankondiging"
+
+#: ../../fdm/rpc/rpclocalization.cpp:62
+msgctxt "RPCLocalization|"
+msgid "Snail mode"
+msgstr "Slakkenmodus"
+
+#: ../../fdm/rpc/rpclocalization.cpp:63
+msgctxt "RPCLocalization|"
+msgid "Bandwidth limits"
+msgstr "Bandbreedtebeperkingen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:64
+msgctxt "RPCLocalization|"
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:65
+msgctxt "RPCLocalization|"
+msgid "Apply"
+msgstr "Toepassen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:66
+msgctxt "RPCLocalization|"
+msgid "KB/s"
+msgstr "KB/s"
+
+#: ../../fdm/rpc/rpclocalization.cpp:67
+msgctxt "RPCLocalization|"
+msgid "MB/s"
+msgstr "MB/s"
+
+#: ../../fdm/rpc/rpclocalization.cpp:68
+#, qt-format
+msgctxt "RPCLocalization|"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+#: ../../fdm/rpc/rpclocalization.cpp:69
+#, qt-format
+msgctxt "RPCLocalization|"
+msgid "%1 MB/s"
+msgstr "%1 MB/s"
+
+#: ../../fdm/rpc/rpclocalization.cpp:70
+msgctxt "RPCLocalization|"
+msgid "Browser integration"
+msgstr "Browserintegratie"
+
+#: ../../fdm/rpc/rpclocalization.cpp:71
+msgctxt "RPCLocalization|"
+msgid ""
+"Free Download Manager has automatically intercepted the URL that another "
+"Internet Application used to download a file. Thanks to the flexible "
+"settings FDM offers, you can easily adjust the option in the Settings window:"
+msgstr ""
+"Free Download Manager heeft automatisch een URL onderschept die een andere "
+"internet applicatie gebruikt om een bestand te downloaden. Dankzij de "
+"flexibele instellingen van FDM, kun je deze optie aanpassen in het "
+"instellingenvenster:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:72
+msgctxt "RPCLocalization|"
+msgid ""
+"Working with browsers, you can configure FDM so that it doesn't monitor "
+"left-click actions."
+msgstr ""
+"Je kunt FDM zo instellen dat er geen links-klik acties worden gemonitord in "
+"browsers."
+
+#: ../../fdm/rpc/rpclocalization.cpp:73
+msgctxt "RPCLocalization|"
+msgid "Don't show this tip again"
+msgstr "Deze tip niet meer weergeven"
+
+#: ../../fdm/rpc/rpclocalization.cpp:74
+msgctxt "RPCLocalization|"
+msgid "Next"
+msgstr "Volgende"
+
+#: ../../fdm/rpc/rpclocalization.cpp:75
+msgctxt "RPCLocalization|"
+msgid "Proceed to download"
+msgstr "Verder naar downloaden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:76
+msgctxt "RPCLocalization|"
+msgid "Add download"
+msgstr "Download toevoegen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:77
+msgctxt "RPCLocalization|"
+msgid "Enter download URL:"
+msgstr "Downloadlink toevoegen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:78
+msgctxt "RPCLocalization|"
+msgid "OK"
+msgstr "Ok"
+
+#: ../../fdm/rpc/rpclocalization.cpp:79
+msgctxt "RPCLocalization|"
+msgid "Download"
+msgstr "Download"
+
+#: ../../fdm/rpc/rpclocalization.cpp:80
+msgctxt "RPCLocalization|"
+msgid "Download anyway"
+msgstr "Toch downloaden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:81
+msgctxt "RPCLocalization|"
+msgid "Add"
+msgstr "Toevoegen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:82
+msgctxt "RPCLocalization|"
+msgid "torrent"
+msgstr "torrent"
+
+#: ../../fdm/rpc/rpclocalization.cpp:83
+msgctxt "RPCLocalization|"
+msgid "Save to:"
+msgstr "Opslaan naar:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:84
+msgctxt "RPCLocalization|"
+msgid "Select folder"
+msgstr "Selecteer map"
+
+#: ../../fdm/rpc/rpclocalization.cpp:85
+msgctxt "RPCLocalization|"
+msgid "Requesting download info..."
+msgstr "Download info aanvragen..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:86
+msgctxt "RPCLocalization|"
+msgid "Quality:"
+msgstr "Kwaliteit:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:87
+msgctxt "RPCLocalization|"
+msgid "Select all"
+msgstr "Alles selecteren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:88
+msgctxt "RPCLocalization|"
+msgid "Select none"
+msgstr "Niets selecteren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:89
+msgctxt "RPCLocalization|"
+msgid "Torrent already exists"
+msgstr "Torrent bestaat reeds"
+
+#: ../../fdm/rpc/rpclocalization.cpp:90
+msgctxt "RPCLocalization|"
+msgid "Do you want to load its trackers?"
+msgstr "Wil je de trackers laden?"
+
+#: ../../fdm/rpc/rpclocalization.cpp:91
+msgctxt "RPCLocalization|"
+msgid "No active downloads"
+msgstr "Geen actieve downloads"
+
+#: ../../fdm/rpc/rpclocalization.cpp:92
+msgctxt "RPCLocalization|"
+msgid "No completed downloads"
+msgstr "Geen voltooide downloads"
+
+#: ../../fdm/rpc/rpclocalization.cpp:93
+msgctxt "RPCLocalization|"
+msgid "No results found for"
+msgstr "Geen resultaten gevonden voor"
+
+#: ../../fdm/rpc/rpclocalization.cpp:94
+msgctxt "RPCLocalization|"
+msgid "No results tagged"
+msgstr "Geen resultaten met label"
+
+#: ../../fdm/rpc/rpclocalization.cpp:95
+msgctxt "RPCLocalization|"
+msgid "found"
+msgstr "gevonden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:96
+msgctxt "RPCLocalization|"
+msgid "Show all"
+msgstr "Alles weergeven"
+
+#: ../../fdm/rpc/rpclocalization.cpp:97
+msgctxt "RPCLocalization|"
+msgid "Nothing found"
+msgstr "Niets gevonden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:98
+msgctxt "RPCLocalization|"
+msgid "Moving"
+msgstr "Verplaatsen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:99
+msgctxt "RPCLocalization|"
+msgid "Unknown file size"
+msgstr "Onbekende bestandsgrootte"
+
+#: ../../fdm/rpc/rpclocalization.cpp:100
+msgctxt "RPCLocalization|"
+msgid "Merging media streams"
+msgstr "Mediastreams samenvoegen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:101
+msgctxt "RPCLocalization|"
+msgid "Allocating disk space..."
+msgstr "Schijfruimte toewijzen..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:102
+msgctxt "RPCLocalization|"
+msgid "Reconnecting..."
+msgstr "Opnieuw verbinden..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:103
+msgctxt "RPCLocalization|"
+msgid "Reconnecting"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:104
+msgctxt "RPCLocalization|"
+msgid "Paused"
+msgstr "Gepauzeerd"
+
+#: ../../fdm/rpc/rpclocalization.cpp:105
+msgctxt "RPCLocalization|"
+msgid "Downloading metadata"
+msgstr "Metadata downloaden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:106
+msgctxt "RPCLocalization|"
+msgid "Downloading"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:107
+msgctxt "RPCLocalization|"
+msgid "Error"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:108
+msgctxt "RPCLocalization|"
+msgid "Checking files..."
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:109
+msgctxt "RPCLocalization|"
+msgid "Downloading, Allocating disk space..."
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:110
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "Completed %n / %2 files"
+msgid_plural "Completed %n / %2 files"
+msgstr[0] "Voltooid %n / %2 bestanden"
+msgstr[1] ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:111
+msgctxt "RPCLocalization|"
+msgid "Complete"
+msgstr "Voltooid"
+
+#: ../../fdm/rpc/rpclocalization.cpp:112
+msgctxt "RPCLocalization|"
+msgid "Queued"
+msgstr "In de wacht"
+
+#: ../../fdm/rpc/rpclocalization.cpp:113
+msgctxt "RPCLocalization|"
+msgid "Stop seeding"
+msgstr "Seeding stoppen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:114
+msgctxt "RPCLocalization|"
+msgid "Requesting info..."
+msgstr "Info aanvragen..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:115
+msgctxt "RPCLocalization|"
+msgid "Open torrent file..."
+msgstr "Torrent-bestand openen..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:116
+msgctxt "RPCLocalization|"
+msgid "Preferences..."
+msgstr "Voorkeuren..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:117
+msgctxt "RPCLocalization|"
+msgid "Settings..."
+msgstr "Instellingen..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:118
+msgctxt "RPCLocalization|"
+msgid "Settings"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:119
+msgctxt "RPCLocalization|"
+msgid "Contact support"
+msgstr "Ondersteuning"
+
+#: ../../fdm/rpc/rpclocalization.cpp:120
+msgctxt "RPCLocalization|"
+msgid "Auto shutdown"
+msgstr "Auto-afsluiten"
+
+#: ../../fdm/rpc/rpclocalization.cpp:121
+msgctxt "RPCLocalization|"
+msgid "Sleep"
+msgstr "Slaapstand"
+
+#: ../../fdm/rpc/rpclocalization.cpp:122
+msgctxt "RPCLocalization|"
+msgid "Hibernate"
+msgstr "Sluimerstand"
+
+#: ../../fdm/rpc/rpclocalization.cpp:123
+msgctxt "RPCLocalization|"
+msgid "Shutdown"
+msgstr "Afsluiten"
+
+#: ../../fdm/rpc/rpclocalization.cpp:124
+msgctxt "RPCLocalization|"
+msgid "Check for updates"
+msgstr "Controleren op updates"
+
+#: ../../fdm/rpc/rpclocalization.cpp:125
+msgctxt "RPCLocalization|"
+msgid "About Free Download Manager"
+msgstr "Over Free Download Manager"
+
+#: ../../fdm/rpc/rpclocalization.cpp:126
+msgctxt "RPCLocalization|"
+msgid "Quit"
+msgstr "Sluiten"
+
+#: ../../fdm/rpc/rpclocalization.cpp:127
+msgctxt "RPCLocalization|"
+msgid "Exit"
+msgstr "Afsluiten"
+
+#: ../../fdm/rpc/rpclocalization.cpp:128
+msgctxt "RPCLocalization|"
+msgid "Vote for new features"
+msgstr "Stemmen op nieuwe functies"
+
+#: ../../fdm/rpc/rpclocalization.cpp:129
+msgctxt "RPCLocalization|"
+msgid "About FDM"
+msgstr "Over FDM"
+
+#: ../../fdm/rpc/rpclocalization.cpp:130
+msgctxt "RPCLocalization|"
+msgid "Are you sure this is a valid file extension?"
+msgstr "Weet je zeker dat dit een geldige bestandsextensie is?"
+
+#: ../../fdm/rpc/rpclocalization.cpp:131
+msgctxt "RPCLocalization|"
+msgid "Please enter numbers only"
+msgstr "Alleen cijfers invullen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:132
+msgctxt "RPCLocalization|"
+msgid "Are you sure it's not too small?"
+msgstr "Weet je zeker dat het niet te klein is?"
+
+#: ../../fdm/rpc/rpclocalization.cpp:133
+msgctxt "RPCLocalization|"
+msgid "Why should it be so huge?"
+msgstr "Waarom moet het zo groot zijn?"
+
+#: ../../fdm/rpc/rpclocalization.cpp:134
+msgctxt "RPCLocalization|"
+msgid "Extremely slow, isn't it?"
+msgstr "Extreem traag, nietwaar?"
+
+#: ../../fdm/rpc/rpclocalization.cpp:135
+msgctxt "RPCLocalization|"
+msgid "Faster doesn't mean better"
+msgstr "Sneller betekent niet beter"
+
+#: ../../fdm/rpc/rpclocalization.cpp:136
+msgctxt "RPCLocalization|"
+msgid "Isn't it too frequent?"
+msgstr "Is het niet te vaak?"
+
+#: ../../fdm/rpc/rpclocalization.cpp:137
+msgctxt "RPCLocalization|"
+msgid "Pretty rare to move with the time."
+msgstr "Best wel zeldzaam om de tijd te verplaatsen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:138
+msgctxt "RPCLocalization|"
+msgid "Maybe you'd let it be a little longer?"
+msgstr "Misschien kun je het ietsjes minder lang maken?"
+
+#: ../../fdm/rpc/rpclocalization.cpp:139
+msgctxt "RPCLocalization|"
+msgid "Are you sure it's not too long?"
+msgstr "Weet je zeker dat het niet te lang is?"
+
+#: ../../fdm/rpc/rpclocalization.cpp:140
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "Only %n records? FDM can store much more!"
+msgid_plural "Only %n records? FDM can store much more!"
+msgstr[0] "Maar %n records? FDM kan er veel meer opslaan!"
+msgstr[1] ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:141
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "%n records is too many to save."
+msgid_plural "%n records is too many to save."
+msgstr[0] "%n records zijn teveel om op te slaan."
+msgstr[1] ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:142
+msgctxt "RPCLocalization|"
+msgid "Do you actually want to connect?"
+msgstr "Wil je echt een verbinding maken?"
+
+#: ../../fdm/rpc/rpclocalization.cpp:143
+msgctxt "RPCLocalization|"
+msgid "Oh no, too many connections!"
+msgstr "Oh nee, teveel verbindingen!"
+
+#: ../../fdm/rpc/rpclocalization.cpp:144
+msgctxt "RPCLocalization|"
+msgid "It seems like an understatement."
+msgstr "Het lijkt een understatement."
+
+#: ../../fdm/rpc/rpclocalization.cpp:145
+msgctxt "RPCLocalization|"
+msgid "So many? It's overwhelming!"
+msgstr "Zo veel? Het is overweldigend!"
+
+#: ../../fdm/rpc/rpclocalization.cpp:146
+msgctxt "RPCLocalization|"
+msgid "General"
+msgstr "Algemeen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:147
+msgctxt "RPCLocalization|"
+msgid "Browser Integration"
+msgstr "Browser integratie"
+
+#: ../../fdm/rpc/rpclocalization.cpp:148
+msgctxt "RPCLocalization|"
+msgid "BitTorrent"
+msgstr "BitTorrent"
+
+#: ../../fdm/rpc/rpclocalization.cpp:149
+msgctxt "RPCLocalization|"
+msgid "Traffic Limits"
+msgstr "Bandbreedtebeperkingen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:150
+#, fuzzy
+msgctxt "RPCLocalization|settings"
+msgid "Traffic Limits"
+msgstr "Bandbreedtebeperkingen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:151
+msgctxt "RPCLocalization|"
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: ../../fdm/rpc/rpclocalization.cpp:152
+msgctxt "RPCLocalization|"
+msgid "Network"
+msgstr "Netwerk"
+
+#: ../../fdm/rpc/rpclocalization.cpp:153
+msgctxt "RPCLocalization|"
+msgid "Proxy"
+msgstr "Proxy"
+
+#: ../../fdm/rpc/rpclocalization.cpp:154
+msgctxt "RPCLocalization|"
+msgid "No proxy"
+msgstr "Geen proxy"
+
+#: ../../fdm/rpc/rpclocalization.cpp:155
+msgctxt "RPCLocalization|"
+msgid "System proxy"
+msgstr "Systeemproxy"
+
+#: ../../fdm/rpc/rpclocalization.cpp:156
+msgctxt "RPCLocalization|"
+msgid "Configure manually:"
+msgstr "Handmatig configureren:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:157
+msgctxt "RPCLocalization|"
+msgid "HTTP:"
+msgstr "HTTP:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:158
+msgctxt "RPCLocalization|"
+msgid "HTTPS:"
+msgstr "HTTPS:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:159
+msgctxt "RPCLocalization|"
+msgid "FTP:"
+msgstr "FTP:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:160
+msgctxt "RPCLocalization|"
+msgid "Address"
+msgstr "Adres"
+
+#: ../../fdm/rpc/rpclocalization.cpp:161
+msgctxt "RPCLocalization|"
+msgid "Port"
+msgstr "Poort"
+
+#: ../../fdm/rpc/rpclocalization.cpp:162
+msgctxt "RPCLocalization|"
+msgid "Login"
+msgstr "Aanmelden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:163
+#, fuzzy
+msgctxt "RPCLocalization|settings"
+msgid "Login"
+msgstr "Aanmelden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:164
+msgctxt "RPCLocalization|"
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: ../../fdm/rpc/rpclocalization.cpp:165
+msgctxt "RPCLocalization|"
+msgid "Startup"
+msgstr "Opstarten"
+
+#: ../../fdm/rpc/rpclocalization.cpp:166
+msgctxt "RPCLocalization|"
+msgid "Downloads"
+msgstr "Downloads"
+
+#: ../../fdm/rpc/rpclocalization.cpp:167
+msgctxt "RPCLocalization|"
+msgid "Launch at startup (minimized)"
+msgstr "Starten bij het opstarten (geminimaliseerd)"
+
+#: ../../fdm/rpc/rpclocalization.cpp:168
+msgctxt "RPCLocalization|"
+msgid "Open at Login"
+msgstr "Openen bij aanmelden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:169
+msgctxt "RPCLocalization|"
+msgid "Close button minimizes window"
+msgstr "Afsluitknop minimaliseert venster"
+
+#: ../../fdm/rpc/rpclocalization.cpp:170
+msgctxt "RPCLocalization|"
+msgid "Check if FDM is your default torrent client"
+msgstr "Controleren of FDM jouw standaard torrentclient is"
+
+#: ../../fdm/rpc/rpclocalization.cpp:171
+msgctxt "RPCLocalization|"
+msgid "Update"
+msgstr "Update"
+
+#: ../../fdm/rpc/rpclocalization.cpp:172
+#, fuzzy
+msgctxt "RPCLocalization|settings"
+msgid "Update"
+msgstr "Update"
+
+#: ../../fdm/rpc/rpclocalization.cpp:173
+msgctxt "RPCLocalization|"
+msgid "Check for updates automatically"
+msgstr "Automatisch op updates controleren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:174
+msgctxt "RPCLocalization|"
+msgid "Install updates automatically"
+msgstr "Updates automatisch installeren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:175
+msgctxt "RPCLocalization|"
+msgid "Send anonymous statistics"
+msgstr "Anonieme statistieken verzenden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:176
+msgctxt "RPCLocalization|"
+msgid "Suggest folders based on file type"
+msgstr "Mappen voorstellen op basis van bestandstype"
+
+#: ../../fdm/rpc/rpclocalization.cpp:177
+msgctxt "RPCLocalization|"
+msgid "Suggest settings based on download URL"
+msgstr "Instellingen voorstellen op basis van download URL"
+
+#: ../../fdm/rpc/rpclocalization.cpp:178 ../../fdm/rpc/rpclocalization.cpp:180
+msgctxt "RPCLocalization|"
+msgid "Default folder:"
+msgstr "Standaard map:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:179
+msgctxt "RPCLocalization|"
+msgid "Associate with torrents"
+msgstr "Koppelen met torrents"
+
+#: ../../fdm/rpc/rpclocalization.cpp:181
+msgctxt "RPCLocalization|"
+msgid "Notifications"
+msgstr "Notificaties"
+
+#: ../../fdm/rpc/rpclocalization.cpp:182
+msgctxt "RPCLocalization|"
+msgid "Notify me of completed downloads via Notification Center"
+msgstr "Notificaties van voltooide downloads via Actiecentrum"
+
+#: ../../fdm/rpc/rpclocalization.cpp:183
+msgctxt "RPCLocalization|"
+msgid "Only when FDM window is inactive"
+msgstr "Alleen wanneer FDM venster inactief is"
+
+#: ../../fdm/rpc/rpclocalization.cpp:184
+msgctxt "RPCLocalization|"
+msgid "Action of Remove button (main panel) or Delete key"
+msgstr "Actie bij Verwijderknop (hoofdpaneel) of Delete knop"
+
+#: ../../fdm/rpc/rpclocalization.cpp:185
+msgctxt "RPCLocalization|"
+msgid "Remove only from list"
+msgstr "Alleen uit de lijst verwijderen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:186
+msgctxt "RPCLocalization|"
+msgid "Delete file(s) from disk"
+msgstr "Verwijder bestand(en) van schijf"
+
+#: ../../fdm/rpc/rpclocalization.cpp:187
+msgctxt "RPCLocalization|"
+msgid "Always ask"
+msgstr "Altijd vragen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:188
+msgctxt "RPCLocalization|"
+msgid "Don't catch downloads from"
+msgstr "Geen downloads overnemen van"
+
+#: ../../fdm/rpc/rpclocalization.cpp:189
+msgctxt "RPCLocalization|"
+msgid "Catch links without confirmation"
+msgstr "Neem links over zonder bevestiging"
+
+#: ../../fdm/rpc/rpclocalization.cpp:190
+msgctxt "RPCLocalization|"
+msgid "Catch links in Edge only from HTTP ports (improves performance)"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:191
+msgctxt "RPCLocalization|"
+msgid "FDM appears in Safari's context menu if"
+msgstr "FDM verschijnt in Safari's contextmenu wanneer"
+
+#: ../../fdm/rpc/rpclocalization.cpp:192
+msgctxt "RPCLocalization|"
+msgid "extension"
+msgstr "extensie"
+
+#: ../../fdm/rpc/rpclocalization.cpp:193
+msgctxt "RPCLocalization|"
+msgid "is installed and enabled."
+msgstr "is geïnstalleerd en ingeschakeld"
+
+#: ../../fdm/rpc/rpclocalization.cpp:194
+msgctxt "RPCLocalization|"
+msgid "Automatically catch links from browsers"
+msgstr "Automatisch links overnemen van browsers"
+
+#: ../../fdm/rpc/rpclocalization.cpp:195
+msgctxt "RPCLocalization|"
+msgid "Edge"
+msgstr "Edge"
+
+#: ../../fdm/rpc/rpclocalization.cpp:196
+msgctxt "RPCLocalization|"
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: ../../fdm/rpc/rpclocalization.cpp:197
+msgctxt "RPCLocalization|"
+msgid "Firefox"
+msgstr "Firefox"
+
+#: ../../fdm/rpc/rpclocalization.cpp:198
+msgctxt "RPCLocalization|"
+msgid "Chrome"
+msgstr "Chrome"
+
+#: ../../fdm/rpc/rpclocalization.cpp:199
+msgctxt "RPCLocalization|"
+msgid "Make sure that the"
+msgstr "Zorg ervoor dat de"
+
+#: ../../fdm/rpc/rpclocalization.cpp:200
+msgctxt "RPCLocalization|"
+msgid "is installed and enabled in Chrome"
+msgstr "is geïnstalleerd en ingeschakeld in Chrome"
+
+#: ../../fdm/rpc/rpclocalization.cpp:201
+msgctxt "RPCLocalization|"
+msgid "No Chrome installation was found."
+msgstr "Geen Chrome installatie gevonden."
+
+#: ../../fdm/rpc/rpclocalization.cpp:202
+msgctxt "RPCLocalization|"
+msgid "You can"
+msgstr "Je kunt"
+
+#: ../../fdm/rpc/rpclocalization.cpp:203
+msgctxt "RPCLocalization|"
+msgid "download Chrome here"
+msgstr "Chrome hier downloaden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:204
+msgctxt "RPCLocalization|"
+msgid "ALT must be pressed"
+msgstr "ALT moet zijn ingedrukt"
+
+#: ../../fdm/rpc/rpclocalization.cpp:205
+msgctxt "RPCLocalization|"
+msgid "Allow the browser to download if you press Cancel"
+msgstr "Browser toestaan te downloaden bij indrukken Annuleren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:206
+msgctxt "RPCLocalization|"
+msgid "Don't catch downloads smaller than"
+msgstr "Geen downloads overnemen kleiner dan"
+
+#: ../../fdm/rpc/rpclocalization.cpp:207
+msgctxt "RPCLocalization|"
+msgid "Kbytes"
+msgstr "Kbytes"
+
+#: ../../fdm/rpc/rpclocalization.cpp:208
+msgctxt "RPCLocalization|"
+msgid "Skip files with extensions:"
+msgstr "Bestanden overslaan met extensies:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:209
+msgctxt "RPCLocalization|"
+msgid "Add FDM to browser context menu"
+msgstr "FDM toevoegen aan browser contextmenu"
+
+#: ../../fdm/rpc/rpclocalization.cpp:210
+msgctxt "RPCLocalization|"
+msgid "Use proxy for peer-to-peer connections"
+msgstr "Proxy gebruiken voor peer-to-peer verbindingen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:211
+msgctxt "RPCLocalization|"
+msgid "Parameters"
+msgstr "Parameters"
+
+#: ../../fdm/rpc/rpclocalization.cpp:212
+msgctxt "RPCLocalization|"
+msgid "Low"
+msgstr "Laag"
+
+#: ../../fdm/rpc/rpclocalization.cpp:213
+msgctxt "RPCLocalization|"
+msgid "Medium"
+msgstr "Medium"
+
+#: ../../fdm/rpc/rpclocalization.cpp:214
+msgctxt "RPCLocalization|"
+msgid "High"
+msgstr "Hoog"
+
+#: ../../fdm/rpc/rpclocalization.cpp:215
+msgctxt "RPCLocalization|"
+msgid "Normal"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:216
+msgctxt "RPCLocalization|"
+msgid "Skip"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:217
+msgctxt "RPCLocalization|"
+msgid "Download speed"
+msgstr "Downloadsnelheid"
+
+#: ../../fdm/rpc/rpclocalization.cpp:218
+msgctxt "RPCLocalization|"
+msgid "Upload speed"
+msgstr "Uploadsnelheid"
+
+#: ../../fdm/rpc/rpclocalization.cpp:219
+msgctxt "RPCLocalization|"
+msgid "Maximum number of connections"
+msgstr "Maximaal aantal verbindingen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:220
+msgctxt "RPCLocalization|"
+msgid "Maximum number of running downloads"
+msgstr "Maximaal aantal actieve downloads"
+
+#: ../../fdm/rpc/rpclocalization.cpp:221
+msgctxt "RPCLocalization|"
+msgid "History"
+msgstr "Geschiedenis"
+
+#: ../../fdm/rpc/rpclocalization.cpp:222
+msgctxt "RPCLocalization|"
+msgid "Remember all destination folders"
+msgstr "Onthoudt alle doelmappen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:223
+msgctxt "RPCLocalization|"
+msgid "Clear history older than"
+msgstr "Geschiedenis wissen ouder dan"
+
+#: ../../fdm/rpc/rpclocalization.cpp:224
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "days"
+msgid_plural "days"
+msgstr[0] "dagen"
+msgstr[1] ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:225
+msgctxt "RPCLocalization|"
+msgid "Maximum number of history records:"
+msgstr "Maximaal aantal geschiedenisrecords:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:226
+msgctxt "RPCLocalization|"
+msgid "Disk usage"
+msgstr "Schijfgebruik"
+
+#: ../../fdm/rpc/rpclocalization.cpp:227
+msgctxt "RPCLocalization|"
+msgid "Preallocate disk space for files larger than"
+msgstr "Vooraf ruimte toewijzen voor bestanden groter dan"
+
+#: ../../fdm/rpc/rpclocalization.cpp:228
+msgctxt "RPCLocalization|"
+msgid "Gbytes"
+msgstr "Gbytes"
+
+#: ../../fdm/rpc/rpclocalization.cpp:229
+msgctxt "RPCLocalization|"
+msgid "Power management"
+msgstr "Energiebeheer"
+
+#: ../../fdm/rpc/rpclocalization.cpp:230
+msgctxt "RPCLocalization|"
+msgid "Prevent sleep if there are active downloads"
+msgstr "Slaapstand tegengaan bij actieve downloads"
+
+#: ../../fdm/rpc/rpclocalization.cpp:231
+msgctxt "RPCLocalization|"
+msgid "Delete button action"
+msgstr "Verwijderknop actie"
+
+#: ../../fdm/rpc/rpclocalization.cpp:232
+msgctxt "RPCLocalization|"
+msgid "Delete files"
+msgstr "Bestanden verwijderen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:233
+msgctxt "RPCLocalization|"
+msgid "Restore settings to their original defaults"
+msgstr "Instellingen herstellen naar originele standaard instellingen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:234
+msgctxt "RPCLocalization|"
+msgid "DHT"
+msgstr "DHT"
+
+#: ../../fdm/rpc/rpclocalization.cpp:235
+msgctxt "RPCLocalization|"
+msgid "Port forwarding"
+msgstr "Port forwarding"
+
+#: ../../fdm/rpc/rpclocalization.cpp:236
+msgctxt "RPCLocalization|"
+msgid "Local peer discovery"
+msgstr "Local peer discovery"
+
+#: ../../fdm/rpc/rpclocalization.cpp:237
+msgctxt "RPCLocalization|"
+msgid "Peer exchange"
+msgstr "Peer uitwisseling"
+
+#: ../../fdm/rpc/rpclocalization.cpp:238
+msgctxt "RPCLocalization|"
+msgid "uTP"
+msgstr "uTP"
+
+#: ../../fdm/rpc/rpclocalization.cpp:239
+msgctxt "RPCLocalization|"
+msgid "Use ports in range:"
+msgstr "Poorten gebruiken in bereik:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:240
+msgctxt "RPCLocalization|"
+msgid "to"
+msgstr "tot"
+
+#: ../../fdm/rpc/rpclocalization.cpp:241
+msgctxt "RPCLocalization|"
+msgid "All settings will be restored to their original defaults"
+msgstr "Alle instellingen worden teruggezet naar originele instellingen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:242
+msgctxt "RPCLocalization|"
+msgid "Reset"
+msgstr "Resetten"
+
+#: ../../fdm/rpc/rpclocalization.cpp:243
+msgctxt "RPCLocalization|"
+msgid "Select All"
+msgstr "Alles selecteren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:244
+msgctxt "RPCLocalization|"
+msgid "Name"
+msgstr "Naam"
+
+#: ../../fdm/rpc/rpclocalization.cpp:245
+msgctxt "RPCLocalization|"
+msgid "Status"
+msgstr "Status"
+
+#: ../../fdm/rpc/rpclocalization.cpp:246
+msgctxt "RPCLocalization|"
+msgid "Speed"
+msgstr "Snelheid"
+
+#: ../../fdm/rpc/rpclocalization.cpp:247
+msgctxt "RPCLocalization|"
+msgid "Size"
+msgstr "Grootte"
+
+#: ../../fdm/rpc/rpclocalization.cpp:248
+msgctxt "RPCLocalization|"
+msgid "Added"
+msgstr "Toegevoegd"
+
+#: ../../fdm/rpc/rpclocalization.cpp:249
+msgctxt "RPCLocalization|"
+msgid "Start all"
+msgstr "Alles starten"
+
+#: ../../fdm/rpc/rpclocalization.cpp:250
+msgctxt "RPCLocalization|"
+msgid "Pause all"
+msgstr "Alles pauzeren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:251
+msgctxt "RPCLocalization|"
+msgid "Start selected"
+msgstr "Selectie starten"
+
+#: ../../fdm/rpc/rpclocalization.cpp:252
+msgctxt "RPCLocalization|"
+msgid "Pause selected"
+msgstr "Selectie pauzeren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:253
+msgctxt "RPCLocalization|"
+msgid "Add new download..."
+msgstr "Nieuwe download toevoegen..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:254
+msgctxt "RPCLocalization|"
+msgid "Move to trash"
+msgstr "Naar prullenbak verwijderen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:255
+msgctxt "RPCLocalization|"
+msgid "Remove from list"
+msgstr "Uit lijst verwijderen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:256
+msgctxt "RPCLocalization|"
+msgid "Delete selected"
+msgstr "Selectie verwijderen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:257
+msgctxt "RPCLocalization|"
+msgid "Move to..."
+msgstr "Verplaatsen naar..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:258
+msgctxt "RPCLocalization|"
+msgid "Search"
+msgstr "Zoeken"
+
+#: ../../fdm/rpc/rpclocalization.cpp:259
+msgctxt "RPCLocalization|"
+msgid "Main menu"
+msgstr "Hoofdmenu"
+
+#: ../../fdm/rpc/rpclocalization.cpp:260
+msgctxt "RPCLocalization|"
+msgid "Delete selected downloads"
+msgstr "Geselecteerde downloads verwijderen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:261
+msgctxt "RPCLocalization|"
+msgid "Remember my choice"
+msgstr "Mijn keuze onthouden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:262
+msgctxt "RPCLocalization|"
+msgid "Delete file"
+msgstr "Bestand verwijderen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:263
+msgctxt "RPCLocalization|"
+msgid "All"
+msgstr "Alle"
+
+#: ../../fdm/rpc/rpclocalization.cpp:264
+msgctxt "RPCLocalization|"
+msgid "Active"
+msgstr "Actief"
+
+#: ../../fdm/rpc/rpclocalization.cpp:265
+msgctxt "RPCLocalization|"
+msgid "Completed"
+msgstr "Voltooid"
+
+#: ../../fdm/rpc/rpclocalization.cpp:266
+msgctxt "RPCLocalization|"
+msgid "Customize color"
+msgstr "Kleur aanpassen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:267
+msgctxt "RPCLocalization|"
+msgid "Remove tag"
+msgstr "Label verwijderen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:268
+msgctxt "RPCLocalization|"
+msgid ""
+"Would you like to make Free Download Manager the default torrent client?"
+msgstr "Wil je Free Download Manager instellen als standaard torrent-client?"
+
+#: ../../fdm/rpc/rpclocalization.cpp:269
+msgctxt "RPCLocalization|"
+msgid "Don’t ask again"
+msgstr "Niet meer vragen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:270
+msgctxt "RPCLocalization|"
+msgid "Set as Default"
+msgstr "Als standaard instellen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:271
+msgctxt "RPCLocalization|"
+msgid "Computer will be put to sleep after all downloads are completed."
+msgstr "Computer gaat in slaapstand na voltooiing downloads."
+
+#: ../../fdm/rpc/rpclocalization.cpp:272
+msgctxt "RPCLocalization|"
+msgid "Computer will shut down after all downloads are completed."
+msgstr "Computer gaat afsluiten na voltooiing downloads."
+
+#: ../../fdm/rpc/rpclocalization.cpp:273
+msgctxt "RPCLocalization|"
+msgid "Computer will hibernate after all downloads are completed."
+msgstr "Computer gaat in sluimerstand na voltooiing downloads."
+
+#: ../../fdm/rpc/rpclocalization.cpp:274
+msgctxt "RPCLocalization|"
+msgid "Checking for updates..."
+msgstr "Controleren op updates..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:275
+msgctxt "RPCLocalization|"
+msgid "Retry"
+msgstr "Opnieuw"
+
+#: ../../fdm/rpc/rpclocalization.cpp:276
+msgctxt "RPCLocalization|"
+msgid "Error:"
+msgstr "Fout:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:277
+msgctxt "RPCLocalization|"
+msgid "Error downloading update:"
+msgstr "Fout bij downloaden update:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:278
+msgctxt "RPCLocalization|"
+msgid "Downloading update"
+msgstr "Update downloaden"
+
+#: ../../fdm/rpc/rpclocalization.cpp:279
+msgctxt "RPCLocalization|"
+msgid "Checking..."
+msgstr "Controleren..."
+
+#: ../../fdm/rpc/rpclocalization.cpp:280
+msgctxt "RPCLocalization|"
+msgid "Update downloaded"
+msgstr "Update gedownload"
+
+#: ../../fdm/rpc/rpclocalization.cpp:281
+msgctxt "RPCLocalization|"
+msgid "Install update"
+msgstr "Update installeren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:282
+msgctxt "RPCLocalization|"
+msgid "Installing updates"
+msgstr "Updates installeren"
+
+#: ../../fdm/rpc/rpclocalization.cpp:283
+msgctxt "RPCLocalization|"
+msgid "Relaunch FDM to update"
+msgstr "FDM herstarten om te vernieuwen"
+
+#: ../../fdm/rpc/rpclocalization.cpp:284
+msgctxt "RPCLocalization|"
+msgid "Relaunch"
+msgstr "Herstarten"
+
+#: ../../fdm/rpc/rpclocalization.cpp:285
+msgctxt "RPCLocalization|"
+msgid "Error occurred during installation:"
+msgstr "Fout tijdens installatie:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:286
+msgctxt "RPCLocalization|"
+msgid "Restart computer to complete installation"
+msgstr "Herstart de computer om de installatie te voltooien"
+
+#: ../../fdm/rpc/rpclocalization.cpp:287
+msgctxt "RPCLocalization|"
+msgid "FDM is up to date!"
+msgstr "FDM is up-to-date!"
+
+#: ../../fdm/rpc/rpclocalization.cpp:288
+msgctxt "RPCLocalization|"
+msgid "New version is available"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:289
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "%ns"
+msgid_plural "%ns"
+msgstr[0] "%ns"
+msgstr[1] ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:290
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "%nm"
+msgid_plural "%nm"
+msgstr[0] "%nm"
+msgstr[1] ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:291
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "%nh"
+msgid_plural "%nh"
+msgstr[0] "%nh"
+msgstr[1] ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:292
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "%nd"
+msgid_plural "%nd"
+msgstr[0] "%nd"
+msgstr[1] ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:293
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "%nw"
+msgid_plural "%nw"
+msgstr[0] "%nw"
+msgstr[1] ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:294
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "%ny"
+msgid_plural "%ny"
+msgstr[0] "%ny"
+msgstr[1] ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:296
+msgctxt "RPCLocalization|"
+msgid "YouTube"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:297
+msgctxt "RPCLocalization|"
+msgid "Torrent"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:298
+msgctxt "RPCLocalization|"
+msgid "Catch only when Alt is pressed"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:299
+msgctxt "RPCLocalization|"
+msgid "Do not catch when Alt is pressed"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:300
+msgctxt "RPCLocalization|"
+msgid "Automatic link-catching"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:301
+msgctxt "RPCLocalization|"
+msgid ""
+"While holding down the Alt key, set the desired link-catching behaviour via "
+"available."
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:302
+msgctxt "RPCLocalization|"
+msgid "Options"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:304
+msgctxt "RPCLocalization|"
+msgid "Open Scheduler"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:305
+msgctxt "RPCLocalization|"
+msgid "Sсheduler"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:306
+msgctxt "RPCLocalization|"
+msgid "Start and pause downloads at the specified time"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:307
+msgctxt "RPCLocalization|"
+msgid "Enable Scheduler"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:308
+msgctxt "RPCLocalization|"
+msgid "Sun"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:309
+msgctxt "RPCLocalization|"
+msgid "Mon"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:310
+msgctxt "RPCLocalization|"
+msgid "Tue"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:311
+msgctxt "RPCLocalization|"
+msgid "Wed"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:312
+msgctxt "RPCLocalization|"
+msgid "Thu"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:313
+msgctxt "RPCLocalization|"
+msgid "Fri"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:314
+msgctxt "RPCLocalization|"
+msgid "Sat"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:315
+msgctxt "RPCLocalization|"
+msgid "From:"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:316
+msgctxt "RPCLocalization|"
+msgid "To:"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:318
+msgctxt "RPCLocalization|"
+msgid "Change settings"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:319
+msgctxt "RPCLocalization|"
+msgid "Change preferences"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:320
+msgctxt "RPCLocalization|"
+msgid "Tip"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:321
+msgctxt "RPCLocalization|"
+msgid "Press Alt if you don't want FDM to automatically catch links."
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:322
+msgctxt "RPCLocalization|"
+msgid "Computer won't be put to sleep because you have scheduled downloads"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:324
+msgctxt "RPCLocalization|"
+msgid "Scheduler"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:325
+msgctxt "RPCLocalization|"
+msgid "Don't put your computer to sleep if there're scheduled downloads."
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:326
+msgctxt "RPCLocalization|"
+msgid "Press"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:327
+msgctxt "RPCLocalization|"
+msgid "to let the browser process the download"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:329
+msgctxt "RPCLocalization|"
+msgid "Check file integrity"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:330
+msgctxt "RPCLocalization|"
+msgid "Calculate"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:331
+msgctxt "RPCLocalization|"
+msgid "Calculating"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:332
+msgctxt "RPCLocalization|"
+msgid "Verification OK"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:333
+msgctxt "RPCLocalization|"
+msgid "Verification failed"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:334
+msgctxt "RPCLocalization|"
+msgid "Compare with:"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:335
+msgctxt "RPCLocalization|"
+msgid "Close"
+msgstr ""
+
+#: ../../fdm/menu/traymenu.cpp:42
+msgctxt "TrayMenu|"
+msgid "Show main window"
+msgstr ""
+
+#: ../../fdm/menu/traymenu.cpp:53
+#, fuzzy
+msgctxt "TrayMenu|"
+msgid "Open at Login"
+msgstr "Openen bij aanmelden"
+
+#: ../../fdm/menu/traymenu.cpp:55
+msgctxt "TrayMenu|"
+msgid "Launch at startup"
+msgstr ""
+
+#: ../../fdm/menu/traymenu.cpp:66
+#, fuzzy
+msgctxt "TrayMenu|"
+msgid "About FDM"
+msgstr "Over FDM"
+
+#: ../../fdm/menu/traymenu.cpp:72
+msgctxt "TrayMenu|"
+msgid "Quit FDM"
+msgstr ""
+
+#: ../../fdm/menu/traymenu.cpp:74
+#, fuzzy
+msgctxt "TrayMenu|"
+msgid "Quit"
+msgstr "Sluiten"
+
+#: ../../fdm/uihelper.cpp:101
+#, qt-format
+msgctxt "UIHelper|"
+msgid "About %1"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:102
+#, qt-format
+msgctxt "UIHelper|"
+msgid "Version %1 (%2)"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:196
+msgctxt "UIHelper|"
+msgid "Open"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:207 ../../fdm/uihelper.cpp:436
+#, fuzzy
+msgctxt "UIHelper|"
+msgid "Reveal in Finder"
+msgstr "Bekendmaken in Finder"
+
+#: ../../fdm/uihelper.cpp:209 ../../fdm/uihelper.cpp:438
+#, fuzzy
+msgctxt "UIHelper|"
+msgid "Show in folder"
+msgstr "In map weergeven"
+
+#: ../../fdm/uihelper.cpp:225
+msgctxt "UIHelper|"
+msgid "Show info"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:231
+msgctxt "UIHelper|"
+msgid "Choose files..."
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:241
+msgctxt "UIHelper|"
+msgid "Pause all except selected"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:241
+msgctxt "UIHelper|"
+msgid "Pause all except this one"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:252
+msgctxt "UIHelper|"
+msgid "Restart selected"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:252
+#, fuzzy
+msgctxt "UIHelper|"
+msgid "Restart"
+msgstr "Herstarten"
+
+#: ../../fdm/uihelper.cpp:262
+msgctxt "UIHelper|"
+msgid "Set priority"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:290
+#, fuzzy
+msgctxt "UIHelper|"
+msgid "Move to..."
+msgstr "Verplaatsen naar..."
+
+#: ../../fdm/uihelper.cpp:297
+msgctxt "UIHelper|"
+msgid "Download to..."
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:306
+#, fuzzy
+msgctxt "UIHelper|"
+msgid "Move to trash"
+msgstr "Naar prullenbak verwijderen"
+
+#: ../../fdm/uihelper.cpp:308
+#, fuzzy
+msgctxt "UIHelper|"
+msgid "Delete files"
+msgstr "Bestanden verwijderen"
+
+#: ../../fdm/uihelper.cpp:308
+#, fuzzy
+msgctxt "UIHelper|"
+msgid "Delete file"
+msgstr "Bestand verwijderen"
+
+#: ../../fdm/uihelper.cpp:315
+#, fuzzy
+msgctxt "UIHelper|"
+msgid "Remove from list"
+msgstr "Uit lijst verwijderen"
+
+#: ../../fdm/uihelper.cpp:323
+#, fuzzy
+msgctxt "UIHelper|"
+msgid "Enable seeding"
+msgstr "Seeding inschakelen"
+
+#: ../../fdm/uihelper.cpp:332
+msgctxt "UIHelper|"
+msgid "Sequential download"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:339
+msgctxt "UIHelper|"
+msgid "Force recheck"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:344
+msgctxt "UIHelper|"
+msgid "Force reannounce"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:355
+msgctxt "UIHelper|"
+msgid "Copy link"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:362
+msgctxt "UIHelper|"
+msgid "Add tag"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:385
+msgctxt "UIHelper|"
+msgid "File integrity"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:395
+msgctxt "UIHelper|"
+msgid "Schedule"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:413
+msgctxt "UIHelper|"
+msgid "High priority"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:418
+msgctxt "UIHelper|"
+msgid "Normal priority"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:423
+msgctxt "UIHelper|"
+msgid "Low priority"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:428
+msgctxt "UIHelper|"
+msgid "Skip"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:460
+msgctxt "UIHelper|"
+msgid "Edit"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:464
+msgctxt "UIHelper|"
+msgid "Remove"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:472
+msgctxt "UIHelper|"
+msgid "Untag"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:494
+msgctxt "UIHelper|"
+msgid "Copy log to clipboard"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:498
+msgctxt "UIHelper|"
+msgid "Save log to file"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:507
+#, qt-format
+msgctxt "UIHelper|"
+msgid "FDM Log [%1].txt"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:510
+msgctxt "UIHelper|"
+msgid "Save Log"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:512
+msgctxt "UIHelper|"
+msgid "Text files"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:611
+#, qt-format
+msgctxt "UIHelper|"
+msgid "%1 K"
+msgstr ""
+
+#: ../../fdm/uihelper.cpp:616
+#, qt-format
+msgctxt "UIHelper|"
+msgid "%1 M"
+msgstr ""
