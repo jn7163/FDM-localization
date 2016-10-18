@@ -47,6 +47,228 @@ msgctxt "DownloadInfo|"
 msgid "High"
 msgstr "Alto"
 
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:127
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Maximum number of connections is %1"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:128
+#, fuzzy
+msgctxt "HttpFileDownload|"
+msgid "unlimited"
+msgstr "ilimitada"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:149
+msgctxt "HttpFileDownload|"
+msgid "Download speed isn't limited"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:150
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Download speed is limited to %1/s"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:190
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:195
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:324
+msgctxt "HttpFileDownload|"
+msgid "Can't resume downloading file"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:269
+msgctxt "HttpFileDownload|"
+msgid "Reconnecting"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:270
+msgctxt "HttpFileDownload|"
+msgid "Starting download"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:308
+msgctxt "HttpFileDownload|"
+msgid "Pausing download"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:336
+msgctxt "HttpFileDownload|"
+msgid "Can't resume downloading: URL changed"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:477
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Moving file to %1"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:487
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1046
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "The name \"%1\" is already taken. Renaming to %2"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:557
+msgctxt "HttpFileDownload|"
+msgid "Restarting download"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:566
+msgctxt "HttpFileDownload|"
+msgid "Failed to clear contents of original file."
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:613
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "File is renamed to %1"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:703
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Opening connection %1"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:871
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Connection %1 closed"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:891
+msgctxt "HttpFileDownload|"
+msgid "Opening file on disk..."
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:922
+msgctxt "HttpFileDownload|"
+msgid "File is missing"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:988
+msgctxt "HttpFileDownload|"
+msgid "Download complete"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1009
+msgctxt "HttpFileDownload|"
+msgid "Removing temporary file extension"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1149
+msgctxt "HttpFileDownload|"
+msgid "Preallocating disk space for download"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1307
+msgctxt "HttpFileDownload|"
+msgid "File changed on remote server"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1422
+msgctxt "HttpFileDownload|"
+msgid "Failed writing received data to file"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1430
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Connection %1 receiving data"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1485
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid ", downloaded: %1"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1490
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid ", average speed: %1/s"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1493
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Connection %1 finished receiving data%2%3"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1526
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Redirecting to %1"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1547
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Connection %1: server ignored partial content request"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1580
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Connection %1 failed with error: %2"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1619
+msgctxt "HttpFileDownload|"
+msgid "File moved successfully"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1627
+msgctxt "HttpFileDownload|"
+msgid "Moving file failed"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1698
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1774
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Preallocation failed: %1"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1708
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "%1 finished successfully"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1714
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid ", average speed: %1"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1722
+msgctxt "HttpFileDownload|"
+msgid "Space allocation"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1748
+msgctxt "HttpFileDownload|"
+msgid "Move"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1787
+msgctxt "HttpFileDownload|"
+msgid "Preallocation cancelled"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1802
+msgctxt "HttpFileDownload|"
+msgid "Preallocating queued"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1812
+msgctxt "HttpFileDownload|"
+msgid "Preallocating started"
+msgstr ""
+
 #: ../../fdm/menu/macmainmenu.cpp:143
 msgctxt "MacMainMenu|"
 msgid "File"
@@ -61,6 +283,11 @@ msgstr ""
 msgctxt "MacMainMenu|"
 msgid "Open Torrent File..."
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "MacMainMenu|"
+#~ msgid "Select All"
+#~ msgstr "Seleccionar todo"
 
 #: ../../fdm/menu/macmainmenu.cpp:130
 #, qt-format
@@ -210,6 +437,11 @@ msgstr ""
 #: ../../fdm/menu/mac/macmenudicitionary.h:25
 msgctxt "QObject|"
 msgid "Help"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:14
+msgctxt "QObject|"
+msgid "Something went wrong with internal downloads."
 msgstr ""
 
 #: ../../fdm/rpc/rpclocalization.cpp:7
@@ -1871,6 +2103,235 @@ msgctxt "RPCLocalization|"
 msgid "Close"
 msgstr ""
 
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:62
+msgctxt "TorrentDownload|"
+msgid "File priorities changed"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:91
+msgctxt "TorrentDownload|"
+msgid "Stopping seeding"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:124
+msgctxt "TorrentDownload|"
+msgid "Sequential downloading enabled"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:125
+msgctxt "TorrentDownload|"
+msgid "Sequential downloading disabled"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:141
+msgctxt "TorrentDownload|"
+msgid "Trackers merged"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:160
+msgctxt "TorrentDownload|"
+msgid "Starting seeding"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:198
+msgctxt "TorrentDownload|"
+msgid "Unknown error occurred"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:203
+#, qt-format
+msgctxt "TorrentDownload|"
+msgid "Error occurred: %1"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:344
+#, qt-format
+msgctxt "TorrentDownload|"
+msgid "Maximum number of connections is %1"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:345
+#, fuzzy
+msgctxt "TorrentDownload|"
+msgid "unlimited"
+msgstr "ilimitada"
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:364
+msgctxt "TorrentDownload|"
+msgid "Download speed isn't limited"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:365
+#, qt-format
+msgctxt "TorrentDownload|"
+msgid "Download speed is limited to %1/s"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:383
+msgctxt "TorrentDownload|"
+msgid "Upload speed isn't limited"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:384
+#, qt-format
+msgctxt "TorrentDownload|"
+msgid "Upload speed is limited to %1/s"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:457
+msgctxt "TorrentDownload|"
+msgid "Pausing download"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:467
+msgctxt "TorrentDownload|"
+msgid "Download paused"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:544
+msgctxt "TorrentDownload|"
+msgid "Files are missing"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:546
+msgctxt "TorrentDownload|"
+msgid "File is missing"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:584
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:938
+msgctxt "TorrentDownload|"
+msgid "Starting download"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:604
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:943
+msgctxt "TorrentDownload|"
+msgid "Checking files"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:632
+msgctxt "TorrentDownload|"
+msgid "Downloading"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:671
+msgctxt "TorrentDownload|"
+msgid "Download complete"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:721
+msgctxt "TorrentDownload|"
+msgid "Cannot move files recursively"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:730
+msgctxt "TorrentDownload|"
+msgid "Changing destination folder"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:745
+#, qt-format
+msgctxt "TorrentDownload|"
+msgid "Moving files to %1"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:747
+#, qt-format
+msgctxt "TorrentDownload|"
+msgid "Moving file to %1"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1003
+msgctxt "TorrentDownload|"
+msgid "Waiting for metadata"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1075
+msgctxt "TorrentDownload|"
+msgid "Updating"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1077
+msgctxt "TorrentDownload|"
+msgid "Working"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1270
+msgctxt "TorrentDownload|"
+msgid "Metadata received"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1358
+msgctxt "TorrentDownload|"
+msgid "User authorization required"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1383
+msgctxt "TorrentDownload|"
+msgid "Mapped files to new directory"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1385
+msgctxt "TorrentDownload|"
+msgid "Mapped file to new directory"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1420
+msgctxt "TorrentDownload|"
+msgid "Files moving failed"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1422
+msgctxt "TorrentDownload|"
+msgid "Moving file failed"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1494
+#, qt-format
+msgctxt "TorrentDownload|"
+msgid "Files moving declined: %1"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1496
+#, qt-format
+msgctxt "TorrentDownload|"
+msgid "Moving file declined: %1"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1508
+msgctxt "TorrentDownload|"
+msgid "Moved successfully"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1512
+#, qt-format
+msgctxt "TorrentDownload|"
+msgid ", average speed: %1"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1539
+#, qt-format
+msgctxt "TorrentDownload|"
+msgid "Files moving failed: %1"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1541
+#, qt-format
+msgctxt "TorrentDownload|"
+msgid "Moving file failed: %1"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1559
+msgctxt "TorrentDownload|"
+msgid "Files moving cancelled"
+msgstr ""
+
+#: ../../fdm/downloads/torrents/torrentdownload.cpp:1561
+msgctxt "TorrentDownload|"
+msgid "Moving file cancelled"
+msgstr ""
+
 #: ../../fdm/menu/traymenu.cpp:42
 msgctxt "TrayMenu|"
 msgid "Show main window"
@@ -2116,4 +2577,130 @@ msgstr ""
 #, qt-format
 msgctxt "UIHelper|"
 msgid "%1 M"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:153
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:881
+msgctxt "YoutubeDownload|"
+msgid "File is missing"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:335
+msgctxt "YoutubeDownload|"
+msgid "Error: files are missing."
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:352
+msgctxt "YoutubeDownload|"
+msgid "Files moved successfully"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:409
+#, qt-format
+msgctxt "YoutubeDownload|"
+msgid "Moving to %1"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:896
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1253
+msgctxt "YoutubeDownload|"
+msgid "Merging failed"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:906
+#, fuzzy
+msgctxt "YoutubeDownload|"
+msgid "Merging media streams"
+msgstr "Fusionando medios de transmisión"
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:936
+msgctxt "YoutubeDownload|"
+msgid "Redirecting"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:937
+msgctxt "YoutubeDownload|"
+msgid "Handling redirect"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:942
+#, qt-format
+msgctxt "YoutubeDownload|"
+msgid "AudioStream: %1"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:943
+#, qt-format
+msgctxt "YoutubeDownload|"
+msgid "VideoStream: %1"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:995
+msgctxt "YoutubeDownload|"
+msgid "Downloading page"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1023
+msgctxt "YoutubeDownload|"
+msgid "Page is downloaded"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1068
+msgctxt "YoutubeDownload|"
+msgid "Launching parser"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1101
+msgctxt "YoutubeDownload|"
+msgid "Page is parsed"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1150
+msgctxt "YoutubeDownload|"
+msgid "Can't find URLs for this quality"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1183
+#, qt-format
+msgctxt "YoutubeDownload|"
+msgid "Parsing failure: %1"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1232
+msgctxt "YoutubeDownload|"
+msgid "Download complete"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1352
+#, qt-format
+msgctxt "YoutubeDownload|"
+msgid "Moving operation has been declined: %1"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1362
+msgctxt "YoutubeDownload|"
+msgid "Moved successfully"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1366
+#, qt-format
+msgctxt "YoutubeDownload|"
+msgid ", average speed: %1"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1394
+#, qt-format
+msgctxt "YoutubeDownload|"
+msgid "File is renamed to %1"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1448
+#, qt-format
+msgctxt "YoutubeDownload|"
+msgid "Moving operation failed: %1"
+msgstr ""
+
+#: ../../fdm/downloads/youtube/youtubedownload.cpp:1460
+msgctxt "YoutubeDownload|"
+msgid "Moving operation cancelled."
 msgstr ""
