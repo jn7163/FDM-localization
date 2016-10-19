@@ -11,7 +11,7 @@ msgstr ""
 #: ../../fdm/downloads/downloadfiletree.cpp:7
 msgctxt "DownloadFileInfo|"
 msgid "Skip"
-msgstr ""
+msgstr "跳过"
 
 #: ../../fdm/downloads/downloadfiletree.cpp:8
 #, fuzzy
@@ -22,7 +22,7 @@ msgstr "低"
 #: ../../fdm/downloads/downloadfiletree.cpp:9
 msgctxt "DownloadFileInfo|"
 msgid "Normal"
-msgstr ""
+msgstr "正常"
 
 #: ../../fdm/downloads/downloadfiletree.cpp:10
 #, fuzzy
@@ -39,7 +39,7 @@ msgstr "低"
 #: ../../fdm/downloads/downloadinfo.cpp:6
 msgctxt "DownloadInfo|"
 msgid "Normal"
-msgstr ""
+msgstr "正常"
 
 #: ../../fdm/downloads/downloadinfo.cpp:7
 #, fuzzy
@@ -51,7 +51,7 @@ msgstr "高"
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Maximum number of connections is %1"
-msgstr ""
+msgstr "最大连接数为%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:128
 #, fuzzy
@@ -62,227 +62,227 @@ msgstr "不限制"
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:149
 msgctxt "HttpFileDownload|"
 msgid "Download speed isn't limited"
-msgstr ""
+msgstr "下载速度不受限"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:150
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Download speed is limited to %1/s"
-msgstr ""
+msgstr "下载速度限制为%1/s"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:190
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:195
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:324
 msgctxt "HttpFileDownload|"
 msgid "Can't resume downloading file"
-msgstr ""
+msgstr "无法恢复下载文件"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:269
 msgctxt "HttpFileDownload|"
 msgid "Reconnecting"
-msgstr ""
+msgstr "重连中"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:270
 msgctxt "HttpFileDownload|"
 msgid "Starting download"
-msgstr ""
+msgstr "正在启动下载"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:308
 msgctxt "HttpFileDownload|"
 msgid "Pausing download"
-msgstr ""
+msgstr "正在暂停下载"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:336
 msgctxt "HttpFileDownload|"
 msgid "Can't resume downloading: URL changed"
-msgstr ""
+msgstr "无法恢复下载：URL已改变"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:477
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Moving file to %1"
-msgstr ""
+msgstr "移动文件至%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:487
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1046
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "The name \"%1\" is already taken. Renaming to %2"
-msgstr ""
+msgstr "名称\"%1\"已使用，重命名为%2"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:557
 msgctxt "HttpFileDownload|"
 msgid "Restarting download"
-msgstr ""
+msgstr "正在重新下载"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:566
 msgctxt "HttpFileDownload|"
 msgid "Failed to clear contents of original file."
-msgstr ""
+msgstr "清除原始文件内容失败"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:613
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "File is renamed to %1"
-msgstr ""
+msgstr "文件已重命名为%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:703
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Opening connection %1"
-msgstr ""
+msgstr "正在打开连接%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:871
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Connection %1 closed"
-msgstr ""
+msgstr "连接%1已关闭"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:891
 msgctxt "HttpFileDownload|"
 msgid "Opening file on disk..."
-msgstr ""
+msgstr "正在打开磁盘上的文件"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:922
 msgctxt "HttpFileDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "文件丢失"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:988
 msgctxt "HttpFileDownload|"
 msgid "Download complete"
-msgstr ""
+msgstr "下载完成"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1009
 msgctxt "HttpFileDownload|"
 msgid "Removing temporary file extension"
-msgstr ""
+msgstr "正在移除临时文件扩展名"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1149
 msgctxt "HttpFileDownload|"
 msgid "Preallocating disk space for download"
-msgstr ""
+msgstr "正在为下载项预分配磁盘空间"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1307
 msgctxt "HttpFileDownload|"
 msgid "File changed on remote server"
-msgstr ""
+msgstr "远程服务器上的文件已改变"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1422
 msgctxt "HttpFileDownload|"
 msgid "Failed writing received data to file"
-msgstr ""
+msgstr "将收到的数据写入文件失败"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1430
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Connection %1 receiving data"
-msgstr ""
+msgstr "连接%1正在接收数据"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1485
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid ", downloaded: %1"
-msgstr ""
+msgstr "已下载：%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1490
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid ", average speed: %1/s"
-msgstr ""
+msgstr "平均速度：%1/s"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1493
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Connection %1 finished receiving data%2%3"
-msgstr ""
+msgstr "连接%1已完成接收数据%2%3"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1526
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Redirecting to %1"
-msgstr ""
+msgstr "正在重定向至%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1547
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Connection %1: server ignored partial content request"
-msgstr ""
+msgstr "连接%1：服务器忽略了部分内容请求"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1580
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Connection %1 failed with error: %2"
-msgstr ""
+msgstr "连接%1返回了一个错误：%2"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1619
 msgctxt "HttpFileDownload|"
 msgid "File moved successfully"
-msgstr ""
+msgstr "成功移动文件"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1627
 msgctxt "HttpFileDownload|"
 msgid "Moving file failed"
-msgstr ""
+msgstr "移动文件失败"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1698
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1774
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Preallocation failed: %1"
-msgstr ""
+msgstr "预分配空间失败，原因：%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1708
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "%1 finished successfully"
-msgstr ""
+msgstr "%1成功完成"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1714
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr "平均速度：%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1722
 msgctxt "HttpFileDownload|"
 msgid "Space allocation"
-msgstr ""
+msgstr "空间分配"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1748
 msgctxt "HttpFileDownload|"
 msgid "Move"
-msgstr ""
+msgstr "移动"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1787
 msgctxt "HttpFileDownload|"
 msgid "Preallocation cancelled"
-msgstr ""
+msgstr "已取消预分配"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1802
 msgctxt "HttpFileDownload|"
 msgid "Preallocating queued"
-msgstr ""
+msgstr "预分配已排队"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1812
 msgctxt "HttpFileDownload|"
 msgid "Preallocating started"
-msgstr ""
+msgstr "已开始预分配"
 
 #: ../../fdm/menu/macmainmenu.cpp:143
 msgctxt "MacMainMenu|"
 msgid "File"
-msgstr ""
+msgstr "文件"
 
 #: ../../fdm/menu/macmainmenu.cpp:53 ../../fdm/menu/macmainmenu.cpp:137
 msgctxt "MacMainMenu|"
 msgid "Add Download from URL..."
-msgstr ""
+msgstr "从URL添加下载"
 
 #: ../../fdm/menu/macmainmenu.cpp:57 ../../fdm/menu/macmainmenu.cpp:138
 msgctxt "MacMainMenu|"
 msgid "Open Torrent File..."
-msgstr ""
+msgstr "打开种子文件"
 
 #, fuzzy
 #~ msgctxt "MacMainMenu|"
@@ -293,12 +293,12 @@ msgstr ""
 #, qt-format
 msgctxt "MacMainMenu|"
 msgid "About %1"
-msgstr ""
+msgstr "关于%1"
 
 #: ../../fdm/menu/macmainmenu.cpp:132
 msgctxt "MacMainMenu|"
 msgid "Check for Updates..."
-msgstr ""
+msgstr "检查更新"
 
 #: ../../fdm/menu/macmainmenu.cpp:144
 #, fuzzy
@@ -309,37 +309,37 @@ msgstr "下载"
 #: ../../fdm/menu/macmainmenu.cpp:133
 msgctxt "MacMainMenu|"
 msgid "Start Selected"
-msgstr ""
+msgstr "开始选中项"
 
 #: ../../fdm/menu/macmainmenu.cpp:134
 msgctxt "MacMainMenu|"
 msgid "Pause Selected"
-msgstr ""
+msgstr "暂停选中项"
 
 #: ../../fdm/menu/macmainmenu.cpp:135
 msgctxt "MacMainMenu|"
 msgid "Restart Selected"
-msgstr ""
+msgstr "重启选中项"
 
 #: ../../fdm/menu/macmainmenu.cpp:129 ../../fdm/menu/macmainmenu.cpp:136
 msgctxt "MacMainMenu|"
 msgid "Remove from List"
-msgstr ""
+msgstr "从列表中移除"
 
 #: ../../fdm/menu/macmainmenu.cpp:145
 msgctxt "MacMainMenu|"
 msgid "Help"
-msgstr ""
+msgstr "帮助"
 
 #: ../../fdm/menu/macmainmenu.cpp:139
 msgctxt "MacMainMenu|"
 msgid "Contact Support"
-msgstr ""
+msgstr "联系支持"
 
 #: ../../fdm/menu/macmainmenu.cpp:140
 msgctxt "MacMainMenu|"
 msgid "Vote for New Features"
-msgstr ""
+msgstr "为新功能投票"
 
 #: ../../fdm/menu/macmainmenu.cpp:131
 #, fuzzy
@@ -356,52 +356,52 @@ msgstr "关于Free Download Manager"
 #: ../../fdm/menu/mac/macmenudicitionary.h:9
 msgctxt "QObject|"
 msgid "Preferences"
-msgstr ""
+msgstr "选项"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:10
 msgctxt "QObject|"
 msgid "Check for Updates..."
-msgstr ""
+msgstr "检查更新"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:11
 msgctxt "QObject|"
 msgid "Window"
-msgstr ""
+msgstr "窗口"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:12
 msgctxt "QObject|"
 msgid "Minimize"
-msgstr ""
+msgstr "最小化"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:13
 msgctxt "QObject|"
 msgid "Zoom"
-msgstr ""
+msgstr "缩放"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:14
 msgctxt "QObject|"
 msgid "Enter Full Screen"
-msgstr ""
+msgstr "进入全屏模式"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:15
 msgctxt "QObject|"
 msgid "Bring All to Front"
-msgstr ""
+msgstr "置顶"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:16
 msgctxt "QObject|"
 msgid "Contact Support"
-msgstr ""
+msgstr "联系支持"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:17
 msgctxt "QObject|"
 msgid "Open Torrent File..."
-msgstr ""
+msgstr "打开种子文件"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:18
 msgctxt "QObject|"
 msgid "File"
-msgstr ""
+msgstr "文件"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:19
 #, fuzzy
@@ -412,37 +412,37 @@ msgstr "选择全部"
 #: ../../fdm/menu/mac/macmenudicitionary.h:20
 msgctxt "QObject|"
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:21
 msgctxt "QObject|"
 msgid "Paste"
-msgstr ""
+msgstr "粘贴"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:22
 msgctxt "QObject|"
 msgid "Copy"
-msgstr ""
+msgstr "复制"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:23
 msgctxt "QObject|"
 msgid "Cut"
-msgstr ""
+msgstr "剪切"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:24
 msgctxt "QObject|"
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:25
 msgctxt "QObject|"
 msgid "Help"
-msgstr ""
+msgstr "帮助"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:14
 msgctxt "QObject|"
 msgid "Something went wrong with internal downloads."
-msgstr ""
+msgstr "内部下载发生了一些错误"
 
 #: ../../fdm/rpc/rpclocalization.cpp:7
 msgctxt "RPCLocalization|"
@@ -452,22 +452,22 @@ msgstr "本地"
 #: ../../fdm/rpc/rpclocalization.cpp:9
 msgctxt "RPCLocalization|"
 msgid "Drag & Drop"
-msgstr ""
+msgstr "拖放"
 
 #: ../../fdm/rpc/rpclocalization.cpp:10
 msgctxt "RPCLocalization|"
 msgid "URL or torrent here"
-msgstr ""
+msgstr "URL或种子文件"
 
 #: ../../fdm/rpc/rpclocalization.cpp:11
 msgctxt "RPCLocalization|"
 msgid "Add tag"
-msgstr ""
+msgstr "添加标签"
 
 #: ../../fdm/rpc/rpclocalization.cpp:12
 msgctxt "RPCLocalization|"
 msgid "Preferences"
-msgstr ""
+msgstr "选项"
 
 #: ../../fdm/rpc/rpclocalization.cpp:14
 msgctxt "RPCLocalization|"
@@ -524,7 +524,7 @@ msgstr "显示详情"
 msgctxt "RPCLocalization|"
 msgid "%n files selected."
 msgid_plural "%n files selected."
-msgstr[0] ""
+msgstr[0] "已选择%n个文件"
 
 #: ../../fdm/rpc/rpclocalization.cpp:26
 msgctxt "RPCLocalization|"
@@ -559,17 +559,17 @@ msgstr "已选择的大小："
 #: ../../fdm/rpc/rpclocalization.cpp:32
 msgctxt "RPCLocalization|"
 msgid "Size:"
-msgstr ""
+msgstr "大小："
 
 #: ../../fdm/rpc/rpclocalization.cpp:33
 msgctxt "RPCLocalization|"
 msgid "File size:"
-msgstr ""
+msgstr "文件大小："
 
 #: ../../fdm/rpc/rpclocalization.cpp:34
 msgctxt "RPCLocalization|"
 msgid "Disk space:"
-msgstr ""
+msgstr "磁盘空间："
 
 #: ../../fdm/rpc/rpclocalization.cpp:35
 msgctxt "RPCLocalization|"
@@ -922,7 +922,7 @@ msgstr "重连中…"
 #: ../../fdm/rpc/rpclocalization.cpp:103
 msgctxt "RPCLocalization|"
 msgid "Reconnecting"
-msgstr ""
+msgstr "重连中"
 
 #: ../../fdm/rpc/rpclocalization.cpp:104
 msgctxt "RPCLocalization|"
@@ -937,22 +937,22 @@ msgstr "下载元数据中"
 #: ../../fdm/rpc/rpclocalization.cpp:106
 msgctxt "RPCLocalization|"
 msgid "Downloading"
-msgstr ""
+msgstr "下载中"
 
 #: ../../fdm/rpc/rpclocalization.cpp:107
 msgctxt "RPCLocalization|"
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 #: ../../fdm/rpc/rpclocalization.cpp:108
 msgctxt "RPCLocalization|"
 msgid "Checking files..."
-msgstr ""
+msgstr "检查文件中…"
 
 #: ../../fdm/rpc/rpclocalization.cpp:109
 msgctxt "RPCLocalization|"
 msgid "Downloading, Allocating disk space..."
-msgstr ""
+msgstr "下载中，分配磁盘空间中…"
 
 #: ../../fdm/rpc/rpclocalization.cpp:110
 #, fuzzy, qt-format
@@ -999,7 +999,7 @@ msgstr "设置…"
 #: ../../fdm/rpc/rpclocalization.cpp:118
 msgctxt "RPCLocalization|"
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: ../../fdm/rpc/rpclocalization.cpp:119
 msgctxt "RPCLocalization|"
@@ -1361,7 +1361,7 @@ msgstr "无需确认就捕获下载项"
 #: ../../fdm/rpc/rpclocalization.cpp:190
 msgctxt "RPCLocalization|"
 msgid "Catch links in Edge only from HTTP ports (improves performance)"
-msgstr ""
+msgstr "在Edge中仅捕获来自HTTP端口的链接（改善性能）"
 
 #: ../../fdm/rpc/rpclocalization.cpp:191
 msgctxt "RPCLocalization|"
@@ -1486,12 +1486,12 @@ msgstr "高"
 #: ../../fdm/rpc/rpclocalization.cpp:215
 msgctxt "RPCLocalization|"
 msgid "Normal"
-msgstr ""
+msgstr "正常"
 
 #: ../../fdm/rpc/rpclocalization.cpp:216
 msgctxt "RPCLocalization|"
 msgid "Skip"
-msgstr ""
+msgstr "跳过"
 
 #: ../../fdm/rpc/rpclocalization.cpp:217
 msgctxt "RPCLocalization|"
@@ -1854,7 +1854,7 @@ msgstr "FDM已是最新！"
 #: ../../fdm/rpc/rpclocalization.cpp:288
 msgctxt "RPCLocalization|"
 msgid "New version is available"
-msgstr ""
+msgstr "新版本可用"
 
 #: ../../fdm/rpc/rpclocalization.cpp:289
 #, fuzzy, qt-format
@@ -1901,231 +1901,231 @@ msgstr[0] "%n年"
 #: ../../fdm/rpc/rpclocalization.cpp:296
 msgctxt "RPCLocalization|"
 msgid "YouTube"
-msgstr ""
+msgstr "YouTube"
 
 #: ../../fdm/rpc/rpclocalization.cpp:297
 msgctxt "RPCLocalization|"
 msgid "Torrent"
-msgstr ""
+msgstr "种子"
 
 #: ../../fdm/rpc/rpclocalization.cpp:298
 msgctxt "RPCLocalization|"
 msgid "Catch only when Alt is pressed"
-msgstr ""
+msgstr "仅在Alt被按下时监视"
 
 #: ../../fdm/rpc/rpclocalization.cpp:299
 msgctxt "RPCLocalization|"
 msgid "Do not catch when Alt is pressed"
-msgstr ""
+msgstr "在Alt被按下时不监视"
 
 #: ../../fdm/rpc/rpclocalization.cpp:300
 msgctxt "RPCLocalization|"
 msgid "Automatic link-catching"
-msgstr ""
+msgstr "自动捕捉链接"
 
 #: ../../fdm/rpc/rpclocalization.cpp:301
 msgctxt "RPCLocalization|"
 msgid ""
 "While holding down the Alt key, set the desired link-catching behaviour via "
 "available."
-msgstr ""
+msgstr "当Alt键被按下时，设置期望的链接监视行为"
 
 #: ../../fdm/rpc/rpclocalization.cpp:302
 msgctxt "RPCLocalization|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 #: ../../fdm/rpc/rpclocalization.cpp:304
 msgctxt "RPCLocalization|"
 msgid "Open Scheduler"
-msgstr ""
+msgstr "打开计划任务"
 
 #: ../../fdm/rpc/rpclocalization.cpp:305
 msgctxt "RPCLocalization|"
 msgid "Sсheduler"
-msgstr ""
+msgstr "计划任务"
 
 #: ../../fdm/rpc/rpclocalization.cpp:306
 msgctxt "RPCLocalization|"
 msgid "Start and pause downloads at the specified time"
-msgstr ""
+msgstr "在制定时间开始或暂停下载"
 
 #: ../../fdm/rpc/rpclocalization.cpp:307
 msgctxt "RPCLocalization|"
 msgid "Enable Scheduler"
-msgstr ""
+msgstr "启用计划任务"
 
 #: ../../fdm/rpc/rpclocalization.cpp:308
 msgctxt "RPCLocalization|"
 msgid "Sun"
-msgstr ""
+msgstr "周日"
 
 #: ../../fdm/rpc/rpclocalization.cpp:309
 msgctxt "RPCLocalization|"
 msgid "Mon"
-msgstr ""
+msgstr "周一"
 
 #: ../../fdm/rpc/rpclocalization.cpp:310
 msgctxt "RPCLocalization|"
 msgid "Tue"
-msgstr ""
+msgstr "周二"
 
 #: ../../fdm/rpc/rpclocalization.cpp:311
 msgctxt "RPCLocalization|"
 msgid "Wed"
-msgstr ""
+msgstr "周三"
 
 #: ../../fdm/rpc/rpclocalization.cpp:312
 msgctxt "RPCLocalization|"
 msgid "Thu"
-msgstr ""
+msgstr "周四"
 
 #: ../../fdm/rpc/rpclocalization.cpp:313
 msgctxt "RPCLocalization|"
 msgid "Fri"
-msgstr ""
+msgstr "周五"
 
 #: ../../fdm/rpc/rpclocalization.cpp:314
 msgctxt "RPCLocalization|"
 msgid "Sat"
-msgstr ""
+msgstr "周六"
 
 #: ../../fdm/rpc/rpclocalization.cpp:315
 msgctxt "RPCLocalization|"
 msgid "From:"
-msgstr ""
+msgstr "从："
 
 #: ../../fdm/rpc/rpclocalization.cpp:316
 msgctxt "RPCLocalization|"
 msgid "To:"
-msgstr ""
+msgstr "到："
 
 #: ../../fdm/rpc/rpclocalization.cpp:318
 msgctxt "RPCLocalization|"
 msgid "Change settings"
-msgstr ""
+msgstr "更改设置"
 
 #: ../../fdm/rpc/rpclocalization.cpp:319
 msgctxt "RPCLocalization|"
 msgid "Change preferences"
-msgstr ""
+msgstr "更改选项"
 
 #: ../../fdm/rpc/rpclocalization.cpp:320
 msgctxt "RPCLocalization|"
 msgid "Tip"
-msgstr ""
+msgstr "提示"
 
 #: ../../fdm/rpc/rpclocalization.cpp:321
 msgctxt "RPCLocalization|"
 msgid "Press Alt if you don't want FDM to automatically catch links."
-msgstr ""
+msgstr "如果您不想FDM自动捕获链接请按下Alt"
 
 #: ../../fdm/rpc/rpclocalization.cpp:322
 msgctxt "RPCLocalization|"
 msgid "Computer won't be put to sleep because you have scheduled downloads"
-msgstr ""
+msgstr "由于您有计划的下载项，计算机将不会睡眠"
 
 #: ../../fdm/rpc/rpclocalization.cpp:324
 msgctxt "RPCLocalization|"
 msgid "Scheduler"
-msgstr ""
+msgstr "调度器"
 
 #: ../../fdm/rpc/rpclocalization.cpp:325
 msgctxt "RPCLocalization|"
 msgid "Don't put your computer to sleep if there're scheduled downloads."
-msgstr ""
+msgstr "当有计划的下载项时阻止计算机睡眠"
 
 #: ../../fdm/rpc/rpclocalization.cpp:326
 msgctxt "RPCLocalization|"
 msgid "Press"
-msgstr ""
+msgstr "按下"
 
 #: ../../fdm/rpc/rpclocalization.cpp:327
 msgctxt "RPCLocalization|"
 msgid "to let the browser process the download"
-msgstr ""
+msgstr "以让浏览器处理下载项"
 
 #: ../../fdm/rpc/rpclocalization.cpp:329
 msgctxt "RPCLocalization|"
 msgid "Check file integrity"
-msgstr ""
+msgstr "检查文件完整性"
 
 #: ../../fdm/rpc/rpclocalization.cpp:330
 msgctxt "RPCLocalization|"
 msgid "Calculate"
-msgstr ""
+msgstr "计算"
 
 #: ../../fdm/rpc/rpclocalization.cpp:331
 msgctxt "RPCLocalization|"
 msgid "Calculating"
-msgstr ""
+msgstr "计算中"
 
 #: ../../fdm/rpc/rpclocalization.cpp:332
 msgctxt "RPCLocalization|"
 msgid "Verification OK"
-msgstr ""
+msgstr "检查成功"
 
 #: ../../fdm/rpc/rpclocalization.cpp:333
 msgctxt "RPCLocalization|"
 msgid "Verification failed"
-msgstr ""
+msgstr "检查失败"
 
 #: ../../fdm/rpc/rpclocalization.cpp:334
 msgctxt "RPCLocalization|"
 msgid "Compare with:"
-msgstr ""
+msgstr "和下列项比较："
 
 #: ../../fdm/rpc/rpclocalization.cpp:335
 msgctxt "RPCLocalization|"
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:62
 msgctxt "TorrentDownload|"
 msgid "File priorities changed"
-msgstr ""
+msgstr "文件属性已改变"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:91
 msgctxt "TorrentDownload|"
 msgid "Stopping seeding"
-msgstr ""
+msgstr "正在停止做种"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:124
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading enabled"
-msgstr ""
+msgstr "已启用顺序下载"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:125
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading disabled"
-msgstr ""
+msgstr "已禁用顺序下载"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:141
 msgctxt "TorrentDownload|"
 msgid "Trackers merged"
-msgstr ""
+msgstr "已合并Trackers"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:160
 msgctxt "TorrentDownload|"
 msgid "Starting seeding"
-msgstr ""
+msgstr "正在开始做种"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:198
 msgctxt "TorrentDownload|"
 msgid "Unknown error occurred"
-msgstr ""
+msgstr "发生未知错误"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:203
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Error occurred: %1"
-msgstr ""
+msgstr "发生错误：%1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:344
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Maximum number of connections is %1"
-msgstr ""
+msgstr "最大连接数为%1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:345
 #, fuzzy
@@ -2136,183 +2136,183 @@ msgstr "不限制"
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:364
 msgctxt "TorrentDownload|"
 msgid "Download speed isn't limited"
-msgstr ""
+msgstr "下载速度不受限"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:365
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Download speed is limited to %1/s"
-msgstr ""
+msgstr "下载速度限制为%1/s"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:383
 msgctxt "TorrentDownload|"
 msgid "Upload speed isn't limited"
-msgstr ""
+msgstr "上传速度不受限"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:384
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Upload speed is limited to %1/s"
-msgstr ""
+msgstr "上传速度限制为%1/s"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:457
 msgctxt "TorrentDownload|"
 msgid "Pausing download"
-msgstr ""
+msgstr "暂停下载中"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:467
 msgctxt "TorrentDownload|"
 msgid "Download paused"
-msgstr ""
+msgstr "已暂停下载"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:544
 msgctxt "TorrentDownload|"
 msgid "Files are missing"
-msgstr ""
+msgstr "文件丢失"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:546
 msgctxt "TorrentDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "文件丢失"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:584
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:938
 msgctxt "TorrentDownload|"
 msgid "Starting download"
-msgstr ""
+msgstr "开始下载中"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:604
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:943
 msgctxt "TorrentDownload|"
 msgid "Checking files"
-msgstr ""
+msgstr "检查文件"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:632
 msgctxt "TorrentDownload|"
 msgid "Downloading"
-msgstr ""
+msgstr "下载中"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:671
 msgctxt "TorrentDownload|"
 msgid "Download complete"
-msgstr ""
+msgstr "下载完成"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:721
 msgctxt "TorrentDownload|"
 msgid "Cannot move files recursively"
-msgstr ""
+msgstr "无法递归移动文件"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:730
 msgctxt "TorrentDownload|"
 msgid "Changing destination folder"
-msgstr ""
+msgstr "更改目标文件夹"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:745
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving files to %1"
-msgstr ""
+msgstr "正在移动文件至%1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:747
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file to %1"
-msgstr ""
+msgstr "正在移动文件至%1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1003
 msgctxt "TorrentDownload|"
 msgid "Waiting for metadata"
-msgstr ""
+msgstr "等待元数据"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1075
 msgctxt "TorrentDownload|"
 msgid "Updating"
-msgstr ""
+msgstr "更新中"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1077
 msgctxt "TorrentDownload|"
 msgid "Working"
-msgstr ""
+msgstr "工作中"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1270
 msgctxt "TorrentDownload|"
 msgid "Metadata received"
-msgstr ""
+msgstr "已收到元数据"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1358
 msgctxt "TorrentDownload|"
 msgid "User authorization required"
-msgstr ""
+msgstr "需要用户确认"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1383
 msgctxt "TorrentDownload|"
 msgid "Mapped files to new directory"
-msgstr ""
+msgstr "已映射文件到新路径"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1385
 msgctxt "TorrentDownload|"
 msgid "Mapped file to new directory"
-msgstr ""
+msgstr "映射文件到新路径"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1420
 msgctxt "TorrentDownload|"
 msgid "Files moving failed"
-msgstr ""
+msgstr "移动文件失败"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1422
 msgctxt "TorrentDownload|"
 msgid "Moving file failed"
-msgstr ""
+msgstr "移动文件失败"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1494
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving declined: %1"
-msgstr ""
+msgstr "移动文件被拒绝，原因：%1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1496
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file declined: %1"
-msgstr ""
+msgstr "移动文件被拒绝，原因：%1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1508
 msgctxt "TorrentDownload|"
 msgid "Moved successfully"
-msgstr ""
+msgstr "成功移动"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1512
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr "平均速度：%1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1539
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving failed: %1"
-msgstr ""
+msgstr "移动文件失败，原因：%1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1541
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file failed: %1"
-msgstr ""
+msgstr "移动文件失败，原因：%1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1559
 msgctxt "TorrentDownload|"
 msgid "Files moving cancelled"
-msgstr ""
+msgstr "已取消移动文件"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1561
 msgctxt "TorrentDownload|"
 msgid "Moving file cancelled"
-msgstr ""
+msgstr "已取消移动文件"
 
 #: ../../fdm/menu/traymenu.cpp:42
 msgctxt "TrayMenu|"
 msgid "Show main window"
-msgstr ""
+msgstr "显示主窗口"
 
 #: ../../fdm/menu/traymenu.cpp:53
 #, fuzzy
@@ -2323,7 +2323,7 @@ msgstr "在登录时打开"
 #: ../../fdm/menu/traymenu.cpp:55
 msgctxt "TrayMenu|"
 msgid "Launch at startup"
-msgstr ""
+msgstr "在启动时打开"
 
 #: ../../fdm/menu/traymenu.cpp:66
 #, fuzzy
@@ -2334,7 +2334,7 @@ msgstr "关于FDM"
 #: ../../fdm/menu/traymenu.cpp:72
 msgctxt "TrayMenu|"
 msgid "Quit FDM"
-msgstr ""
+msgstr "退出FDM"
 
 #: ../../fdm/menu/traymenu.cpp:74
 #, fuzzy
@@ -2346,18 +2346,18 @@ msgstr "退出"
 #, qt-format
 msgctxt "UIHelper|"
 msgid "About %1"
-msgstr ""
+msgstr "关于%1"
 
 #: ../../fdm/uihelper.cpp:102
 #, qt-format
 msgctxt "UIHelper|"
 msgid "Version %1 (%2)"
-msgstr ""
+msgstr "版本%1(%2)"
 
 #: ../../fdm/uihelper.cpp:196
 msgctxt "UIHelper|"
 msgid "Open"
-msgstr ""
+msgstr "打开"
 
 #: ../../fdm/uihelper.cpp:207 ../../fdm/uihelper.cpp:436
 #, fuzzy
@@ -2374,27 +2374,27 @@ msgstr "在文件夹中显示"
 #: ../../fdm/uihelper.cpp:225
 msgctxt "UIHelper|"
 msgid "Show info"
-msgstr ""
+msgstr "显示信息"
 
 #: ../../fdm/uihelper.cpp:231
 msgctxt "UIHelper|"
 msgid "Choose files..."
-msgstr ""
+msgstr "选择文件…"
 
 #: ../../fdm/uihelper.cpp:241
 msgctxt "UIHelper|"
 msgid "Pause all except selected"
-msgstr ""
+msgstr "暂停除选中项外所有下载"
 
 #: ../../fdm/uihelper.cpp:241
 msgctxt "UIHelper|"
 msgid "Pause all except this one"
-msgstr ""
+msgstr "暂停除此项外所有下载"
 
 #: ../../fdm/uihelper.cpp:252
 msgctxt "UIHelper|"
 msgid "Restart selected"
-msgstr ""
+msgstr "重启选中项"
 
 #: ../../fdm/uihelper.cpp:252
 #, fuzzy
@@ -2405,7 +2405,7 @@ msgstr "重启"
 #: ../../fdm/uihelper.cpp:262
 msgctxt "UIHelper|"
 msgid "Set priority"
-msgstr ""
+msgstr "设置优先级"
 
 #: ../../fdm/uihelper.cpp:290
 #, fuzzy
@@ -2416,7 +2416,7 @@ msgstr "移到…"
 #: ../../fdm/uihelper.cpp:297
 msgctxt "UIHelper|"
 msgid "Download to..."
-msgstr ""
+msgstr "下载到…"
 
 #: ../../fdm/uihelper.cpp:306
 #, fuzzy
@@ -2451,138 +2451,138 @@ msgstr "启用做种"
 #: ../../fdm/uihelper.cpp:332
 msgctxt "UIHelper|"
 msgid "Sequential download"
-msgstr ""
+msgstr "顺序下载"
 
 #: ../../fdm/uihelper.cpp:339
 msgctxt "UIHelper|"
 msgid "Force recheck"
-msgstr ""
+msgstr "强制重新检查"
 
 #: ../../fdm/uihelper.cpp:344
 msgctxt "UIHelper|"
 msgid "Force reannounce"
-msgstr ""
+msgstr "强制重新广播"
 
 #: ../../fdm/uihelper.cpp:355
 msgctxt "UIHelper|"
 msgid "Copy link"
-msgstr ""
+msgstr "复制链接"
 
 #: ../../fdm/uihelper.cpp:362
 msgctxt "UIHelper|"
 msgid "Add tag"
-msgstr ""
+msgstr "添加标签"
 
 #: ../../fdm/uihelper.cpp:385
 msgctxt "UIHelper|"
 msgid "File integrity"
-msgstr ""
+msgstr "文件完整性"
 
 #: ../../fdm/uihelper.cpp:395
 msgctxt "UIHelper|"
 msgid "Schedule"
-msgstr ""
+msgstr "计划"
 
 #: ../../fdm/uihelper.cpp:413
 msgctxt "UIHelper|"
 msgid "High priority"
-msgstr ""
+msgstr "高优先级"
 
 #: ../../fdm/uihelper.cpp:418
 msgctxt "UIHelper|"
 msgid "Normal priority"
-msgstr ""
+msgstr "常规优先级"
 
 #: ../../fdm/uihelper.cpp:423
 msgctxt "UIHelper|"
 msgid "Low priority"
-msgstr ""
+msgstr "低优先级"
 
 #: ../../fdm/uihelper.cpp:428
 msgctxt "UIHelper|"
 msgid "Skip"
-msgstr ""
+msgstr "跳过"
 
 #: ../../fdm/uihelper.cpp:460
 msgctxt "UIHelper|"
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: ../../fdm/uihelper.cpp:464
 msgctxt "UIHelper|"
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: ../../fdm/uihelper.cpp:472
 msgctxt "UIHelper|"
 msgid "Untag"
-msgstr ""
+msgstr "移除标签"
 
 #: ../../fdm/uihelper.cpp:494
 msgctxt "UIHelper|"
 msgid "Copy log to clipboard"
-msgstr ""
+msgstr "复制记录到剪贴板"
 
 #: ../../fdm/uihelper.cpp:498
 msgctxt "UIHelper|"
 msgid "Save log to file"
-msgstr ""
+msgstr "保存记录到文件"
 
 #: ../../fdm/uihelper.cpp:507
 #, qt-format
 msgctxt "UIHelper|"
 msgid "FDM Log [%1].txt"
-msgstr ""
+msgstr "FDM Log [%1].txt"
 
 #: ../../fdm/uihelper.cpp:510
 msgctxt "UIHelper|"
 msgid "Save Log"
-msgstr ""
+msgstr "保存记录"
 
 #: ../../fdm/uihelper.cpp:512
 msgctxt "UIHelper|"
 msgid "Text files"
-msgstr ""
+msgstr "文本文件"
 
 #: ../../fdm/uihelper.cpp:611
 #, qt-format
 msgctxt "UIHelper|"
 msgid "%1 K"
-msgstr ""
+msgstr "%1K"
 
 #: ../../fdm/uihelper.cpp:616
 #, qt-format
 msgctxt "UIHelper|"
 msgid "%1 M"
-msgstr ""
+msgstr "%1M"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:153
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:881
 msgctxt "YoutubeDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "文件丢失"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:335
 msgctxt "YoutubeDownload|"
 msgid "Error: files are missing."
-msgstr ""
+msgstr "错误：文件丢失。"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:352
 msgctxt "YoutubeDownload|"
 msgid "Files moved successfully"
-msgstr ""
+msgstr "成功移动文件"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:409
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving to %1"
-msgstr ""
+msgstr "移动到%1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:896
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1253
 msgctxt "YoutubeDownload|"
 msgid "Merging failed"
-msgstr ""
+msgstr "合并失败"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:906
 #, fuzzy
@@ -2593,91 +2593,91 @@ msgstr "合并媒体流"
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:936
 msgctxt "YoutubeDownload|"
 msgid "Redirecting"
-msgstr ""
+msgstr "重定向中"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:937
 msgctxt "YoutubeDownload|"
 msgid "Handling redirect"
-msgstr ""
+msgstr "处理重定向中"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:942
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "AudioStream: %1"
-msgstr ""
+msgstr "音频流：%1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:943
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "VideoStream: %1"
-msgstr ""
+msgstr "视频流：%1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:995
 msgctxt "YoutubeDownload|"
 msgid "Downloading page"
-msgstr ""
+msgstr "下载页面"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1023
 msgctxt "YoutubeDownload|"
 msgid "Page is downloaded"
-msgstr ""
+msgstr "页面已下载"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1068
 msgctxt "YoutubeDownload|"
 msgid "Launching parser"
-msgstr ""
+msgstr "启动分析器中"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1101
 msgctxt "YoutubeDownload|"
 msgid "Page is parsed"
-msgstr ""
+msgstr "页面已分析"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1150
 msgctxt "YoutubeDownload|"
 msgid "Can't find URLs for this quality"
-msgstr ""
+msgstr "无法为此资源找到链接"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1183
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Parsing failure: %1"
-msgstr ""
+msgstr "解析失败，原因：%1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1232
 msgctxt "YoutubeDownload|"
 msgid "Download complete"
-msgstr ""
+msgstr "下载完成"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1352
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving operation has been declined: %1"
-msgstr ""
+msgstr "移动操作被拒绝，原因：%1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1362
 msgctxt "YoutubeDownload|"
 msgid "Moved successfully"
-msgstr ""
+msgstr "下载成功"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1366
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr "，平均速度：%1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1394
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "File is renamed to %1"
-msgstr ""
+msgstr "文件已被重命名为%1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1448
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving operation failed: %1"
-msgstr ""
+msgstr "移动操作失败，原因：%1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1460
 msgctxt "YoutubeDownload|"
 msgid "Moving operation cancelled."
-msgstr ""
+msgstr "已取消移动操作。"
