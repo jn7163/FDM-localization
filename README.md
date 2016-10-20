@@ -3,7 +3,7 @@
 Kindly help us improve Free Download Manager :)
 
 
-This repository contains .po files for [FDM 5.x](http://www.freedownloadmanager.org/download.htm) localization. To edit files, you will need the [Poedit](https://poedit.net/download) program.
+This repository contains .po files for [FDM 5.x](http://www.freedownloadmanager.org/download.htm) localization. To edit and publish files, it's recommanded to use [Qt Linguist](http://down.admin5.com/app/113027.html). However, you can use other code editors or [Poedit](https://poedit.net/download), but you cannot publish .qm files and use the localized files immediately.
 
 
 There are two ways to download the .po file for your language from GitHub.
@@ -14,14 +14,14 @@ The wanted file should be launched in the Poedit program. If it failed, try way 
 
 2. Press the ‘Clone or download’ button → Download ZIP ![zip](https://github.com/lychichem/FDM-localization/raw/master/2016-10-18_1227.png)
 
+Tips for translation:  
+If you are using Qt Linguist, nothing to specially mention.
 
-Some tips
+If you are using Poedit, translate words in corresponding filed and pay attention to pharses in yellow. Do not translate  words in brackets.
 
-- Check translated words (if there are any).
-- Don’t translate words in brackets.
-- Please keep the punctuation and capital/small letters the same as in the English version.
-- Translate words in the corresponding field ![translate](https://github.com/lychichem/FDM-localization/raw/master/2016-10-18_1237.png)
-- Pay special attention to phrases in yellow ![attention](https://github.com/lychichem/FDM-localization/raw/master/2016-10-18_1240.png)
+If you are using code editor like me, do not change the file structure and note that your translation should only be filled in `msgstr ""`. The .po file is in UTF-8 encoding and lines end with *nix format(LF).
+
+Once you finished translation and want to make l10n file avalible immediately, use Qt linguist, load the .po file, click File → publish, it will make a smae-named .qm file. Use this file to replace the origin file in FDM install folder/translations.  
 
 Many thanks for your help! It's highly appreciated.
 
