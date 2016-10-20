@@ -8,6 +8,34 @@ msgstr ""
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:22
+msgid "Download with FDM"
+msgstr ""
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:30
+msgid "Download selected with FDM"
+msgstr ""
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:34
+msgid "Download video with FDM"
+msgstr ""
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:38
+msgid "Download by FDM"
+msgstr ""
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:50
+msgid ""
+"An error occurred while trying to transfer downloads to FDM.\n"
+"Error: 0x%x."
+msgstr ""
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:54
+msgid ""
+"There were no flash videos found on this page. Make sure the videos on this "
+"page are playing or try to reload it (refresh page or clear browser's cache)."
+msgstr ""
+
 #: ../../fdm/downloads/downloadfiletree.cpp:7
 msgctxt "DownloadFileInfo|"
 msgid "Skip"
@@ -124,13 +152,43 @@ msgstr ""
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:703
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Opening connection %1"
+msgid "Opening connection #%1"
 msgstr ""
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:871
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Connection %1 closed"
+msgid "#%1 closed"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1430
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "#%1 receiving data"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1485
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "downloaded %1"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1490
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "(%1/s)"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1547
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "#%1: server ignored partial content request"
+msgstr ""
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1580
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "#%1 failed with error: %2"
 msgstr ""
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:891
@@ -168,46 +226,10 @@ msgctxt "HttpFileDownload|"
 msgid "Failed writing received data to file"
 msgstr ""
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1430
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1 receiving data"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1485
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid ", downloaded: %1"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1490
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid ", average speed: %1/s"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1493
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1 finished receiving data%2%3"
-msgstr ""
-
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1526
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Redirecting to %1"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1547
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1: server ignored partial content request"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1580
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1 failed with error: %2"
 msgstr ""
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1619
@@ -264,73 +286,78 @@ msgctxt "HttpFileDownload|"
 msgid "Preallocating started"
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:143
+#: ../../fdm/menu/macmainmenu.cpp:177
 msgctxt "MacMainMenu|"
 msgid "File"
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:53 ../../fdm/menu/macmainmenu.cpp:137
+#: ../../fdm/menu/macmainmenu.cpp:54 ../../fdm/menu/macmainmenu.cpp:170
 msgctxt "MacMainMenu|"
 msgid "Add Download from URL..."
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:57 ../../fdm/menu/macmainmenu.cpp:138
+#: ../../fdm/menu/macmainmenu.cpp:58 ../../fdm/menu/macmainmenu.cpp:171
 msgctxt "MacMainMenu|"
 msgid "Open Torrent File..."
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:130
+#: ../../fdm/menu/macmainmenu.cpp:110 ../../fdm/menu/macmainmenu.cpp:180
+msgctxt "MacMainMenu|"
+msgid "Edit"
+msgstr ""
+
+#: ../../fdm/menu/macmainmenu.cpp:163
 #, qt-format
 msgctxt "MacMainMenu|"
 msgid "About %1"
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:132
+#: ../../fdm/menu/macmainmenu.cpp:165
 msgctxt "MacMainMenu|"
 msgid "Check for Updates..."
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:144
+#: ../../fdm/menu/macmainmenu.cpp:178
 msgctxt "MacMainMenu|"
 msgid "Downloads"
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:133
+#: ../../fdm/menu/macmainmenu.cpp:166
 msgctxt "MacMainMenu|"
 msgid "Start Selected"
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:134
+#: ../../fdm/menu/macmainmenu.cpp:167
 msgctxt "MacMainMenu|"
 msgid "Pause Selected"
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:135
+#: ../../fdm/menu/macmainmenu.cpp:168
 msgctxt "MacMainMenu|"
 msgid "Restart Selected"
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:129 ../../fdm/menu/macmainmenu.cpp:136
+#: ../../fdm/menu/macmainmenu.cpp:162 ../../fdm/menu/macmainmenu.cpp:169
 msgctxt "MacMainMenu|"
 msgid "Remove from List"
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:145
+#: ../../fdm/menu/macmainmenu.cpp:179
 msgctxt "MacMainMenu|"
 msgid "Help"
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:139
+#: ../../fdm/menu/macmainmenu.cpp:172
 msgctxt "MacMainMenu|"
 msgid "Contact Support"
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:140
+#: ../../fdm/menu/macmainmenu.cpp:173
 msgctxt "MacMainMenu|"
 msgid "Vote for New Features"
 msgstr ""
 
-#: ../../fdm/menu/macmainmenu.cpp:131
+#: ../../fdm/menu/macmainmenu.cpp:164
 msgctxt "MacMainMenu|"
 msgid "Preferences..."
 msgstr ""
@@ -2070,6 +2097,38 @@ msgstr ""
 #: ../../fdm/rpc/rpclocalization.cpp:335
 msgctxt "RPCLocalization|"
 msgid "Close"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:338
+#, qt-format
+msgctxt "RPCLocalization|"
+msgid "%1 left"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:340
+msgctxt "RPCLocalization|"
+msgid "Browsers:"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:341
+msgctxt "RPCLocalization|Advanced"
+msgid "Options"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:342
+msgctxt "RPCLocalization|"
+msgid "Done"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:343
+msgctxt "RPCLocalization|tags panel"
+msgid "Completed"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:346
+#, qt-format
+msgctxt "RPCLocalization|"
+msgid "%1 of %2"
 msgstr ""
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:62

@@ -8,6 +8,34 @@ msgstr ""
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:22
+msgid "Download with FDM"
+msgstr "使用FDM下载"
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:30
+msgid "Download selected with FDM"
+msgstr "使用FDM下载选中项"
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:34
+msgid "Download video with FDM"
+msgstr "使用FDM下载视频"
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:38
+msgid "Download by FDM"
+msgstr "通过FDM下载"
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:50
+msgid ""
+"An error occurred while trying to transfer downloads to FDM.\n"
+"Error: 0x%x."
+msgstr "试图传递下载项到FDM时发生了一个错误。\n错误：0x%x"
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:54
+msgid ""
+"There were no flash videos found on this page. Make sure the videos on this "
+"page are playing or try to reload it (refresh page or clear browser's cache)."
+msgstr "在此页面未找到Flash视频。请确认页面上的视频在播放或尝试重新加载它（刷新页面或清除浏览器缓存）"
+
 #: ../../fdm/downloads/downloadfiletree.cpp:7
 msgctxt "DownloadFileInfo|"
 msgid "Skip"
@@ -129,14 +157,44 @@ msgstr "文件已重命名为%1"
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:703
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Opening connection %1"
+msgid "Opening connection #%1"
 msgstr "正在打开连接%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:871
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Connection %1 closed"
+msgid "#%1 closed"
 msgstr "连接%1已关闭"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1430
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "#%1 receiving data"
+msgstr "#%1接收数据中"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1485
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "downloaded %1"
+msgstr "已下载%1"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1490
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "(%1/s)"
+msgstr "(%1/s)"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1547
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "#%1: server ignored partial content request"
+msgstr "#%1：服务器忽略了部分内容请求"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1580
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "#%1 failed with error: %2"
+msgstr "#1由于错误%2而失败"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:891
 msgctxt "HttpFileDownload|"
@@ -269,79 +327,84 @@ msgctxt "HttpFileDownload|"
 msgid "Preallocating started"
 msgstr "已开始预分配"
 
-#: ../../fdm/menu/macmainmenu.cpp:143
+#: ../../fdm/menu/macmainmenu.cpp:177
 msgctxt "MacMainMenu|"
 msgid "File"
 msgstr "文件"
 
-#: ../../fdm/menu/macmainmenu.cpp:53 ../../fdm/menu/macmainmenu.cpp:137
+#: ../../fdm/menu/macmainmenu.cpp:54 ../../fdm/menu/macmainmenu.cpp:170
 msgctxt "MacMainMenu|"
 msgid "Add Download from URL..."
 msgstr "从URL添加下载"
 
-#: ../../fdm/menu/macmainmenu.cpp:57 ../../fdm/menu/macmainmenu.cpp:138
+#: ../../fdm/menu/macmainmenu.cpp:58 ../../fdm/menu/macmainmenu.cpp:171
 msgctxt "MacMainMenu|"
 msgid "Open Torrent File..."
 msgstr "打开种子文件"
+
+#: ../../fdm/menu/macmainmenu.cpp:110 ../../fdm/menu/macmainmenu.cpp:180
+msgctxt "MacMainMenu|"
+msgid "Edit"
+msgstr "编辑"
 
 #, fuzzy
 #~ msgctxt "MacMainMenu|"
 #~ msgid "Select All"
 #~ msgstr "选择全部"
 
-#: ../../fdm/menu/macmainmenu.cpp:130
+#: ../../fdm/menu/macmainmenu.cpp:163
 #, qt-format
 msgctxt "MacMainMenu|"
 msgid "About %1"
 msgstr "关于%1"
 
-#: ../../fdm/menu/macmainmenu.cpp:132
+#: ../../fdm/menu/macmainmenu.cpp:165
 msgctxt "MacMainMenu|"
 msgid "Check for Updates..."
 msgstr "检查更新"
 
-#: ../../fdm/menu/macmainmenu.cpp:144
+#: ../../fdm/menu/macmainmenu.cpp:178
 #, fuzzy
 msgctxt "MacMainMenu|"
 msgid "Downloads"
 msgstr "下载"
 
-#: ../../fdm/menu/macmainmenu.cpp:133
+#: ../../fdm/menu/macmainmenu.cpp:166
 msgctxt "MacMainMenu|"
 msgid "Start Selected"
 msgstr "开始选中项"
 
-#: ../../fdm/menu/macmainmenu.cpp:134
+#: ../../fdm/menu/macmainmenu.cpp:167
 msgctxt "MacMainMenu|"
 msgid "Pause Selected"
 msgstr "暂停选中项"
 
-#: ../../fdm/menu/macmainmenu.cpp:135
+#: ../../fdm/menu/macmainmenu.cpp:168
 msgctxt "MacMainMenu|"
 msgid "Restart Selected"
 msgstr "重启选中项"
 
-#: ../../fdm/menu/macmainmenu.cpp:129 ../../fdm/menu/macmainmenu.cpp:136
+#: ../../fdm/menu/macmainmenu.cpp:162 ../../fdm/menu/macmainmenu.cpp:169
 msgctxt "MacMainMenu|"
 msgid "Remove from List"
 msgstr "从列表中移除"
 
-#: ../../fdm/menu/macmainmenu.cpp:145
+#: ../../fdm/menu/macmainmenu.cpp:179
 msgctxt "MacMainMenu|"
 msgid "Help"
 msgstr "帮助"
 
-#: ../../fdm/menu/macmainmenu.cpp:139
+#: ../../fdm/menu/macmainmenu.cpp:172
 msgctxt "MacMainMenu|"
 msgid "Contact Support"
 msgstr "联系支持"
 
-#: ../../fdm/menu/macmainmenu.cpp:140
+#: ../../fdm/menu/macmainmenu.cpp:173
 msgctxt "MacMainMenu|"
 msgid "Vote for New Features"
 msgstr "为新功能投票"
 
-#: ../../fdm/menu/macmainmenu.cpp:131
+#: ../../fdm/menu/macmainmenu.cpp:164
 #, fuzzy
 msgctxt "MacMainMenu|"
 msgid "Preferences..."
@@ -2079,6 +2142,39 @@ msgstr "和下列项比较："
 msgctxt "RPCLocalization|"
 msgid "Close"
 msgstr "关闭"
+
+#: ../../fdm/rpc/rpclocalization.cpp:338
+#, qt-format
+msgctxt "RPCLocalization|"
+msgid "%1 left"
+msgstr "剩余%1"
+
+#: ../../fdm/rpc/rpclocalization.cpp:340
+msgctxt "RPCLocalization|"
+msgid "Browsers:"
+msgstr "浏览器："
+
+#: ../../fdm/rpc/rpclocalization.cpp:341
+msgctxt "RPCLocalization|Advanced"
+msgid "Options"
+msgstr "选项"
+
+#: ../../fdm/rpc/rpclocalization.cpp:342
+msgctxt "RPCLocalization|"
+msgid "Done"
+msgstr "已完成"
+
+#: ../../fdm/rpc/rpclocalization.cpp:343
+#, fuzzy
+msgctxt "RPCLocalization|tags panel"
+msgid "Completed"
+msgstr "已完成"
+
+#: ../../fdm/rpc/rpclocalization.cpp:346
+#, qt-format
+msgctxt "RPCLocalization|"
+msgid "%1 of %2"
+msgstr "%2的%1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:62
 msgctxt "TorrentDownload|"

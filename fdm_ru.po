@@ -8,6 +8,38 @@ msgstr ""
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:22
+msgid "Download with FDM"
+msgstr "Скачать с FDM"
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:30
+msgid "Download selected with FDM"
+msgstr "Скачать выбранные загрузки с FDM"
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:34
+msgid "Download video with FDM"
+msgstr "Скачать видео с FDM"
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:38
+msgid "Download by FDM"
+msgstr "Скачать видео"
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:50
+msgid ""
+"An error occurred while trying to transfer downloads to FDM.\n"
+"Error: 0x%x."
+msgstr ""
+"Произошла ошибка при попытке передать загрузки FDM.\n"
+"Ошибка: 0x%x."
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:54
+msgid ""
+"There were no flash videos found on this page. Make sure the videos on this "
+"page are playing or try to reload it (refresh page or clear browser's cache)."
+msgstr ""
+"Флеш-видео не найдено. Убедитесь, что видео проигрывается или попытайтесь "
+"перезагрузить страницу (обновите страницу или очистите кэш браузера)."
+
 #: ../../fdm/downloads/downloadfiletree.cpp:7
 #, fuzzy
 msgctxt "DownloadFileInfo|"
@@ -51,7 +83,7 @@ msgstr "Высокий"
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Maximum number of connections is %1"
-msgstr ""
+msgstr "Максимальное количество соединений %1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:128
 #, fuzzy
@@ -62,20 +94,20 @@ msgstr "без ограничений"
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:149
 msgctxt "HttpFileDownload|"
 msgid "Download speed isn't limited"
-msgstr ""
+msgstr "Скорость загрузки не ограничена"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:150
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Download speed is limited to %1/s"
-msgstr ""
+msgstr "Скорость загрузки ограничена до %1/s"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:190
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:195
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:324
 msgctxt "HttpFileDownload|"
 msgid "Can't resume downloading file"
-msgstr ""
+msgstr "Не удается возобновить загрузку файла"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:269
 #, fuzzy
@@ -86,209 +118,261 @@ msgstr "Повторное подключение"
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:270
 msgctxt "HttpFileDownload|"
 msgid "Starting download"
-msgstr ""
+msgstr "Начало загрузки"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:308
 msgctxt "HttpFileDownload|"
 msgid "Pausing download"
-msgstr ""
+msgstr "Приостановка загрузки"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:336
 msgctxt "HttpFileDownload|"
 msgid "Can't resume downloading: URL changed"
-msgstr ""
+msgstr "Не удается возобновить загрузку: ссылка изменена"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:477
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Moving file to %1"
-msgstr ""
+msgstr "Перемещение файла в %1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:487
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1046
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "The name \"%1\" is already taken. Renaming to %2"
-msgstr ""
+msgstr "Имя \"%1\" уже используется. Переименовать в %2"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:557
 msgctxt "HttpFileDownload|"
 msgid "Restarting download"
-msgstr ""
+msgstr "Перезапуск загрузки"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:566
 msgctxt "HttpFileDownload|"
 msgid "Failed to clear contents of original file."
-msgstr ""
+msgstr "Не удалось очистить содержимое исходного файла."
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:613
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "File is renamed to %1"
-msgstr ""
+msgstr "Файл переименован в %1."
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:703
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Opening connection %1"
-msgstr ""
+msgid "Opening connection #%1"
+msgstr "Открытие соединения #%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:871
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Connection %1 closed"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:891
-msgctxt "HttpFileDownload|"
-msgid "Opening file on disk..."
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:922
-msgctxt "HttpFileDownload|"
-msgid "File is missing"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:988
-msgctxt "HttpFileDownload|"
-msgid "Download complete"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1009
-msgctxt "HttpFileDownload|"
-msgid "Removing temporary file extension"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1149
-msgctxt "HttpFileDownload|"
-msgid "Preallocating disk space for download"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1307
-msgctxt "HttpFileDownload|"
-msgid "File changed on remote server"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1422
-msgctxt "HttpFileDownload|"
-msgid "Failed writing received data to file"
-msgstr ""
+msgid "#%1 closed"
+msgstr "#%1 закрыто"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1430
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Connection %1 receiving data"
-msgstr ""
+msgid "#%1 receiving data"
+msgstr "Получение данных #%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1485
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid ", downloaded: %1"
-msgstr ""
+msgid "downloaded %1"
+msgstr "загрузилось %1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1490
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid ", average speed: %1/s"
-msgstr ""
+msgid "(%1/s)"
+msgstr "(%1/с)"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1493
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1547
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Connection %1 finished receiving data%2%3"
-msgstr ""
+msgid "#%1: server ignored partial content request"
+msgstr "#%1: сервер не поддерживает закачку файлов частями"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1580
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "#%1 failed with error: %2"
+msgstr "Сбой #%1. Ошибка: %2"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:891
+msgctxt "HttpFileDownload|"
+msgid "Opening file on disk..."
+msgstr "Открытие файла на диске..."
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:922
+msgctxt "HttpFileDownload|"
+msgid "File is missing"
+msgstr "Файл отсутствует"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:988
+msgctxt "HttpFileDownload|"
+msgid "Download complete"
+msgstr "Загрузка завершена"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1009
+msgctxt "HttpFileDownload|"
+msgid "Removing temporary file extension"
+msgstr "Удаление временного расширения файла"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1149
+msgctxt "HttpFileDownload|"
+msgid "Preallocating disk space for download"
+msgstr "Выделение места на диске для загрузки"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1307
+msgctxt "HttpFileDownload|"
+msgid "File changed on remote server"
+msgstr "Файл изменен на удаленном сервере"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1422
+msgctxt "HttpFileDownload|"
+msgid "Failed writing received data to file"
+msgstr "Не удалось записать скачанные данные в файл"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1526
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Redirecting to %1"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1547
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1: server ignored partial content request"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1580
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1 failed with error: %2"
-msgstr ""
+msgstr "Переадресация в %1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1619
 msgctxt "HttpFileDownload|"
 msgid "File moved successfully"
-msgstr ""
+msgstr "Файлы успешно перемещены"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1627
+#, fuzzy
 msgctxt "HttpFileDownload|"
 msgid "Moving file failed"
-msgstr ""
+msgstr "Не удалось переместить файл"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1698
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1774
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Preallocation failed: %1"
-msgstr ""
+msgstr "Не удалось выделить место на диске: %1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1708
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "%1 finished successfully"
-msgstr ""
+msgstr "%1 выполнено успешно"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1714
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr ", средняя скорость: %1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1722
 msgctxt "HttpFileDownload|"
 msgid "Space allocation"
-msgstr ""
+msgstr "Выделение места на диске"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1748
 msgctxt "HttpFileDownload|"
 msgid "Move"
-msgstr ""
+msgstr "Перемещение"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1787
 msgctxt "HttpFileDownload|"
 msgid "Preallocation cancelled"
-msgstr ""
+msgstr "Отменено выделение места на диске"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1802
 msgctxt "HttpFileDownload|"
 msgid "Preallocating queued"
-msgstr ""
+msgstr "Запланировано выделение места на диске"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1812
 msgctxt "HttpFileDownload|"
 msgid "Preallocating started"
-msgstr ""
+msgstr "Выделение места на диске"
 
-#: ../../fdm/menu/macmainmenu.cpp:143
+#: ../../fdm/menu/macmainmenu.cpp:177
 msgctxt "MacMainMenu|"
 msgid "File"
 msgstr "Файл"
 
-#: ../../fdm/menu/macmainmenu.cpp:53 ../../fdm/menu/macmainmenu.cpp:137
+#: ../../fdm/menu/macmainmenu.cpp:54 ../../fdm/menu/macmainmenu.cpp:170
 msgctxt "MacMainMenu|"
 msgid "Add Download from URL..."
 msgstr "Добавить ссылку"
 
-#: ../../fdm/menu/macmainmenu.cpp:57 ../../fdm/menu/macmainmenu.cpp:138
+#: ../../fdm/menu/macmainmenu.cpp:58 ../../fdm/menu/macmainmenu.cpp:171
 msgctxt "MacMainMenu|"
 msgid "Open Torrent File..."
 msgstr "Открыть торрент-файл..."
 
+#: ../../fdm/menu/macmainmenu.cpp:110 ../../fdm/menu/macmainmenu.cpp:180
 #, fuzzy
-#~ msgctxt "MacMainMenu|"
-#~ msgid "Edit"
-#~ msgstr "Редактировать"
+msgctxt "MacMainMenu|"
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ../../fdm/menu/macmainmenu.cpp:163
+#, qt-format
+msgctxt "MacMainMenu|"
+msgid "About %1"
+msgstr "О %1"
+
+#: ../../fdm/menu/macmainmenu.cpp:165
+msgctxt "MacMainMenu|"
+msgid "Check for Updates..."
+msgstr "Проверка обновлений..."
+
+#: ../../fdm/menu/macmainmenu.cpp:178
+msgctxt "MacMainMenu|"
+msgid "Downloads"
+msgstr "Загрузки"
+
+#: ../../fdm/menu/macmainmenu.cpp:166
+msgctxt "MacMainMenu|"
+msgid "Start Selected"
+msgstr "Запустить выбранные загрузки"
+
+#: ../../fdm/menu/macmainmenu.cpp:167
+msgctxt "MacMainMenu|"
+msgid "Pause Selected"
+msgstr "Поставить на паузу выбранные загрузки"
+
+#: ../../fdm/menu/macmainmenu.cpp:168
+msgctxt "MacMainMenu|"
+msgid "Restart Selected"
+msgstr "Перезапустить выбранные загрузки"
+
+#: ../../fdm/menu/macmainmenu.cpp:162 ../../fdm/menu/macmainmenu.cpp:169
+msgctxt "MacMainMenu|"
+msgid "Remove from List"
+msgstr "Удалить из списка"
+
+#: ../../fdm/menu/macmainmenu.cpp:179
+msgctxt "MacMainMenu|"
+msgid "Help"
+msgstr "Помощь"
+
+#: ../../fdm/menu/macmainmenu.cpp:172
+msgctxt "MacMainMenu|"
+msgid "Contact Support"
+msgstr "Служба поддержки"
+
+#: ../../fdm/menu/macmainmenu.cpp:173
+msgctxt "MacMainMenu|"
+msgid "Vote for New Features"
+msgstr "Проголосовать за новые опции"
+
+#: ../../fdm/menu/macmainmenu.cpp:164
+msgctxt "MacMainMenu|"
+msgid "Preferences..."
+msgstr "Настройки..."
 
 #, fuzzy
 #~ msgctxt "MacMainMenu|"
@@ -309,62 +393,6 @@ msgstr "Открыть торрент-файл..."
 #~ msgctxt "MacMainMenu|"
 #~ msgid "Select All"
 #~ msgstr "Выбрать все"
-
-#: ../../fdm/menu/macmainmenu.cpp:130
-#, qt-format
-msgctxt "MacMainMenu|"
-msgid "About %1"
-msgstr "О %1"
-
-#: ../../fdm/menu/macmainmenu.cpp:132
-msgctxt "MacMainMenu|"
-msgid "Check for Updates..."
-msgstr "Проверка обновлений..."
-
-#: ../../fdm/menu/macmainmenu.cpp:144
-msgctxt "MacMainMenu|"
-msgid "Downloads"
-msgstr "Загрузки"
-
-#: ../../fdm/menu/macmainmenu.cpp:133
-msgctxt "MacMainMenu|"
-msgid "Start Selected"
-msgstr "Запустить выбранные загрузки"
-
-#: ../../fdm/menu/macmainmenu.cpp:134
-msgctxt "MacMainMenu|"
-msgid "Pause Selected"
-msgstr "Поставить на паузу выбранные загрузки"
-
-#: ../../fdm/menu/macmainmenu.cpp:135
-msgctxt "MacMainMenu|"
-msgid "Restart Selected"
-msgstr "Перезапустить выбранные загрузки"
-
-#: ../../fdm/menu/macmainmenu.cpp:129 ../../fdm/menu/macmainmenu.cpp:136
-msgctxt "MacMainMenu|"
-msgid "Remove from List"
-msgstr "Удалить из списка"
-
-#: ../../fdm/menu/macmainmenu.cpp:145
-msgctxt "MacMainMenu|"
-msgid "Help"
-msgstr "Помощь"
-
-#: ../../fdm/menu/macmainmenu.cpp:139
-msgctxt "MacMainMenu|"
-msgid "Contact Support"
-msgstr "Служба поддержки"
-
-#: ../../fdm/menu/macmainmenu.cpp:140
-msgctxt "MacMainMenu|"
-msgid "Vote for New Features"
-msgstr "Проголосовать за новые опции"
-
-#: ../../fdm/menu/macmainmenu.cpp:131
-msgctxt "MacMainMenu|"
-msgid "Preferences..."
-msgstr "Настройки..."
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:8
 msgctxt "QObject|"
@@ -459,7 +487,7 @@ msgstr "Помощь"
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:14
 msgctxt "QObject|"
 msgid "Something went wrong with internal downloads."
-msgstr ""
+msgstr "Что-то пошло не так с внутренними ссылками."
 
 #: ../../fdm/rpc/rpclocalization.cpp:7
 msgctxt "RPCLocalization|"
@@ -474,7 +502,7 @@ msgstr "Перетащите "
 #: ../../fdm/rpc/rpclocalization.cpp:10
 msgctxt "RPCLocalization|"
 msgid "URL or torrent here"
-msgstr "ссылки или торрент-файлы сюда"
+msgstr "ссылки или торрент-файлы в это поле"
 
 #: ../../fdm/rpc/rpclocalization.cpp:11
 msgctxt "RPCLocalization|"
@@ -582,7 +610,7 @@ msgstr "Размер файла:"
 #: ../../fdm/rpc/rpclocalization.cpp:34
 msgctxt "RPCLocalization|"
 msgid "Disk space:"
-msgstr "Свободное место на диске:"
+msgstr "Свободно на диске:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:35
 msgctxt "RPCLocalization|"
@@ -898,7 +926,7 @@ msgstr "Выбрать все"
 #: ../../fdm/rpc/rpclocalization.cpp:88
 msgctxt "RPCLocalization|"
 msgid "Select none"
-msgstr "Убрать выделение"
+msgstr "Снять выделение"
 
 #: ../../fdm/rpc/rpclocalization.cpp:89
 msgctxt "RPCLocalization|"
@@ -1064,12 +1092,12 @@ msgstr "Служба поддержки"
 #: ../../fdm/rpc/rpclocalization.cpp:120
 msgctxt "RPCLocalization|"
 msgid "Auto shutdown"
-msgstr "Автоматическое выключение"
+msgstr "Автоматическое выключение компьютера"
 
 #: ../../fdm/rpc/rpclocalization.cpp:121
 msgctxt "RPCLocalization|"
 msgid "Sleep"
-msgstr "Сон"
+msgstr "Перевести в режим сна"
 
 #: ../../fdm/rpc/rpclocalization.cpp:122
 msgctxt "RPCLocalization|"
@@ -1202,7 +1230,7 @@ msgstr "Многовато будет."
 #: ../../fdm/rpc/rpclocalization.cpp:146
 msgctxt "RPCLocalization|"
 msgid "General"
-msgstr "Общие"
+msgstr "Основные"
 
 #: ../../fdm/rpc/rpclocalization.cpp:147
 msgctxt "RPCLocalization|"
@@ -1243,12 +1271,12 @@ msgstr "Прокси"
 #: ../../fdm/rpc/rpclocalization.cpp:154
 msgctxt "RPCLocalization|"
 msgid "No proxy"
-msgstr "Не использовать прокси"
+msgstr "Не использовать "
 
 #: ../../fdm/rpc/rpclocalization.cpp:155
 msgctxt "RPCLocalization|"
 msgid "System proxy"
-msgstr "Системный прокси-сервер"
+msgstr "Использовать системные настройки"
 
 #: ../../fdm/rpc/rpclocalization.cpp:156
 msgctxt "RPCLocalization|"
@@ -1314,7 +1342,7 @@ msgstr "Запускать при старте системы"
 #: ../../fdm/rpc/rpclocalization.cpp:168
 msgctxt "RPCLocalization|"
 msgid "Open at Login"
-msgstr "Открывать при входе"
+msgstr "Запускать при включении компьютера"
 
 #: ../../fdm/rpc/rpclocalization.cpp:169
 msgctxt "RPCLocalization|"
@@ -1410,12 +1438,12 @@ msgstr "Всегда спрашивать"
 #: ../../fdm/rpc/rpclocalization.cpp:188
 msgctxt "RPCLocalization|"
 msgid "Don't catch downloads from"
-msgstr "Не перехватывать загрузки"
+msgstr "Не перехватывать загрузки с доменов"
 
 #: ../../fdm/rpc/rpclocalization.cpp:189
 msgctxt "RPCLocalization|"
 msgid "Catch links without confirmation"
-msgstr "Перехватывать без подтверждения"
+msgstr "Загружать файлы без окна подтверждения FDM"
 
 #: ../../fdm/rpc/rpclocalization.cpp:190
 #, fuzzy
@@ -1514,12 +1542,12 @@ msgstr "Кбайт"
 #: ../../fdm/rpc/rpclocalization.cpp:208
 msgctxt "RPCLocalization|"
 msgid "Skip files with extensions:"
-msgstr "Пропускать файлы в формате:"
+msgstr "Не перехватывать файлы с расширениями:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:209
 msgctxt "RPCLocalization|"
 msgid "Add FDM to browser context menu"
-msgstr "Добавить FDM в контекстное меню браузера"
+msgstr "Добавить опции FDM в контекстное меню браузера"
 
 #: ../../fdm/rpc/rpclocalization.cpp:210
 msgctxt "RPCLocalization|"
@@ -1572,7 +1600,7 @@ msgstr "Скорость отдачи"
 #: ../../fdm/rpc/rpclocalization.cpp:219
 msgctxt "RPCLocalization|"
 msgid "Maximum number of connections"
-msgstr "Максимальное количество подключений"
+msgstr "Максимальное количество соединений"
 
 #: ../../fdm/rpc/rpclocalization.cpp:220
 msgctxt "RPCLocalization|"
@@ -1625,7 +1653,7 @@ msgstr "ГБ"
 #: ../../fdm/rpc/rpclocalization.cpp:229
 msgctxt "RPCLocalization|"
 msgid "Power management"
-msgstr "Режим энергопотребления"
+msgstr "Энергопотребление"
 
 #: ../../fdm/rpc/rpclocalization.cpp:230
 msgctxt "RPCLocalization|"
@@ -1983,7 +2011,7 @@ msgstr[2] "%nлет"
 #: ../../fdm/rpc/rpclocalization.cpp:298
 msgctxt "RPCLocalization|"
 msgid "Catch only when Alt is pressed"
-msgstr "Перехватывать ссылки, когда нажат Alt"
+msgstr "Перехватывать ссылки в браузерах только при нажатии Alt"
 
 #: ../../fdm/rpc/rpclocalization.cpp:299
 msgctxt "RPCLocalization|"
@@ -2040,7 +2068,7 @@ msgstr "Подсказка"
 #: ../../fdm/rpc/rpclocalization.cpp:321
 msgctxt "RPCLocalization|"
 msgid "Press Alt if you don't want FDM to automatically catch links."
-msgstr "Нажмите Alt, чтобы FDM не перехватывал ссылки автоматически."
+msgstr "Не перехватывать ссылки в браузерах при нажатии Alt."
 
 #: ../../fdm/rpc/rpclocalization.cpp:322
 msgctxt "RPCLocalization|"
@@ -2103,6 +2131,41 @@ msgctxt "RPCLocalization|"
 msgid "Close"
 msgstr "Закрыть"
 
+#: ../../fdm/rpc/rpclocalization.cpp:338
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "%1 left"
+msgstr "Осталось %1 "
+
+#: ../../fdm/rpc/rpclocalization.cpp:340
+msgctxt "RPCLocalization|"
+msgid "Browsers:"
+msgstr "Браузеры:"
+
+#: ../../fdm/rpc/rpclocalization.cpp:341
+#, fuzzy
+msgctxt "RPCLocalization|Advanced"
+msgid "Options"
+msgstr "Опции"
+
+#: ../../fdm/rpc/rpclocalization.cpp:342
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Done"
+msgstr "Завершено"
+
+#: ../../fdm/rpc/rpclocalization.cpp:343
+#, fuzzy
+msgctxt "RPCLocalization|tags panel"
+msgid "Completed"
+msgstr "Завершенные"
+
+#: ../../fdm/rpc/rpclocalization.cpp:346
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "%1 of %2"
+msgstr "%1 из %2"
+
 #: ../../fdm/rpc/rpclocalization.cpp:307
 msgctxt "RPCLocalization|"
 msgid "Enable Scheduler"
@@ -2160,49 +2223,49 @@ msgstr "До"
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:62
 msgctxt "TorrentDownload|"
 msgid "File priorities changed"
-msgstr ""
+msgstr "Изменены приоритеты файлов."
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:91
 msgctxt "TorrentDownload|"
 msgid "Stopping seeding"
-msgstr ""
+msgstr "Остановить раздачу"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:124
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading enabled"
-msgstr ""
+msgstr "Последовательное загрузка включена"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:125
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading disabled"
-msgstr ""
+msgstr "Последовательная загрузка отключена"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:141
 msgctxt "TorrentDownload|"
 msgid "Trackers merged"
-msgstr ""
+msgstr "Трекеры объединены"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:160
 msgctxt "TorrentDownload|"
 msgid "Starting seeding"
-msgstr ""
+msgstr "Начать раздачу"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:198
 msgctxt "TorrentDownload|"
 msgid "Unknown error occurred"
-msgstr ""
+msgstr "Произошла неизвестная ошибка"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:203
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Error occurred: %1"
-msgstr ""
+msgstr "Ошибка: %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:344
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Maximum number of connections is %1"
-msgstr ""
+msgstr "Максимальное количество соединений %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:345
 #, fuzzy
@@ -2213,56 +2276,56 @@ msgstr "без ограничений"
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:364
 msgctxt "TorrentDownload|"
 msgid "Download speed isn't limited"
-msgstr ""
+msgstr "Скорость загрузки не ограничена"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:365
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Download speed is limited to %1/s"
-msgstr ""
+msgstr "Скорость загрузки ограничена до %1/s"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:383
 msgctxt "TorrentDownload|"
 msgid "Upload speed isn't limited"
-msgstr ""
+msgstr "Скорость отдачи не ограничена"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:384
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Upload speed is limited to %1/s"
-msgstr ""
+msgstr "Скорость отдачи ограничена до %1/s"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:457
 msgctxt "TorrentDownload|"
 msgid "Pausing download"
-msgstr ""
+msgstr "Приостановка загрузки"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:467
 msgctxt "TorrentDownload|"
 msgid "Download paused"
-msgstr ""
+msgstr "Загрузка приостановлена"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:544
 msgctxt "TorrentDownload|"
 msgid "Files are missing"
-msgstr ""
+msgstr "Файлы отсутствуют"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:546
 msgctxt "TorrentDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "Файл отсутствует"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:584
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:938
 msgctxt "TorrentDownload|"
 msgid "Starting download"
-msgstr ""
+msgstr "Начало загрузки"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:604
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:943
 msgctxt "TorrentDownload|"
 msgid "Checking files"
-msgstr ""
+msgstr "Проверка файлов"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:632
 #, fuzzy
@@ -2273,119 +2336,119 @@ msgstr "Загрузка"
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:671
 msgctxt "TorrentDownload|"
 msgid "Download complete"
-msgstr ""
+msgstr "Загрузка завершена"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:721
 msgctxt "TorrentDownload|"
 msgid "Cannot move files recursively"
-msgstr ""
+msgstr "Не удается рекурсивно переместить файлы"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:730
 msgctxt "TorrentDownload|"
 msgid "Changing destination folder"
-msgstr ""
+msgstr "Изменение папки назначения"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:745
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving files to %1"
-msgstr ""
+msgstr "Перемещение файлов в %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:747
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file to %1"
-msgstr ""
+msgstr "Перемещение файла в %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1003
 msgctxt "TorrentDownload|"
 msgid "Waiting for metadata"
-msgstr ""
+msgstr "Ожидание метаданных"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1075
 msgctxt "TorrentDownload|"
 msgid "Updating"
-msgstr ""
+msgstr "Идет обновление"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1077
 msgctxt "TorrentDownload|"
 msgid "Working"
-msgstr ""
+msgstr "В работе"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1270
 msgctxt "TorrentDownload|"
 msgid "Metadata received"
-msgstr ""
+msgstr "Получены метаданные."
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1358
 msgctxt "TorrentDownload|"
 msgid "User authorization required"
-msgstr ""
+msgstr "Требуется авторизация пользователя"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1383
 msgctxt "TorrentDownload|"
 msgid "Mapped files to new directory"
-msgstr ""
+msgstr "Файлы будут сохранены в новой папке."
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1385
 msgctxt "TorrentDownload|"
 msgid "Mapped file to new directory"
-msgstr ""
+msgstr "Файл будет сохранен в новой папке"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1420
 msgctxt "TorrentDownload|"
 msgid "Files moving failed"
-msgstr ""
+msgstr "Не удалось переместить файлы"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1422
 msgctxt "TorrentDownload|"
 msgid "Moving file failed"
-msgstr ""
+msgstr "Не удалось переместить файл"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1494
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving declined: %1"
-msgstr ""
+msgstr "Отклонено перемещение файлов: %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1496
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file declined: %1"
-msgstr ""
+msgstr "Отклонено перемещение файла: %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1508
 msgctxt "TorrentDownload|"
 msgid "Moved successfully"
-msgstr ""
+msgstr "Операция перемещения завершена успешно"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1512
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr ", средняя скорость: %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1539
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving failed: %1"
-msgstr ""
+msgstr "Не удалось переместить файлы: %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1541
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file failed: %1"
-msgstr ""
+msgstr "Не удалось переместить файл: %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1559
 msgctxt "TorrentDownload|"
 msgid "Files moving cancelled"
-msgstr ""
+msgstr "Перемещение файлов отменено"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1561
 msgctxt "TorrentDownload|"
 msgid "Moving file cancelled"
-msgstr ""
+msgstr "Перемещение файла отменено"
 
 #: ../../fdm/menu/traymenu.cpp:42
 msgctxt "TrayMenu|"
@@ -2395,7 +2458,7 @@ msgstr "Открыть главное окно"
 #: ../../fdm/menu/traymenu.cpp:53
 msgctxt "TrayMenu|"
 msgid "Open at Login"
-msgstr "Открывать при входе"
+msgstr "Запускать при включении компьютера"
 
 #: ../../fdm/menu/traymenu.cpp:55
 msgctxt "TrayMenu|"
@@ -2626,29 +2689,29 @@ msgstr "%1 M"
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:881
 msgctxt "YoutubeDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "Файл отсутствует."
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:335
 msgctxt "YoutubeDownload|"
 msgid "Error: files are missing."
-msgstr ""
+msgstr "Ошибка: отсутствуют файлы."
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:352
 msgctxt "YoutubeDownload|"
 msgid "Files moved successfully"
-msgstr ""
+msgstr "Файлы успешно перемещены"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:409
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving to %1"
-msgstr ""
+msgstr "Перемещение в  %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:896
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1253
 msgctxt "YoutubeDownload|"
 msgid "Merging failed"
-msgstr ""
+msgstr "Ошибка объединения"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:906
 #, fuzzy
@@ -2659,91 +2722,91 @@ msgstr "Обработка файлов"
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:936
 msgctxt "YoutubeDownload|"
 msgid "Redirecting"
-msgstr ""
+msgstr "Переадресация"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:937
 msgctxt "YoutubeDownload|"
 msgid "Handling redirect"
-msgstr ""
+msgstr "Переадресация"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:942
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "AudioStream: %1"
-msgstr ""
+msgstr "Аудиопоток: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:943
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "VideoStream: %1"
-msgstr ""
+msgstr "Видеопоток: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:995
 msgctxt "YoutubeDownload|"
 msgid "Downloading page"
-msgstr ""
+msgstr "Загрузка страницы"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1023
 msgctxt "YoutubeDownload|"
 msgid "Page is downloaded"
-msgstr ""
+msgstr "Страница загрузилась"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1068
 msgctxt "YoutubeDownload|"
 msgid "Launching parser"
-msgstr ""
+msgstr "Запуск анализа"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1101
 msgctxt "YoutubeDownload|"
 msgid "Page is parsed"
-msgstr ""
+msgstr "Анализ страницы"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1150
 msgctxt "YoutubeDownload|"
 msgid "Can't find URLs for this quality"
-msgstr ""
+msgstr "Не удается найти ссылки для выбранного качества"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1183
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Parsing failure: %1"
-msgstr ""
+msgstr "Сбой анализа: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1232
 msgctxt "YoutubeDownload|"
 msgid "Download complete"
-msgstr ""
+msgstr "Загрузка завершена"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1352
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving operation has been declined: %1"
-msgstr ""
+msgstr "Операция перемещения отклонена: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1362
 msgctxt "YoutubeDownload|"
 msgid "Moved successfully"
-msgstr ""
+msgstr "Операция перемещения завершена успешно"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1366
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr ", средняя скорость: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1394
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "File is renamed to %1"
-msgstr ""
+msgstr "Файл переименован в \"%1\""
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1448
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving operation failed: %1"
-msgstr ""
+msgstr "Операция перемещения не удалась: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1460
 msgctxt "YoutubeDownload|"
 msgid "Moving operation cancelled."
-msgstr ""
+msgstr "Операция перемещения отменена."
