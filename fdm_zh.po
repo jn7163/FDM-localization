@@ -28,7 +28,9 @@ msgstr "通过FDM下载"
 msgid ""
 "An error occurred while trying to transfer downloads to FDM.\n"
 "Error: 0x%x."
-msgstr "试图传递下载项到FDM时发生了一个错误。\n错误：0x%x"
+msgstr ""
+"试图传递下载项到FDM时发生了一个错误。\n"
+"错误：0x%x"
 
 #: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:54
 msgid ""
@@ -42,7 +44,6 @@ msgid "Skip"
 msgstr "跳过"
 
 #: ../../fdm/downloads/downloadfiletree.cpp:8
-#, fuzzy
 msgctxt "DownloadFileInfo|"
 msgid "Low"
 msgstr "低"
@@ -53,13 +54,11 @@ msgid "Normal"
 msgstr "正常"
 
 #: ../../fdm/downloads/downloadfiletree.cpp:10
-#, fuzzy
 msgctxt "DownloadFileInfo|"
 msgid "High"
 msgstr "高"
 
 #: ../../fdm/downloads/downloadinfo.cpp:5
-#, fuzzy
 msgctxt "DownloadInfo|"
 msgid "Low"
 msgstr "低"
@@ -70,7 +69,6 @@ msgid "Normal"
 msgstr "正常"
 
 #: ../../fdm/downloads/downloadinfo.cpp:7
-#, fuzzy
 msgctxt "DownloadInfo|"
 msgid "High"
 msgstr "高"
@@ -82,7 +80,6 @@ msgid "Maximum number of connections is %1"
 msgstr "最大连接数为%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:128
-#, fuzzy
 msgctxt "HttpFileDownload|"
 msgid "unlimited"
 msgstr "不限制"
@@ -347,7 +344,6 @@ msgctxt "MacMainMenu|"
 msgid "Edit"
 msgstr "编辑"
 
-#, fuzzy
 #~ msgctxt "MacMainMenu|"
 #~ msgid "Select All"
 #~ msgstr "选择全部"
@@ -364,7 +360,6 @@ msgid "Check for Updates..."
 msgstr "检查更新"
 
 #: ../../fdm/menu/macmainmenu.cpp:178
-#, fuzzy
 msgctxt "MacMainMenu|"
 msgid "Downloads"
 msgstr "下载"
@@ -405,13 +400,11 @@ msgid "Vote for New Features"
 msgstr "为新功能投票"
 
 #: ../../fdm/menu/macmainmenu.cpp:164
-#, fuzzy
 msgctxt "MacMainMenu|"
 msgid "Preferences..."
 msgstr "选项…"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:8
-#, fuzzy
 msgctxt "QObject|"
 msgid "About Free Download Manager"
 msgstr "关于Free Download Manager"
@@ -467,7 +460,6 @@ msgid "File"
 msgstr "文件"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:19
-#, fuzzy
 msgctxt "QObject|"
 msgid "Select All"
 msgstr "选择全部"
@@ -1018,7 +1010,7 @@ msgid "Downloading, Allocating disk space..."
 msgstr "下载中，分配磁盘空间中…"
 
 #: ../../fdm/rpc/rpclocalization.cpp:110
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "Completed %n / %2 files"
 msgid_plural "Completed %n / %2 files"
@@ -1170,14 +1162,14 @@ msgid "Are you sure it's not too long?"
 msgstr "您确定这不是太久吗？"
 
 #: ../../fdm/rpc/rpclocalization.cpp:140
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "Only %n records? FDM can store much more!"
 msgid_plural "Only %n records? FDM can store much more!"
 msgstr[0] "只有%n条记录？FDM可以记录更多！"
 
 #: ../../fdm/rpc/rpclocalization.cpp:141
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%n records is too many to save."
 msgid_plural "%n records is too many to save."
@@ -1224,7 +1216,6 @@ msgid "Traffic Limits"
 msgstr "流量限制"
 
 #: ../../fdm/rpc/rpclocalization.cpp:150
-#, fuzzy
 msgctxt "RPCLocalization|settings"
 msgid "Traffic Limits"
 msgstr "流量限制"
@@ -1290,7 +1281,6 @@ msgid "Login"
 msgstr "登录名"
 
 #: ../../fdm/rpc/rpclocalization.cpp:163
-#, fuzzy
 msgctxt "RPCLocalization|settings"
 msgid "Login"
 msgstr "登录名"
@@ -1336,7 +1326,6 @@ msgid "Update"
 msgstr "更新"
 
 #: ../../fdm/rpc/rpclocalization.cpp:172
-#, fuzzy
 msgctxt "RPCLocalization|settings"
 msgid "Update"
 msgstr "更新"
@@ -1592,7 +1581,6 @@ msgid "Clear history older than"
 msgstr "清除历史记录久于"
 
 #: ../../fdm/rpc/rpclocalization.cpp:224
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "days"
 msgid_plural "days"
@@ -1920,42 +1908,42 @@ msgid "New version is available"
 msgstr "新版本可用"
 
 #: ../../fdm/rpc/rpclocalization.cpp:289
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%ns"
 msgid_plural "%ns"
 msgstr[0] "%n秒"
 
 #: ../../fdm/rpc/rpclocalization.cpp:290
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nm"
 msgid_plural "%nm"
 msgstr[0] "%n分钟"
 
 #: ../../fdm/rpc/rpclocalization.cpp:291
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nh"
 msgid_plural "%nh"
 msgstr[0] "%n小时"
 
 #: ../../fdm/rpc/rpclocalization.cpp:292
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nd"
 msgid_plural "%nd"
 msgstr[0] "%n天"
 
 #: ../../fdm/rpc/rpclocalization.cpp:293
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nw"
 msgid_plural "%nw"
 msgstr[0] "%n周"
 
 #: ../../fdm/rpc/rpclocalization.cpp:294
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%ny"
 msgid_plural "%ny"
@@ -2165,7 +2153,6 @@ msgid "Done"
 msgstr "已完成"
 
 #: ../../fdm/rpc/rpclocalization.cpp:343
-#, fuzzy
 msgctxt "RPCLocalization|tags panel"
 msgid "Completed"
 msgstr "已完成"
@@ -2224,7 +2211,6 @@ msgid "Maximum number of connections is %1"
 msgstr "最大连接数为%1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:345
-#, fuzzy
 msgctxt "TorrentDownload|"
 msgid "unlimited"
 msgstr "不限制"
@@ -2411,7 +2397,6 @@ msgid "Show main window"
 msgstr "显示主窗口"
 
 #: ../../fdm/menu/traymenu.cpp:53
-#, fuzzy
 msgctxt "TrayMenu|"
 msgid "Open at Login"
 msgstr "在登录时打开"
@@ -2422,7 +2407,6 @@ msgid "Launch at startup"
 msgstr "在启动时打开"
 
 #: ../../fdm/menu/traymenu.cpp:66
-#, fuzzy
 msgctxt "TrayMenu|"
 msgid "About FDM"
 msgstr "关于FDM"
@@ -2433,7 +2417,6 @@ msgid "Quit FDM"
 msgstr "退出FDM"
 
 #: ../../fdm/menu/traymenu.cpp:74
-#, fuzzy
 msgctxt "TrayMenu|"
 msgid "Quit"
 msgstr "退出"
@@ -2456,13 +2439,11 @@ msgid "Open"
 msgstr "打开"
 
 #: ../../fdm/uihelper.cpp:207 ../../fdm/uihelper.cpp:436
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Reveal in Finder"
 msgstr "在Finder中显示"
 
 #: ../../fdm/uihelper.cpp:209 ../../fdm/uihelper.cpp:438
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Show in folder"
 msgstr "在文件夹中显示"
@@ -2493,7 +2474,6 @@ msgid "Restart selected"
 msgstr "重启选中项"
 
 #: ../../fdm/uihelper.cpp:252
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Restart"
 msgstr "重启"
@@ -2504,7 +2484,6 @@ msgid "Set priority"
 msgstr "设置优先级"
 
 #: ../../fdm/uihelper.cpp:290
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Move to..."
 msgstr "移到…"
@@ -2515,31 +2494,26 @@ msgid "Download to..."
 msgstr "下载到…"
 
 #: ../../fdm/uihelper.cpp:306
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Move to trash"
 msgstr "移到回收站"
 
 #: ../../fdm/uihelper.cpp:308
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Delete files"
 msgstr "删除文件"
 
 #: ../../fdm/uihelper.cpp:308
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Delete file"
 msgstr "删除文件"
 
 #: ../../fdm/uihelper.cpp:315
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Remove from list"
 msgstr "从列表移除"
 
 #: ../../fdm/uihelper.cpp:323
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Enable seeding"
 msgstr "启用做种"
@@ -2681,7 +2655,6 @@ msgid "Merging failed"
 msgstr "合并失败"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:906
-#, fuzzy
 msgctxt "YoutubeDownload|"
 msgid "Merging media streams"
 msgstr "合并媒体流"
