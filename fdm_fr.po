@@ -8,6 +8,34 @@ msgstr ""
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:22
+msgid "Download with FDM"
+msgstr ""
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:30
+msgid "Download selected with FDM"
+msgstr ""
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:34
+msgid "Download video with FDM"
+msgstr ""
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:38
+msgid "Download by FDM"
+msgstr ""
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:50
+msgid ""
+"An error occurred while trying to transfer downloads to FDM.\n"
+"Error: 0x%x."
+msgstr ""
+
+#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:54
+msgid ""
+"There were no flash videos found on this page. Make sure the videos on this "
+"page are playing or try to reload it (refresh page or clear browser's cache)."
+msgstr ""
+
 #: ../../fdm/downloads/downloadfiletree.cpp:7
 #, fuzzy
 msgctxt "DownloadFileInfo|"
@@ -18,7 +46,7 @@ msgstr "Ignorer"
 #, fuzzy
 msgctxt "DownloadFileInfo|"
 msgid "Low"
-msgstr "Faible"
+msgstr "Faible "
 
 #: ../../fdm/downloads/downloadfiletree.cpp:9
 #, fuzzy
@@ -36,7 +64,7 @@ msgstr "Haut"
 #, fuzzy
 msgctxt "DownloadInfo|"
 msgid "Low"
-msgstr "Faible"
+msgstr "Faible "
 
 #: ../../fdm/downloads/downloadinfo.cpp:6
 msgctxt "DownloadInfo|"
@@ -53,304 +81,354 @@ msgstr "Haut"
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Maximum number of connections is %1"
-msgstr ""
+msgstr "Nombre maximal de connexions : %1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:128
 #, fuzzy
 msgctxt "HttpFileDownload|"
 msgid "unlimited"
-msgstr "illimité"
+msgstr "illimité "
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:149
 msgctxt "HttpFileDownload|"
 msgid "Download speed isn't limited"
-msgstr ""
+msgstr "La vitesse de téléchargement ne se limite pas"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:150
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Download speed is limited to %1/s"
-msgstr ""
+msgstr "La vitesse de téléchargement est limitée à %1/s"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:190
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:195
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:324
 msgctxt "HttpFileDownload|"
 msgid "Can't resume downloading file"
-msgstr ""
+msgstr "Ne peux pas reprendre le téléchargement de fichier"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:269
 #, fuzzy
 msgctxt "HttpFileDownload|"
 msgid "Reconnecting"
-msgstr "Reconnexion..."
+msgstr "Reconnexion "
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:270
 msgctxt "HttpFileDownload|"
 msgid "Starting download"
-msgstr ""
+msgstr "Démarrage du téléchargement"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:308
 msgctxt "HttpFileDownload|"
 msgid "Pausing download"
-msgstr ""
+msgstr "Suspendre le téléchargement"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:336
 msgctxt "HttpFileDownload|"
 msgid "Can't resume downloading: URL changed"
-msgstr ""
+msgstr "Vous ne pouvez pas reprendre le téléchargement: URL modifiée"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:477
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Moving file to %1"
-msgstr ""
+msgstr "Déplacement des fichiers dans %1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:487
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1046
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "The name \"%1\" is already taken. Renaming to %2"
-msgstr ""
+msgstr "Le nom \"%1\" est déjà pris. Renommarе « %2 »"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:557
 msgctxt "HttpFileDownload|"
 msgid "Restarting download"
-msgstr ""
+msgstr "Reprendre de téléchargement"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:566
 msgctxt "HttpFileDownload|"
 msgid "Failed to clear contents of original file."
-msgstr ""
+msgstr "Impossible d'effacer le contenu du fichier d'origine."
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:613
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "File is renamed to %1"
-msgstr ""
+msgstr "Fichier renommé « %1 »."
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:703
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Opening connection %1"
-msgstr ""
+msgid "Opening connection #%1"
+msgstr "Ouverture de la connexion #%1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:871
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Connection %1 closed"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:891
-msgctxt "HttpFileDownload|"
-msgid "Opening file on disk..."
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:922
-msgctxt "HttpFileDownload|"
-msgid "File is missing"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:988
-msgctxt "HttpFileDownload|"
-msgid "Download complete"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1009
-msgctxt "HttpFileDownload|"
-msgid "Removing temporary file extension"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1149
-msgctxt "HttpFileDownload|"
-msgid "Preallocating disk space for download"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1307
-msgctxt "HttpFileDownload|"
-msgid "File changed on remote server"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1422
-msgctxt "HttpFileDownload|"
-msgid "Failed writing received data to file"
-msgstr ""
+msgid "#%1 closed"
+msgstr "#%1 fermé"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1430
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Connection %1 receiving data"
-msgstr ""
+msgid "#%1 receiving data"
+msgstr "#%1 réception des données."
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1485
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid ", downloaded: %1"
-msgstr ""
+msgid "downloaded %1"
+msgstr "téléchargé %1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1490
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid ", average speed: %1/s"
-msgstr ""
+msgid "(%1/s)"
+msgstr "(%1/s)"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1493
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1547
 #, qt-format
 msgctxt "HttpFileDownload|"
-msgid "Connection %1 finished receiving data%2%3"
-msgstr ""
+msgid "#%1: server ignored partial content request"
+msgstr "#%1: serveur ignoré demande contenu partiel"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1580
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "#%1 failed with error: %2"
+msgstr "#%1 a échoué avec l’erreur : %2"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:891
+msgctxt "HttpFileDownload|"
+msgid "Opening file on disk..."
+msgstr "Ouverture du fichier sur le disque ..."
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:922
+msgctxt "HttpFileDownload|"
+msgid "File is missing"
+msgstr "Le fichier est manquant"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:988
+msgctxt "HttpFileDownload|"
+msgid "Download complete"
+msgstr "\tTéléchargement terminé"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1009
+msgctxt "HttpFileDownload|"
+msgid "Removing temporary file extension"
+msgstr "Retrait extension de fichier temporaire"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1149
+msgctxt "HttpFileDownload|"
+msgid "Preallocating disk space for download"
+msgstr "Pré espace disque allouer pour le téléchargement"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1307
+msgctxt "HttpFileDownload|"
+msgid "File changed on remote server"
+msgstr "Fichier modifié sur le serveur distant"
+
+#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1422
+msgctxt "HttpFileDownload|"
+msgid "Failed writing received data to file"
+msgstr "Échec écrit a reçu des données pour déposer"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1526
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Redirecting to %1"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1547
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1: server ignored partial content request"
-msgstr ""
-
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1580
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1 failed with error: %2"
-msgstr ""
+msgstr "Redirection vers %1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1619
 msgctxt "HttpFileDownload|"
 msgid "File moved successfully"
-msgstr ""
+msgstr "Fichier déplacé avec succès"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1627
 msgctxt "HttpFileDownload|"
 msgid "Moving file failed"
-msgstr ""
+msgstr "Déplacement de fichiers a échoué"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1698
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1774
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Preallocation failed: %1"
-msgstr ""
+msgstr "Préallocation a échoué:% 1"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1708
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "%1 finished successfully"
-msgstr ""
+msgstr "%1 a terminé avec succès"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1714
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr ", vitesse moyenne: 1%"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1722
 msgctxt "HttpFileDownload|"
 msgid "Space allocation"
-msgstr ""
+msgstr "Allocation d'espace"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1748
 msgctxt "HttpFileDownload|"
 msgid "Move"
-msgstr ""
+msgstr "Déplacer"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1787
 msgctxt "HttpFileDownload|"
 msgid "Preallocation cancelled"
-msgstr ""
+msgstr "Préallocation annulé"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1802
 msgctxt "HttpFileDownload|"
 msgid "Preallocating queued"
-msgstr ""
+msgstr "Préallocation en file d'attente"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1812
 msgctxt "HttpFileDownload|"
 msgid "Preallocating started"
-msgstr ""
+msgstr "Préallocation commencé"
 
-#: ../../fdm/menu/macmainmenu.cpp:143
-#, fuzzy
+#, qt-format
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Opening connection %1"
+#~ msgstr "Ouverture de la connexion %1"
+
+#, qt-format
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Connection %1 closed"
+#~ msgstr "La connexion %1 est fermée."
+
+#, qt-format
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Connection %1 receiving data"
+#~ msgstr "Connection %1 reçoit des données"
+
+#, qt-format
+#~ msgctxt "HttpFileDownload|"
+#~ msgid ", downloaded: %1"
+#~ msgstr ", téléchargement:%1"
+
+#, qt-format
+#~ msgctxt "HttpFileDownload|"
+#~ msgid ", average speed: %1/s"
+#~ msgstr ", vitesse moyenne: %1/s"
+
+#, qt-format
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Connection %1 finished receiving data%2%3"
+#~ msgstr "Connexion %1 a terminé de recevoir des données %2%3"
+
+#, qt-format
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Connection %1: server ignored partial content request"
+#~ msgstr "Connection %1: serveur ignoré demande contenu partiel"
+
+#, qt-format
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Connection %1 failed with error: %2"
+#~ msgstr "Connexion %1 a échoué avec l'erreur: % 2"
+
+#: ../../fdm/menu/macmainmenu.cpp:177
 msgctxt "MacMainMenu|"
 msgid "File"
-msgstr "Fichiers"
+msgstr "Fichier"
 
-#: ../../fdm/menu/macmainmenu.cpp:53 ../../fdm/menu/macmainmenu.cpp:137
-#, fuzzy
+#: ../../fdm/menu/macmainmenu.cpp:54 ../../fdm/menu/macmainmenu.cpp:170
 msgctxt "MacMainMenu|"
 msgid "Add Download from URL..."
-msgstr "Ajouter un nouveau téléchargement..."
+msgstr "Ajouter Télécharger depuis l'URL..."
 
-# main menu
-#: ../../fdm/menu/macmainmenu.cpp:57 ../../fdm/menu/macmainmenu.cpp:138
-#, fuzzy
+#: ../../fdm/menu/macmainmenu.cpp:58 ../../fdm/menu/macmainmenu.cpp:171
 msgctxt "MacMainMenu|"
 msgid "Open Torrent File..."
-msgstr "Ouvrir un fichier torrent..."
+msgstr "Ouvrir Torrent fichier"
 
-#: ../../fdm/menu/macmainmenu.cpp:130
+#: ../../fdm/menu/macmainmenu.cpp:110 ../../fdm/menu/macmainmenu.cpp:180
+#, fuzzy
+msgctxt "MacMainMenu|"
+msgid "Edit"
+msgstr "Modifier"
+
+#, fuzzy
+#~ msgctxt "MacMainMenu|"
+#~ msgid "Cut"
+#~ msgstr "Couper"
+
+#, fuzzy
+#~ msgctxt "MacMainMenu|"
+#~ msgid "Copy"
+#~ msgstr "Copier"
+
+#, fuzzy
+#~ msgctxt "MacMainMenu|"
+#~ msgid "Paste"
+#~ msgstr "Coller"
+
+#, fuzzy
+#~ msgctxt "MacMainMenu|"
+#~ msgid "Select All"
+#~ msgstr "Tout sélectionner "
+
+#: ../../fdm/menu/macmainmenu.cpp:163
 #, fuzzy, qt-format
 msgctxt "MacMainMenu|"
 msgid "About %1"
-msgstr "À propos de %1"
+msgstr "A propos de %1"
 
-#: ../../fdm/menu/macmainmenu.cpp:132
+#: ../../fdm/menu/macmainmenu.cpp:165
 #, fuzzy
 msgctxt "MacMainMenu|"
 msgid "Check for Updates..."
-msgstr "Recherche de mises à jour..."
+msgstr "Rechercher les mises à jour..."
 
-#: ../../fdm/menu/macmainmenu.cpp:144
+#: ../../fdm/menu/macmainmenu.cpp:178
 #, fuzzy
 msgctxt "MacMainMenu|"
 msgid "Downloads"
-msgstr "Téléchargements"
+msgstr "Téléchargements "
 
-#: ../../fdm/menu/macmainmenu.cpp:133
-#, fuzzy
+#: ../../fdm/menu/macmainmenu.cpp:166
 msgctxt "MacMainMenu|"
 msgid "Start Selected"
-msgstr "Démarrer les sélectionnés"
+msgstr "Démarrer sélectionné"
 
-#: ../../fdm/menu/macmainmenu.cpp:134
-#, fuzzy
+#: ../../fdm/menu/macmainmenu.cpp:167
 msgctxt "MacMainMenu|"
 msgid "Pause Selected"
-msgstr "Mettre en pause les sélectionnés"
+msgstr "Pause sélectionné"
 
-#: ../../fdm/menu/macmainmenu.cpp:135
-#, fuzzy
+#: ../../fdm/menu/macmainmenu.cpp:168
 msgctxt "MacMainMenu|"
 msgid "Restart Selected"
-msgstr "Démarrer les sélectionnés"
+msgstr "Redémarrer sélectionné"
 
-#: ../../fdm/menu/macmainmenu.cpp:129 ../../fdm/menu/macmainmenu.cpp:136
-#, fuzzy
+#: ../../fdm/menu/macmainmenu.cpp:162 ../../fdm/menu/macmainmenu.cpp:169
 msgctxt "MacMainMenu|"
 msgid "Remove from List"
-msgstr "Supprimer de la liste"
+msgstr "Retirer de la liste"
 
-#: ../../fdm/menu/macmainmenu.cpp:145
+#: ../../fdm/menu/macmainmenu.cpp:179
 msgctxt "MacMainMenu|"
 msgid "Help"
 msgstr "Aide"
 
-#: ../../fdm/menu/macmainmenu.cpp:139
-#, fuzzy
+#: ../../fdm/menu/macmainmenu.cpp:172
 msgctxt "MacMainMenu|"
 msgid "Contact Support"
 msgstr "Contacter le support"
 
-#: ../../fdm/menu/macmainmenu.cpp:140
-#, fuzzy
+#: ../../fdm/menu/macmainmenu.cpp:173
 msgctxt "MacMainMenu|"
 msgid "Vote for New Features"
-msgstr "Voter pour des nouvelles fonctionnalités"
+msgstr "Votez pour les nouvelles fonctionnalités"
 
-#: ../../fdm/menu/macmainmenu.cpp:131
+#: ../../fdm/menu/macmainmenu.cpp:164
 #, fuzzy
 msgctxt "MacMainMenu|"
 msgid "Preferences..."
@@ -360,19 +438,18 @@ msgstr "Préférences..."
 #, fuzzy
 msgctxt "QObject|"
 msgid "About Free Download Manager"
-msgstr "À propos de Free Download Manager"
+msgstr "A propos de Free Download Manager"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:9
 #, fuzzy
 msgctxt "QObject|"
 msgid "Preferences"
-msgstr "Préférences..."
+msgstr "Préférences"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:10
-#, fuzzy
 msgctxt "QObject|"
 msgid "Check for Updates..."
-msgstr "Recherche de mises à jour..."
+msgstr "Rechercher les mises à jour..."
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:11
 msgctxt "QObject|"
@@ -405,31 +482,28 @@ msgctxt "QObject|"
 msgid "Contact Support"
 msgstr "Contacter le support"
 
-# main menu
 #: ../../fdm/menu/mac/macmenudicitionary.h:17
 #, fuzzy
 msgctxt "QObject|"
 msgid "Open Torrent File..."
-msgstr "Ouvrir un fichier torrent..."
+msgstr "Ouvrir Torrent fichier"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:18
 #, fuzzy
 msgctxt "QObject|"
 msgid "File"
-msgstr "Fichiers"
+msgstr "Fichier"
 
-# download table header
 #: ../../fdm/menu/mac/macmenudicitionary.h:19
 #, fuzzy
 msgctxt "QObject|"
 msgid "Select All"
-msgstr "Tout sélectionner"
+msgstr "Tout sélectionner "
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:20
-#, fuzzy
 msgctxt "QObject|"
 msgid "Delete"
-msgstr "Supprimer fichier"
+msgstr "Supprimer"
 
 #: ../../fdm/menu/mac/macmenudicitionary.h:21
 msgctxt "QObject|"
@@ -461,12 +535,13 @@ msgstr "Aide"
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:14
 msgctxt "QObject|"
 msgid "Something went wrong with internal downloads."
-msgstr ""
+msgstr "Quelque chose se passait mal avec les téléchargements internes."
 
+# [ RPCLocalization| ] should be ignored. Translate the text from the 'Source text' field that corresponds the line. This is true for all lines with the marking.
 #: ../../fdm/rpc/rpclocalization.cpp:7
 msgctxt "RPCLocalization|"
 msgid "locale"
-msgstr "fr_FR"
+msgstr "locale"
 
 #: ../../fdm/rpc/rpclocalization.cpp:9
 msgctxt "RPCLocalization|"
@@ -484,17 +559,14 @@ msgid "Add tag"
 msgstr "Ajouter une étiquette"
 
 #: ../../fdm/rpc/rpclocalization.cpp:12
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Preferences"
-msgstr "Préférences..."
+msgstr "Préférences"
 
-# #-#-#-#-#  0catalog.po (1)  #-#-#-#-#
-# traffic panel
 #: ../../fdm/rpc/rpclocalization.cpp:14
 msgctxt "RPCLocalization|"
 msgid "Unlimited"
-msgstr "Illimité"
+msgstr "Illimité "
 
 #: ../../fdm/rpc/rpclocalization.cpp:15
 msgctxt "RPCLocalization|"
@@ -504,62 +576,62 @@ msgstr "Manuel..."
 #: ../../fdm/rpc/rpclocalization.cpp:16
 msgctxt "RPCLocalization|"
 msgid "Set limits manually"
-msgstr "Définir manuellement les limites"
+msgstr "Fixe les limites manuellement "
 
 #: ../../fdm/rpc/rpclocalization.cpp:18
 msgctxt "RPCLocalization|"
 msgid "Download: unlimited, Upload: unlimited"
-msgstr "Téléchargement : illimité,  Transfert: illimité"
+msgstr "Téléchargement: illimité, Chargement: illimité "
 
 #: ../../fdm/rpc/rpclocalization.cpp:19
 msgctxt "RPCLocalization|"
 msgid "Download:"
-msgstr "Téléchargement :"
+msgstr "Téléchargement: "
 
 #: ../../fdm/rpc/rpclocalization.cpp:20
 msgctxt "RPCLocalization|"
 msgid "Upload:"
-msgstr "Transfert :"
+msgstr "Chargement:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:21
 msgctxt "RPCLocalization|"
 msgid "unlimited"
-msgstr "illimité"
+msgstr "illimité "
 
 #: ../../fdm/rpc/rpclocalization.cpp:22
 msgctxt "RPCLocalization|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr ""
-"Le mode escargot libère la bande passante sans arrêter les téléchargements."
+"Le mode escargot libère la bande passante sans interrompre les "
+"téléchargements  "
 
 #: ../../fdm/rpc/rpclocalization.cpp:23
 msgctxt "RPCLocalization|"
 msgid "Hide details"
-msgstr "Masquer détails"
+msgstr "Masquer les détails"
 
 #: ../../fdm/rpc/rpclocalization.cpp:24
 msgctxt "RPCLocalization|"
 msgid "Show details"
-msgstr "Montrer détails"
+msgstr "Montrer les détails"
 
 #: ../../fdm/rpc/rpclocalization.cpp:25
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%n files selected."
 msgid_plural "%n files selected."
-msgstr[0] "Supprimer les sélectionnés"
-msgstr[1] "Supprimer les sélectionnés"
+msgstr[0] "%n fichier sélectionné."
+msgstr[1] "%n fichiers sélectionnés."
 
-# bottom panel
 #: ../../fdm/rpc/rpclocalization.cpp:26
 msgctxt "RPCLocalization|"
 msgid "Show in folder"
-msgstr "Montrer dans le dossier"
+msgstr "Afficher dans un dossier "
 
 #: ../../fdm/rpc/rpclocalization.cpp:27
 msgctxt "RPCLocalization|"
 msgid "Reveal in Finder"
-msgstr "Faire appparaître dans le Finder"
+msgstr "Montrer dans Finder"
 
 #: ../../fdm/rpc/rpclocalization.cpp:28
 msgctxt "RPCLocalization|"
@@ -569,95 +641,92 @@ msgstr "Pause"
 #: ../../fdm/rpc/rpclocalization.cpp:29
 msgctxt "RPCLocalization|"
 msgid "Restart"
-msgstr "Redémarrer"
+msgstr "Relancer"
 
 #: ../../fdm/rpc/rpclocalization.cpp:30
 msgctxt "RPCLocalization|"
 msgid "Start"
-msgstr "Démarrer"
+msgstr "Lancer"
 
 #: ../../fdm/rpc/rpclocalization.cpp:31
 msgctxt "RPCLocalization|"
 msgid "Selected size:"
-msgstr "Taille sélectionnée :"
+msgstr "Taille choisie: "
 
 #: ../../fdm/rpc/rpclocalization.cpp:32
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Size:"
-msgstr "Taille"
+msgstr "Taille:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:33
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "File size:"
-msgstr "Taille sélectionnée :"
+msgstr "Taille de fichier:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:34
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Disk space:"
-msgstr "Utilisation du disque"
+msgstr "Espace disque:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:35
 msgctxt "RPCLocalization|"
 msgid "Total size:"
-msgstr "Taille totale :"
+msgstr "Taille totale:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:36
 msgctxt "RPCLocalization|"
 msgid "Checked size:"
-msgstr "Taille vérifiée :"
+msgstr "Taille vérifiée: "
 
 #: ../../fdm/rpc/rpclocalization.cpp:37
 msgctxt "RPCLocalization|"
 msgid "Downloaded:"
-msgstr "Téléchargé :"
+msgstr "Téléchargé: "
 
 #: ../../fdm/rpc/rpclocalization.cpp:38
 msgctxt "RPCLocalization|"
 msgid "Download speed:"
-msgstr "Vitesse de téléchargement :"
+msgstr "Vitesse de téléchargement:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:39
 msgctxt "RPCLocalization|"
 msgid "Seeds:"
-msgstr "Seeds:"
+msgstr "Graines:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:40
 msgctxt "RPCLocalization|"
 msgid "Domain:"
-msgstr "Domaine :"
+msgstr "Domaine:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:41
 msgctxt "RPCLocalization|"
 msgid "Uploaded:"
-msgstr "Transféré :"
+msgstr "Chargé:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:42
 msgctxt "RPCLocalization|"
 msgid "Upload speed:"
-msgstr "Vitesse de Transfert :"
+msgstr "Vitesse de chargement: "
 
 #: ../../fdm/rpc/rpclocalization.cpp:43
 msgctxt "RPCLocalization|"
 msgid "Peers:"
-msgstr "Pairs :"
+msgstr "Pairs: "
 
 #: ../../fdm/rpc/rpclocalization.cpp:44
 msgctxt "RPCLocalization|"
 msgid "Share ratio:"
-msgstr "Ratio de partage:"
+msgstr "Taux de partage: "
 
 #: ../../fdm/rpc/rpclocalization.cpp:45
 msgctxt "RPCLocalization|"
 msgid "Availability:"
-msgstr "Disponibilité :"
+msgstr "Disponibilité:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:46
 msgctxt "RPCLocalization|"
 msgid "DHT nodes:"
-msgstr "Noeuds DHT :"
+msgstr "Nœuds DHT: "
 
 #: ../../fdm/rpc/rpclocalization.cpp:47
 msgctxt "RPCLocalization|"
@@ -677,17 +746,17 @@ msgstr "Drapeaux"
 #: ../../fdm/rpc/rpclocalization.cpp:50
 msgctxt "RPCLocalization|"
 msgid "Requests"
-msgstr "Requêtes"
+msgstr "Requêtes "
 
 #: ../../fdm/rpc/rpclocalization.cpp:51
 msgctxt "RPCLocalization|"
 msgid "Downloaded"
-msgstr "Téléchargé"
+msgstr "Téléchargé "
 
 #: ../../fdm/rpc/rpclocalization.cpp:52
 msgctxt "RPCLocalization|"
 msgid "Uploaded"
-msgstr "Transféré"
+msgstr "Chargé "
 
 #: ../../fdm/rpc/rpclocalization.cpp:53
 msgctxt "RPCLocalization|"
@@ -697,7 +766,7 @@ msgstr "Fichiers"
 #: ../../fdm/rpc/rpclocalization.cpp:54
 msgctxt "RPCLocalization|"
 msgid "Trackers"
-msgstr "Trackers"
+msgstr "Localisateurs"
 
 #: ../../fdm/rpc/rpclocalization.cpp:55
 msgctxt "RPCLocalization|"
@@ -707,22 +776,22 @@ msgstr "Pairs"
 #: ../../fdm/rpc/rpclocalization.cpp:56
 msgctxt "RPCLocalization|"
 msgid "Log"
-msgstr "Log"
+msgstr "Se connecter "
 
 #: ../../fdm/rpc/rpclocalization.cpp:57
 msgctxt "RPCLocalization|"
 msgid "Enable seeding"
-msgstr "Activer partage"
+msgstr "Autoriser l'ensemencement "
 
 #: ../../fdm/rpc/rpclocalization.cpp:58
 msgctxt "RPCLocalization|"
 msgid "Progress"
-msgstr "Progression"
+msgstr "Progress "
 
 #: ../../fdm/rpc/rpclocalization.cpp:59
 msgctxt "RPCLocalization|"
 msgid "Priority"
-msgstr "Priorité"
+msgstr "Priorité "
 
 #: ../../fdm/rpc/rpclocalization.cpp:60
 msgctxt "RPCLocalization|"
@@ -732,23 +801,22 @@ msgstr "URL"
 #: ../../fdm/rpc/rpclocalization.cpp:61
 msgctxt "RPCLocalization|"
 msgid "Next announce"
-msgstr "Prochaine annonce"
+msgstr "Prochaine annonce "
 
 #: ../../fdm/rpc/rpclocalization.cpp:62
 msgctxt "RPCLocalization|"
 msgid "Snail mode"
-msgstr "Mode escargot"
+msgstr "Mode escargot "
 
-# custom speed dialog
 #: ../../fdm/rpc/rpclocalization.cpp:63
 msgctxt "RPCLocalization|"
 msgid "Bandwidth limits"
-msgstr "Limites de Bande passante"
+msgstr "Limites de bande passante "
 
 #: ../../fdm/rpc/rpclocalization.cpp:64
 msgctxt "RPCLocalization|"
 msgid "Cancel"
-msgstr "Annuler"
+msgstr "Effacer "
 
 #: ../../fdm/rpc/rpclocalization.cpp:65
 msgctxt "RPCLocalization|"
@@ -758,30 +826,29 @@ msgstr "Appliquer"
 #: ../../fdm/rpc/rpclocalization.cpp:66
 msgctxt "RPCLocalization|"
 msgid "KB/s"
-msgstr "KO/s"
+msgstr "KB/s"
 
 #: ../../fdm/rpc/rpclocalization.cpp:67
 msgctxt "RPCLocalization|"
 msgid "MB/s"
-msgstr "MO/s"
+msgstr "MB/s"
 
 #: ../../fdm/rpc/rpclocalization.cpp:68
 #, qt-format
 msgctxt "RPCLocalization|"
 msgid "%1 KB/s"
-msgstr "%1 KO/s"
+msgstr "%1 KB/s"
 
 #: ../../fdm/rpc/rpclocalization.cpp:69
 #, qt-format
 msgctxt "RPCLocalization|"
 msgid "%1 MB/s"
-msgstr "%1 MO/s"
+msgstr "%1 MB/s"
 
-# download wizard tutorial
 #: ../../fdm/rpc/rpclocalization.cpp:70
 msgctxt "RPCLocalization|"
 msgid "Browser integration"
-msgstr "Intégration au navigateur"
+msgstr "Intégration du serveur"
 
 #: ../../fdm/rpc/rpclocalization.cpp:71
 msgctxt "RPCLocalization|"
@@ -791,9 +858,9 @@ msgid ""
 "settings FDM offers, you can easily adjust the option in the Settings window:"
 msgstr ""
 "Free Download Manager a automatiquement intercepté l'URL qu'une autre "
-"Application Internet utilisait pour télécharger un fichier. Grâce aux "
-"paramètres flexibles qu'offre FDM, vous pouvez facilement ajuster  l'option "
-"dans la fenêtre Paramètres :"
+"Application Internet a utilisé pour télécharger un fichier. Grace aux "
+"réglages flexibles que vous offre FDM, vous pouvez facilement ajuster les "
+"options dans la fenêtre des Paramètres. "
 
 #: ../../fdm/rpc/rpclocalization.cpp:72
 msgctxt "RPCLocalization|"
@@ -801,34 +868,33 @@ msgid ""
 "Working with browsers, you can configure FDM so that it doesn't monitor "
 "left-click actions."
 msgstr ""
-"En travaillant avec les navigateurs, vous pouvez configurer FDM pour qu'il "
-"ne gère pas les actions du clic gauche."
+"En travaillant avec des serveurs, vous pouvez configurer FDM afin qu'il ne "
+"contrôle pas les actions du clic gauche."
 
 #: ../../fdm/rpc/rpclocalization.cpp:73
 msgctxt "RPCLocalization|"
 msgid "Don't show this tip again"
-msgstr "Ne plus montrer cette astuce"
+msgstr "Ne plus montrer cette astuce "
 
 #: ../../fdm/rpc/rpclocalization.cpp:74
 msgctxt "RPCLocalization|"
 msgid "Next"
-msgstr "Suivant"
+msgstr "Suivant "
 
 #: ../../fdm/rpc/rpclocalization.cpp:75
 msgctxt "RPCLocalization|"
 msgid "Proceed to download"
-msgstr "Passer au téléchargement"
+msgstr "Continuez au téléchargement "
 
-# download wizard
 #: ../../fdm/rpc/rpclocalization.cpp:76
 msgctxt "RPCLocalization|"
 msgid "Add download"
-msgstr "Ajouter un téléchargement"
+msgstr "Ajoutez le téléchargement "
 
 #: ../../fdm/rpc/rpclocalization.cpp:77
 msgctxt "RPCLocalization|"
 msgid "Enter download URL:"
-msgstr "Entrer l'URL de téléchargement :"
+msgstr "Entrez l'URL de téléchargement: "
 
 #: ../../fdm/rpc/rpclocalization.cpp:78
 msgctxt "RPCLocalization|"
@@ -838,55 +904,52 @@ msgstr "OK"
 #: ../../fdm/rpc/rpclocalization.cpp:79
 msgctxt "RPCLocalization|"
 msgid "Download"
-msgstr "Télécharger"
+msgstr "Télécharger "
 
 #: ../../fdm/rpc/rpclocalization.cpp:80
 msgctxt "RPCLocalization|"
 msgid "Download anyway"
-msgstr "Télécharger quand même"
+msgstr "Télécharger quand même "
 
 #: ../../fdm/rpc/rpclocalization.cpp:81
 msgctxt "RPCLocalization|"
 msgid "Add"
-msgstr "Ajout"
+msgstr "Ajouter "
 
 #: ../../fdm/rpc/rpclocalization.cpp:82
 msgctxt "RPCLocalization|"
 msgid "torrent"
-msgstr "Torrent"
+msgstr "torrent"
 
 #: ../../fdm/rpc/rpclocalization.cpp:83
 msgctxt "RPCLocalization|"
 msgid "Save to:"
-msgstr "Enregistrer Vers :"
+msgstr "Enregistrer sous: "
 
 #: ../../fdm/rpc/rpclocalization.cpp:84
 msgctxt "RPCLocalization|"
 msgid "Select folder"
-msgstr "Sélectionner un dossier"
+msgstr "Sélectionner un dossier "
 
 #: ../../fdm/rpc/rpclocalization.cpp:85
 msgctxt "RPCLocalization|"
 msgid "Requesting download info..."
-msgstr "Recherche des infos de téléchargement..."
+msgstr "Demande des infos du téléchargement..."
 
 #: ../../fdm/rpc/rpclocalization.cpp:86
 msgctxt "RPCLocalization|"
 msgid "Quality:"
-msgstr "Qualité :"
+msgstr "Qualité "
 
-# download table header
 #: ../../fdm/rpc/rpclocalization.cpp:87
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Select all"
-msgstr "Tout sélectionner"
+msgstr "Tout sélectionner "
 
 #: ../../fdm/rpc/rpclocalization.cpp:88
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Select none"
-msgstr "Sélectionner un dossier"
+msgstr "Sélectionner aucun "
 
 #: ../../fdm/rpc/rpclocalization.cpp:89
 msgctxt "RPCLocalization|"
@@ -898,7 +961,6 @@ msgctxt "RPCLocalization|"
 msgid "Do you want to load its trackers?"
 msgstr "Souhaiter vous charger ses localisateurs?"
 
-# downloads list
 #: ../../fdm/rpc/rpclocalization.cpp:91
 msgctxt "RPCLocalization|"
 msgid "No active downloads"
@@ -907,134 +969,126 @@ msgstr "Pas de téléchargement actif"
 #: ../../fdm/rpc/rpclocalization.cpp:92
 msgctxt "RPCLocalization|"
 msgid "No completed downloads"
-msgstr "Pas de téléchargement terminé"
+msgstr "Pas de téléchargements terminés "
 
 #: ../../fdm/rpc/rpclocalization.cpp:93
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "No results found for"
-msgstr "Pas de résultats trouvés pour "
+msgstr "Pas de résultats trouvé pour"
 
 #: ../../fdm/rpc/rpclocalization.cpp:94
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "No results tagged"
-msgstr "Pas de résultats tagués"
+msgstr "Pas de résultats étiquetés "
 
 #: ../../fdm/rpc/rpclocalization.cpp:95
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "found"
-msgstr " trouvé"
+msgstr "Trouvé "
 
 #: ../../fdm/rpc/rpclocalization.cpp:96
 msgctxt "RPCLocalization|"
 msgid "Show all"
-msgstr "Tout Montrer"
+msgstr "Tout montrer "
 
 #: ../../fdm/rpc/rpclocalization.cpp:97
 msgctxt "RPCLocalization|"
 msgid "Nothing found"
-msgstr "Rien trouvé"
+msgstr "Rien n'a été trouvé "
 
 #: ../../fdm/rpc/rpclocalization.cpp:98
 msgctxt "RPCLocalization|"
 msgid "Moving"
-msgstr "Déplacer"
+msgstr "Se déplace "
 
 #: ../../fdm/rpc/rpclocalization.cpp:99
 msgctxt "RPCLocalization|"
 msgid "Unknown file size"
-msgstr "Taille de fichier inconnue"
+msgstr "Taille du fichier inconnue "
 
 #: ../../fdm/rpc/rpclocalization.cpp:100
 msgctxt "RPCLocalization|"
 msgid "Merging media streams"
-msgstr "Fusion des flux médias"
+msgstr "La fusion des flux de médias  "
 
 #: ../../fdm/rpc/rpclocalization.cpp:101
 msgctxt "RPCLocalization|"
 msgid "Allocating disk space..."
-msgstr "Allocation d'espace disque..."
+msgstr "Répartition d'espace disque..."
 
 #: ../../fdm/rpc/rpclocalization.cpp:102
 msgctxt "RPCLocalization|"
 msgid "Reconnecting..."
-msgstr "Reconnexion..."
+msgstr "Reconnexion "
 
 #: ../../fdm/rpc/rpclocalization.cpp:103
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Reconnecting"
-msgstr "Reconnexion..."
+msgstr "Reconnexion "
 
 #: ../../fdm/rpc/rpclocalization.cpp:104
 msgctxt "RPCLocalization|"
 msgid "Paused"
-msgstr "Mis en Pause"
+msgstr "pause"
 
 #: ../../fdm/rpc/rpclocalization.cpp:105
 msgctxt "RPCLocalization|"
 msgid "Downloading metadata"
-msgstr "Téléchargement des métadatas"
+msgstr "Téléchargement de métadonnées"
 
 #: ../../fdm/rpc/rpclocalization.cpp:106
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Downloading"
-msgstr "Télécharger"
+msgstr "Téléchargement en cours"
 
 #: ../../fdm/rpc/rpclocalization.cpp:107
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Error"
-msgstr "Erreur : "
+msgstr "Erreur"
 
 #: ../../fdm/rpc/rpclocalization.cpp:108
 #, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Checking files..."
-msgstr "Recherche..."
+msgstr "Fichier vérification..."
 
 #: ../../fdm/rpc/rpclocalization.cpp:109
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Downloading, Allocating disk space..."
-msgstr "Allocation d'espace disque..."
+msgstr "Téléchargement, Allouer espace disque ..."
 
 #: ../../fdm/rpc/rpclocalization.cpp:110
 #, fuzzy, qt-format
 msgctxt "RPCLocalization|"
 msgid "Completed %n / %2 files"
 msgid_plural "Completed %n / %2 files"
-msgstr[0] "Terminé %n / %2 fichiers"
-msgstr[1] "Terminé %n / %2 fichiers"
+msgstr[0] "Terminé %n / %2 fichiers "
+msgstr[1] ""
 
 #: ../../fdm/rpc/rpclocalization.cpp:111
 msgctxt "RPCLocalization|"
 msgid "Complete"
-msgstr "Terminé"
+msgstr "Terminé "
 
 #: ../../fdm/rpc/rpclocalization.cpp:112
 msgctxt "RPCLocalization|"
 msgid "Queued"
-msgstr "Mis en file d'attente"
+msgstr "En attente "
 
 #: ../../fdm/rpc/rpclocalization.cpp:113
 msgctxt "RPCLocalization|"
 msgid "Stop seeding"
-msgstr "Arrêter le partage"
+msgstr "Arrêter d'ensemencement  "
 
 #: ../../fdm/rpc/rpclocalization.cpp:114
 msgctxt "RPCLocalization|"
 msgid "Requesting info..."
-msgstr "Recherche des infos..."
+msgstr "Demande d'info..."
 
-# main menu
 #: ../../fdm/rpc/rpclocalization.cpp:115
 msgctxt "RPCLocalization|"
 msgid "Open torrent file..."
-msgstr "Ouvrir un fichier torrent..."
+msgstr "Ouvrir le fichier torrent..."
 
 #: ../../fdm/rpc/rpclocalization.cpp:116
 msgctxt "RPCLocalization|"
@@ -1047,207 +1101,187 @@ msgid "Settings..."
 msgstr "Paramètres..."
 
 #: ../../fdm/rpc/rpclocalization.cpp:118
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Settings"
-msgstr "Paramètres..."
+msgstr "Paramètres"
 
 #: ../../fdm/rpc/rpclocalization.cpp:119
 msgctxt "RPCLocalization|"
 msgid "Contact support"
-msgstr "Contacter le support"
+msgstr "Support de contact "
 
 #: ../../fdm/rpc/rpclocalization.cpp:120
 msgctxt "RPCLocalization|"
 msgid "Auto shutdown"
-msgstr "Extinction automatique"
+msgstr "Arrêt automatique "
 
 #: ../../fdm/rpc/rpclocalization.cpp:121
 msgctxt "RPCLocalization|"
 msgid "Sleep"
-msgstr "Mettre en veille"
+msgstr "Veille"
 
 #: ../../fdm/rpc/rpclocalization.cpp:122
 msgctxt "RPCLocalization|"
 msgid "Hibernate"
-msgstr "Mettre en Veille Prolongée"
+msgstr "Hibernation"
 
 #: ../../fdm/rpc/rpclocalization.cpp:123
 msgctxt "RPCLocalization|"
 msgid "Shutdown"
-msgstr "Éteindre "
+msgstr "Arrêter "
 
-# #-#-#-#-#  0catalog.po (1)  #-#-#-#-#
-# updater dialog
 #: ../../fdm/rpc/rpclocalization.cpp:124
 msgctxt "RPCLocalization|"
 msgid "Check for updates"
-msgstr "Vérifier les mises à jour"
+msgstr "Rechercher les mise à jour"
 
 #: ../../fdm/rpc/rpclocalization.cpp:125
 msgctxt "RPCLocalization|"
 msgid "About Free Download Manager"
-msgstr "À propos de Free Download Manager"
+msgstr "A propos de Free Download Manager"
 
 #: ../../fdm/rpc/rpclocalization.cpp:126
 msgctxt "RPCLocalization|"
 msgid "Quit"
-msgstr "Quitter"
+msgstr "Quitter "
 
 #: ../../fdm/rpc/rpclocalization.cpp:127
 msgctxt "RPCLocalization|"
 msgid "Exit"
-msgstr "Fermer"
+msgstr "Sortir"
 
 #: ../../fdm/rpc/rpclocalization.cpp:128
 msgctxt "RPCLocalization|"
 msgid "Vote for new features"
-msgstr "Voter pour des nouvelles fonctionnalités"
+msgstr "Votez pour des nouvelles fonctionnalités "
 
 #: ../../fdm/rpc/rpclocalization.cpp:129
 msgctxt "RPCLocalization|"
 msgid "About FDM"
-msgstr "À propos de FDM"
+msgstr "A propos de FDM "
 
-# settings
-# settings, errors:
 #: ../../fdm/rpc/rpclocalization.cpp:130
 msgctxt "RPCLocalization|"
 msgid "Are you sure this is a valid file extension?"
-msgstr "Êtes-vous sûr que c'est une extension de fichiers valide ?"
+msgstr "Etes vous sûr si cette extension de fichier est valide? "
 
 #: ../../fdm/rpc/rpclocalization.cpp:131
 msgctxt "RPCLocalization|"
 msgid "Please enter numbers only"
-msgstr "Veuillez n'entrer que des nombres"
+msgstr "Veuillez entrer les numéros seulement"
 
 #: ../../fdm/rpc/rpclocalization.cpp:132
 msgctxt "RPCLocalization|"
 msgid "Are you sure it's not too small?"
-msgstr "Êtes vous sûr que ce n'est pas trop petit ?"
+msgstr "Etes-sur que vous ce n'est pas si petit?"
 
 #: ../../fdm/rpc/rpclocalization.cpp:133
 msgctxt "RPCLocalization|"
 msgid "Why should it be so huge?"
-msgstr "Pourquoi cela doit-il être aussi énorme ?"
+msgstr "Pourquoi doit il être aussi grand?"
 
 #: ../../fdm/rpc/rpclocalization.cpp:134
 msgctxt "RPCLocalization|"
 msgid "Extremely slow, isn't it?"
-msgstr "C'est extrêmement lent, n'est-ce pas ?"
+msgstr "Très lent, n'est ce pas?"
 
 #: ../../fdm/rpc/rpclocalization.cpp:135
 msgctxt "RPCLocalization|"
 msgid "Faster doesn't mean better"
-msgstr "Plus vite ne veut pas dire meilleur"
+msgstr "Plus vite, ne veut pas dire mieux"
 
 #: ../../fdm/rpc/rpclocalization.cpp:136
 msgctxt "RPCLocalization|"
 msgid "Isn't it too frequent?"
-msgstr "N'est-ce pas trop fréquent ?"
+msgstr "Peut être trop fréquent?"
 
 #: ../../fdm/rpc/rpclocalization.cpp:137
 msgctxt "RPCLocalization|"
 msgid "Pretty rare to move with the time."
-msgstr "C'est plutôt rare de bouger avec le temps."
+msgstr "Plutôt rare d'avancer avec le temps."
 
 #: ../../fdm/rpc/rpclocalization.cpp:138
 msgctxt "RPCLocalization|"
 msgid "Maybe you'd let it be a little longer?"
-msgstr "Vous devriez peut-être le laisser un peu plus longtemps ?"
+msgstr "Vous allez  peut être le laisser un peu plus long?"
 
 #: ../../fdm/rpc/rpclocalization.cpp:139
 msgctxt "RPCLocalization|"
 msgid "Are you sure it's not too long?"
-msgstr "Êtes vous sûr que ce n'est pas trop long ?"
+msgstr "Vous ne croyez pas que c'est très loin?"
 
 #: ../../fdm/rpc/rpclocalization.cpp:140
 #, fuzzy, qt-format
 msgctxt "RPCLocalization|"
 msgid "Only %n records? FDM can store much more!"
 msgid_plural "Only %n records? FDM can store much more!"
-msgstr[0] "Seulement %n enregistrements ? FDM peut en stocker bien plus !"
-msgstr[1] "Seulement %n enregistrements ? FDM peut en stocker bien plus !"
+msgstr[0] "Seulement %n d'enregistrement? FDM peut enregistrer encore plus! "
+msgstr[1] ""
 
 #: ../../fdm/rpc/rpclocalization.cpp:141
 #, fuzzy, qt-format
 msgctxt "RPCLocalization|"
 msgid "%n records is too many to save."
 msgid_plural "%n records is too many to save."
-msgstr[0] "%n enregistrements c'est trop à sauvergarder."
-msgstr[1] "%n enregistrements c'est trop à sauvergarder."
+msgstr[0] "%n des enregistrements sont très grands pour être sauvegardés. "
+msgstr[1] ""
 
 #: ../../fdm/rpc/rpclocalization.cpp:142
 msgctxt "RPCLocalization|"
 msgid "Do you actually want to connect?"
-msgstr "Voulez-vous vraiment vous connecter ?"
+msgstr "Souhaitez-vous vraiment vous connecter? "
 
 #: ../../fdm/rpc/rpclocalization.cpp:143
 msgctxt "RPCLocalization|"
 msgid "Oh no, too many connections!"
-msgstr "Oh non, il y a trop de connexions !"
+msgstr "Oh non, trop de connexion! "
 
 #: ../../fdm/rpc/rpclocalization.cpp:144
 msgctxt "RPCLocalization|"
 msgid "It seems like an understatement."
-msgstr "On dirait un euphémisme."
+msgstr "Ce serait un euphémisme "
 
 #: ../../fdm/rpc/rpclocalization.cpp:145
 msgctxt "RPCLocalization|"
 msgid "So many? It's overwhelming!"
-msgstr "Autant ? Ça va surchauffer !"
+msgstr "Autant? C'est énorme! "
 
-# settings, tabs
 #: ../../fdm/rpc/rpclocalization.cpp:146
 msgctxt "RPCLocalization|"
 msgid "General"
-msgstr "Général"
+msgstr "Général  "
 
 #: ../../fdm/rpc/rpclocalization.cpp:147
 msgctxt "RPCLocalization|"
 msgid "Browser Integration"
-msgstr "Intégration au Navigateur"
+msgstr "Intégration du serveur "
 
 #: ../../fdm/rpc/rpclocalization.cpp:148
 msgctxt "RPCLocalization|"
 msgid "BitTorrent"
-msgstr "BitTorrent"
+msgstr "BitTorrent "
 
-# #-#-#-#-#  0catalog.po (1)  #-#-#-#-#
-# settings, traffic limits tab
 #: ../../fdm/rpc/rpclocalization.cpp:149
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Traffic Limits"
-msgstr ""
-"#-#-#-#-#  0catalog.po (1)  #-#-#-#-#\n"
-"Tra&#64259;c Limits\n"
-"#-#-#-#-#  0catalog.po (1)  #-#-#-#-#\n"
-"Traffic Limits"
+msgstr "Limite de trafique "
 
-# #-#-#-#-#  0catalog.po (1)  #-#-#-#-#
-# settings, traffic limits tab
 #: ../../fdm/rpc/rpclocalization.cpp:150
 #, fuzzy
 msgctxt "RPCLocalization|settings"
 msgid "Traffic Limits"
-msgstr ""
-"#-#-#-#-#  0catalog.po (1)  #-#-#-#-#\n"
-"Tra&#64259;c Limits\n"
-"#-#-#-#-#  0catalog.po (1)  #-#-#-#-#\n"
-"Traffic Limits"
+msgstr "Limite de trafique "
 
 #: ../../fdm/rpc/rpclocalization.cpp:151
 msgctxt "RPCLocalization|"
 msgid "Advanced"
-msgstr "Avancé"
+msgstr "Avancé "
 
 #: ../../fdm/rpc/rpclocalization.cpp:152
 msgctxt "RPCLocalization|"
 msgid "Network"
-msgstr "Réseau"
+msgstr "Connexion"
 
-# settings, proxy tab
 #: ../../fdm/rpc/rpclocalization.cpp:153
 msgctxt "RPCLocalization|"
 msgid "Proxy"
@@ -1256,17 +1290,17 @@ msgstr "Proxy"
 #: ../../fdm/rpc/rpclocalization.cpp:154
 msgctxt "RPCLocalization|"
 msgid "No proxy"
-msgstr "Pas de proxy"
+msgstr "Pas de proxy "
 
 #: ../../fdm/rpc/rpclocalization.cpp:155
 msgctxt "RPCLocalization|"
 msgid "System proxy"
-msgstr "Proxy du Système"
+msgstr "Système de proxy "
 
 #: ../../fdm/rpc/rpclocalization.cpp:156
 msgctxt "RPCLocalization|"
 msgid "Configure manually:"
-msgstr "Configurer manuellement :"
+msgstr "Configurer manuellement: "
 
 #: ../../fdm/rpc/rpclocalization.cpp:157
 msgctxt "RPCLocalization|"
@@ -1286,7 +1320,7 @@ msgstr "FTP:"
 #: ../../fdm/rpc/rpclocalization.cpp:160
 msgctxt "RPCLocalization|"
 msgid "Address"
-msgstr "Addresse"
+msgstr "Adresse "
 
 #: ../../fdm/rpc/rpclocalization.cpp:161
 msgctxt "RPCLocalization|"
@@ -1296,49 +1330,48 @@ msgstr "Port"
 #: ../../fdm/rpc/rpclocalization.cpp:162
 msgctxt "RPCLocalization|"
 msgid "Login"
-msgstr "Identifiant"
+msgstr "Connexion "
 
 #: ../../fdm/rpc/rpclocalization.cpp:163
 #, fuzzy
 msgctxt "RPCLocalization|settings"
 msgid "Login"
-msgstr "Identifiant"
+msgstr "Connexion "
 
 #: ../../fdm/rpc/rpclocalization.cpp:164
 msgctxt "RPCLocalization|"
 msgid "Password"
-msgstr "Mot de passe"
+msgstr "Mot de passe "
 
-# settings, general tab
 #: ../../fdm/rpc/rpclocalization.cpp:165
 msgctxt "RPCLocalization|"
 msgid "Startup"
-msgstr "Démarrage"
+msgstr "Démarrage "
 
 #: ../../fdm/rpc/rpclocalization.cpp:166
 msgctxt "RPCLocalization|"
 msgid "Downloads"
-msgstr "Téléchargements"
+msgstr "Téléchargements "
 
 #: ../../fdm/rpc/rpclocalization.cpp:167
 msgctxt "RPCLocalization|"
 msgid "Launch at startup (minimized)"
-msgstr "Lancer au démarrage (réduit)"
+msgstr "Lancement au démarrage (minimisé) "
 
 #: ../../fdm/rpc/rpclocalization.cpp:168
 msgctxt "RPCLocalization|"
 msgid "Open at Login"
-msgstr "Open sur Identifiant"
+msgstr "Ouvrir lors de la Connexion "
 
 #: ../../fdm/rpc/rpclocalization.cpp:169
 msgctxt "RPCLocalization|"
 msgid "Close button minimizes window"
-msgstr "Le bouton Fermer réduit la fenêtre"
+msgstr "Les touches fermées minimise la fenêtre"
 
 #: ../../fdm/rpc/rpclocalization.cpp:170
 msgctxt "RPCLocalization|"
 msgid "Check if FDM is your default torrent client"
-msgstr "Vérifier si FDM est votre client torrent par défaut"
+msgstr "Vérifier si FDM est votre client torrent par défaut "
 
 #: ../../fdm/rpc/rpclocalization.cpp:171
 msgctxt "RPCLocalization|"
@@ -1354,84 +1387,83 @@ msgstr "Mise à jour"
 #: ../../fdm/rpc/rpclocalization.cpp:173
 msgctxt "RPCLocalization|"
 msgid "Check for updates automatically"
-msgstr "Vérifier les mises à jour automatiquement"
+msgstr "Rechercher automatiquement les mises à jour"
 
 #: ../../fdm/rpc/rpclocalization.cpp:174
 msgctxt "RPCLocalization|"
 msgid "Install updates automatically"
-msgstr "Installer les mises à jour automatiquement"
+msgstr "Installer les mises à jour automatiquement "
 
 #: ../../fdm/rpc/rpclocalization.cpp:175
 msgctxt "RPCLocalization|"
 msgid "Send anonymous statistics"
-msgstr "Envoyer des statistiques de manière anonyme"
+msgstr "Envoyer des statistiques anonymes "
 
 #: ../../fdm/rpc/rpclocalization.cpp:176
 msgctxt "RPCLocalization|"
 msgid "Suggest folders based on file type"
-msgstr "Suggérer des dossiers basé sur les types de fichiers"
+msgstr "Proposez des dossier basés sur le type de fichier "
 
 #: ../../fdm/rpc/rpclocalization.cpp:177
 msgctxt "RPCLocalization|"
 msgid "Suggest settings based on download URL"
-msgstr "Suggérer des  paramètres basé sur l'URL de téléchargement"
+msgstr "Proposez des paramètres basés sur l URL téléchargé  "
 
 #: ../../fdm/rpc/rpclocalization.cpp:178 ../../fdm/rpc/rpclocalization.cpp:180
 msgctxt "RPCLocalization|"
 msgid "Default folder:"
-msgstr "Dossier par défaut : "
+msgstr "Dossier par défaut "
 
 #: ../../fdm/rpc/rpclocalization.cpp:179
 msgctxt "RPCLocalization|"
 msgid "Associate with torrents"
-msgstr "Associer avec les torrents"
+msgstr "Associer aux torrents "
 
-# settings, Notifications tab
 #: ../../fdm/rpc/rpclocalization.cpp:181
 msgctxt "RPCLocalization|"
 msgid "Notifications"
-msgstr "Notifications"
+msgstr "Notifications "
 
 #: ../../fdm/rpc/rpclocalization.cpp:182
 msgctxt "RPCLocalization|"
 msgid "Notify me of completed downloads via Notification Center"
 msgstr ""
-"Me notifier des téléchargements terminés via le Centre de Notifications"
+"Me notifier des téléchargements complets via le Centre de Notification "
 
 #: ../../fdm/rpc/rpclocalization.cpp:183
 msgctxt "RPCLocalization|"
 msgid "Only when FDM window is inactive"
-msgstr "Seulement quand la fenêtre de FDM est inactive"
+msgstr "Seulement quand la fenêtre FDM est inactive"
 
 #: ../../fdm/rpc/rpclocalization.cpp:184
 msgctxt "RPCLocalization|"
 msgid "Action of Remove button (main panel) or Delete key"
-msgstr "L'action du bouton Supprimer (Panneau principal) ou la touche Suppr."
+msgstr "Action de la touche Retirer (panel principal) ou Supprimer "
 
 #: ../../fdm/rpc/rpclocalization.cpp:185
 msgctxt "RPCLocalization|"
 msgid "Remove only from list"
-msgstr "Supprimer seulement de la liste"
+msgstr "Seulement retirer de la liste "
 
 #: ../../fdm/rpc/rpclocalization.cpp:186
 msgctxt "RPCLocalization|"
 msgid "Delete file(s) from disk"
-msgstr "Supprimer le(s) fichier(s) du disque dur"
+msgstr "Supprimer le fichier/les fichiers du disque "
 
 #: ../../fdm/rpc/rpclocalization.cpp:187
 msgctxt "RPCLocalization|"
 msgid "Always ask"
-msgstr "Toujours demander"
+msgstr "Toujours demander "
 
 #: ../../fdm/rpc/rpclocalization.cpp:188
 msgctxt "RPCLocalization|"
 msgid "Don't catch downloads from"
-msgstr "Ne pas capturer les téléchargements venant de"
+msgstr "Ne capte pas les téléchargement de "
 
 #: ../../fdm/rpc/rpclocalization.cpp:189
 msgctxt "RPCLocalization|"
 msgid "Catch links without confirmation"
-msgstr "Capturer les liens sans confirmation"
+msgstr "Capte les liens sans confirmation "
 
 #: ../../fdm/rpc/rpclocalization.cpp:190
 #, fuzzy
@@ -1442,28 +1474,27 @@ msgstr "Liens Intercept à seulement de Edge HTTP (améliore les performances)"
 #: ../../fdm/rpc/rpclocalization.cpp:191
 msgctxt "RPCLocalization|"
 msgid "FDM appears in Safari's context menu if"
-msgstr "FDM apparaît dans le menu contextuel de Safari si"
+msgstr "FDM figure dans le menu contextuel Safari si "
 
 #: ../../fdm/rpc/rpclocalization.cpp:192
 msgctxt "RPCLocalization|"
 msgid "extension"
-msgstr "L'extension"
+msgstr "extension "
 
 #: ../../fdm/rpc/rpclocalization.cpp:193
 msgctxt "RPCLocalization|"
 msgid "is installed and enabled."
-msgstr "est installée est activée."
+msgstr "est installé et activé "
 
-# settings, monitoring tab
 #: ../../fdm/rpc/rpclocalization.cpp:194
 msgctxt "RPCLocalization|"
 msgid "Automatically catch links from browsers"
-msgstr "Capturer automatiquement les liens venant des navigateurs"
+msgstr "Capte automatiquement les liens des navigateurs "
 
 #: ../../fdm/rpc/rpclocalization.cpp:195
 msgctxt "RPCLocalization|"
 msgid "Edge"
-msgstr "Edge"
+msgstr "Bord"
 
 #: ../../fdm/rpc/rpclocalization.cpp:196
 msgctxt "RPCLocalization|"
@@ -1473,7 +1504,7 @@ msgstr "Internet Explorer"
 #: ../../fdm/rpc/rpclocalization.cpp:197
 msgctxt "RPCLocalization|"
 msgid "Firefox"
-msgstr "Firefox"
+msgstr "Firefox "
 
 #: ../../fdm/rpc/rpclocalization.cpp:198
 msgctxt "RPCLocalization|"
@@ -1483,73 +1514,72 @@ msgstr "Chrome"
 #: ../../fdm/rpc/rpclocalization.cpp:199
 msgctxt "RPCLocalization|"
 msgid "Make sure that the"
-msgstr "Assurez-vous que "
+msgstr "Rassurez vous que "
 
 #: ../../fdm/rpc/rpclocalization.cpp:200
 msgctxt "RPCLocalization|"
 msgid "is installed and enabled in Chrome"
-msgstr "est installé et activé dans Chrome"
+msgstr "est installé et actif sur Chrome "
 
 #: ../../fdm/rpc/rpclocalization.cpp:201
 msgctxt "RPCLocalization|"
 msgid "No Chrome installation was found."
-msgstr "Aucune installation de Chrome n'a été trouvée."
+msgstr "Pas d'installation Chrome trouvée "
 
 #: ../../fdm/rpc/rpclocalization.cpp:202
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "You can"
-msgstr "Vous pouvez"
+msgstr "Vous pouvez "
 
 #: ../../fdm/rpc/rpclocalization.cpp:203
 msgctxt "RPCLocalization|"
 msgid "download Chrome here"
-msgstr "télécharger Chrome ici"
+msgstr "télécharger Chrome ici "
 
 #: ../../fdm/rpc/rpclocalization.cpp:204
 msgctxt "RPCLocalization|"
 msgid "ALT must be pressed"
-msgstr "Vous devez appuyer sur ALT"
+msgstr "Vous devrez appuyer ALT"
 
 #: ../../fdm/rpc/rpclocalization.cpp:205
 msgctxt "RPCLocalization|"
 msgid "Allow the browser to download if you press Cancel"
-msgstr "Autoriser le navigateur à télécharger si vous appuyez sur Annuler"
+msgstr "Laissez le serveur télécharger si vous appuyez la touche EFFACER "
 
 #: ../../fdm/rpc/rpclocalization.cpp:206
 msgctxt "RPCLocalization|"
 msgid "Don't catch downloads smaller than"
-msgstr "Ne pas capturer de téléchargement plus petit que"
+msgstr "Ne prend pas les téléchargements plus petit que "
 
 #: ../../fdm/rpc/rpclocalization.cpp:207
 msgctxt "RPCLocalization|"
 msgid "Kbytes"
-msgstr "Kilo-octets"
+msgstr "Kbytes "
 
 #: ../../fdm/rpc/rpclocalization.cpp:208
 msgctxt "RPCLocalization|"
 msgid "Skip files with extensions:"
-msgstr "Zapper les fichiers avec les extensions:"
+msgstr "Ignorez les fichiers ayant des extensions "
 
 #: ../../fdm/rpc/rpclocalization.cpp:209
 msgctxt "RPCLocalization|"
 msgid "Add FDM to browser context menu"
-msgstr "Ajouter FDM au menu contextuel du navigateur"
+msgstr "Ajouter FDM au serveur menu contextuel "
 
 #: ../../fdm/rpc/rpclocalization.cpp:210
 msgctxt "RPCLocalization|"
 msgid "Use proxy for peer-to-peer connections"
-msgstr "Utiliser un proxy pour les connexions peer-to-peer"
+msgstr "Utiliser le proxy pour les connexions peer-to-peer"
 
 #: ../../fdm/rpc/rpclocalization.cpp:211
 msgctxt "RPCLocalization|"
 msgid "Parameters"
-msgstr "Paramètres"
+msgstr "Paramètres "
 
 #: ../../fdm/rpc/rpclocalization.cpp:212
 msgctxt "RPCLocalization|"
 msgid "Low"
-msgstr "Faible"
+msgstr "Faible "
 
 #: ../../fdm/rpc/rpclocalization.cpp:213
 msgctxt "RPCLocalization|"
@@ -1576,38 +1606,37 @@ msgstr "Ignorer"
 #: ../../fdm/rpc/rpclocalization.cpp:217
 msgctxt "RPCLocalization|"
 msgid "Download speed"
-msgstr "Vitesse de téléchargement"
+msgstr "Vitesse de téléchargement "
 
 #: ../../fdm/rpc/rpclocalization.cpp:218
 msgctxt "RPCLocalization|"
 msgid "Upload speed"
-msgstr "Vitesse de transfert"
+msgstr "Vitesse de chargement "
 
 #: ../../fdm/rpc/rpclocalization.cpp:219
 msgctxt "RPCLocalization|"
 msgid "Maximum number of connections"
-msgstr "Nombre maximum de connexions"
+msgstr "Nombre maximal de connexions "
 
 #: ../../fdm/rpc/rpclocalization.cpp:220
 msgctxt "RPCLocalization|"
 msgid "Maximum number of running downloads"
-msgstr "Nombre maximum de téléchargements en cours"
+msgstr "Nombre maximal de téléchargements en cours"
 
-# settings, advanced tab
 #: ../../fdm/rpc/rpclocalization.cpp:221
 msgctxt "RPCLocalization|"
 msgid "History"
-msgstr "Historique"
+msgstr "Historique "
 
 #: ../../fdm/rpc/rpclocalization.cpp:222
 msgctxt "RPCLocalization|"
 msgid "Remember all destination folders"
-msgstr "Se souvenir de tous les dossiers de destination"
+msgstr "Se rappeler de tous les dossiers de destination "
 
 #: ../../fdm/rpc/rpclocalization.cpp:223
 msgctxt "RPCLocalization|"
 msgid "Clear history older than"
-msgstr "Nettoyer l'historique datant de"
+msgstr "Supprimer l'historique datant de plus de "
 
 #: ../../fdm/rpc/rpclocalization.cpp:224
 #, fuzzy
@@ -1615,54 +1644,55 @@ msgctxt "RPCLocalization|"
 msgid "days"
 msgid_plural "days"
 msgstr[0] "jours"
-msgstr[1] "jours"
+msgstr[1] ""
 
 #: ../../fdm/rpc/rpclocalization.cpp:225
 msgctxt "RPCLocalization|"
 msgid "Maximum number of history records:"
-msgstr "Nombre maximum de fichiers dans l'historique :"
+msgstr "Nombre maximal d'historique enregistré "
 
 #: ../../fdm/rpc/rpclocalization.cpp:226
 msgctxt "RPCLocalization|"
 msgid "Disk usage"
-msgstr "Utilisation du disque"
+msgstr "Utilisation de disque "
 
 #: ../../fdm/rpc/rpclocalization.cpp:227
 msgctxt "RPCLocalization|"
 msgid "Preallocate disk space for files larger than"
-msgstr "Préallouer de l'espace disque pour les fichiers dépassant"
+msgstr "Pré allouer l'espace disque pour des fichiers plus large que   "
 
 #: ../../fdm/rpc/rpclocalization.cpp:228
 msgctxt "RPCLocalization|"
 msgid "Gbytes"
-msgstr "Gigaoctets"
+msgstr "Gbytes"
 
 #: ../../fdm/rpc/rpclocalization.cpp:229
 msgctxt "RPCLocalization|"
 msgid "Power management"
-msgstr "Gestion de l'alimentation"
+msgstr "Gestion énergétique "
 
 #: ../../fdm/rpc/rpclocalization.cpp:230
 msgctxt "RPCLocalization|"
 msgid "Prevent sleep if there are active downloads"
-msgstr "Empêcher la mise en veille s'il y a des téléchargements actifs"
+msgstr ""
+"Eviter que l'ordinateur aille en veille si jamais il y a des téléchargement "
+"en cours"
 
 #: ../../fdm/rpc/rpclocalization.cpp:231
 msgctxt "RPCLocalization|"
 msgid "Delete button action"
-msgstr "L'action du bouton Suppr."
+msgstr "Supprimer la touche action "
 
 #: ../../fdm/rpc/rpclocalization.cpp:232
 msgctxt "RPCLocalization|"
 msgid "Delete files"
-msgstr "Supprime les fichiers"
+msgstr "Supprimer les fichiers "
 
 #: ../../fdm/rpc/rpclocalization.cpp:233
 msgctxt "RPCLocalization|"
 msgid "Restore settings to their original defaults"
-msgstr "Restaurer les paramètres par défaut"
+msgstr "Restaurer les configurations aux paramètres initiaux par défaut"
 
-# settings, bittorrent tab
 #: ../../fdm/rpc/rpclocalization.cpp:234
 msgctxt "RPCLocalization|"
 msgid "DHT"
@@ -1671,17 +1701,17 @@ msgstr "DHT"
 #: ../../fdm/rpc/rpclocalization.cpp:235
 msgctxt "RPCLocalization|"
 msgid "Port forwarding"
-msgstr "Redirection de port"
+msgstr "Transmission de port "
 
 #: ../../fdm/rpc/rpclocalization.cpp:236
 msgctxt "RPCLocalization|"
 msgid "Local peer discovery"
-msgstr "Local peer discovery"
+msgstr "Découverte de pair local "
 
 #: ../../fdm/rpc/rpclocalization.cpp:237
 msgctxt "RPCLocalization|"
 msgid "Peer exchange"
-msgstr "Échange de pairs"
+msgstr "Exchange de pairs "
 
 #: ../../fdm/rpc/rpclocalization.cpp:238
 msgctxt "RPCLocalization|"
@@ -1691,29 +1721,28 @@ msgstr "uTP"
 #: ../../fdm/rpc/rpclocalization.cpp:239
 msgctxt "RPCLocalization|"
 msgid "Use ports in range:"
-msgstr "Utiliser des ports entre la plage :"
+msgstr "Utiliser les ports dans la fourchette "
 
 #: ../../fdm/rpc/rpclocalization.cpp:240
 msgctxt "RPCLocalization|"
 msgid "to"
-msgstr "jusqu'à"
+msgstr "vers"
 
-# settings, reset settings dialog
 #: ../../fdm/rpc/rpclocalization.cpp:241
 msgctxt "RPCLocalization|"
 msgid "All settings will be restored to their original defaults"
-msgstr "Tout les paramètres vont être restaurés par défaut"
+msgstr ""
+"Tout les réglages seront restaurés aux paramètres initiaux par défaut  "
 
 #: ../../fdm/rpc/rpclocalization.cpp:242
 msgctxt "RPCLocalization|"
 msgid "Reset"
-msgstr "Reset"
+msgstr "Réinitialiser "
 
-# download table header
 #: ../../fdm/rpc/rpclocalization.cpp:243
 msgctxt "RPCLocalization|"
 msgid "Select All"
-msgstr "Tout sélectionner"
+msgstr "Tout sélectionner "
 
 #: ../../fdm/rpc/rpclocalization.cpp:244
 msgctxt "RPCLocalization|"
@@ -1723,96 +1752,93 @@ msgstr "Nom"
 #: ../../fdm/rpc/rpclocalization.cpp:245
 msgctxt "RPCLocalization|"
 msgid "Status"
-msgstr "État"
+msgstr "Statut"
 
 #: ../../fdm/rpc/rpclocalization.cpp:246
 msgctxt "RPCLocalization|"
 msgid "Speed"
-msgstr "Vitesse"
+msgstr "Vitesse "
 
 #: ../../fdm/rpc/rpclocalization.cpp:247
 msgctxt "RPCLocalization|"
 msgid "Size"
-msgstr "Taille"
+msgstr "Taille "
 
 #: ../../fdm/rpc/rpclocalization.cpp:248
 msgctxt "RPCLocalization|"
 msgid "Added"
-msgstr "Ajouté"
+msgstr "Ajouté "
 
-# toolbar
 #: ../../fdm/rpc/rpclocalization.cpp:249
 msgctxt "RPCLocalization|"
 msgid "Start all"
-msgstr "Tout démarrer"
+msgstr "Tout lancer "
 
 #: ../../fdm/rpc/rpclocalization.cpp:250
 msgctxt "RPCLocalization|"
 msgid "Pause all"
-msgstr "Tout mettre en pause"
+msgstr "Tout suspendre "
 
 #: ../../fdm/rpc/rpclocalization.cpp:251
 msgctxt "RPCLocalization|"
 msgid "Start selected"
-msgstr "Démarrer les sélectionnés"
+msgstr "Démarrer choisi"
 
 #: ../../fdm/rpc/rpclocalization.cpp:252
 msgctxt "RPCLocalization|"
 msgid "Pause selected"
-msgstr "Mettre en pause les sélectionnés"
+msgstr "Pause choisie "
 
 #: ../../fdm/rpc/rpclocalization.cpp:253
 msgctxt "RPCLocalization|"
 msgid "Add new download..."
-msgstr "Ajouter un nouveau téléchargement..."
+msgstr "Ajouter un nouveau téléchargement "
 
 #: ../../fdm/rpc/rpclocalization.cpp:254
 msgctxt "RPCLocalization|"
 msgid "Move to trash"
-msgstr "Déplacer dans la corbeille"
+msgstr "Déplacer vers la poubelle"
 
 #: ../../fdm/rpc/rpclocalization.cpp:255
 msgctxt "RPCLocalization|"
 msgid "Remove from list"
-msgstr "Supprimer de la liste"
+msgstr "Retirer de la liste "
 
 #: ../../fdm/rpc/rpclocalization.cpp:256
 msgctxt "RPCLocalization|"
 msgid "Delete selected"
-msgstr "Supprimer les sélectionnés"
+msgstr "Supprimer choisi  "
 
 #: ../../fdm/rpc/rpclocalization.cpp:257
 msgctxt "RPCLocalization|"
 msgid "Move to..."
-msgstr "Déplacer vers..."
+msgstr "Déplacer vers "
 
 #: ../../fdm/rpc/rpclocalization.cpp:258
 msgctxt "RPCLocalization|"
 msgid "Search"
-msgstr "Rechercher"
+msgstr "Rechercher "
 
 #: ../../fdm/rpc/rpclocalization.cpp:259
 msgctxt "RPCLocalization|"
 msgid "Main menu"
-msgstr "Menu Principal"
+msgstr "Menu principal "
 
-# delete popap dialog
 #: ../../fdm/rpc/rpclocalization.cpp:260
 msgctxt "RPCLocalization|"
 msgid "Delete selected downloads"
-msgstr "Supprimer les téléchargements sélectionnés"
+msgstr "Supprimer les fichiers sélectionnés "
 
 #: ../../fdm/rpc/rpclocalization.cpp:261
 msgctxt "RPCLocalization|"
 msgid "Remember my choice"
-msgstr "Se souvenir de mon choix"
+msgstr "Se rappeler de mon choix "
 
 #: ../../fdm/rpc/rpclocalization.cpp:262
 msgctxt "RPCLocalization|"
 msgid "Delete file"
-msgstr "Supprimer fichier"
+msgstr "Supprimer le fichier"
 
-# tags panel
 #: ../../fdm/rpc/rpclocalization.cpp:263
 msgctxt "RPCLocalization|"
 msgid "All"
@@ -1821,102 +1847,95 @@ msgstr "Tout"
 #: ../../fdm/rpc/rpclocalization.cpp:264
 msgctxt "RPCLocalization|"
 msgid "Active"
-msgstr "Actifs"
+msgstr "Active"
 
 #: ../../fdm/rpc/rpclocalization.cpp:265
 msgctxt "RPCLocalization|"
 msgid "Completed"
-msgstr "Terminés"
+msgstr "Terminé   "
 
 #: ../../fdm/rpc/rpclocalization.cpp:266
 msgctxt "RPCLocalization|"
 msgid "Customize color"
-msgstr "Changer la couleur"
+msgstr "Personnaliser la couleur "
 
 #: ../../fdm/rpc/rpclocalization.cpp:267
 msgctxt "RPCLocalization|"
 msgid "Remove tag"
-msgstr "Supprimer tag"
+msgstr "Retirer le tag"
 
 #: ../../fdm/rpc/rpclocalization.cpp:268
 msgctxt "RPCLocalization|"
 msgid ""
 "Would you like to make Free Download Manager the default torrent client?"
 msgstr ""
-"Voulez-vous faire de Free Download Manager votre client torrent par défaut ?"
+"Voulez-vous faire de Free Download Manager votre client torrent par défaut?"
 
 #: ../../fdm/rpc/rpclocalization.cpp:269
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Don’t ask again"
-msgstr "Ne plus me demander"
+msgstr "Ne plus demandé "
 
 #: ../../fdm/rpc/rpclocalization.cpp:270
 msgctxt "RPCLocalization|"
 msgid "Set as Default"
-msgstr "Définir par défaut"
+msgstr "Définir par défaut "
 
 #: ../../fdm/rpc/rpclocalization.cpp:271
 msgctxt "RPCLocalization|"
 msgid "Computer will be put to sleep after all downloads are completed."
 msgstr ""
-"L'ordinateur sera mis en veille après que tout les téléchargements soient "
-"terminés"
+"L'ordinateur sera mise en veille une fois les téléchargements terminées."
 
 #: ../../fdm/rpc/rpclocalization.cpp:272
 msgctxt "RPCLocalization|"
 msgid "Computer will shut down after all downloads are completed."
-msgstr ""
-"L'ordinateur va s'éteindre après que tout les téléchargements soient terminés"
+msgstr "L'ordinateur s'arrêtera une fois les téléchargements terminées."
 
 #: ../../fdm/rpc/rpclocalization.cpp:273
 msgctxt "RPCLocalization|"
 msgid "Computer will hibernate after all downloads are completed."
-msgstr ""
-"L'ordinateur sera mis en veille prolongée après que tout les téléchargements "
-"soient terminés"
+msgstr "L'ordinateur hibernera une fois les téléchargements terminées."
 
 #: ../../fdm/rpc/rpclocalization.cpp:274
 msgctxt "RPCLocalization|"
 msgid "Checking for updates..."
-msgstr "Recherche de mises à jour..."
+msgstr "Recherche des mise à jour..."
 
 #: ../../fdm/rpc/rpclocalization.cpp:275
 msgctxt "RPCLocalization|"
 msgid "Retry"
-msgstr "Réessayer"
+msgstr "Ressayer "
 
 #: ../../fdm/rpc/rpclocalization.cpp:276
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Error:"
-msgstr "Erreur : "
+msgstr "Erreur:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:277
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Error downloading update:"
-msgstr "Erreur lors du téléchargement de la mise à jour: "
+msgstr "Erreur lors du téléchargement de mise à jour:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:278
 msgctxt "RPCLocalization|"
 msgid "Downloading update"
-msgstr "Téléchargement de la mise à jour"
+msgstr "Téléchargement de mise à jour"
 
 #: ../../fdm/rpc/rpclocalization.cpp:279
 msgctxt "RPCLocalization|"
 msgid "Checking..."
-msgstr "Recherche..."
+msgstr "Vérification..."
 
 #: ../../fdm/rpc/rpclocalization.cpp:280
 msgctxt "RPCLocalization|"
 msgid "Update downloaded"
-msgstr "Mises à jour téléchargées"
+msgstr "Mise à jour téléchargées "
 
 #: ../../fdm/rpc/rpclocalization.cpp:281
 msgctxt "RPCLocalization|"
 msgid "Install update"
-msgstr "Installer les mises à jour"
+msgstr "installer les mises à jour"
 
 #: ../../fdm/rpc/rpclocalization.cpp:282
 msgctxt "RPCLocalization|"
@@ -1926,28 +1945,27 @@ msgstr "Installation des mises à jour"
 #: ../../fdm/rpc/rpclocalization.cpp:283
 msgctxt "RPCLocalization|"
 msgid "Relaunch FDM to update"
-msgstr "Relancer FDM pour mettre à jour"
+msgstr "Relancer"
 
 #: ../../fdm/rpc/rpclocalization.cpp:284
 msgctxt "RPCLocalization|"
 msgid "Relaunch"
-msgstr "Relancement"
+msgstr "Relancer"
 
 #: ../../fdm/rpc/rpclocalization.cpp:285
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Error occurred during installation:"
-msgstr "Une erreur est survenue pendant l'installation : "
+msgstr "Une erreur est survenue lors de l'installation:"
 
 #: ../../fdm/rpc/rpclocalization.cpp:286
 msgctxt "RPCLocalization|"
 msgid "Restart computer to complete installation"
-msgstr "Redémarrer l'ordinateur pour terminer l'installation"
+msgstr "Redémarrez l'ordinateur pour compléter l'installation"
 
 #: ../../fdm/rpc/rpclocalization.cpp:287
 msgctxt "RPCLocalization|"
 msgid "FDM is up to date!"
-msgstr "FDM est à jour !"
+msgstr "FDM est à jour!"
 
 #: ../../fdm/rpc/rpclocalization.cpp:288
 msgctxt "RPCLocalization|"
@@ -2008,7 +2026,6 @@ msgid "YouTube"
 msgstr "YouTube"
 
 #: ../../fdm/rpc/rpclocalization.cpp:297
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Torrent"
 msgstr "Torrent"
@@ -2058,10 +2075,9 @@ msgid "Start and pause downloads at the specified time"
 msgstr "Démarrer et mettre en pause les téléchargements à l'heure spécifiée"
 
 #: ../../fdm/rpc/rpclocalization.cpp:307
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Enable Scheduler"
-msgstr "Activer partage"
+msgstr "Activer Scheduler"
 
 #: ../../fdm/rpc/rpclocalization.cpp:308
 msgctxt "RPCLocalization|"
@@ -2069,10 +2085,9 @@ msgid "Sun"
 msgstr "Dim"
 
 #: ../../fdm/rpc/rpclocalization.cpp:309
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Mon"
-msgstr "Déplacer"
+msgstr "Lun"
 
 #: ../../fdm/rpc/rpclocalization.cpp:310
 msgctxt "RPCLocalization|"
@@ -2095,10 +2110,9 @@ msgid "Fri"
 msgstr "Ven"
 
 #: ../../fdm/rpc/rpclocalization.cpp:314
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Sat"
-msgstr "Démarrer"
+msgstr "Sam"
 
 #: ../../fdm/rpc/rpclocalization.cpp:315
 msgctxt "RPCLocalization|"
@@ -2116,10 +2130,9 @@ msgid "Change settings"
 msgstr "\tModifier les paramètres"
 
 #: ../../fdm/rpc/rpclocalization.cpp:319
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Change preferences"
-msgstr "Préférences..."
+msgstr "Modifier les préférence"
 
 #: ../../fdm/rpc/rpclocalization.cpp:320
 msgctxt "RPCLocalization|"
@@ -2134,12 +2147,11 @@ msgstr ""
 "liens."
 
 #: ../../fdm/rpc/rpclocalization.cpp:322
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Computer won't be put to sleep because you have scheduled downloads"
 msgstr ""
-"L'ordinateur sera mis en veille après que tout les téléchargements soient "
-"terminés"
+"Ordinateur ne sera pas mis en sommeil parce que vous avez planifié "
+"téléchargements"
 
 #: ../../fdm/rpc/rpclocalization.cpp:324
 msgctxt "RPCLocalization|"
@@ -2147,22 +2159,21 @@ msgid "Scheduler"
 msgstr "Planificateur"
 
 #: ../../fdm/rpc/rpclocalization.cpp:325
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Don't put your computer to sleep if there're scheduled downloads."
-msgstr "Empêcher la mise en veille s'il y a des téléchargements actifs"
+msgstr ""
+"Ne mettez pas votre ordinateur en veille s'il y a des téléchargements "
+"programmés."
 
 #: ../../fdm/rpc/rpclocalization.cpp:326
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Press"
-msgstr "Progression"
+msgstr "Appuyer"
 
 #: ../../fdm/rpc/rpclocalization.cpp:327
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "to let the browser process the download"
-msgstr "Empêcher la mise en veille s'il y a des téléchargements actifs"
+msgstr "pour laisser le processus de navigateur le téléchargement"
 
 #: ../../fdm/rpc/rpclocalization.cpp:329
 msgctxt "RPCLocalization|"
@@ -2179,12 +2190,10 @@ msgctxt "RPCLocalization|"
 msgid "Calculating"
 msgstr "Calcul en cours"
 
-# settings, Notifications tab
 #: ../../fdm/rpc/rpclocalization.cpp:332
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Verification OK"
-msgstr "Notifications"
+msgstr "Vérification OK"
 
 #: ../../fdm/rpc/rpclocalization.cpp:333
 msgctxt "RPCLocalization|"
@@ -2199,241 +2208,271 @@ msgstr "Comparer avec:"
 #: ../../fdm/rpc/rpclocalization.cpp:335
 msgctxt "RPCLocalization|"
 msgid "Close"
+msgstr "Fermer"
+
+#: ../../fdm/rpc/rpclocalization.cpp:338
+#, qt-format
+msgctxt "RPCLocalization|"
+msgid "%1 left"
 msgstr ""
 
-#~ msgctxt "RPCLocalization|"
-#~ msgid "Default folder: "
-#~ msgstr "Dossier par défaut : "
+#: ../../fdm/rpc/rpclocalization.cpp:340
+msgctxt "RPCLocalization|"
+msgid "Browsers:"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:341
+#, fuzzy
+msgctxt "RPCLocalization|Advanced"
+msgid "Options"
+msgstr "Options"
+
+#: ../../fdm/rpc/rpclocalization.cpp:342
+msgctxt "RPCLocalization|"
+msgid "Done"
+msgstr ""
+
+#: ../../fdm/rpc/rpclocalization.cpp:343
+#, fuzzy
+msgctxt "RPCLocalization|tags panel"
+msgid "Completed"
+msgstr "Terminé   "
+
+#: ../../fdm/rpc/rpclocalization.cpp:346
+#, qt-format
+msgctxt "RPCLocalization|"
+msgid "%1 of %2"
+msgstr ""
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:62
 msgctxt "TorrentDownload|"
 msgid "File priorities changed"
-msgstr ""
+msgstr "Priorités de fichiers modifiés"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:91
 msgctxt "TorrentDownload|"
 msgid "Stopping seeding"
-msgstr ""
+msgstr "Amorçage est arrêté"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:124
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading enabled"
-msgstr ""
+msgstr "Téléchargement séquentiel activé"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:125
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading disabled"
-msgstr ""
+msgstr "Téléchargement séquentiel désactivé"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:141
 msgctxt "TorrentDownload|"
 msgid "Trackers merged"
-msgstr ""
+msgstr "Trackers fusionnés"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:160
 msgctxt "TorrentDownload|"
 msgid "Starting seeding"
-msgstr ""
+msgstr "Amorçage est en cours de démarrage"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:198
 msgctxt "TorrentDownload|"
 msgid "Unknown error occurred"
-msgstr ""
+msgstr "Une erreur inconnue s'est produite"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:203
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Error occurred: %1"
-msgstr ""
+msgstr "Une erreur s'est produite: %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:344
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Maximum number of connections is %1"
-msgstr ""
+msgstr "Nombre maximal de connexions: %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:345
 #, fuzzy
 msgctxt "TorrentDownload|"
 msgid "unlimited"
-msgstr "illimité"
+msgstr "illimité "
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:364
 msgctxt "TorrentDownload|"
 msgid "Download speed isn't limited"
-msgstr ""
+msgstr "La vitesse de téléchargement ne se limite pas"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:365
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Download speed is limited to %1/s"
-msgstr ""
+msgstr "La vitesse de téléchargement est limitée à %1/s"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:383
 msgctxt "TorrentDownload|"
 msgid "Upload speed isn't limited"
-msgstr ""
+msgstr "Vitesse de téléchargement ne se limite pas"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:384
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Upload speed is limited to %1/s"
-msgstr ""
+msgstr "Téléchargez vitesse est limitée à %1/s"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:457
 msgctxt "TorrentDownload|"
 msgid "Pausing download"
-msgstr ""
+msgstr "Télécharger est maintenant en pause"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:467
 msgctxt "TorrentDownload|"
 msgid "Download paused"
-msgstr ""
+msgstr "Téléchargement est en pause"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:544
 msgctxt "TorrentDownload|"
 msgid "Files are missing"
-msgstr ""
+msgstr " Les fichiers sont manquants"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:546
 msgctxt "TorrentDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "Le fichier est manquant"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:584
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:938
 msgctxt "TorrentDownload|"
 msgid "Starting download"
-msgstr ""
+msgstr "Démarrage du téléchargement"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:604
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:943
 msgctxt "TorrentDownload|"
 msgid "Checking files"
-msgstr ""
+msgstr "Vérification des fichiers"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:632
 #, fuzzy
 msgctxt "TorrentDownload|"
 msgid "Downloading"
-msgstr "Télécharger"
+msgstr "Téléchargement en cours"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:671
 msgctxt "TorrentDownload|"
 msgid "Download complete"
-msgstr ""
+msgstr "Téléchargement terminé"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:721
 msgctxt "TorrentDownload|"
 msgid "Cannot move files recursively"
-msgstr ""
+msgstr "Ne pouvez pas déplacer des fichiers récursive"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:730
 msgctxt "TorrentDownload|"
 msgid "Changing destination folder"
-msgstr ""
+msgstr "Changement de dossier de destination"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:745
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving files to %1"
-msgstr ""
+msgstr "Déplacement des fichiers à %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:747
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file to %1"
-msgstr ""
+msgstr "déplacement du fichier à %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1003
 msgctxt "TorrentDownload|"
 msgid "Waiting for metadata"
-msgstr ""
+msgstr "En attente de métadonnées"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1075
 msgctxt "TorrentDownload|"
 msgid "Updating"
-msgstr ""
+msgstr "Mise à jour"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1077
 msgctxt "TorrentDownload|"
 msgid "Working"
-msgstr ""
+msgstr "Travaillée"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1270
 msgctxt "TorrentDownload|"
 msgid "Metadata received"
-msgstr ""
+msgstr "Métadonnées reçu"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1358
 msgctxt "TorrentDownload|"
 msgid "User authorization required"
-msgstr ""
+msgstr "L'autorisation de l'utilisateur requis"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1383
 msgctxt "TorrentDownload|"
 msgid "Mapped files to new directory"
-msgstr ""
+msgstr "Les fichiers sont mappés à nouveau répertoire"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1385
 msgctxt "TorrentDownload|"
 msgid "Mapped file to new directory"
-msgstr ""
+msgstr "Le fichier est mappé à nouveau répertoire"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1420
 msgctxt "TorrentDownload|"
 msgid "Files moving failed"
-msgstr ""
+msgstr "Fichiers déplacement échoué"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1422
 msgctxt "TorrentDownload|"
 msgid "Moving file failed"
-msgstr ""
+msgstr "Fichier déplacement a échoué"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1494
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving declined: %1"
-msgstr ""
+msgstr "Déplacement des fichiers est diminué: %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1496
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file declined: %1"
-msgstr ""
+msgstr "Déplacement du fichier est refusée: 1%"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1508
 msgctxt "TorrentDownload|"
 msgid "Moved successfully"
-msgstr ""
+msgstr "Proposée avec succès"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1512
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr ", vitesse moyenne: 1%"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1539
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving failed: %1"
-msgstr ""
+msgstr "Le déplacement de fichiers a échoué: %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1541
 #, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file failed: %1"
-msgstr ""
+msgstr "Le déplacement du fichier a échoué: %1"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1559
 msgctxt "TorrentDownload|"
 msgid "Files moving cancelled"
-msgstr ""
+msgstr "Le déplacement de fichiers est annulés"
 
 #: ../../fdm/downloads/torrents/torrentdownload.cpp:1561
 msgctxt "TorrentDownload|"
 msgid "Moving file cancelled"
-msgstr ""
+msgstr "Le déplacement du fichier est annulés"
 
 #: ../../fdm/menu/traymenu.cpp:42
 msgctxt "TrayMenu|"
@@ -2444,37 +2483,35 @@ msgstr "Afficher la fenêtre principale"
 #, fuzzy
 msgctxt "TrayMenu|"
 msgid "Open at Login"
-msgstr "Open sur Identifiant"
+msgstr "Ouvrir lors de la Connexion "
 
 #: ../../fdm/menu/traymenu.cpp:55
-#, fuzzy
 msgctxt "TrayMenu|"
 msgid "Launch at startup"
-msgstr "Lancer au démarrage (réduit)"
+msgstr "Lancer au démarrage"
 
 #: ../../fdm/menu/traymenu.cpp:66
 #, fuzzy
 msgctxt "TrayMenu|"
 msgid "About FDM"
-msgstr "À propos de FDM"
+msgstr "A propos de FDM "
 
 #: ../../fdm/menu/traymenu.cpp:72
-#, fuzzy
 msgctxt "TrayMenu|"
 msgid "Quit FDM"
-msgstr "À propos de FDM"
+msgstr "Quitter FDM"
 
 #: ../../fdm/menu/traymenu.cpp:74
 #, fuzzy
 msgctxt "TrayMenu|"
 msgid "Quit"
-msgstr "Quitter"
+msgstr "Quitter "
 
 #: ../../fdm/uihelper.cpp:101
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "UIHelper|"
 msgid "About %1"
-msgstr "À propos de FDM"
+msgstr "A propos de %1"
 
 #: ../../fdm/uihelper.cpp:102
 #, qt-format
@@ -2491,21 +2528,18 @@ msgstr "Ouvrir"
 #, fuzzy
 msgctxt "UIHelper|"
 msgid "Reveal in Finder"
-msgstr "Faire appparaître dans le Finder"
+msgstr "Montrer dans Finder"
 
-# bottom panel
 #: ../../fdm/uihelper.cpp:209 ../../fdm/uihelper.cpp:438
 #, fuzzy
 msgctxt "UIHelper|"
 msgid "Show in folder"
-msgstr "Montrer dans le dossier"
+msgstr "Afficher dans un dossier "
 
-# bottom panel
 #: ../../fdm/uihelper.cpp:225
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Show info"
-msgstr "Montrer dans le dossier"
+msgstr "Afficher infos"
 
 #: ../../fdm/uihelper.cpp:231
 msgctxt "UIHelper|"
@@ -2513,10 +2547,9 @@ msgid "Choose files..."
 msgstr "Choisir les fichiers..."
 
 #: ../../fdm/uihelper.cpp:241
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Pause all except selected"
-msgstr "Mettre en pause les sélectionnés"
+msgstr "Pause tous sauf sélectionné"
 
 #: ../../fdm/uihelper.cpp:241
 msgctxt "UIHelper|"
@@ -2524,70 +2557,66 @@ msgid "Pause all except this one"
 msgstr "Pause tout sauf celui-ci"
 
 #: ../../fdm/uihelper.cpp:252
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Restart selected"
-msgstr "Démarrer les sélectionnés"
+msgstr "Redémarrer sélectionné"
 
 #: ../../fdm/uihelper.cpp:252
 #, fuzzy
 msgctxt "UIHelper|"
 msgid "Restart"
-msgstr "Redémarrer"
+msgstr "Relancer"
 
 #: ../../fdm/uihelper.cpp:262
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Set priority"
-msgstr "Priorité"
+msgstr "Définir la priorité"
 
 #: ../../fdm/uihelper.cpp:290
 #, fuzzy
 msgctxt "UIHelper|"
 msgid "Move to..."
-msgstr "Déplacer vers..."
+msgstr "Déplacer vers "
 
 #: ../../fdm/uihelper.cpp:297
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Download to..."
-msgstr "Télécharger"
+msgstr "Télécharger dans..."
 
 #: ../../fdm/uihelper.cpp:306
 #, fuzzy
 msgctxt "UIHelper|"
 msgid "Move to trash"
-msgstr "Déplacer dans la corbeille"
+msgstr "Déplacer vers la poubelle"
 
 #: ../../fdm/uihelper.cpp:308
 #, fuzzy
 msgctxt "UIHelper|"
 msgid "Delete files"
-msgstr "Supprime les fichiers"
+msgstr "Supprimer les fichiers "
 
 #: ../../fdm/uihelper.cpp:308
 #, fuzzy
 msgctxt "UIHelper|"
 msgid "Delete file"
-msgstr "Supprimer fichier"
+msgstr "Supprimer le fichier"
 
 #: ../../fdm/uihelper.cpp:315
 #, fuzzy
 msgctxt "UIHelper|"
 msgid "Remove from list"
-msgstr "Supprimer de la liste"
+msgstr "Retirer de la liste "
 
 #: ../../fdm/uihelper.cpp:323
 #, fuzzy
 msgctxt "UIHelper|"
 msgid "Enable seeding"
-msgstr "Activer partage"
+msgstr "Autoriser l'ensemencement "
 
 #: ../../fdm/uihelper.cpp:332
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Sequential download"
-msgstr "Recherche des infos de téléchargement..."
+msgstr "Téléchargement séquentiel"
 
 #: ../../fdm/uihelper.cpp:339
 msgctxt "UIHelper|"
@@ -2595,10 +2624,9 @@ msgid "Force recheck"
 msgstr "Forcer revérifier"
 
 #: ../../fdm/uihelper.cpp:344
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Force reannounce"
-msgstr "Prochaine annonce"
+msgstr "Forcer re annoncer"
 
 #: ../../fdm/uihelper.cpp:355
 msgctxt "UIHelper|"
@@ -2621,22 +2649,19 @@ msgid "Schedule"
 msgstr "Planifié"
 
 #: ../../fdm/uihelper.cpp:413
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "High priority"
-msgstr "Priorité"
+msgstr "Priorité haute"
 
 #: ../../fdm/uihelper.cpp:418
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Normal priority"
-msgstr "Priorité"
+msgstr "Priorité normale"
 
 #: ../../fdm/uihelper.cpp:423
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Low priority"
-msgstr "Priorité"
+msgstr "Priorité basse"
 
 #: ../../fdm/uihelper.cpp:428
 msgctxt "UIHelper|"
@@ -2649,10 +2674,9 @@ msgid "Edit"
 msgstr "Modifier"
 
 #: ../../fdm/uihelper.cpp:464
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Remove"
-msgstr "Supprimer tag"
+msgstr "Supprimer"
 
 #: ../../fdm/uihelper.cpp:472
 msgctxt "UIHelper|"
@@ -2676,151 +2700,149 @@ msgid "FDM Log [%1].txt"
 msgstr "Journal FDM [%1].txt"
 
 #: ../../fdm/uihelper.cpp:510
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Save Log"
-msgstr "Enregistrer Vers :"
+msgstr "Enregistrer le journal"
 
 #: ../../fdm/uihelper.cpp:512
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Text files"
-msgstr "Supprime les fichiers"
+msgstr "Fichiers texte"
 
 #: ../../fdm/uihelper.cpp:611
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "UIHelper|"
 msgid "%1 K"
-msgstr "%1 KO/s"
+msgstr "K %1"
 
 #: ../../fdm/uihelper.cpp:616
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "UIHelper|"
 msgid "%1 M"
-msgstr "%1 MO/s"
+msgstr "H %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:153
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:881
 msgctxt "YoutubeDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "Fichier est manquant"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:335
 msgctxt "YoutubeDownload|"
 msgid "Error: files are missing."
-msgstr ""
+msgstr "Erreur: les fichiers sont manquants."
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:352
 msgctxt "YoutubeDownload|"
 msgid "Files moved successfully"
-msgstr ""
+msgstr "Fichiers déplacé avec succès"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:409
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving to %1"
-msgstr ""
+msgstr "Déménagement à %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:896
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1253
 msgctxt "YoutubeDownload|"
 msgid "Merging failed"
-msgstr ""
+msgstr "Fusionner échoué"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:906
 #, fuzzy
 msgctxt "YoutubeDownload|"
 msgid "Merging media streams"
-msgstr "Fusion des flux médias"
+msgstr "La fusion des flux de médias  "
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:936
 msgctxt "YoutubeDownload|"
 msgid "Redirecting"
-msgstr ""
+msgstr "Redirection"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:937
 msgctxt "YoutubeDownload|"
 msgid "Handling redirect"
-msgstr ""
+msgstr "rediriger est géré"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:942
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "AudioStream: %1"
-msgstr ""
+msgstr "AudioStream: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:943
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "VideoStream: %1"
-msgstr ""
+msgstr "VideoStream: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:995
 msgctxt "YoutubeDownload|"
 msgid "Downloading page"
-msgstr ""
+msgstr "Page est en cours de téléchargement"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1023
 msgctxt "YoutubeDownload|"
 msgid "Page is downloaded"
-msgstr ""
+msgstr "Page est téléchargée"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1068
 msgctxt "YoutubeDownload|"
 msgid "Launching parser"
-msgstr ""
+msgstr "Analyseur est lancé"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1101
 msgctxt "YoutubeDownload|"
 msgid "Page is parsed"
-msgstr ""
+msgstr "Page est analysée"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1150
 msgctxt "YoutubeDownload|"
 msgid "Can't find URLs for this quality"
-msgstr ""
+msgstr "Ne trouvez pas les URL de cette qualité"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1183
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Parsing failure: %1"
-msgstr ""
+msgstr "Echec parsing: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1232
 msgctxt "YoutubeDownload|"
 msgid "Download complete"
-msgstr ""
+msgstr "Téléchargement complet"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1352
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving operation has been declined: %1"
-msgstr ""
+msgstr "Opération de déménagement a été refusé: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1362
 msgctxt "YoutubeDownload|"
 msgid "Moved successfully"
-msgstr ""
+msgstr "Proposée avec succès"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1366
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr ", vitesse moyenne: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1394
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "File is renamed to %1"
-msgstr ""
+msgstr "Le fichier est renommé « %1 »"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1448
 #, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving operation failed: %1"
-msgstr ""
+msgstr "Opération de déplacement a échoué: %1"
 
 #: ../../fdm/downloads/youtube/youtubedownload.cpp:1460
 msgctxt "YoutubeDownload|"
 msgid "Moving operation cancelled."
-msgstr ""
+msgstr "Opération de déplacement est annulé."
