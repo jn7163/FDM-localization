@@ -2004,7 +2004,7 @@ msgstr "在制定时间开始或暂停下载"
 #: ../../fdm/rpc/rpclocalization.cpp:307
 msgctxt "RPCLocalization|"
 msgid "Enable Scheduler"
-msgstr "启用计划任务"
+msgstr ""
 
 #: ../../fdm/rpc/rpclocalization.cpp:308
 msgctxt "RPCLocalization|"
