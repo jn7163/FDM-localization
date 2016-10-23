@@ -932,12 +932,12 @@ msgstr "未找到结果关于"
 #: ../../fdm/rpc/rpclocalization.cpp:94
 msgctxt "RPCLocalization|"
 msgid "No results tagged"
-msgstr "没有标记的结果"
+msgstr "没有找到下列标记的结果"
 
 #: ../../fdm/rpc/rpclocalization.cpp:95
 msgctxt "RPCLocalization|"
 msgid "found"
-msgstr "已找到"
+msgstr " "
 
 #: ../../fdm/rpc/rpclocalization.cpp:96
 msgctxt "RPCLocalization|"
