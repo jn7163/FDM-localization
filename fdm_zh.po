@@ -191,7 +191,7 @@ msgstr "#%1：服务器忽略了部分内容请求"
 #, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1 failed with error: %2"
-msgstr "#1由于错误%2而失败"
+msgstr "#%1由于错误%2而失败"
 
 #: ../../fdm/downloads/httpfile/httpfiledownload.cpp:891
 msgctxt "HttpFileDownload|"
