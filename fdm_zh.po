@@ -8,2772 +8,2693 @@ msgstr ""
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
-#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:22
 msgid "Download with FDM"
 msgstr "使用FDM下载"
 
-#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:30
 msgid "Download selected with FDM"
 msgstr "使用FDM下载选中项"
 
-#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:34
 msgid "Download video with FDM"
 msgstr "使用FDM下载视频"
 
-#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:38
-msgid "Download by FDM"
-msgstr "通过FDM下载"
+msgid "Error: 0x%x. Failed to transfer downloads to FDM."
+msgstr ""
 
-#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:50
-msgid ""
-"An error occurred while trying to transfer downloads to FDM.\n"
-"Error: 0x%x."
-msgstr "试图传递下载项到FDM时发生了一个错误。\n错误：0x%x"
+msgid "No flash video found. Try reloading this page."
+msgstr ""
 
-#: ../../browsernativehost/vmsFdmBhIpcUiStringsTaskProcessor.cpp:54
-msgid ""
-"There were no flash videos found on this page. Make sure the videos on this "
-"page are playing or try to reload it (refresh page or clear browser's cache)."
-msgstr "在此页面未找到Flash视频。请确认页面上的视频在播放或尝试重新加载它（刷新页面或清除浏览器缓存）"
+#~ msgid "Download by FDM"
+#~ msgstr "通过FDM下载"
 
-#: ../../fdm/downloads/downloadfiletree.cpp:7
+#~ msgid ""
+#~ "An error occurred while trying to transfer downloads to FDM.\n"
+#~ "Error: 0x%x."
+#~ msgstr ""
+#~ "试图传递下载项到FDM时发生了一个错误。\n"
+#~ "错误：0x%x"
+
+#~ msgid ""
+#~ "There were no flash videos found on this page. Make sure the videos on "
+#~ "this page are playing or try to reload it (refresh page or clear "
+#~ "browser's cache)."
+#~ msgstr "在此页面未找到Flash视频。请确认页面上的视频在播放或尝试重新加载它（刷新页面或清除浏览器缓存）"
+
 msgctxt "DownloadFileInfo|"
 msgid "Skip"
 msgstr "跳过"
 
-#: ../../fdm/downloads/downloadfiletree.cpp:8
-#, fuzzy
 msgctxt "DownloadFileInfo|"
 msgid "Low"
 msgstr "低"
 
-#: ../../fdm/downloads/downloadfiletree.cpp:9
 msgctxt "DownloadFileInfo|"
 msgid "Normal"
 msgstr "正常"
 
-#: ../../fdm/downloads/downloadfiletree.cpp:10
-#, fuzzy
 msgctxt "DownloadFileInfo|"
 msgid "High"
 msgstr "高"
 
-#: ../../fdm/downloads/downloadinfo.cpp:5
-#, fuzzy
 msgctxt "DownloadInfo|"
 msgid "Low"
 msgstr "低"
 
-#: ../../fdm/downloads/downloadinfo.cpp:6
 msgctxt "DownloadInfo|"
 msgid "Normal"
 msgstr "正常"
 
-#: ../../fdm/downloads/downloadinfo.cpp:7
-#, fuzzy
 msgctxt "DownloadInfo|"
 msgid "High"
 msgstr "高"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:127
-#, qt-format
+msgctxt "HttpError|"
+msgid "HTTP Error %1: %2"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Error %1"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Unknown error"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Remote host name not found"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Operation canceled"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Remote server closed connection"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Connection timed out"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "SSL/TLS handshake failed"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Connection refused"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Unknown network-related error detected"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Requested operation is not permitted"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Bad Request"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Unauthorized"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Payment Required"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Forbidden"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Not Found"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Method Not Allowed"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Not Acceptable"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Proxy Authentication Required"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Request Timeout"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Conflict"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Gone"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Length Required"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Precondition Failed"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Request Entity Too Large"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Request-URI Too Long"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Unsupported Media Type"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Requested Range Not Satisfiable"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Expectation Failed"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "I'm a teapot"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Authentication Timeout"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Method Failure / Enhance Your Calm"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Unprocessable Entity"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Locked"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Failed Dependency / Method Failure"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Unordered Collection"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Upgrade Required"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Precondition Required"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Too Many Requests"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Request Header Fields Too Large"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Login Timeout"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "No Response"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Retry With"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Blocked by Windows Parental Controls"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Unavailable For Legal Reasons"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Request Header Too Large"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Cert Error"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "No Cert"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "HTTP to HTTPS"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Token expired/invalid"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Client Closed Request"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Internal Server Error"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Not Implemented"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Bad Gateway"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Service Unavailable"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Gateway Timeout"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "HTTP Version Not Supported"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Variant Also Negotiates"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Insufficient Storage"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Loop Detected"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Bandwidth Limit Exceeded"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Not Extended"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Network Authentication Required"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Network read timeout error"
+msgstr ""
+
+msgctxt "HttpError|"
+msgid "Network connect timeout error"
+msgstr ""
+
 msgctxt "HttpFileDownload|"
 msgid "Maximum number of connections is %1"
 msgstr "最大连接数为%1"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:128
-#, fuzzy
 msgctxt "HttpFileDownload|"
 msgid "unlimited"
 msgstr "不限制"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:149
-msgctxt "HttpFileDownload|"
-msgid "Download speed isn't limited"
-msgstr "下载速度不受限"
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Download speed isn't limited"
+#~ msgstr "下载速度不受限"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:150
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Download speed is limited to %1/s"
 msgstr "下载速度限制为%1/s"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:190
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:195
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:324
 msgctxt "HttpFileDownload|"
 msgid "Can't resume downloading file"
 msgstr "无法恢复下载文件"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:269
 msgctxt "HttpFileDownload|"
 msgid "Reconnecting"
 msgstr "重连中"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:270
 msgctxt "HttpFileDownload|"
 msgid "Starting download"
 msgstr "正在启动下载"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:308
 msgctxt "HttpFileDownload|"
 msgid "Pausing download"
 msgstr "正在暂停下载"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:336
-msgctxt "HttpFileDownload|"
-msgid "Can't resume downloading: URL changed"
-msgstr "无法恢复下载：URL已改变"
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Can't resume downloading: URL changed"
+#~ msgstr "无法恢复下载：URL已改变"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:477
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Moving file to %1"
 msgstr "移动文件至%1"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:487
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1046
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "The name \"%1\" is already taken. Renaming to %2"
-msgstr "名称\"%1\"已使用，重命名为%2"
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "The name \"%1\" is already taken. Renaming to %2"
+#~ msgstr "名称\"%1\"已使用，重命名为%2"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:557
 msgctxt "HttpFileDownload|"
 msgid "Restarting download"
 msgstr "正在重新下载"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:566
 msgctxt "HttpFileDownload|"
 msgid "Failed to clear contents of original file."
 msgstr "清除原始文件内容失败"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:613
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "File is renamed to %1"
 msgstr "文件已重命名为%1"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:703
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Opening connection #%1"
 msgstr "正在打开连接%1"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:871
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1 closed"
 msgstr "连接%1已关闭"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1430
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1 receiving data"
 msgstr "#%1接收数据中"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1485
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "downloaded %1"
 msgstr "已下载%1"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1490
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1547
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1: server ignored partial content request"
 msgstr "#%1：服务器忽略了部分内容请求"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1580
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1 failed with error: %2"
-msgstr "#1由于错误%2而失败"
+msgstr "#%1由于错误%2而失败"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:891
+msgctxt "HttpFileDownload|"
+msgid "File moving failed"
+msgstr ""
+
 msgctxt "HttpFileDownload|"
 msgid "Opening file on disk..."
 msgstr "正在打开磁盘上的文件"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:922
+msgctxt "HttpFileDownload|"
+msgid "Download speed is unlimited"
+msgstr ""
+
+msgctxt "HttpFileDownload|"
+msgid "Failed to resume as URL changed"
+msgstr ""
+
+msgctxt "HttpFileDownload|"
+msgid "File \"%1\" exists. Saving as %2"
+msgstr ""
+
 msgctxt "HttpFileDownload|"
 msgid "File is missing"
 msgstr "文件丢失"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:988
 msgctxt "HttpFileDownload|"
 msgid "Download complete"
 msgstr "下载完成"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1009
 msgctxt "HttpFileDownload|"
 msgid "Removing temporary file extension"
 msgstr "正在移除临时文件扩展名"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1149
 msgctxt "HttpFileDownload|"
 msgid "Preallocating disk space for download"
 msgstr "正在为下载项预分配磁盘空间"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1307
 msgctxt "HttpFileDownload|"
 msgid "File changed on remote server"
 msgstr "远程服务器上的文件已改变"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1422
 msgctxt "HttpFileDownload|"
 msgid "Failed writing received data to file"
 msgstr "将收到的数据写入文件失败"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1430
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1 receiving data"
-msgstr "连接%1正在接收数据"
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Connection %1 receiving data"
+#~ msgstr "连接%1正在接收数据"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1485
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid ", downloaded: %1"
-msgstr "已下载：%1"
+#~ msgctxt "HttpFileDownload|"
+#~ msgid ", downloaded: %1"
+#~ msgstr "已下载：%1"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1490
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid ", average speed: %1/s"
-msgstr "平均速度：%1/s"
+#~ msgctxt "HttpFileDownload|"
+#~ msgid ", average speed: %1/s"
+#~ msgstr "平均速度：%1/s"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1493
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1 finished receiving data%2%3"
-msgstr "连接%1已完成接收数据%2%3"
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Connection %1 finished receiving data%2%3"
+#~ msgstr "连接%1已完成接收数据%2%3"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1526
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Redirecting to %1"
 msgstr "正在重定向至%1"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1547
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1: server ignored partial content request"
-msgstr "连接%1：服务器忽略了部分内容请求"
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Connection %1: server ignored partial content request"
+#~ msgstr "连接%1：服务器忽略了部分内容请求"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1580
-#, qt-format
-msgctxt "HttpFileDownload|"
-msgid "Connection %1 failed with error: %2"
-msgstr "连接%1返回了一个错误：%2"
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Connection %1 failed with error: %2"
+#~ msgstr "连接%1返回了一个错误：%2"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1619
 msgctxt "HttpFileDownload|"
 msgid "File moved successfully"
 msgstr "成功移动文件"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1627
-msgctxt "HttpFileDownload|"
-msgid "Moving file failed"
-msgstr "移动文件失败"
+#~ msgctxt "HttpFileDownload|"
+#~ msgid "Moving file failed"
+#~ msgstr "移动文件失败"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1698
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1774
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Preallocation failed: %1"
 msgstr "预分配空间失败，原因：%1"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1708
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "%1 finished successfully"
 msgstr "%1成功完成"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1714
-#, qt-format
 msgctxt "HttpFileDownload|"
 msgid ", average speed: %1"
 msgstr "平均速度：%1"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1722
 msgctxt "HttpFileDownload|"
 msgid "Space allocation"
 msgstr "空间分配"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1748
 msgctxt "HttpFileDownload|"
 msgid "Move"
 msgstr "移动"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1787
 msgctxt "HttpFileDownload|"
 msgid "Preallocation cancelled"
 msgstr "已取消预分配"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1802
 msgctxt "HttpFileDownload|"
 msgid "Preallocating queued"
 msgstr "预分配已排队"
 
-#: ../../fdm/downloads/httpfile/httpfiledownload.cpp:1812
 msgctxt "HttpFileDownload|"
 msgid "Preallocating started"
 msgstr "已开始预分配"
 
-#: ../../fdm/menu/macmainmenu.cpp:177
 msgctxt "MacMainMenu|"
 msgid "File"
 msgstr "文件"
 
-#: ../../fdm/menu/macmainmenu.cpp:54 ../../fdm/menu/macmainmenu.cpp:170
 msgctxt "MacMainMenu|"
 msgid "Add Download from URL..."
 msgstr "从URL添加下载"
 
-#: ../../fdm/menu/macmainmenu.cpp:58 ../../fdm/menu/macmainmenu.cpp:171
 msgctxt "MacMainMenu|"
 msgid "Open Torrent File..."
 msgstr "打开种子文件"
 
-#: ../../fdm/menu/macmainmenu.cpp:110 ../../fdm/menu/macmainmenu.cpp:180
 msgctxt "MacMainMenu|"
 msgid "Edit"
 msgstr "编辑"
 
-#, fuzzy
 #~ msgctxt "MacMainMenu|"
 #~ msgid "Select All"
 #~ msgstr "选择全部"
 
-#: ../../fdm/menu/macmainmenu.cpp:163
-#, qt-format
 msgctxt "MacMainMenu|"
 msgid "About %1"
 msgstr "关于%1"
 
-#: ../../fdm/menu/macmainmenu.cpp:165
 msgctxt "MacMainMenu|"
 msgid "Check for Updates..."
 msgstr "检查更新"
 
-#: ../../fdm/menu/macmainmenu.cpp:178
-#, fuzzy
 msgctxt "MacMainMenu|"
 msgid "Downloads"
 msgstr "下载"
 
-#: ../../fdm/menu/macmainmenu.cpp:166
 msgctxt "MacMainMenu|"
 msgid "Start Selected"
 msgstr "开始选中项"
 
-#: ../../fdm/menu/macmainmenu.cpp:167
 msgctxt "MacMainMenu|"
 msgid "Pause Selected"
 msgstr "暂停选中项"
 
-#: ../../fdm/menu/macmainmenu.cpp:168
 msgctxt "MacMainMenu|"
 msgid "Restart Selected"
 msgstr "重启选中项"
 
-#: ../../fdm/menu/macmainmenu.cpp:162 ../../fdm/menu/macmainmenu.cpp:169
 msgctxt "MacMainMenu|"
 msgid "Remove from List"
 msgstr "从列表中移除"
 
-#: ../../fdm/menu/macmainmenu.cpp:179
 msgctxt "MacMainMenu|"
 msgid "Help"
 msgstr "帮助"
 
-#: ../../fdm/menu/macmainmenu.cpp:172
 msgctxt "MacMainMenu|"
 msgid "Contact Support"
 msgstr "联系支持"
 
-#: ../../fdm/menu/macmainmenu.cpp:173
 msgctxt "MacMainMenu|"
 msgid "Vote for New Features"
 msgstr "为新功能投票"
 
-#: ../../fdm/menu/macmainmenu.cpp:164
-#, fuzzy
 msgctxt "MacMainMenu|"
 msgid "Preferences..."
 msgstr "选项…"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:8
-#, fuzzy
 msgctxt "QObject|"
 msgid "About Free Download Manager"
 msgstr "关于Free Download Manager"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:9
 msgctxt "QObject|"
 msgid "Preferences"
 msgstr "选项"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:10
 msgctxt "QObject|"
 msgid "Check for Updates..."
 msgstr "检查更新"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:11
 msgctxt "QObject|"
 msgid "Window"
 msgstr "窗口"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:12
 msgctxt "QObject|"
 msgid "Minimize"
 msgstr "最小化"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:13
 msgctxt "QObject|"
 msgid "Zoom"
 msgstr "缩放"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:14
 msgctxt "QObject|"
 msgid "Enter Full Screen"
 msgstr "进入全屏模式"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:15
 msgctxt "QObject|"
 msgid "Bring All to Front"
 msgstr "置顶"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:16
 msgctxt "QObject|"
 msgid "Contact Support"
 msgstr "联系支持"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:17
 msgctxt "QObject|"
 msgid "Open Torrent File..."
 msgstr "打开种子文件"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:18
 msgctxt "QObject|"
 msgid "File"
 msgstr "文件"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:19
-#, fuzzy
 msgctxt "QObject|"
 msgid "Select All"
 msgstr "选择全部"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:20
 msgctxt "QObject|"
 msgid "Delete"
 msgstr "删除"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:21
 msgctxt "QObject|"
 msgid "Paste"
 msgstr "粘贴"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:22
 msgctxt "QObject|"
 msgid "Copy"
 msgstr "复制"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:23
 msgctxt "QObject|"
 msgid "Cut"
 msgstr "剪切"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:24
 msgctxt "QObject|"
 msgid "Edit"
 msgstr "编辑"
 
-#: ../../fdm/menu/mac/macmenudicitionary.h:25
 msgctxt "QObject|"
 msgid "Help"
 msgstr "帮助"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:14
 msgctxt "QObject|"
 msgid "Something went wrong with internal downloads."
 msgstr "内部下载发生了一些错误"
 
-#: ../../fdm/rpc/rpclocalization.cpp:7
+msgctxt "QObject|"
+msgid "Selected filepath is not valid."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Selected filename is too long"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Selected filename is not valid."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Specified directory can't be accessed."
+msgstr ""
+
 msgctxt "RPCLocalization|"
 msgid "locale"
 msgstr "本地"
 
-#: ../../fdm/rpc/rpclocalization.cpp:9
 msgctxt "RPCLocalization|"
 msgid "Drag & Drop"
 msgstr "拖放"
 
-#: ../../fdm/rpc/rpclocalization.cpp:10
 msgctxt "RPCLocalization|"
 msgid "URL or torrent here"
 msgstr "URL或种子文件"
 
-#: ../../fdm/rpc/rpclocalization.cpp:11
 msgctxt "RPCLocalization|"
 msgid "Add tag"
 msgstr "添加标签"
 
-#: ../../fdm/rpc/rpclocalization.cpp:12
 msgctxt "RPCLocalization|"
 msgid "Preferences"
 msgstr "选项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:14
 msgctxt "RPCLocalization|"
 msgid "Unlimited"
 msgstr "不限制"
 
-#: ../../fdm/rpc/rpclocalization.cpp:15
 msgctxt "RPCLocalization|"
 msgid "Manual..."
 msgstr "手动设置…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:16
 msgctxt "RPCLocalization|"
 msgid "Set limits manually"
 msgstr "手动设置限制"
 
-#: ../../fdm/rpc/rpclocalization.cpp:18
 msgctxt "RPCLocalization|"
 msgid "Download: unlimited, Upload: unlimited"
 msgstr "下载：不限制，上传：不限制"
 
-#: ../../fdm/rpc/rpclocalization.cpp:19
 msgctxt "RPCLocalization|"
 msgid "Download:"
 msgstr "下载："
 
-#: ../../fdm/rpc/rpclocalization.cpp:20
 msgctxt "RPCLocalization|"
 msgid "Upload:"
 msgstr "上传："
 
-#: ../../fdm/rpc/rpclocalization.cpp:21
 msgctxt "RPCLocalization|"
 msgid "unlimited"
 msgstr "不限制"
 
-#: ../../fdm/rpc/rpclocalization.cpp:22
 msgctxt "RPCLocalization|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr "慢速模式可以在不停止下载的情况下释放带宽。"
 
-#: ../../fdm/rpc/rpclocalization.cpp:23
 msgctxt "RPCLocalization|"
 msgid "Hide details"
 msgstr "隐藏详情"
 
-#: ../../fdm/rpc/rpclocalization.cpp:24
 msgctxt "RPCLocalization|"
 msgid "Show details"
 msgstr "显示详情"
 
-#: ../../fdm/rpc/rpclocalization.cpp:25
-#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%n files selected."
 msgid_plural "%n files selected."
 msgstr[0] "已选择%n个文件"
 
-#: ../../fdm/rpc/rpclocalization.cpp:26
 msgctxt "RPCLocalization|"
 msgid "Show in folder"
 msgstr "在文件夹中显示"
 
-#: ../../fdm/rpc/rpclocalization.cpp:27
 msgctxt "RPCLocalization|"
 msgid "Reveal in Finder"
 msgstr "在Finder中显示"
 
-#: ../../fdm/rpc/rpclocalization.cpp:28
 msgctxt "RPCLocalization|"
 msgid "Pause"
 msgstr "暂停"
 
-#: ../../fdm/rpc/rpclocalization.cpp:29
 msgctxt "RPCLocalization|"
 msgid "Restart"
 msgstr "重启"
 
-#: ../../fdm/rpc/rpclocalization.cpp:30
 msgctxt "RPCLocalization|"
 msgid "Start"
 msgstr "启动"
 
-#: ../../fdm/rpc/rpclocalization.cpp:31
 msgctxt "RPCLocalization|"
 msgid "Selected size:"
 msgstr "已选择的大小："
 
-#: ../../fdm/rpc/rpclocalization.cpp:32
 msgctxt "RPCLocalization|"
 msgid "Size:"
 msgstr "大小："
 
-#: ../../fdm/rpc/rpclocalization.cpp:33
 msgctxt "RPCLocalization|"
 msgid "File size:"
 msgstr "文件大小："
 
-#: ../../fdm/rpc/rpclocalization.cpp:34
 msgctxt "RPCLocalization|"
 msgid "Disk space:"
 msgstr "磁盘空间："
 
-#: ../../fdm/rpc/rpclocalization.cpp:35
 msgctxt "RPCLocalization|"
 msgid "Total size:"
 msgstr "总计大小："
 
-#: ../../fdm/rpc/rpclocalization.cpp:36
 msgctxt "RPCLocalization|"
 msgid "Checked size:"
 msgstr "选中的大小："
 
-#: ../../fdm/rpc/rpclocalization.cpp:37
 msgctxt "RPCLocalization|"
 msgid "Downloaded:"
 msgstr "已下载："
 
-#: ../../fdm/rpc/rpclocalization.cpp:38
 msgctxt "RPCLocalization|"
 msgid "Download speed:"
 msgstr "下载速度："
 
-#: ../../fdm/rpc/rpclocalization.cpp:39
 msgctxt "RPCLocalization|"
 msgid "Seeds:"
 msgstr "种子："
 
-#: ../../fdm/rpc/rpclocalization.cpp:40
 msgctxt "RPCLocalization|"
 msgid "Domain:"
 msgstr "域名："
 
-#: ../../fdm/rpc/rpclocalization.cpp:41
 msgctxt "RPCLocalization|"
 msgid "Uploaded:"
 msgstr "已上传："
 
-#: ../../fdm/rpc/rpclocalization.cpp:42
 msgctxt "RPCLocalization|"
 msgid "Upload speed:"
 msgstr "上传速度："
 
-#: ../../fdm/rpc/rpclocalization.cpp:43
 msgctxt "RPCLocalization|"
 msgid "Peers:"
 msgstr "端点："
 
-#: ../../fdm/rpc/rpclocalization.cpp:44
 msgctxt "RPCLocalization|"
 msgid "Share ratio:"
 msgstr "分享率："
 
-#: ../../fdm/rpc/rpclocalization.cpp:45
 msgctxt "RPCLocalization|"
 msgid "Availability:"
 msgstr "可用性："
 
-#: ../../fdm/rpc/rpclocalization.cpp:46
 msgctxt "RPCLocalization|"
 msgid "DHT nodes:"
 msgstr "DHT节点："
 
-#: ../../fdm/rpc/rpclocalization.cpp:47
 msgctxt "RPCLocalization|"
 msgid "IP"
 msgstr "IP"
 
-#: ../../fdm/rpc/rpclocalization.cpp:48
 msgctxt "RPCLocalization|"
 msgid "Client"
 msgstr "客户端"
 
-#: ../../fdm/rpc/rpclocalization.cpp:49
 msgctxt "RPCLocalization|"
 msgid "Flags"
 msgstr "Flags"
 
-#: ../../fdm/rpc/rpclocalization.cpp:50
 msgctxt "RPCLocalization|"
 msgid "Requests"
 msgstr "请求"
 
-#: ../../fdm/rpc/rpclocalization.cpp:51
 msgctxt "RPCLocalization|"
 msgid "Downloaded"
 msgstr "已下载"
 
-#: ../../fdm/rpc/rpclocalization.cpp:52
 msgctxt "RPCLocalization|"
 msgid "Uploaded"
 msgstr "已上传"
 
-#: ../../fdm/rpc/rpclocalization.cpp:53
 msgctxt "RPCLocalization|"
 msgid "Files"
 msgstr "文件"
 
-#: ../../fdm/rpc/rpclocalization.cpp:54
 msgctxt "RPCLocalization|"
 msgid "Trackers"
 msgstr "Trackers"
 
-#: ../../fdm/rpc/rpclocalization.cpp:55
 msgctxt "RPCLocalization|"
 msgid "Peers"
 msgstr "端点"
 
-#: ../../fdm/rpc/rpclocalization.cpp:56
 msgctxt "RPCLocalization|"
 msgid "Log"
 msgstr "记录"
 
-#: ../../fdm/rpc/rpclocalization.cpp:57
 msgctxt "RPCLocalization|"
 msgid "Enable seeding"
 msgstr "启用做种"
 
-#: ../../fdm/rpc/rpclocalization.cpp:58
 msgctxt "RPCLocalization|"
 msgid "Progress"
 msgstr "进度"
 
-#: ../../fdm/rpc/rpclocalization.cpp:59
 msgctxt "RPCLocalization|"
 msgid "Priority"
 msgstr "优先级"
 
-#: ../../fdm/rpc/rpclocalization.cpp:60
 msgctxt "RPCLocalization|"
 msgid "URL"
 msgstr "URL"
 
-#: ../../fdm/rpc/rpclocalization.cpp:61
 msgctxt "RPCLocalization|"
 msgid "Next announce"
 msgstr "下次通告"
 
-#: ../../fdm/rpc/rpclocalization.cpp:62
 msgctxt "RPCLocalization|"
 msgid "Snail mode"
 msgstr "慢速模式"
 
-#: ../../fdm/rpc/rpclocalization.cpp:63
 msgctxt "RPCLocalization|"
 msgid "Bandwidth limits"
 msgstr "带宽限制"
 
-#: ../../fdm/rpc/rpclocalization.cpp:64
 msgctxt "RPCLocalization|"
 msgid "Cancel"
 msgstr "取消"
 
-#: ../../fdm/rpc/rpclocalization.cpp:65
 msgctxt "RPCLocalization|"
 msgid "Apply"
 msgstr "应用"
 
-#: ../../fdm/rpc/rpclocalization.cpp:66
 msgctxt "RPCLocalization|"
 msgid "KB/s"
 msgstr "KB/s"
 
-#: ../../fdm/rpc/rpclocalization.cpp:67
 msgctxt "RPCLocalization|"
 msgid "MB/s"
 msgstr "MB/s"
 
-#: ../../fdm/rpc/rpclocalization.cpp:68
-#, qt-format
+msgctxt "RPCLocalization|"
+msgid "%1 B/s"
+msgstr ""
+
 msgctxt "RPCLocalization|"
 msgid "%1 KB/s"
 msgstr "%1 KB/s"
 
-#: ../../fdm/rpc/rpclocalization.cpp:69
-#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%1 MB/s"
 msgstr "%1 MB/s"
 
-#: ../../fdm/rpc/rpclocalization.cpp:70
+msgctxt "RPCLocalization|"
+msgid "%1 GB/s"
+msgstr ""
+
 msgctxt "RPCLocalization|"
 msgid "Browser integration"
 msgstr "浏览器集成"
 
-#: ../../fdm/rpc/rpclocalization.cpp:71
-msgctxt "RPCLocalization|"
-msgid ""
-"Free Download Manager has automatically intercepted the URL that another "
-"Internet Application used to download a file. Thanks to the flexible "
-"settings FDM offers, you can easily adjust the option in the Settings window:"
-msgstr ""
-"Free Download Manager已自动截获另一网络应用用于下载文件的URL。感谢FDM提供的灵活设置，您可以方便地在设置窗口调整选项"
+#~ msgctxt "RPCLocalization|"
+#~ msgid ""
+#~ "Free Download Manager has automatically intercepted the URL that another "
+#~ "Internet Application used to download a file. Thanks to the flexible "
+#~ "settings FDM offers, you can easily adjust the option in the Settings "
+#~ "window:"
+#~ msgstr ""
+#~ "Free Download Manager已自动截获另一网络应用用于下载文件的URL。感谢FDM提供的灵活设置，您可以方便地在设置窗口调整选项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:72
-msgctxt "RPCLocalization|"
-msgid ""
-"Working with browsers, you can configure FDM so that it doesn't monitor "
-"left-click actions."
-msgstr "与浏览器协作，您可以配置FDM使它不接管左键点击动作。"
+#~ msgctxt "RPCLocalization|"
+#~ msgid ""
+#~ "Working with browsers, you can configure FDM so that it doesn't monitor "
+#~ "left-click actions."
+#~ msgstr "与浏览器协作，您可以配置FDM使它不接管左键点击动作。"
 
-#: ../../fdm/rpc/rpclocalization.cpp:73
-msgctxt "RPCLocalization|"
-msgid "Don't show this tip again"
-msgstr "不再显示这条提示"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Don't show this tip again"
+#~ msgstr "不再显示这条提示"
 
-#: ../../fdm/rpc/rpclocalization.cpp:74
 msgctxt "RPCLocalization|"
 msgid "Next"
 msgstr "下一个"
 
-#: ../../fdm/rpc/rpclocalization.cpp:75
 msgctxt "RPCLocalization|"
 msgid "Proceed to download"
 msgstr "继续下载"
 
-#: ../../fdm/rpc/rpclocalization.cpp:76
 msgctxt "RPCLocalization|"
 msgid "Add download"
 msgstr "添加下载"
 
-#: ../../fdm/rpc/rpclocalization.cpp:77
 msgctxt "RPCLocalization|"
 msgid "Enter download URL:"
 msgstr "输入下载URL"
 
-#: ../../fdm/rpc/rpclocalization.cpp:78
 msgctxt "RPCLocalization|"
 msgid "OK"
 msgstr "好"
 
-#: ../../fdm/rpc/rpclocalization.cpp:79
 msgctxt "RPCLocalization|"
 msgid "Download"
 msgstr "下载"
 
-#: ../../fdm/rpc/rpclocalization.cpp:80
 msgctxt "RPCLocalization|"
 msgid "Download anyway"
 msgstr "仍然下载"
 
-#: ../../fdm/rpc/rpclocalization.cpp:81
 msgctxt "RPCLocalization|"
 msgid "Add"
 msgstr "添加"
 
-#: ../../fdm/rpc/rpclocalization.cpp:82
 msgctxt "RPCLocalization|"
 msgid "torrent"
 msgstr "种子"
 
-#: ../../fdm/rpc/rpclocalization.cpp:83
 msgctxt "RPCLocalization|"
 msgid "Save to:"
 msgstr "保存到："
 
-#: ../../fdm/rpc/rpclocalization.cpp:84
 msgctxt "RPCLocalization|"
 msgid "Select folder"
 msgstr "选择文件夹"
 
-#: ../../fdm/rpc/rpclocalization.cpp:85
 msgctxt "RPCLocalization|"
 msgid "Requesting download info..."
 msgstr "正在请求下载信息…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:86
 msgctxt "RPCLocalization|"
 msgid "Quality:"
 msgstr "质量："
 
-#: ../../fdm/rpc/rpclocalization.cpp:87
 msgctxt "RPCLocalization|"
 msgid "Select all"
 msgstr "选择全部"
 
-#: ../../fdm/rpc/rpclocalization.cpp:88
 msgctxt "RPCLocalization|"
 msgid "Select none"
 msgstr "全不选"
 
-#: ../../fdm/rpc/rpclocalization.cpp:89
 msgctxt "RPCLocalization|"
 msgid "Torrent already exists"
 msgstr "种子已存在"
 
-#: ../../fdm/rpc/rpclocalization.cpp:90
-msgctxt "RPCLocalization|"
-msgid "Do you want to load its trackers?"
-msgstr "您想要加载其tracker吗？"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Do you want to load its trackers?"
+#~ msgstr "您想要加载其tracker吗？"
 
-#: ../../fdm/rpc/rpclocalization.cpp:91
 msgctxt "RPCLocalization|"
 msgid "No active downloads"
 msgstr "无活动下载项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:92
 msgctxt "RPCLocalization|"
 msgid "No completed downloads"
 msgstr "无已完成的下载项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:93
 msgctxt "RPCLocalization|"
 msgid "No results found for"
 msgstr "未找到结果关于"
 
-#: ../../fdm/rpc/rpclocalization.cpp:94
 msgctxt "RPCLocalization|"
 msgid "No results tagged"
-msgstr "没有标记的结果"
+msgstr "没有找到下列标记的结果"
 
-#: ../../fdm/rpc/rpclocalization.cpp:95
 msgctxt "RPCLocalization|"
 msgid "found"
-msgstr "已找到"
+msgstr " "
 
-#: ../../fdm/rpc/rpclocalization.cpp:96
 msgctxt "RPCLocalization|"
 msgid "Show all"
 msgstr "显示全部"
 
-#: ../../fdm/rpc/rpclocalization.cpp:97
 msgctxt "RPCLocalization|"
 msgid "Nothing found"
 msgstr "未找到任何项目"
 
-#: ../../fdm/rpc/rpclocalization.cpp:98
 msgctxt "RPCLocalization|"
 msgid "Moving"
 msgstr "移动中"
 
-#: ../../fdm/rpc/rpclocalization.cpp:99
 msgctxt "RPCLocalization|"
 msgid "Unknown file size"
 msgstr "未知文件大小"
 
-#: ../../fdm/rpc/rpclocalization.cpp:100
 msgctxt "RPCLocalization|"
 msgid "Merging media streams"
 msgstr "合并媒体流"
 
-#: ../../fdm/rpc/rpclocalization.cpp:101
 msgctxt "RPCLocalization|"
 msgid "Allocating disk space..."
 msgstr "正在分配磁盘空间…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:102
 msgctxt "RPCLocalization|"
 msgid "Reconnecting..."
 msgstr "重连中…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:103
 msgctxt "RPCLocalization|"
 msgid "Reconnecting"
 msgstr "重连中"
 
-#: ../../fdm/rpc/rpclocalization.cpp:104
 msgctxt "RPCLocalization|"
 msgid "Paused"
 msgstr "已暂停"
 
-#: ../../fdm/rpc/rpclocalization.cpp:105
 msgctxt "RPCLocalization|"
 msgid "Downloading metadata"
 msgstr "下载元数据中"
 
-#: ../../fdm/rpc/rpclocalization.cpp:106
 msgctxt "RPCLocalization|"
 msgid "Downloading"
 msgstr "下载中"
 
-#: ../../fdm/rpc/rpclocalization.cpp:107
 msgctxt "RPCLocalization|"
 msgid "Error"
 msgstr "错误"
 
-#: ../../fdm/rpc/rpclocalization.cpp:108
 msgctxt "RPCLocalization|"
 msgid "Checking files..."
 msgstr "检查文件中…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:109
-msgctxt "RPCLocalization|"
-msgid "Downloading, Allocating disk space..."
-msgstr "下载中，分配磁盘空间中…"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Downloading, Allocating disk space..."
+#~ msgstr "下载中，分配磁盘空间中…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:110
-#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "Want to load its trackers?"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Downloading, allocating disk space..."
+msgstr ""
+
 msgctxt "RPCLocalization|"
 msgid "Completed %n / %2 files"
 msgid_plural "Completed %n / %2 files"
 msgstr[0] "已完成%n / %2个文件"
 
-#: ../../fdm/rpc/rpclocalization.cpp:111
 msgctxt "RPCLocalization|"
 msgid "Complete"
 msgstr "完成"
 
-#: ../../fdm/rpc/rpclocalization.cpp:112
 msgctxt "RPCLocalization|"
 msgid "Queued"
 msgstr "已排队"
 
-#: ../../fdm/rpc/rpclocalization.cpp:113
 msgctxt "RPCLocalization|"
 msgid "Stop seeding"
 msgstr "停止做种"
 
-#: ../../fdm/rpc/rpclocalization.cpp:114
 msgctxt "RPCLocalization|"
 msgid "Requesting info..."
 msgstr "请求信息中…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:115
 msgctxt "RPCLocalization|"
 msgid "Open torrent file..."
 msgstr "打开种子文件…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:116
 msgctxt "RPCLocalization|"
 msgid "Preferences..."
 msgstr "选项…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:117
 msgctxt "RPCLocalization|"
 msgid "Settings..."
 msgstr "设置…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:118
 msgctxt "RPCLocalization|"
 msgid "Settings"
 msgstr "设置"
 
-#: ../../fdm/rpc/rpclocalization.cpp:119
 msgctxt "RPCLocalization|"
 msgid "Contact support"
 msgstr "联系支持人员"
 
-#: ../../fdm/rpc/rpclocalization.cpp:120
 msgctxt "RPCLocalization|"
 msgid "Auto shutdown"
 msgstr "自动关机"
 
-#: ../../fdm/rpc/rpclocalization.cpp:121
 msgctxt "RPCLocalization|"
 msgid "Sleep"
 msgstr "睡眠"
 
-#: ../../fdm/rpc/rpclocalization.cpp:122
 msgctxt "RPCLocalization|"
 msgid "Hibernate"
 msgstr "休眠"
 
-#: ../../fdm/rpc/rpclocalization.cpp:123
 msgctxt "RPCLocalization|"
 msgid "Shutdown"
 msgstr "关机"
 
-#: ../../fdm/rpc/rpclocalization.cpp:124
 msgctxt "RPCLocalization|"
 msgid "Check for updates"
 msgstr "检查更新"
 
-#: ../../fdm/rpc/rpclocalization.cpp:125
 msgctxt "RPCLocalization|"
 msgid "About Free Download Manager"
 msgstr "关于Free Download Manager"
 
-#: ../../fdm/rpc/rpclocalization.cpp:126
 msgctxt "RPCLocalization|"
 msgid "Quit"
 msgstr "退出"
 
-#: ../../fdm/rpc/rpclocalization.cpp:127
 msgctxt "RPCLocalization|"
 msgid "Exit"
 msgstr "退出"
 
-#: ../../fdm/rpc/rpclocalization.cpp:128
 msgctxt "RPCLocalization|"
 msgid "Vote for new features"
 msgstr "为新功能投票"
 
-#: ../../fdm/rpc/rpclocalization.cpp:129
 msgctxt "RPCLocalization|"
 msgid "About FDM"
 msgstr "关于FDM"
 
-#: ../../fdm/rpc/rpclocalization.cpp:130
 msgctxt "RPCLocalization|"
 msgid "Are you sure this is a valid file extension?"
 msgstr "您确定这是有效文件扩展名吗？"
 
-#: ../../fdm/rpc/rpclocalization.cpp:131
 msgctxt "RPCLocalization|"
 msgid "Please enter numbers only"
 msgstr "请仅输入数字"
 
-#: ../../fdm/rpc/rpclocalization.cpp:132
 msgctxt "RPCLocalization|"
 msgid "Are you sure it's not too small?"
 msgstr "您确定它不是太小吗？"
 
-#: ../../fdm/rpc/rpclocalization.cpp:133
 msgctxt "RPCLocalization|"
 msgid "Why should it be so huge?"
 msgstr "为何它需要这么大？"
 
-#: ../../fdm/rpc/rpclocalization.cpp:134
 msgctxt "RPCLocalization|"
 msgid "Extremely slow, isn't it?"
 msgstr "特别慢，不是吗？"
 
-#: ../../fdm/rpc/rpclocalization.cpp:135
 msgctxt "RPCLocalization|"
 msgid "Faster doesn't mean better"
 msgstr "更快不意味着更好"
 
-#: ../../fdm/rpc/rpclocalization.cpp:136
 msgctxt "RPCLocalization|"
 msgid "Isn't it too frequent?"
 msgstr "这太频繁了吧？"
 
-#: ../../fdm/rpc/rpclocalization.cpp:137
 msgctxt "RPCLocalization|"
 msgid "Pretty rare to move with the time."
 msgstr "很难在时间内移动完成"
 
-#: ../../fdm/rpc/rpclocalization.cpp:138
 msgctxt "RPCLocalization|"
 msgid "Maybe you'd let it be a little longer?"
 msgstr "也许您想要稍长的时间？"
 
-#: ../../fdm/rpc/rpclocalization.cpp:139
 msgctxt "RPCLocalization|"
 msgid "Are you sure it's not too long?"
 msgstr "您确定这不是太久吗？"
 
-#: ../../fdm/rpc/rpclocalization.cpp:140
-#, fuzzy, qt-format
 msgctxt "RPCLocalization|"
 msgid "Only %n records? FDM can store much more!"
 msgid_plural "Only %n records? FDM can store much more!"
 msgstr[0] "只有%n条记录？FDM可以记录更多！"
 
-#: ../../fdm/rpc/rpclocalization.cpp:141
-#, fuzzy, qt-format
 msgctxt "RPCLocalization|"
 msgid "%n records is too many to save."
 msgid_plural "%n records is too many to save."
 msgstr[0] "%n条记录太多了无法存储。"
 
-#: ../../fdm/rpc/rpclocalization.cpp:142
 msgctxt "RPCLocalization|"
 msgid "Do you actually want to connect?"
 msgstr "您确定要连接吗？"
 
-#: ../../fdm/rpc/rpclocalization.cpp:143
 msgctxt "RPCLocalization|"
 msgid "Oh no, too many connections!"
 msgstr "不，连接数太多了！"
 
-#: ../../fdm/rpc/rpclocalization.cpp:144
 msgctxt "RPCLocalization|"
 msgid "It seems like an understatement."
 msgstr "这似乎是保守说法。"
 
-#: ../../fdm/rpc/rpclocalization.cpp:145
 msgctxt "RPCLocalization|"
 msgid "So many? It's overwhelming!"
 msgstr "太多了？这势不可挡！"
 
-#: ../../fdm/rpc/rpclocalization.cpp:146
 msgctxt "RPCLocalization|"
 msgid "General"
 msgstr "通用"
 
-#: ../../fdm/rpc/rpclocalization.cpp:147
 msgctxt "RPCLocalization|"
 msgid "Browser Integration"
 msgstr "浏览器集成"
 
-#: ../../fdm/rpc/rpclocalization.cpp:148
 msgctxt "RPCLocalization|"
 msgid "BitTorrent"
 msgstr "BitTorrent"
 
-#: ../../fdm/rpc/rpclocalization.cpp:149
 msgctxt "RPCLocalization|"
 msgid "Traffic Limits"
 msgstr "流量限制"
 
-#: ../../fdm/rpc/rpclocalization.cpp:150
-#, fuzzy
 msgctxt "RPCLocalization|settings"
 msgid "Traffic Limits"
 msgstr "流量限制"
 
-#: ../../fdm/rpc/rpclocalization.cpp:151
 msgctxt "RPCLocalization|"
 msgid "Advanced"
 msgstr "高级"
 
-#: ../../fdm/rpc/rpclocalization.cpp:152
 msgctxt "RPCLocalization|"
 msgid "Network"
 msgstr "网络"
 
-#: ../../fdm/rpc/rpclocalization.cpp:153
 msgctxt "RPCLocalization|"
 msgid "Proxy"
 msgstr "代理"
 
-#: ../../fdm/rpc/rpclocalization.cpp:154
 msgctxt "RPCLocalization|"
 msgid "No proxy"
 msgstr "不使用代理"
 
-#: ../../fdm/rpc/rpclocalization.cpp:155
 msgctxt "RPCLocalization|"
 msgid "System proxy"
 msgstr "系统代理"
 
-#: ../../fdm/rpc/rpclocalization.cpp:156
 msgctxt "RPCLocalization|"
 msgid "Configure manually:"
 msgstr "手动设置："
 
-#: ../../fdm/rpc/rpclocalization.cpp:157
 msgctxt "RPCLocalization|"
 msgid "HTTP:"
 msgstr "HTTP:"
 
-#: ../../fdm/rpc/rpclocalization.cpp:158
 msgctxt "RPCLocalization|"
 msgid "HTTPS:"
 msgstr "HTTPS:"
 
-#: ../../fdm/rpc/rpclocalization.cpp:159
 msgctxt "RPCLocalization|"
 msgid "FTP:"
 msgstr "FTP:"
 
-#: ../../fdm/rpc/rpclocalization.cpp:160
 msgctxt "RPCLocalization|"
 msgid "Address"
 msgstr "地址"
 
-#: ../../fdm/rpc/rpclocalization.cpp:161
 msgctxt "RPCLocalization|"
 msgid "Port"
 msgstr "端口"
 
-#: ../../fdm/rpc/rpclocalization.cpp:162
 msgctxt "RPCLocalization|"
 msgid "Login"
 msgstr "登录名"
 
-#: ../../fdm/rpc/rpclocalization.cpp:163
-#, fuzzy
 msgctxt "RPCLocalization|settings"
 msgid "Login"
 msgstr "登录名"
 
-#: ../../fdm/rpc/rpclocalization.cpp:164
 msgctxt "RPCLocalization|"
 msgid "Password"
 msgstr "密码"
 
-#: ../../fdm/rpc/rpclocalization.cpp:165
 msgctxt "RPCLocalization|"
 msgid "Startup"
 msgstr "启动选项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:166
 msgctxt "RPCLocalization|"
 msgid "Downloads"
 msgstr "下载"
 
-#: ../../fdm/rpc/rpclocalization.cpp:167
 msgctxt "RPCLocalization|"
 msgid "Launch at startup (minimized)"
 msgstr "在系统启动时加载（最小化）"
 
-#: ../../fdm/rpc/rpclocalization.cpp:168
 msgctxt "RPCLocalization|"
 msgid "Open at Login"
 msgstr "在登录时打开"
 
-#: ../../fdm/rpc/rpclocalization.cpp:169
 msgctxt "RPCLocalization|"
 msgid "Close button minimizes window"
 msgstr "关闭按钮最小化窗口"
 
-#: ../../fdm/rpc/rpclocalization.cpp:170
 msgctxt "RPCLocalization|"
 msgid "Check if FDM is your default torrent client"
 msgstr "检查FDM是否是您的默认BT客户端"
 
-#: ../../fdm/rpc/rpclocalization.cpp:171
 msgctxt "RPCLocalization|"
 msgid "Update"
 msgstr "更新"
 
-#: ../../fdm/rpc/rpclocalization.cpp:172
-#, fuzzy
 msgctxt "RPCLocalization|settings"
 msgid "Update"
 msgstr "更新"
 
-#: ../../fdm/rpc/rpclocalization.cpp:173
 msgctxt "RPCLocalization|"
 msgid "Check for updates automatically"
 msgstr "自动检查更新"
 
-#: ../../fdm/rpc/rpclocalization.cpp:174
 msgctxt "RPCLocalization|"
 msgid "Install updates automatically"
 msgstr "自动安装更新"
 
-#: ../../fdm/rpc/rpclocalization.cpp:175
 msgctxt "RPCLocalization|"
-msgid "Send anonymous statistics"
-msgstr "发送匿名统计信息"
+msgid "Suggest folders based on download URL"
+msgstr ""
 
-#: ../../fdm/rpc/rpclocalization.cpp:176
+msgctxt "RPCLocalization|"
+msgid "Start downloading without confirmation"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Use only HTTP ports to catch downloads in Edge"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Safari: enable FDM"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "for context menu"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Automatically catch downloads from browsers"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Verify if"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "is enabled"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Use browser if you cancel download via FDM"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Use proxy for P2P connections"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Start and pause downloads at specified time"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Computer won't be put to sleep because there are scheduled downloads"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Don't put your computer to sleep if there're scheduled downloads"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "%1 TB"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Restore"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Using Alt key"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Don't catch downloads when Alt is pressed"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Catch downloads only when Alt is pressed"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Skip domains:"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Don't put your computer to sleep if there is a scheduled download"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Don't put your computer to sleep if there is an active download"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Remove only from download list"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Go back to default settings"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Hold"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Alt key"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Holding Alt, click link to download via browser."
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Disk space needed:"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Hide bottom panel"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Show bottom panel"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "disk %1"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Tag with the same name already exists"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Enable sleep mode while seeding torrents"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "on"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "and"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Automatically remove deleted files from the download list"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Some files corrupted"
+msgstr ""
+
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Send anonymous statistics"
+#~ msgstr "发送匿名统计信息"
+
 msgctxt "RPCLocalization|"
 msgid "Suggest folders based on file type"
 msgstr "根据文件类型建议文件夹"
 
-#: ../../fdm/rpc/rpclocalization.cpp:177
-msgctxt "RPCLocalization|"
-msgid "Suggest settings based on download URL"
-msgstr "根据下载URL建议设置"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Suggest settings based on download URL"
+#~ msgstr "根据下载URL建议设置"
 
-#: ../../fdm/rpc/rpclocalization.cpp:178 ../../fdm/rpc/rpclocalization.cpp:180
 msgctxt "RPCLocalization|"
 msgid "Default folder:"
 msgstr "默认文件夹："
 
-#: ../../fdm/rpc/rpclocalization.cpp:179
 msgctxt "RPCLocalization|"
 msgid "Associate with torrents"
 msgstr "关联种子文件"
 
-#: ../../fdm/rpc/rpclocalization.cpp:181
 msgctxt "RPCLocalization|"
 msgid "Notifications"
 msgstr "通知"
 
-#: ../../fdm/rpc/rpclocalization.cpp:182
 msgctxt "RPCLocalization|"
 msgid "Notify me of completed downloads via Notification Center"
 msgstr "通过通知中心告诉我已完成的下载项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:183
 msgctxt "RPCLocalization|"
 msgid "Only when FDM window is inactive"
 msgstr "仅在FDM非活跃时"
 
-#: ../../fdm/rpc/rpclocalization.cpp:184
 msgctxt "RPCLocalization|"
 msgid "Action of Remove button (main panel) or Delete key"
 msgstr "移除按钮（主界面）或删除键的动作"
 
-#: ../../fdm/rpc/rpclocalization.cpp:185
 msgctxt "RPCLocalization|"
 msgid "Remove only from list"
 msgstr "仅从列表删除"
 
-#: ../../fdm/rpc/rpclocalization.cpp:186
 msgctxt "RPCLocalization|"
 msgid "Delete file(s) from disk"
 msgstr "从磁盘删除文件"
 
-#: ../../fdm/rpc/rpclocalization.cpp:187
 msgctxt "RPCLocalization|"
 msgid "Always ask"
 msgstr "总是询问"
 
-#: ../../fdm/rpc/rpclocalization.cpp:188
 msgctxt "RPCLocalization|"
 msgid "Don't catch downloads from"
 msgstr "不要捕获下载项来自"
 
-#: ../../fdm/rpc/rpclocalization.cpp:189
-msgctxt "RPCLocalization|"
-msgid "Catch links without confirmation"
-msgstr "无需确认就捕获下载项"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Catch links without confirmation"
+#~ msgstr "无需确认就捕获下载项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:190
-msgctxt "RPCLocalization|"
-msgid "Catch links in Edge only from HTTP ports (improves performance)"
-msgstr "在Edge中仅捕获来自HTTP端口的链接（改善性能）"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Catch links in Edge only from HTTP ports (improves performance)"
+#~ msgstr "在Edge中仅捕获来自HTTP端口的链接（改善性能）"
 
-#: ../../fdm/rpc/rpclocalization.cpp:191
-msgctxt "RPCLocalization|"
-msgid "FDM appears in Safari's context menu if"
-msgstr "FDM出现在Safari上下文菜单里当"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "FDM appears in Safari's context menu if"
+#~ msgstr "FDM出现在Safari上下文菜单里当"
 
-#: ../../fdm/rpc/rpclocalization.cpp:192
 msgctxt "RPCLocalization|"
 msgid "extension"
 msgstr "扩展"
 
-#: ../../fdm/rpc/rpclocalization.cpp:193
-msgctxt "RPCLocalization|"
-msgid "is installed and enabled."
-msgstr "已安装并启用。"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "is installed and enabled."
+#~ msgstr "已安装并启用。"
 
-#: ../../fdm/rpc/rpclocalization.cpp:194
-msgctxt "RPCLocalization|"
-msgid "Automatically catch links from browsers"
-msgstr "自动从浏览器捕获下载"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Automatically catch links from browsers"
+#~ msgstr "自动从浏览器捕获下载"
 
-#: ../../fdm/rpc/rpclocalization.cpp:195
 msgctxt "RPCLocalization|"
 msgid "Edge"
 msgstr "Edge"
 
-#: ../../fdm/rpc/rpclocalization.cpp:196
 msgctxt "RPCLocalization|"
 msgid "Internet Explorer"
 msgstr "Internet Explorer"
 
-#: ../../fdm/rpc/rpclocalization.cpp:197
 msgctxt "RPCLocalization|"
 msgid "Firefox"
 msgstr "Firefox"
 
-#: ../../fdm/rpc/rpclocalization.cpp:198
 msgctxt "RPCLocalization|"
 msgid "Chrome"
 msgstr "Chrome"
 
-#: ../../fdm/rpc/rpclocalization.cpp:199
-msgctxt "RPCLocalization|"
-msgid "Make sure that the"
-msgstr "确保"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Make sure that the"
+#~ msgstr "确保"
 
-#: ../../fdm/rpc/rpclocalization.cpp:200
-msgctxt "RPCLocalization|"
-msgid "is installed and enabled in Chrome"
-msgstr "已安装并在Chrome中启用"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "is installed and enabled in Chrome"
+#~ msgstr "已安装并在Chrome中启用"
 
-#: ../../fdm/rpc/rpclocalization.cpp:201
 msgctxt "RPCLocalization|"
 msgid "No Chrome installation was found."
 msgstr "未安装Chrome"
 
-#: ../../fdm/rpc/rpclocalization.cpp:202
 msgctxt "RPCLocalization|"
 msgid "You can"
 msgstr "您可以"
 
-#: ../../fdm/rpc/rpclocalization.cpp:203
 msgctxt "RPCLocalization|"
 msgid "download Chrome here"
 msgstr "在此下载Chrome"
 
-#: ../../fdm/rpc/rpclocalization.cpp:204
-msgctxt "RPCLocalization|"
-msgid "ALT must be pressed"
-msgstr "必须按下ALT"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "ALT must be pressed"
+#~ msgstr "必须按下ALT"
 
-#: ../../fdm/rpc/rpclocalization.cpp:205
-msgctxt "RPCLocalization|"
-msgid "Allow the browser to download if you press Cancel"
-msgstr "允许在您按下取消时使用浏览器下载"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Allow the browser to download if you press Cancel"
+#~ msgstr "允许在您按下取消时使用浏览器下载"
 
-#: ../../fdm/rpc/rpclocalization.cpp:206
 msgctxt "RPCLocalization|"
 msgid "Don't catch downloads smaller than"
 msgstr "不捕获下载项小于"
 
-#: ../../fdm/rpc/rpclocalization.cpp:207
 msgctxt "RPCLocalization|"
 msgid "Kbytes"
 msgstr "KB"
 
-#: ../../fdm/rpc/rpclocalization.cpp:208
 msgctxt "RPCLocalization|"
 msgid "Skip files with extensions:"
 msgstr "跳过具有以下扩展名的文件："
 
-#: ../../fdm/rpc/rpclocalization.cpp:209
 msgctxt "RPCLocalization|"
 msgid "Add FDM to browser context menu"
 msgstr "将FDM加入浏览器上下文菜单"
 
-#: ../../fdm/rpc/rpclocalization.cpp:210
-msgctxt "RPCLocalization|"
-msgid "Use proxy for peer-to-peer connections"
-msgstr "对端对端连接启用代理"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Use proxy for peer-to-peer connections"
+#~ msgstr "对端对端连接启用代理"
 
-#: ../../fdm/rpc/rpclocalization.cpp:211
 msgctxt "RPCLocalization|"
 msgid "Parameters"
 msgstr "参数"
 
-#: ../../fdm/rpc/rpclocalization.cpp:212
 msgctxt "RPCLocalization|"
 msgid "Low"
 msgstr "低"
 
-#: ../../fdm/rpc/rpclocalization.cpp:213
 msgctxt "RPCLocalization|"
 msgid "Medium"
 msgstr "中"
 
-#: ../../fdm/rpc/rpclocalization.cpp:214
 msgctxt "RPCLocalization|"
 msgid "High"
 msgstr "高"
 
-#: ../../fdm/rpc/rpclocalization.cpp:215
 msgctxt "RPCLocalization|"
 msgid "Normal"
 msgstr "正常"
 
-#: ../../fdm/rpc/rpclocalization.cpp:216
 msgctxt "RPCLocalization|"
 msgid "Skip"
 msgstr "跳过"
 
-#: ../../fdm/rpc/rpclocalization.cpp:217
 msgctxt "RPCLocalization|"
 msgid "Download speed"
 msgstr "下载速度"
 
-#: ../../fdm/rpc/rpclocalization.cpp:218
 msgctxt "RPCLocalization|"
 msgid "Upload speed"
 msgstr "上传速度"
 
-#: ../../fdm/rpc/rpclocalization.cpp:219
+msgctxt "RPCLocalization|"
+msgid "Maximum number of simultaneous downloads"
+msgstr ""
+
 msgctxt "RPCLocalization|"
 msgid "Maximum number of connections"
 msgstr "最大连接数"
 
-#: ../../fdm/rpc/rpclocalization.cpp:220
-msgctxt "RPCLocalization|"
-msgid "Maximum number of running downloads"
-msgstr "最大同时运行的下载项"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Maximum number of running downloads"
+#~ msgstr "最大同时运行的下载项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:221
 msgctxt "RPCLocalization|"
 msgid "History"
 msgstr "历史记录"
 
-#: ../../fdm/rpc/rpclocalization.cpp:222
 msgctxt "RPCLocalization|"
 msgid "Remember all destination folders"
 msgstr "记录所有目标文件夹"
 
-#: ../../fdm/rpc/rpclocalization.cpp:223
+#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Clear history older than"
-msgstr "清除历史记录久于"
+msgid_plural "Clear history older than"
+msgstr[0] "清除历史记录久于"
 
-#: ../../fdm/rpc/rpclocalization.cpp:224
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "days"
 msgid_plural "days"
 msgstr[0] "天"
 
-#: ../../fdm/rpc/rpclocalization.cpp:225
 msgctxt "RPCLocalization|"
 msgid "Maximum number of history records:"
 msgstr "最大历史记录条数："
 
-#: ../../fdm/rpc/rpclocalization.cpp:226
 msgctxt "RPCLocalization|"
 msgid "Disk usage"
 msgstr "磁盘使用"
 
-#: ../../fdm/rpc/rpclocalization.cpp:227
 msgctxt "RPCLocalization|"
 msgid "Preallocate disk space for files larger than"
 msgstr "为大于以下大小的文件预先分配磁盘空间"
 
-#: ../../fdm/rpc/rpclocalization.cpp:228
 msgctxt "RPCLocalization|"
 msgid "Gbytes"
 msgstr "GB"
 
-#: ../../fdm/rpc/rpclocalization.cpp:229
 msgctxt "RPCLocalization|"
 msgid "Power management"
 msgstr "电源管理"
 
-#: ../../fdm/rpc/rpclocalization.cpp:230
 msgctxt "RPCLocalization|"
 msgid "Prevent sleep if there are active downloads"
 msgstr "阻止"
 
-#: ../../fdm/rpc/rpclocalization.cpp:231
 msgctxt "RPCLocalization|"
 msgid "Delete button action"
 msgstr "删除按钮操作"
 
-#: ../../fdm/rpc/rpclocalization.cpp:232
 msgctxt "RPCLocalization|"
 msgid "Delete files"
 msgstr "删除文件"
 
-#: ../../fdm/rpc/rpclocalization.cpp:233
-msgctxt "RPCLocalization|"
-msgid "Restore settings to their original defaults"
-msgstr "重置设置到初始值"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Restore settings to their original defaults"
+#~ msgstr "重置设置到初始值"
 
-#: ../../fdm/rpc/rpclocalization.cpp:234
 msgctxt "RPCLocalization|"
 msgid "DHT"
 msgstr "DHT"
 
-#: ../../fdm/rpc/rpclocalization.cpp:235
 msgctxt "RPCLocalization|"
 msgid "Port forwarding"
 msgstr "端口转发"
 
-#: ../../fdm/rpc/rpclocalization.cpp:236
 msgctxt "RPCLocalization|"
 msgid "Local peer discovery"
 msgstr "本地端发现"
 
-#: ../../fdm/rpc/rpclocalization.cpp:237
 msgctxt "RPCLocalization|"
 msgid "Peer exchange"
 msgstr "用户交换"
 
-#: ../../fdm/rpc/rpclocalization.cpp:238
 msgctxt "RPCLocalization|"
 msgid "uTP"
 msgstr "uTP"
 
-#: ../../fdm/rpc/rpclocalization.cpp:239
 msgctxt "RPCLocalization|"
 msgid "Use ports in range:"
 msgstr "使用端口范围："
 
-#: ../../fdm/rpc/rpclocalization.cpp:240
 msgctxt "RPCLocalization|"
 msgid "to"
 msgstr "到"
 
-#: ../../fdm/rpc/rpclocalization.cpp:241
-msgctxt "RPCLocalization|"
-msgid "All settings will be restored to their original defaults"
-msgstr "所有设置都将被重置回原始值"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "All settings will be restored to their original defaults"
+#~ msgstr "所有设置都将被重置回原始值"
 
-#: ../../fdm/rpc/rpclocalization.cpp:242
 msgctxt "RPCLocalization|"
 msgid "Reset"
 msgstr "重置"
 
-#: ../../fdm/rpc/rpclocalization.cpp:243
 msgctxt "RPCLocalization|"
 msgid "Select All"
 msgstr "选择全部"
 
-#: ../../fdm/rpc/rpclocalization.cpp:244
 msgctxt "RPCLocalization|"
 msgid "Name"
 msgstr "名称"
 
-#: ../../fdm/rpc/rpclocalization.cpp:245
 msgctxt "RPCLocalization|"
 msgid "Status"
 msgstr "状态"
 
-#: ../../fdm/rpc/rpclocalization.cpp:246
 msgctxt "RPCLocalization|"
 msgid "Speed"
 msgstr "速度"
 
-#: ../../fdm/rpc/rpclocalization.cpp:247
 msgctxt "RPCLocalization|"
 msgid "Size"
 msgstr "大小"
 
-#: ../../fdm/rpc/rpclocalization.cpp:248
 msgctxt "RPCLocalization|"
 msgid "Added"
 msgstr "已添加"
 
-#: ../../fdm/rpc/rpclocalization.cpp:249
 msgctxt "RPCLocalization|"
 msgid "Start all"
 msgstr "全部开始"
 
-#: ../../fdm/rpc/rpclocalization.cpp:250
 msgctxt "RPCLocalization|"
 msgid "Pause all"
 msgstr "全部暂停"
 
-#: ../../fdm/rpc/rpclocalization.cpp:251
 msgctxt "RPCLocalization|"
 msgid "Start selected"
 msgstr "开始选中项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:252
 msgctxt "RPCLocalization|"
 msgid "Pause selected"
 msgstr "暂停选中项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:253
 msgctxt "RPCLocalization|"
 msgid "Add new download..."
 msgstr "添加新下载…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:254
 msgctxt "RPCLocalization|"
 msgid "Move to trash"
 msgstr "移到回收站"
 
-#: ../../fdm/rpc/rpclocalization.cpp:255
 msgctxt "RPCLocalization|"
 msgid "Remove from list"
 msgstr "从列表移除"
 
-#: ../../fdm/rpc/rpclocalization.cpp:256
 msgctxt "RPCLocalization|"
 msgid "Delete selected"
 msgstr "删除选中项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:257
 msgctxt "RPCLocalization|"
 msgid "Move to..."
 msgstr "移到…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:258
 msgctxt "RPCLocalization|"
 msgid "Search"
 msgstr "搜索"
 
-#: ../../fdm/rpc/rpclocalization.cpp:259
 msgctxt "RPCLocalization|"
 msgid "Main menu"
 msgstr "主菜单"
 
-#: ../../fdm/rpc/rpclocalization.cpp:260
 msgctxt "RPCLocalization|"
 msgid "Delete selected downloads"
 msgstr "删除选中下载项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:261
 msgctxt "RPCLocalization|"
 msgid "Remember my choice"
 msgstr "记住我的选择"
 
-#: ../../fdm/rpc/rpclocalization.cpp:262
 msgctxt "RPCLocalization|"
 msgid "Delete file"
 msgstr "删除文件"
 
-#: ../../fdm/rpc/rpclocalization.cpp:263
 msgctxt "RPCLocalization|"
 msgid "All"
 msgstr "全部"
 
-#: ../../fdm/rpc/rpclocalization.cpp:264
 msgctxt "RPCLocalization|"
 msgid "Active"
 msgstr "活动"
 
-#: ../../fdm/rpc/rpclocalization.cpp:265
 msgctxt "RPCLocalization|"
 msgid "Completed"
 msgstr "已完成"
 
-#: ../../fdm/rpc/rpclocalization.cpp:266
 msgctxt "RPCLocalization|"
 msgid "Customize color"
 msgstr "自定义颜色"
 
-#: ../../fdm/rpc/rpclocalization.cpp:267
 msgctxt "RPCLocalization|"
 msgid "Remove tag"
 msgstr "移除标签"
 
-#: ../../fdm/rpc/rpclocalization.cpp:268
 msgctxt "RPCLocalization|"
 msgid ""
 "Would you like to make Free Download Manager the default torrent client?"
 msgstr "您要把Free Download Manager作为默认BT客户端吗？"
 
-#: ../../fdm/rpc/rpclocalization.cpp:269
 msgctxt "RPCLocalization|"
 msgid "Don’t ask again"
 msgstr "不再询问"
 
-#: ../../fdm/rpc/rpclocalization.cpp:270
 msgctxt "RPCLocalization|"
 msgid "Set as Default"
 msgstr "设为默认值"
 
-#: ../../fdm/rpc/rpclocalization.cpp:271
 msgctxt "RPCLocalization|"
 msgid "Computer will be put to sleep after all downloads are completed."
 msgstr "电脑将在所有下载项完成后睡眠。"
 
-#: ../../fdm/rpc/rpclocalization.cpp:272
 msgctxt "RPCLocalization|"
 msgid "Computer will shut down after all downloads are completed."
 msgstr "电脑将在所有下载项完成后关闭。"
 
-#: ../../fdm/rpc/rpclocalization.cpp:273
 msgctxt "RPCLocalization|"
 msgid "Computer will hibernate after all downloads are completed."
 msgstr "电脑将在所有下载项完成后休眠。"
 
-#: ../../fdm/rpc/rpclocalization.cpp:274
 msgctxt "RPCLocalization|"
 msgid "Checking for updates..."
 msgstr "检查更新…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:275
 msgctxt "RPCLocalization|"
 msgid "Retry"
 msgstr "重试"
 
-#: ../../fdm/rpc/rpclocalization.cpp:276
 msgctxt "RPCLocalization|"
 msgid "Error:"
 msgstr "错误："
 
-#: ../../fdm/rpc/rpclocalization.cpp:277
 msgctxt "RPCLocalization|"
 msgid "Error downloading update:"
 msgstr "下载更新时出错："
 
-#: ../../fdm/rpc/rpclocalization.cpp:278
 msgctxt "RPCLocalization|"
 msgid "Downloading update"
 msgstr "下载更新中"
 
-#: ../../fdm/rpc/rpclocalization.cpp:279
 msgctxt "RPCLocalization|"
 msgid "Checking..."
 msgstr "正在检查…"
 
-#: ../../fdm/rpc/rpclocalization.cpp:280
 msgctxt "RPCLocalization|"
 msgid "Update downloaded"
 msgstr "已下载更新"
 
-#: ../../fdm/rpc/rpclocalization.cpp:281
 msgctxt "RPCLocalization|"
 msgid "Install update"
 msgstr "安装更新"
 
-#: ../../fdm/rpc/rpclocalization.cpp:282
 msgctxt "RPCLocalization|"
 msgid "Installing updates"
 msgstr "正在安装更新"
 
-#: ../../fdm/rpc/rpclocalization.cpp:283
 msgctxt "RPCLocalization|"
 msgid "Relaunch FDM to update"
 msgstr "重启FDM以更新"
 
-#: ../../fdm/rpc/rpclocalization.cpp:284
 msgctxt "RPCLocalization|"
 msgid "Relaunch"
 msgstr "重启"
 
-#: ../../fdm/rpc/rpclocalization.cpp:285
 msgctxt "RPCLocalization|"
 msgid "Error occurred during installation:"
 msgstr "安装时出错："
 
-#: ../../fdm/rpc/rpclocalization.cpp:286
 msgctxt "RPCLocalization|"
 msgid "Restart computer to complete installation"
 msgstr "重启电脑以完成更新"
 
-#: ../../fdm/rpc/rpclocalization.cpp:287
 msgctxt "RPCLocalization|"
 msgid "FDM is up to date!"
 msgstr "FDM已是最新！"
 
-#: ../../fdm/rpc/rpclocalization.cpp:288
 msgctxt "RPCLocalization|"
 msgid "New version is available"
 msgstr "新版本可用"
 
-#: ../../fdm/rpc/rpclocalization.cpp:289
-#, fuzzy, qt-format
 msgctxt "RPCLocalization|"
 msgid "%ns"
 msgid_plural "%ns"
 msgstr[0] "%n秒"
 
-#: ../../fdm/rpc/rpclocalization.cpp:290
-#, fuzzy, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nm"
 msgid_plural "%nm"
 msgstr[0] "%n分钟"
 
-#: ../../fdm/rpc/rpclocalization.cpp:291
-#, fuzzy, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nh"
 msgid_plural "%nh"
 msgstr[0] "%n小时"
 
-#: ../../fdm/rpc/rpclocalization.cpp:292
-#, fuzzy, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nd"
 msgid_plural "%nd"
 msgstr[0] "%n天"
 
-#: ../../fdm/rpc/rpclocalization.cpp:293
-#, fuzzy, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nw"
 msgid_plural "%nw"
 msgstr[0] "%n周"
 
-#: ../../fdm/rpc/rpclocalization.cpp:294
-#, fuzzy, qt-format
 msgctxt "RPCLocalization|"
 msgid "%ny"
 msgid_plural "%ny"
 msgstr[0] "%n年"
 
-#: ../../fdm/rpc/rpclocalization.cpp:296
 msgctxt "RPCLocalization|"
 msgid "YouTube"
 msgstr "YouTube"
 
-#: ../../fdm/rpc/rpclocalization.cpp:297
 msgctxt "RPCLocalization|"
 msgid "Torrent"
 msgstr "种子"
 
-#: ../../fdm/rpc/rpclocalization.cpp:298
-msgctxt "RPCLocalization|"
-msgid "Catch only when Alt is pressed"
-msgstr "仅在Alt被按下时监视"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Catch only when Alt is pressed"
+#~ msgstr "仅在Alt被按下时监视"
 
-#: ../../fdm/rpc/rpclocalization.cpp:299
-msgctxt "RPCLocalization|"
-msgid "Do not catch when Alt is pressed"
-msgstr "在Alt被按下时不监视"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Do not catch when Alt is pressed"
+#~ msgstr "在Alt被按下时不监视"
 
-#: ../../fdm/rpc/rpclocalization.cpp:300
-msgctxt "RPCLocalization|"
-msgid "Automatic link-catching"
-msgstr "自动捕捉链接"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Automatic link-catching"
+#~ msgstr "自动捕捉链接"
 
-#: ../../fdm/rpc/rpclocalization.cpp:301
-msgctxt "RPCLocalization|"
-msgid ""
-"While holding down the Alt key, set the desired link-catching behaviour via "
-"available."
-msgstr "当Alt键被按下时，设置期望的链接监视行为"
+#~ msgctxt "RPCLocalization|"
+#~ msgid ""
+#~ "While holding down the Alt key, set the desired link-catching behaviour "
+#~ "via available."
+#~ msgstr "当Alt键被按下时，设置期望的链接监视行为"
 
-#: ../../fdm/rpc/rpclocalization.cpp:302
 msgctxt "RPCLocalization|"
 msgid "Options"
 msgstr "选项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:304
 msgctxt "RPCLocalization|"
 msgid "Open Scheduler"
 msgstr "打开计划任务"
 
-#: ../../fdm/rpc/rpclocalization.cpp:305
 msgctxt "RPCLocalization|"
 msgid "Sсheduler"
 msgstr "计划任务"
 
-#: ../../fdm/rpc/rpclocalization.cpp:306
-msgctxt "RPCLocalization|"
-msgid "Start and pause downloads at the specified time"
-msgstr "在制定时间开始或暂停下载"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Start and pause downloads at the specified time"
+#~ msgstr "在制定时间开始或暂停下载"
 
-#: ../../fdm/rpc/rpclocalization.cpp:307
 msgctxt "RPCLocalization|"
 msgid "Enable Scheduler"
-msgstr "启用计划任务"
+msgstr ""
 
-#: ../../fdm/rpc/rpclocalization.cpp:308
 msgctxt "RPCLocalization|"
 msgid "Sun"
 msgstr "周日"
 
-#: ../../fdm/rpc/rpclocalization.cpp:309
 msgctxt "RPCLocalization|"
 msgid "Mon"
 msgstr "周一"
 
-#: ../../fdm/rpc/rpclocalization.cpp:310
 msgctxt "RPCLocalization|"
 msgid "Tue"
 msgstr "周二"
 
-#: ../../fdm/rpc/rpclocalization.cpp:311
 msgctxt "RPCLocalization|"
 msgid "Wed"
 msgstr "周三"
 
-#: ../../fdm/rpc/rpclocalization.cpp:312
 msgctxt "RPCLocalization|"
 msgid "Thu"
 msgstr "周四"
 
-#: ../../fdm/rpc/rpclocalization.cpp:313
 msgctxt "RPCLocalization|"
 msgid "Fri"
 msgstr "周五"
 
-#: ../../fdm/rpc/rpclocalization.cpp:314
 msgctxt "RPCLocalization|"
 msgid "Sat"
 msgstr "周六"
 
-#: ../../fdm/rpc/rpclocalization.cpp:315
 msgctxt "RPCLocalization|"
 msgid "From:"
 msgstr "从："
 
-#: ../../fdm/rpc/rpclocalization.cpp:316
 msgctxt "RPCLocalization|"
 msgid "To:"
 msgstr "到："
 
-#: ../../fdm/rpc/rpclocalization.cpp:318
 msgctxt "RPCLocalization|"
 msgid "Change settings"
 msgstr "更改设置"
 
-#: ../../fdm/rpc/rpclocalization.cpp:319
 msgctxt "RPCLocalization|"
 msgid "Change preferences"
 msgstr "更改选项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:320
 msgctxt "RPCLocalization|"
 msgid "Tip"
 msgstr "提示"
 
-#: ../../fdm/rpc/rpclocalization.cpp:321
-msgctxt "RPCLocalization|"
-msgid "Press Alt if you don't want FDM to automatically catch links."
-msgstr "如果您不想FDM自动捕获链接请按下Alt"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Press Alt if you don't want FDM to automatically catch links."
+#~ msgstr "如果您不想FDM自动捕获链接请按下Alt"
 
-#: ../../fdm/rpc/rpclocalization.cpp:322
-msgctxt "RPCLocalization|"
-msgid "Computer won't be put to sleep because you have scheduled downloads"
-msgstr "由于您有计划的下载项，计算机将不会睡眠"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Computer won't be put to sleep because you have scheduled downloads"
+#~ msgstr "由于您有计划的下载项，计算机将不会睡眠"
 
-#: ../../fdm/rpc/rpclocalization.cpp:324
 msgctxt "RPCLocalization|"
 msgid "Scheduler"
 msgstr "调度器"
 
-#: ../../fdm/rpc/rpclocalization.cpp:325
-msgctxt "RPCLocalization|"
-msgid "Don't put your computer to sleep if there're scheduled downloads."
-msgstr "当有计划的下载项时阻止计算机睡眠"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "Don't put your computer to sleep if there're scheduled downloads."
+#~ msgstr "当有计划的下载项时阻止计算机睡眠"
 
-#: ../../fdm/rpc/rpclocalization.cpp:326
 msgctxt "RPCLocalization|"
 msgid "Press"
 msgstr "按下"
 
-#: ../../fdm/rpc/rpclocalization.cpp:327
 msgctxt "RPCLocalization|"
 msgid "to let the browser process the download"
 msgstr "以让浏览器处理下载项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:329
 msgctxt "RPCLocalization|"
 msgid "Check file integrity"
 msgstr "检查文件完整性"
 
-#: ../../fdm/rpc/rpclocalization.cpp:330
 msgctxt "RPCLocalization|"
 msgid "Calculate"
 msgstr "计算"
 
-#: ../../fdm/rpc/rpclocalization.cpp:331
 msgctxt "RPCLocalization|"
 msgid "Calculating"
 msgstr "计算中"
 
-#: ../../fdm/rpc/rpclocalization.cpp:332
 msgctxt "RPCLocalization|"
 msgid "Verification OK"
 msgstr "检查成功"
 
-#: ../../fdm/rpc/rpclocalization.cpp:333
 msgctxt "RPCLocalization|"
 msgid "Verification failed"
 msgstr "检查失败"
 
-#: ../../fdm/rpc/rpclocalization.cpp:334
 msgctxt "RPCLocalization|"
 msgid "Compare with:"
 msgstr "和下列项比较："
 
-#: ../../fdm/rpc/rpclocalization.cpp:335
 msgctxt "RPCLocalization|"
 msgid "Close"
 msgstr "关闭"
 
-#: ../../fdm/rpc/rpclocalization.cpp:338
-#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%1 left"
 msgstr "剩余%1"
 
-#: ../../fdm/rpc/rpclocalization.cpp:340
 msgctxt "RPCLocalization|"
 msgid "Browsers:"
 msgstr "浏览器："
 
-#: ../../fdm/rpc/rpclocalization.cpp:341
 msgctxt "RPCLocalization|Advanced"
 msgid "Options"
 msgstr "选项"
 
-#: ../../fdm/rpc/rpclocalization.cpp:342
 msgctxt "RPCLocalization|"
 msgid "Done"
 msgstr "已完成"
 
-#: ../../fdm/rpc/rpclocalization.cpp:343
-#, fuzzy
 msgctxt "RPCLocalization|tags panel"
 msgid "Completed"
 msgstr "已完成"
 
-#: ../../fdm/rpc/rpclocalization.cpp:346
-#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%1 of %2"
 msgstr "%2的%1"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:62
+msgctxt "RPCSystem|"
+msgid "Default download folder"
+msgstr ""
+
+msgctxt "RPCSystem|"
+msgid "Accept"
+msgstr ""
+
+msgctxt "RPCSystem|"
+msgid "Download to"
+msgstr ""
+
+#, fuzzy
+msgctxt "RPCSystem|"
+msgid "OK"
+msgstr "好"
+
+msgctxt "RPCSystem|"
+msgid "Open torrent file"
+msgstr ""
+
+msgctxt "RPCSystem|"
+msgid "Torrent files"
+msgstr ""
+
 msgctxt "TorrentDownload|"
 msgid "File priorities changed"
 msgstr "文件属性已改变"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:91
 msgctxt "TorrentDownload|"
 msgid "Stopping seeding"
 msgstr "正在停止做种"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:124
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading enabled"
 msgstr "已启用顺序下载"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:125
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading disabled"
 msgstr "已禁用顺序下载"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:141
 msgctxt "TorrentDownload|"
 msgid "Trackers merged"
 msgstr "已合并Trackers"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:160
 msgctxt "TorrentDownload|"
 msgid "Starting seeding"
 msgstr "正在开始做种"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:198
 msgctxt "TorrentDownload|"
 msgid "Unknown error occurred"
 msgstr "发生未知错误"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:203
-#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Error occurred: %1"
 msgstr "发生错误：%1"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:344
-#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Maximum number of connections is %1"
 msgstr "最大连接数为%1"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:345
-#, fuzzy
 msgctxt "TorrentDownload|"
 msgid "unlimited"
 msgstr "不限制"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:364
 msgctxt "TorrentDownload|"
-msgid "Download speed isn't limited"
-msgstr "下载速度不受限"
+msgid "Download speed is unlimited"
+msgstr ""
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:365
-#, qt-format
+msgctxt "TorrentDownload|"
+msgid "Upload speed is unlimited"
+msgstr ""
+
+msgctxt "TorrentDownload|"
+msgid "Can't move files recursively"
+msgstr ""
+
+msgctxt "TorrentDownload|"
+msgid "Files mapped to new directory"
+msgstr ""
+
+msgctxt "TorrentDownload|"
+msgid "File moving failed"
+msgstr ""
+
+msgctxt "TorrentDownload|"
+msgid "File moving failed: %1"
+msgstr ""
+
+#~ msgctxt "TorrentDownload|"
+#~ msgid "Download speed isn't limited"
+#~ msgstr "下载速度不受限"
+
 msgctxt "TorrentDownload|"
 msgid "Download speed is limited to %1/s"
 msgstr "下载速度限制为%1/s"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:383
-msgctxt "TorrentDownload|"
-msgid "Upload speed isn't limited"
-msgstr "上传速度不受限"
+#~ msgctxt "TorrentDownload|"
+#~ msgid "Upload speed isn't limited"
+#~ msgstr "上传速度不受限"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:384
-#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Upload speed is limited to %1/s"
 msgstr "上传速度限制为%1/s"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:457
 msgctxt "TorrentDownload|"
 msgid "Pausing download"
 msgstr "暂停下载中"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:467
 msgctxt "TorrentDownload|"
 msgid "Download paused"
 msgstr "已暂停下载"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:544
 msgctxt "TorrentDownload|"
 msgid "Files are missing"
 msgstr "文件丢失"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:546
 msgctxt "TorrentDownload|"
 msgid "File is missing"
 msgstr "文件丢失"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:584
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:938
 msgctxt "TorrentDownload|"
 msgid "Starting download"
 msgstr "开始下载中"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:604
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:943
 msgctxt "TorrentDownload|"
 msgid "Checking files"
 msgstr "检查文件"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:632
 msgctxt "TorrentDownload|"
 msgid "Downloading"
 msgstr "下载中"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:671
 msgctxt "TorrentDownload|"
 msgid "Download complete"
 msgstr "下载完成"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:721
-msgctxt "TorrentDownload|"
-msgid "Cannot move files recursively"
-msgstr "无法递归移动文件"
+#~ msgctxt "TorrentDownload|"
+#~ msgid "Cannot move files recursively"
+#~ msgstr "无法递归移动文件"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:730
 msgctxt "TorrentDownload|"
 msgid "Changing destination folder"
 msgstr "更改目标文件夹"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:745
-#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving files to %1"
 msgstr "正在移动文件至%1"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:747
-#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file to %1"
 msgstr "正在移动文件至%1"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1003
 msgctxt "TorrentDownload|"
 msgid "Waiting for metadata"
 msgstr "等待元数据"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1075
 msgctxt "TorrentDownload|"
 msgid "Updating"
 msgstr "更新中"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1077
 msgctxt "TorrentDownload|"
 msgid "Working"
 msgstr "工作中"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1270
 msgctxt "TorrentDownload|"
 msgid "Metadata received"
 msgstr "已收到元数据"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1358
 msgctxt "TorrentDownload|"
 msgid "User authorization required"
 msgstr "需要用户确认"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1383
-msgctxt "TorrentDownload|"
-msgid "Mapped files to new directory"
-msgstr "已映射文件到新路径"
+#~ msgctxt "TorrentDownload|"
+#~ msgid "Mapped files to new directory"
+#~ msgstr "已映射文件到新路径"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1385
-msgctxt "TorrentDownload|"
-msgid "Mapped file to new directory"
-msgstr "映射文件到新路径"
+#~ msgctxt "TorrentDownload|"
+#~ msgid "Mapped file to new directory"
+#~ msgstr "映射文件到新路径"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1420
 msgctxt "TorrentDownload|"
 msgid "Files moving failed"
 msgstr "移动文件失败"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1422
-msgctxt "TorrentDownload|"
-msgid "Moving file failed"
-msgstr "移动文件失败"
+#~ msgctxt "TorrentDownload|"
+#~ msgid "Moving file failed"
+#~ msgstr "移动文件失败"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1494
-#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving declined: %1"
 msgstr "移动文件被拒绝，原因：%1"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1496
-#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file declined: %1"
 msgstr "移动文件被拒绝，原因：%1"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1508
 msgctxt "TorrentDownload|"
 msgid "Moved successfully"
 msgstr "成功移动"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1512
-#, qt-format
 msgctxt "TorrentDownload|"
 msgid ", average speed: %1"
 msgstr "平均速度：%1"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1539
-#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving failed: %1"
 msgstr "移动文件失败，原因：%1"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1541
-#, qt-format
-msgctxt "TorrentDownload|"
-msgid "Moving file failed: %1"
-msgstr "移动文件失败，原因：%1"
+#~ msgctxt "TorrentDownload|"
+#~ msgid "Moving file failed: %1"
+#~ msgstr "移动文件失败，原因：%1"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1559
 msgctxt "TorrentDownload|"
 msgid "Files moving cancelled"
 msgstr "已取消移动文件"
 
-#: ../../fdm/downloads/torrents/torrentdownload.cpp:1561
 msgctxt "TorrentDownload|"
 msgid "Moving file cancelled"
 msgstr "已取消移动文件"
 
-#: ../../fdm/menu/traymenu.cpp:42
 msgctxt "TrayMenu|"
 msgid "Show main window"
 msgstr "显示主窗口"
 
-#: ../../fdm/menu/traymenu.cpp:53
-#, fuzzy
 msgctxt "TrayMenu|"
 msgid "Open at Login"
 msgstr "在登录时打开"
 
-#: ../../fdm/menu/traymenu.cpp:55
 msgctxt "TrayMenu|"
 msgid "Launch at startup"
 msgstr "在启动时打开"
 
-#: ../../fdm/menu/traymenu.cpp:66
-#, fuzzy
 msgctxt "TrayMenu|"
 msgid "About FDM"
 msgstr "关于FDM"
 
-#: ../../fdm/menu/traymenu.cpp:72
 msgctxt "TrayMenu|"
 msgid "Quit FDM"
 msgstr "退出FDM"
 
-#: ../../fdm/menu/traymenu.cpp:74
-#, fuzzy
 msgctxt "TrayMenu|"
 msgid "Quit"
 msgstr "退出"
 
-#: ../../fdm/uihelper.cpp:101
-#, qt-format
 msgctxt "UIHelper|"
 msgid "About %1"
 msgstr "关于%1"
 
-#: ../../fdm/uihelper.cpp:102
-#, qt-format
 msgctxt "UIHelper|"
 msgid "Version %1 (%2)"
 msgstr "版本%1(%2)"
 
-#: ../../fdm/uihelper.cpp:196
 msgctxt "UIHelper|"
 msgid "Open"
 msgstr "打开"
 
-#: ../../fdm/uihelper.cpp:207 ../../fdm/uihelper.cpp:436
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Reveal in Finder"
 msgstr "在Finder中显示"
 
-#: ../../fdm/uihelper.cpp:209 ../../fdm/uihelper.cpp:438
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Show in folder"
 msgstr "在文件夹中显示"
 
-#: ../../fdm/uihelper.cpp:225
 msgctxt "UIHelper|"
 msgid "Show info"
 msgstr "显示信息"
 
-#: ../../fdm/uihelper.cpp:231
 msgctxt "UIHelper|"
 msgid "Choose files..."
 msgstr "选择文件…"
 
-#: ../../fdm/uihelper.cpp:241
 msgctxt "UIHelper|"
 msgid "Pause all except selected"
 msgstr "暂停除选中项外所有下载"
 
-#: ../../fdm/uihelper.cpp:241
 msgctxt "UIHelper|"
 msgid "Pause all except this one"
 msgstr "暂停除此项外所有下载"
 
-#: ../../fdm/uihelper.cpp:252
 msgctxt "UIHelper|"
 msgid "Restart selected"
 msgstr "重启选中项"
 
-#: ../../fdm/uihelper.cpp:252
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Restart"
 msgstr "重启"
 
-#: ../../fdm/uihelper.cpp:262
 msgctxt "UIHelper|"
 msgid "Set priority"
 msgstr "设置优先级"
 
-#: ../../fdm/uihelper.cpp:290
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Move to..."
 msgstr "移到…"
 
-#: ../../fdm/uihelper.cpp:297
 msgctxt "UIHelper|"
 msgid "Download to..."
 msgstr "下载到…"
 
-#: ../../fdm/uihelper.cpp:306
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Move to trash"
 msgstr "移到回收站"
 
-#: ../../fdm/uihelper.cpp:308
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Delete files"
 msgstr "删除文件"
 
-#: ../../fdm/uihelper.cpp:308
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Delete file"
 msgstr "删除文件"
 
-#: ../../fdm/uihelper.cpp:315
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Remove from list"
 msgstr "从列表移除"
 
-#: ../../fdm/uihelper.cpp:323
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Enable seeding"
 msgstr "启用做种"
 
-#: ../../fdm/uihelper.cpp:332
 msgctxt "UIHelper|"
 msgid "Sequential download"
 msgstr "顺序下载"
 
-#: ../../fdm/uihelper.cpp:339
 msgctxt "UIHelper|"
 msgid "Force recheck"
 msgstr "强制重新检查"
 
-#: ../../fdm/uihelper.cpp:344
 msgctxt "UIHelper|"
 msgid "Force reannounce"
 msgstr "强制重新广播"
 
-#: ../../fdm/uihelper.cpp:355
 msgctxt "UIHelper|"
 msgid "Copy link"
 msgstr "复制链接"
 
-#: ../../fdm/uihelper.cpp:362
 msgctxt "UIHelper|"
 msgid "Add tag"
 msgstr "添加标签"
 
-#: ../../fdm/uihelper.cpp:385
 msgctxt "UIHelper|"
 msgid "File integrity"
 msgstr "文件完整性"
 
-#: ../../fdm/uihelper.cpp:395
 msgctxt "UIHelper|"
 msgid "Schedule"
 msgstr "计划"
 
-#: ../../fdm/uihelper.cpp:413
 msgctxt "UIHelper|"
 msgid "High priority"
 msgstr "高优先级"
 
-#: ../../fdm/uihelper.cpp:418
 msgctxt "UIHelper|"
 msgid "Normal priority"
 msgstr "常规优先级"
 
-#: ../../fdm/uihelper.cpp:423
 msgctxt "UIHelper|"
 msgid "Low priority"
 msgstr "低优先级"
 
-#: ../../fdm/uihelper.cpp:428
 msgctxt "UIHelper|"
 msgid "Skip"
 msgstr "跳过"
 
-#: ../../fdm/uihelper.cpp:460
 msgctxt "UIHelper|"
 msgid "Edit"
 msgstr "编辑"
 
-#: ../../fdm/uihelper.cpp:464
 msgctxt "UIHelper|"
 msgid "Remove"
 msgstr "移除"
 
-#: ../../fdm/uihelper.cpp:472
 msgctxt "UIHelper|"
 msgid "Untag"
 msgstr "移除标签"
 
-#: ../../fdm/uihelper.cpp:494
 msgctxt "UIHelper|"
 msgid "Copy log to clipboard"
 msgstr "复制记录到剪贴板"
 
-#: ../../fdm/uihelper.cpp:498
 msgctxt "UIHelper|"
 msgid "Save log to file"
 msgstr "保存记录到文件"
 
-#: ../../fdm/uihelper.cpp:507
-#, qt-format
 msgctxt "UIHelper|"
 msgid "FDM Log [%1].txt"
 msgstr "FDM Log [%1].txt"
 
-#: ../../fdm/uihelper.cpp:510
 msgctxt "UIHelper|"
 msgid "Save Log"
 msgstr "保存记录"
 
-#: ../../fdm/uihelper.cpp:512
 msgctxt "UIHelper|"
 msgid "Text files"
 msgstr "文本文件"
 
-#: ../../fdm/uihelper.cpp:611
-#, qt-format
 msgctxt "UIHelper|"
 msgid "%1 K"
 msgstr "%1K"
 
-#: ../../fdm/uihelper.cpp:616
-#, qt-format
 msgctxt "UIHelper|"
 msgid "%1 M"
 msgstr "%1M"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:153
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:881
 msgctxt "YoutubeDownload|"
 msgid "File is missing"
 msgstr "文件丢失"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:335
 msgctxt "YoutubeDownload|"
 msgid "Error: files are missing."
 msgstr "错误：文件丢失。"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:352
 msgctxt "YoutubeDownload|"
 msgid "Files moved successfully"
 msgstr "成功移动文件"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:409
-#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving to %1"
 msgstr "移动到%1"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:896
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1253
 msgctxt "YoutubeDownload|"
 msgid "Merging failed"
 msgstr "合并失败"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:906
-#, fuzzy
 msgctxt "YoutubeDownload|"
 msgid "Merging media streams"
 msgstr "合并媒体流"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:936
 msgctxt "YoutubeDownload|"
 msgid "Redirecting"
 msgstr "重定向中"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:937
 msgctxt "YoutubeDownload|"
 msgid "Handling redirect"
 msgstr "处理重定向中"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:942
-#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "AudioStream: %1"
 msgstr "音频流：%1"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:943
-#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "VideoStream: %1"
 msgstr "视频流：%1"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:995
 msgctxt "YoutubeDownload|"
 msgid "Downloading page"
 msgstr "下载页面"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1023
 msgctxt "YoutubeDownload|"
 msgid "Page is downloaded"
 msgstr "页面已下载"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1068
 msgctxt "YoutubeDownload|"
 msgid "Launching parser"
 msgstr "启动分析器中"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1101
 msgctxt "YoutubeDownload|"
 msgid "Page is parsed"
 msgstr "页面已分析"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1150
 msgctxt "YoutubeDownload|"
-msgid "Can't find URLs for this quality"
-msgstr "无法为此资源找到链接"
+msgid "Can't find video for this quality"
+msgstr ""
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1183
-#, qt-format
+msgctxt "YoutubeDownload|"
+msgid "Moving declined: %1"
+msgstr ""
+
+msgctxt "YoutubeDownload|"
+msgid "Moving failed: %1"
+msgstr ""
+
+msgctxt "YoutubeDownload|"
+msgid "Moving cancelled."
+msgstr ""
+
+#~ msgctxt "YoutubeDownload|"
+#~ msgid "Can't find URLs for this quality"
+#~ msgstr "无法为此资源找到链接"
+
 msgctxt "YoutubeDownload|"
 msgid "Parsing failure: %1"
 msgstr "解析失败，原因：%1"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1232
 msgctxt "YoutubeDownload|"
 msgid "Download complete"
 msgstr "下载完成"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1352
-#, qt-format
-msgctxt "YoutubeDownload|"
-msgid "Moving operation has been declined: %1"
-msgstr "移动操作被拒绝，原因：%1"
+#~ msgctxt "YoutubeDownload|"
+#~ msgid "Moving operation has been declined: %1"
+#~ msgstr "移动操作被拒绝，原因：%1"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1362
 msgctxt "YoutubeDownload|"
 msgid "Moved successfully"
 msgstr "下载成功"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1366
-#, qt-format
 msgctxt "YoutubeDownload|"
 msgid ", average speed: %1"
 msgstr "，平均速度：%1"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1394
-#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "File is renamed to %1"
 msgstr "文件已被重命名为%1"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1448
-#, qt-format
-msgctxt "YoutubeDownload|"
-msgid "Moving operation failed: %1"
-msgstr "移动操作失败，原因：%1"
+#~ msgctxt "YoutubeDownload|"
+#~ msgid "Moving operation failed: %1"
+#~ msgstr "移动操作失败，原因：%1"
 
-#: ../../fdm/downloads/youtube/youtubedownload.cpp:1460
-msgctxt "YoutubeDownload|"
-msgid "Moving operation cancelled."
-msgstr "已取消移动操作。"
+#~ msgctxt "YoutubeDownload|"
+#~ msgid "Moving operation cancelled."
+#~ msgstr "已取消移动操作。"
