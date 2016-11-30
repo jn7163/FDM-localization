@@ -3,19 +3,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Language: nl_NL\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"X-Language: sl_SI\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
 
 msgid "Download with FDM"
-msgstr ""
+msgstr "Prenesi s FDM"
 
 msgid "Download selected with FDM"
-msgstr ""
+msgstr "Prenesi izbrano s FDM"
 
 msgid "Download video with FDM"
-msgstr ""
+msgstr "Prenesi video s FDM"
 
 msgid "Error: 0x%x. Failed to transfer downloads to FDM."
 msgstr ""
@@ -25,35 +25,31 @@ msgstr ""
 
 msgctxt "DownloadFileInfo|"
 msgid "Skip"
-msgstr ""
+msgstr "Preskoči"
 
-#, fuzzy
 msgctxt "DownloadFileInfo|"
 msgid "Low"
-msgstr "Laag"
+msgstr "Nizko"
 
 msgctxt "DownloadFileInfo|"
 msgid "Normal"
-msgstr ""
+msgstr "Normalno"
 
-#, fuzzy
 msgctxt "DownloadFileInfo|"
 msgid "High"
-msgstr "Hoog"
+msgstr "Visoko"
 
-#, fuzzy
 msgctxt "DownloadInfo|"
 msgid "Low"
-msgstr "Laag"
+msgstr "Nizko"
 
 msgctxt "DownloadInfo|"
 msgid "Normal"
-msgstr ""
+msgstr "Normalno"
 
-#, fuzzy
 msgctxt "DownloadInfo|"
 msgid "High"
-msgstr "Hoog"
+msgstr "Visoko"
 
 msgctxt "HttpError|"
 msgid "HTTP Error %1: %2"
@@ -317,35 +313,34 @@ msgstr ""
 
 msgctxt "HttpFileDownload|"
 msgid "Maximum number of connections is %1"
-msgstr ""
+msgstr "Največje število povezav je %1"
 
-#, fuzzy
 msgctxt "HttpFileDownload|"
 msgid "unlimited"
-msgstr "onbeperkt"
-
-msgctxt "HttpFileDownload|"
-msgid "Download speed is unlimited"
-msgstr ""
+msgstr "neomejeno"
 
 msgctxt "HttpFileDownload|"
 msgid "Download speed is limited to %1/s"
-msgstr ""
+msgstr "Hitrost prenosa je omejena na %1/s"
 
 msgctxt "HttpFileDownload|"
 msgid "Can't resume downloading file"
-msgstr ""
+msgstr "Ne moremo nadaljevati prenašanja datoteke"
 
 msgctxt "HttpFileDownload|"
 msgid "Reconnecting"
-msgstr ""
+msgstr "Ponovno povezovanje"
 
 msgctxt "HttpFileDownload|"
 msgid "Starting download"
-msgstr ""
+msgstr "Pričetek prenosa"
 
 msgctxt "HttpFileDownload|"
 msgid "Pausing download"
+msgstr "Začasno ustavljanje prenosa"
+
+msgctxt "HttpFileDownload|"
+msgid "Download speed is unlimited"
 msgstr ""
 
 msgctxt "HttpFileDownload|"
@@ -354,87 +349,87 @@ msgstr ""
 
 msgctxt "HttpFileDownload|"
 msgid "Moving file to %1"
-msgstr ""
+msgstr "Premikanje datoteke na %1"
 
 msgctxt "HttpFileDownload|"
 msgid "File \"%1\" exists. Saving as %2"
-msgstr ""
+msgstr "Ime \"%1\" je že zasedeno. Preimenovanje v %2"
 
 msgctxt "HttpFileDownload|"
 msgid "Restarting download"
-msgstr ""
+msgstr "Ponovni pričetek prenosa"
 
 msgctxt "HttpFileDownload|"
 msgid "Failed to clear contents of original file."
-msgstr ""
+msgstr "Čiščenje vsebine izvirne datoteke je spodletelo."
 
 msgctxt "HttpFileDownload|"
 msgid "File is renamed to %1"
-msgstr ""
+msgstr "Datoteko smo preimenovali v %1"
 
 msgctxt "HttpFileDownload|"
 msgid "Opening connection #%1"
-msgstr ""
+msgstr "Odpiranje povezave št. %1"
 
 msgctxt "HttpFileDownload|"
 msgid "#%1 closed"
-msgstr ""
-
-msgctxt "HttpFileDownload|"
-msgid "#%1 receiving data"
-msgstr ""
-
-msgctxt "HttpFileDownload|"
-msgid "downloaded %1"
-msgstr ""
-
-msgctxt "HttpFileDownload|"
-msgid "(%1/s)"
-msgstr ""
-
-msgctxt "HttpFileDownload|"
-msgid "#%1: server ignored partial content request"
-msgstr ""
-
-msgctxt "HttpFileDownload|"
-msgid "#%1 failed with error: %2"
-msgstr ""
+msgstr "Št. %1 smo zaprli"
 
 msgctxt "HttpFileDownload|"
 msgid "Opening file on disk..."
-msgstr ""
+msgstr "Odpiranje datoteke na disku ..."
 
 msgctxt "HttpFileDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "Datoteka manjka"
 
 msgctxt "HttpFileDownload|"
 msgid "Download complete"
-msgstr ""
+msgstr "Prenos je končan"
 
 msgctxt "HttpFileDownload|"
 msgid "Removing temporary file extension"
-msgstr ""
+msgstr "Odstranjevanje začasne datotečne končnice"
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocating disk space for download"
-msgstr ""
+msgstr "Predhodno dodeljevanje diskovnega prostora za prenos"
 
 msgctxt "HttpFileDownload|"
 msgid "File changed on remote server"
-msgstr ""
+msgstr "Datoteka na oddaljenem strežniku je bila spremenjena"
 
 msgctxt "HttpFileDownload|"
 msgid "Failed writing received data to file"
-msgstr ""
+msgstr "Zapisovanje prejetih podatkov v datoteko je spodletelo"
+
+msgctxt "HttpFileDownload|"
+msgid "#%1 receiving data"
+msgstr "Prejemanje podatkov št. %1"
+
+msgctxt "HttpFileDownload|"
+msgid "downloaded %1"
+msgstr "preneseno %1"
+
+msgctxt "HttpFileDownload|"
+msgid "(%1/s)"
+msgstr "(%1/s)"
 
 msgctxt "HttpFileDownload|"
 msgid "Redirecting to %1"
-msgstr ""
+msgstr "Preusmerjanje na %1"
+
+msgctxt "HttpFileDownload|"
+msgid "#%1: server ignored partial content request"
+msgstr "Št. %1: strežnik je prezrl zahtevo po delni vsebini"
+
+msgctxt "HttpFileDownload|"
+msgid "#%1 failed with error: %2"
+msgstr "Št. %1 je spodletel z napako: %2"
 
 msgctxt "HttpFileDownload|"
 msgid "File moved successfully"
-msgstr ""
+msgstr "Datoteko smo uspešno premaknili"
 
 msgctxt "HttpFileDownload|"
 msgid "File moving failed"
@@ -442,175 +437,171 @@ msgstr ""
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocation failed: %1"
-msgstr ""
+msgstr "Predhodno dodeljevanje je spodletelo: %1"
 
 msgctxt "HttpFileDownload|"
 msgid "%1 finished successfully"
-msgstr ""
+msgstr "%1 je uspešno zaključen"
 
 msgctxt "HttpFileDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr ", povprečna hitrost: %1"
 
 msgctxt "HttpFileDownload|"
 msgid "Space allocation"
-msgstr ""
+msgstr "Dodeljevanje prostora"
 
 msgctxt "HttpFileDownload|"
 msgid "Move"
-msgstr ""
+msgstr "Premakni"
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocation cancelled"
-msgstr ""
+msgstr "Predhodno dodeljevanje je spodletelo"
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocating queued"
-msgstr ""
+msgstr "Predhodno dodeljevanje je v čakalni vrsti"
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocating started"
-msgstr ""
-
-msgctxt "MacMainMenu|"
-msgid "File"
-msgstr ""
+msgstr "Predhodno dodeljevanje se je pričelo"
 
 msgctxt "MacMainMenu|"
 msgid "Add Download from URL..."
-msgstr ""
+msgstr "Dodaj prenos z URL-ja ..."
 
 msgctxt "MacMainMenu|"
 msgid "Open Torrent File..."
-msgstr ""
+msgstr "Odpri datoteko Torrent ..."
 
 msgctxt "MacMainMenu|"
 msgid "Edit"
-msgstr ""
-
-msgctxt "MacMainMenu|"
-msgid "About %1"
-msgstr ""
-
-msgctxt "MacMainMenu|"
-msgid "Check for Updates..."
-msgstr ""
-
-#, fuzzy
-msgctxt "MacMainMenu|"
-msgid "Downloads"
-msgstr "Downloads"
-
-msgctxt "MacMainMenu|"
-msgid "Start Selected"
-msgstr ""
-
-msgctxt "MacMainMenu|"
-msgid "Pause Selected"
-msgstr ""
-
-msgctxt "MacMainMenu|"
-msgid "Restart Selected"
-msgstr ""
+msgstr "Uredi"
 
 msgctxt "MacMainMenu|"
 msgid "Remove from List"
-msgstr ""
+msgstr "Odstrani s seznama"
 
 msgctxt "MacMainMenu|"
-msgid "Help"
-msgstr ""
+msgid "About %1"
+msgstr "O %1"
+
+msgctxt "MacMainMenu|"
+msgid "Preferences..."
+msgstr "Nastavitve ..."
+
+msgctxt "MacMainMenu|"
+msgid "Check for Updates..."
+msgstr "Preveri za posodobitve ..."
+
+msgctxt "MacMainMenu|"
+msgid "Start Selected"
+msgstr "Začni izbrane"
+
+msgctxt "MacMainMenu|"
+msgid "Pause Selected"
+msgstr "Začasno ustavi izbrane"
+
+msgctxt "MacMainMenu|"
+msgid "Restart Selected"
+msgstr "Ponovno zaženi izbrane"
 
 msgctxt "MacMainMenu|"
 msgid "Contact Support"
-msgstr ""
+msgstr "Kontaktirajte podporo"
 
 msgctxt "MacMainMenu|"
 msgid "Vote for New Features"
-msgstr ""
+msgstr "Glasujte za nove funkcionalnosti"
 
-#, fuzzy
 msgctxt "MacMainMenu|"
-msgid "Preferences..."
-msgstr "Voorkeuren..."
+msgid "File"
+msgstr "Datoteka"
 
-#, fuzzy
+msgctxt "MacMainMenu|"
+msgid "Downloads"
+msgstr "Prenosi"
+
+msgctxt "MacMainMenu|"
+msgid "Help"
+msgstr "Pomoč"
+
 msgctxt "QObject|"
 msgid "About Free Download Manager"
-msgstr "Over Free Download Manager"
+msgstr "O Free Download Managerju"
 
 msgctxt "QObject|"
 msgid "Preferences"
-msgstr ""
+msgstr "Nastavitve"
 
 msgctxt "QObject|"
 msgid "Check for Updates..."
-msgstr ""
+msgstr "Preveri za posodobitve ..."
 
 msgctxt "QObject|"
 msgid "Window"
-msgstr ""
+msgstr "Okno"
 
 msgctxt "QObject|"
 msgid "Minimize"
-msgstr ""
+msgstr "Minimiraj"
 
 msgctxt "QObject|"
 msgid "Zoom"
-msgstr ""
+msgstr "Povečava"
 
 msgctxt "QObject|"
 msgid "Enter Full Screen"
-msgstr ""
+msgstr "Odpri na celotnem zaslonu"
 
 msgctxt "QObject|"
 msgid "Bring All to Front"
-msgstr ""
+msgstr "Prestavi vse v ospredje"
 
 msgctxt "QObject|"
 msgid "Contact Support"
-msgstr ""
+msgstr "Kontaktirajte podporo"
 
 msgctxt "QObject|"
 msgid "Open Torrent File..."
-msgstr ""
+msgstr "Odpri datoteko Torrent ..."
 
 msgctxt "QObject|"
 msgid "File"
-msgstr ""
+msgstr "Datoteka"
 
-#, fuzzy
 msgctxt "QObject|"
 msgid "Select All"
-msgstr "Alles selecteren"
+msgstr "Izberi vse"
 
 msgctxt "QObject|"
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 msgctxt "QObject|"
 msgid "Paste"
-msgstr ""
+msgstr "Prilepi"
 
 msgctxt "QObject|"
 msgid "Copy"
-msgstr ""
+msgstr "Kopiraj"
 
 msgctxt "QObject|"
 msgid "Cut"
-msgstr ""
+msgstr "Izreži"
 
 msgctxt "QObject|"
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 msgctxt "QObject|"
 msgid "Help"
-msgstr ""
+msgstr "Pomoč"
 
 msgctxt "QObject|"
 msgid "Something went wrong with internal downloads."
-msgstr ""
+msgstr "Prišlo je do napake pri notranjih prenosih."
 
 msgctxt "QObject|"
 msgid "Selected filepath is not valid."
@@ -628,156 +619,157 @@ msgctxt "QObject|"
 msgid "Specified directory can't be accessed."
 msgstr ""
 
-# [ RPCLocalization| ] should be ignored. Translate the text from the 'Source text' field that corresponds the line. This is true for all lines with the marking.
 msgctxt "RPCLocalization|"
 msgid "locale"
-msgstr ""
+msgstr "jezik"
 
 msgctxt "RPCLocalization|"
 msgid "Drag & Drop"
-msgstr ""
+msgstr "Povleci in spusti"
 
 msgctxt "RPCLocalization|"
 msgid "URL or torrent here"
-msgstr ""
+msgstr "URL ali torrent tukaj"
 
 msgctxt "RPCLocalization|"
 msgid "Add tag"
-msgstr ""
+msgstr "Dodaj oznako"
 
 msgctxt "RPCLocalization|"
 msgid "Preferences"
-msgstr ""
+msgstr "Nastavitve"
 
 msgctxt "RPCLocalization|"
 msgid "Unlimited"
-msgstr "Onbeperkt"
+msgstr "Neomejeno"
 
 msgctxt "RPCLocalization|"
 msgid "Manual..."
-msgstr "Handmatig..."
+msgstr "Ročno ..."
 
 msgctxt "RPCLocalization|"
 msgid "Set limits manually"
-msgstr "Limieten handmatig instellen"
+msgstr "Nastavi omejitve ročno"
 
 msgctxt "RPCLocalization|"
 msgid "Download: unlimited, Upload: unlimited"
-msgstr "Download: onbeperkt, Upload: onbeperkt"
+msgstr "Prenašanje: neomejeno, Nalaganje: naomejeno"
 
 msgctxt "RPCLocalization|"
 msgid "Download:"
-msgstr "Download:"
+msgstr "Prenašanje:"
 
 msgctxt "RPCLocalization|"
 msgid "Upload:"
-msgstr "Upload:"
+msgstr "Nalaganje:"
 
 msgctxt "RPCLocalization|"
 msgid "unlimited"
-msgstr "onbeperkt"
+msgstr "neomejeno"
 
 msgctxt "RPCLocalization|"
 msgid "Snail mode frees bandwidth without stopping downloads."
-msgstr "Slakkenmodus maakt bandbreedte vrij zonder downloads te stoppen."
+msgstr "Polžji način sprosti pasovno širino brez da bi ustavil prenose."
 
 msgctxt "RPCLocalization|"
 msgid "Hide details"
-msgstr "Details verbergen"
+msgstr "Skrij podrobnosti"
 
 msgctxt "RPCLocalization|"
 msgid "Show details"
-msgstr "Details weergeven"
+msgstr "Prikaži podrobnosti"
 
 msgctxt "RPCLocalization|"
 msgid "%n files selected."
 msgid_plural "%n files selected."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Izbrana je %n datoteka."
+msgstr[1] "Izbrani sta %n datoteki."
+msgstr[2] "Izbrane so %n datoteke."
+msgstr[3] "Izbranih je %n datotek."
 
 msgctxt "RPCLocalization|"
 msgid "Show in folder"
-msgstr "In map weergeven"
+msgstr "Prikaži v mapi"
 
 msgctxt "RPCLocalization|"
 msgid "Reveal in Finder"
-msgstr "Bekendmaken in Finder"
+msgstr "Razkrij v Iskalniku"
 
 msgctxt "RPCLocalization|"
 msgid "Pause"
-msgstr "Pauzeren"
+msgstr "Začasno ustavi"
 
 msgctxt "RPCLocalization|"
 msgid "Restart"
-msgstr "Herstarten"
+msgstr "Ponovno zaženi"
 
 msgctxt "RPCLocalization|"
 msgid "Start"
-msgstr "Starten"
+msgstr "Zaženi"
 
 msgctxt "RPCLocalization|"
 msgid "Selected size:"
-msgstr "Geselecteerde grootte:"
+msgstr "Izbrana velikost:"
 
 msgctxt "RPCLocalization|"
 msgid "Size:"
-msgstr ""
+msgstr "Velikost:"
 
 msgctxt "RPCLocalization|"
 msgid "File size:"
-msgstr ""
+msgstr "Velikost datoteke:"
 
 msgctxt "RPCLocalization|"
 msgid "Disk space:"
-msgstr ""
+msgstr "Prostor na disku:"
 
 msgctxt "RPCLocalization|"
 msgid "Total size:"
-msgstr "Totale grootte:"
+msgstr "Skupna velikost:"
 
 msgctxt "RPCLocalization|"
 msgid "Checked size:"
-msgstr "Gecontroleerde grootte:"
+msgstr "Označena velikost:"
 
 msgctxt "RPCLocalization|"
 msgid "Downloaded:"
-msgstr "Gedownload:"
+msgstr "Preneseno:"
 
 msgctxt "RPCLocalization|"
 msgid "Download speed:"
-msgstr "Downloadsnelheid:"
+msgstr "Hitrost prenašanja:"
 
 msgctxt "RPCLocalization|"
 msgid "Seeds:"
-msgstr "Seeds:"
+msgstr "Semen:"
 
 msgctxt "RPCLocalization|"
 msgid "Domain:"
-msgstr "Domein:"
+msgstr "Domena:"
 
 msgctxt "RPCLocalization|"
 msgid "Uploaded:"
-msgstr "Geüpload:"
+msgstr "Naloženo:"
 
 msgctxt "RPCLocalization|"
 msgid "Upload speed:"
-msgstr "Uploadsnelheid:"
+msgstr "Hitrost nalaganja:"
 
 msgctxt "RPCLocalization|"
 msgid "Peers:"
-msgstr "Peers:"
+msgstr "Vrstnikov:"
 
 msgctxt "RPCLocalization|"
 msgid "Share ratio:"
-msgstr "Deel ratio:"
+msgstr "Razmerje deljenja:"
 
 msgctxt "RPCLocalization|"
 msgid "Availability:"
-msgstr "Beschikbaarheid:"
+msgstr "Dostopnost:"
 
 msgctxt "RPCLocalization|"
 msgid "DHT nodes:"
-msgstr "DHT nodes:"
+msgstr "Vozlišča DHT:"
 
 msgctxt "RPCLocalization|"
 msgid "IP"
@@ -785,51 +777,51 @@ msgstr "IP"
 
 msgctxt "RPCLocalization|"
 msgid "Client"
-msgstr "Client"
+msgstr "Odjemalec"
 
 msgctxt "RPCLocalization|"
 msgid "Flags"
-msgstr "Vlaggen"
+msgstr "Oznake"
 
 msgctxt "RPCLocalization|"
 msgid "Requests"
-msgstr "Aanvragen"
+msgstr "Zahteve"
 
 msgctxt "RPCLocalization|"
 msgid "Downloaded"
-msgstr "Gedownload"
+msgstr "Preneseno"
 
 msgctxt "RPCLocalization|"
 msgid "Uploaded"
-msgstr "Geüpload"
+msgstr "Naloženo"
 
 msgctxt "RPCLocalization|"
 msgid "Files"
-msgstr "Bestanden"
+msgstr "Datoteke"
 
 msgctxt "RPCLocalization|"
 msgid "Trackers"
-msgstr "Trackers"
+msgstr "Sledilniki"
 
 msgctxt "RPCLocalization|"
 msgid "Peers"
-msgstr "Peers"
+msgstr "Vrstniki"
 
 msgctxt "RPCLocalization|"
 msgid "Log"
-msgstr "Log"
+msgstr "Dnevnik"
 
 msgctxt "RPCLocalization|"
 msgid "Enable seeding"
-msgstr "Seeding inschakelen"
+msgstr "Omogoči sejanje"
 
 msgctxt "RPCLocalization|"
 msgid "Progress"
-msgstr "Voortgang"
+msgstr "Napredek"
 
 msgctxt "RPCLocalization|"
 msgid "Priority"
-msgstr "Prioriteit"
+msgstr "Prednost:"
 
 msgctxt "RPCLocalization|"
 msgid "URL"
@@ -837,39 +829,43 @@ msgstr "URL"
 
 msgctxt "RPCLocalization|"
 msgid "Next announce"
-msgstr "Volgende aankondiging"
+msgstr "Naslednje naznanilo"
 
 msgctxt "RPCLocalization|"
 msgid "Snail mode"
-msgstr "Slakkenmodus"
+msgstr "Polžji način"
 
 msgctxt "RPCLocalization|"
 msgid "Bandwidth limits"
-msgstr "Bandbreedtebeperkingen"
+msgstr "Omejitve pasovne širine"
 
 msgctxt "RPCLocalization|"
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr "Prekliči"
 
 msgctxt "RPCLocalization|"
 msgid "Apply"
-msgstr "Toepassen"
+msgstr "Uveljavi"
 
 msgctxt "RPCLocalization|"
 msgid "KB/s"
-msgstr "KB/s"
+msgstr ""
 
 msgctxt "RPCLocalization|"
 msgid "MB/s"
-msgstr "MB/s"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "%1 B/s"
+msgstr ""
 
 msgctxt "RPCLocalization|"
 msgid "%1 KB/s"
-msgstr "%1 KB/s"
+msgstr ""
 
 msgctxt "RPCLocalization|"
 msgid "%1 MB/s"
-msgstr "%1 MB/s"
+msgstr ""
 
 msgctxt "RPCLocalization|"
 msgid "%1 GB/s"
@@ -877,39 +873,39 @@ msgstr ""
 
 msgctxt "RPCLocalization|"
 msgid "Browser integration"
-msgstr "Browserintegratie"
+msgstr "Vključitev v brskalnik"
 
 msgctxt "RPCLocalization|"
 msgid "Next"
-msgstr "Volgende"
+msgstr "Naprej"
 
 msgctxt "RPCLocalization|"
 msgid "Proceed to download"
-msgstr "Verder naar downloaden"
+msgstr "Nadaljuj na prenos"
 
 msgctxt "RPCLocalization|"
 msgid "Add download"
-msgstr "Download toevoegen"
+msgstr "Dodaj prenos"
 
 msgctxt "RPCLocalization|"
 msgid "Enter download URL:"
-msgstr "Downloadlink toevoegen"
+msgstr "Vnesite URL za prenos:"
 
 msgctxt "RPCLocalization|"
 msgid "OK"
-msgstr "Ok"
+msgstr "V redu"
 
 msgctxt "RPCLocalization|"
 msgid "Download"
-msgstr "Download"
+msgstr "Prenesi"
 
 msgctxt "RPCLocalization|"
 msgid "Download anyway"
-msgstr "Toch downloaden"
+msgstr "Prenesi vseeno"
 
 msgctxt "RPCLocalization|"
 msgid "Add"
-msgstr "Toevoegen"
+msgstr "Dodaj"
 
 msgctxt "RPCLocalization|"
 msgid "torrent"
@@ -917,272 +913,275 @@ msgstr "torrent"
 
 msgctxt "RPCLocalization|"
 msgid "Save to:"
-msgstr "Opslaan naar:"
+msgstr "Shrani na:"
 
 msgctxt "RPCLocalization|"
 msgid "Select folder"
-msgstr "Selecteer map"
+msgstr "Izberite mapo"
 
 msgctxt "RPCLocalization|"
 msgid "Requesting download info..."
-msgstr "Download info aanvragen..."
+msgstr "Zahtevanje informacij o prenosu ..."
 
 msgctxt "RPCLocalization|"
 msgid "Quality:"
-msgstr "Kwaliteit:"
+msgstr "Kakovost:"
 
 msgctxt "RPCLocalization|"
 msgid "Select all"
-msgstr "Alles selecteren"
+msgstr "Izberi vse"
 
 msgctxt "RPCLocalization|"
 msgid "Select none"
-msgstr "Niets selecteren"
+msgstr "Opusti vse"
 
 msgctxt "RPCLocalization|"
 msgid "Torrent already exists"
-msgstr "Torrent bestaat reeds"
+msgstr "Torrent že obstaja"
 
 msgctxt "RPCLocalization|"
 msgid "Want to load its trackers?"
-msgstr "Wil je de trackers laden?"
+msgstr ""
 
 msgctxt "RPCLocalization|"
 msgid "No active downloads"
-msgstr "Geen actieve downloads"
+msgstr "Ni dejavnih prenosov"
 
 msgctxt "RPCLocalization|"
 msgid "No completed downloads"
-msgstr "Geen voltooide downloads"
+msgstr "Ni končanih prenosov"
 
 msgctxt "RPCLocalization|"
 msgid "No results found for"
-msgstr "Geen resultaten gevonden voor"
+msgstr "Nismo našli rezultatov za"
 
 msgctxt "RPCLocalization|"
 msgid "No results tagged"
-msgstr "Geen resultaten met label"
+msgstr "Ni rezultatov z oznako"
 
 msgctxt "RPCLocalization|"
 msgid "found"
-msgstr "gevonden"
+msgstr "najdenih"
 
 msgctxt "RPCLocalization|"
 msgid "Show all"
-msgstr "Alles weergeven"
+msgstr "Prikaži vse"
 
 msgctxt "RPCLocalization|"
 msgid "Nothing found"
-msgstr "Niets gevonden"
+msgstr "Ničesar nismo našli"
 
 msgctxt "RPCLocalization|"
 msgid "Moving"
-msgstr "Verplaatsen"
+msgstr "Premikanje"
 
 msgctxt "RPCLocalization|"
 msgid "Unknown file size"
-msgstr "Onbekende bestandsgrootte"
+msgstr "Neznana velikost datoteke"
 
 msgctxt "RPCLocalization|"
 msgid "Merging media streams"
-msgstr "Mediastreams samenvoegen"
+msgstr "Združevanje tokov predstavnosti"
 
 msgctxt "RPCLocalization|"
 msgid "Allocating disk space..."
-msgstr "Schijfruimte toewijzen..."
+msgstr "Dodeljevanje prostora na disku ..."
 
 msgctxt "RPCLocalization|"
 msgid "Reconnecting..."
-msgstr "Opnieuw verbinden..."
+msgstr "Ponovno povezovanje ..."
 
 msgctxt "RPCLocalization|"
 msgid "Reconnecting"
-msgstr ""
+msgstr "Ponovno povezovanje"
 
 msgctxt "RPCLocalization|"
 msgid "Paused"
-msgstr "Gepauzeerd"
+msgstr "Začasno ustavljeno"
 
 msgctxt "RPCLocalization|"
 msgid "Downloading metadata"
-msgstr "Metadata downloaden"
+msgstr "Prenašanje metapodatkov"
 
 msgctxt "RPCLocalization|"
 msgid "Downloading"
-msgstr ""
+msgstr "Prenašanje"
 
 msgctxt "RPCLocalization|"
 msgid "Error"
-msgstr ""
+msgstr "Napaka"
 
 msgctxt "RPCLocalization|"
 msgid "Checking files..."
-msgstr ""
+msgstr "Preverjanje datotek ..."
 
 msgctxt "RPCLocalization|"
 msgid "Downloading, allocating disk space..."
-msgstr ""
+msgstr "Prenašanje, dodeljevanje prostora na disku ..."
 
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Completed %n / %2 files"
 msgid_plural "Completed %n / %2 files"
-msgstr[0] "Voltooid %n / %2 bestanden"
-msgstr[1] ""
+msgstr[0] "Končana %n/%2 datotek"
+msgstr[1] "Končani %n/%2 datotek"
+msgstr[2] "Končane %n/%2 datotek"
+msgstr[3] "Končanih %n/%2 datotek"
 
 msgctxt "RPCLocalization|"
 msgid "Complete"
-msgstr "Voltooid"
+msgstr "Končano"
 
 msgctxt "RPCLocalization|"
 msgid "Queued"
-msgstr "In de wacht"
+msgstr "V čakalni vrsti"
 
 msgctxt "RPCLocalization|"
 msgid "Stop seeding"
-msgstr "Seeding stoppen"
+msgstr "Ustavi sejanje"
 
 msgctxt "RPCLocalization|"
 msgid "Requesting info..."
-msgstr "Info aanvragen..."
+msgstr "Zahtevanje informacij ..."
 
 msgctxt "RPCLocalization|"
 msgid "Open torrent file..."
-msgstr "Torrent-bestand openen..."
+msgstr "Odpri datoteko torrent ..."
 
 msgctxt "RPCLocalization|"
 msgid "Preferences..."
-msgstr "Voorkeuren..."
+msgstr "Nastavitve ..."
 
 msgctxt "RPCLocalization|"
 msgid "Settings..."
-msgstr "Instellingen..."
+msgstr "Nastavitve ..."
 
 msgctxt "RPCLocalization|"
 msgid "Settings"
-msgstr ""
+msgstr "Nastavitve"
 
 msgctxt "RPCLocalization|"
 msgid "Contact support"
-msgstr "Ondersteuning"
+msgstr "Kontaktirajte podporo"
 
 msgctxt "RPCLocalization|"
 msgid "Auto shutdown"
-msgstr "Auto-afsluiten"
+msgstr "Samodejna zaustavitev"
 
 msgctxt "RPCLocalization|"
 msgid "Sleep"
-msgstr "Slaapstand"
+msgstr "Spanje"
 
 msgctxt "RPCLocalization|"
 msgid "Hibernate"
-msgstr "Sluimerstand"
+msgstr "Mirovanje"
 
 msgctxt "RPCLocalization|"
 msgid "Shutdown"
-msgstr "Afsluiten"
+msgstr "Zaustavitev"
 
 msgctxt "RPCLocalization|"
 msgid "Check for updates"
-msgstr "Controleren op updates"
+msgstr "Preveri za posodobitve"
 
 msgctxt "RPCLocalization|"
 msgid "About Free Download Manager"
-msgstr "Over Free Download Manager"
+msgstr "O Free Download Managerju"
 
 msgctxt "RPCLocalization|"
 msgid "Quit"
-msgstr "Sluiten"
+msgstr "Zapri"
 
 msgctxt "RPCLocalization|"
 msgid "Exit"
-msgstr "Afsluiten"
+msgstr "Izhod"
 
 msgctxt "RPCLocalization|"
 msgid "Vote for new features"
-msgstr "Stemmen op nieuwe functies"
+msgstr "Glasujte za nove funkcionalnosti"
 
 msgctxt "RPCLocalization|"
 msgid "About FDM"
-msgstr "Over FDM"
+msgstr "O FDM"
 
 msgctxt "RPCLocalization|"
 msgid "Are you sure this is a valid file extension?"
-msgstr "Weet je zeker dat dit een geldige bestandsextensie is?"
+msgstr "Ste prepričani, da je to veljavna datotečna končnica?"
 
 msgctxt "RPCLocalization|"
 msgid "Please enter numbers only"
-msgstr "Alleen cijfers invullen"
+msgstr "Prosimo, vnesite samo števila"
 
 msgctxt "RPCLocalization|"
 msgid "Are you sure it's not too small?"
-msgstr "Weet je zeker dat het niet te klein is?"
+msgstr "Ste prepričani, da ni premajhno?"
 
 msgctxt "RPCLocalization|"
 msgid "Why should it be so huge?"
-msgstr "Waarom moet het zo groot zijn?"
+msgstr "Zakaj mora biti tako veliko?"
 
 msgctxt "RPCLocalization|"
 msgid "Extremely slow, isn't it?"
-msgstr "Extreem traag, nietwaar?"
+msgstr "Zelo počasno, kajne?"
 
 msgctxt "RPCLocalization|"
 msgid "Faster doesn't mean better"
-msgstr "Sneller betekent niet beter"
+msgstr "Hitrejše ne pomeni boljše"
 
 msgctxt "RPCLocalization|"
 msgid "Isn't it too frequent?"
-msgstr "Is het niet te vaak?"
+msgstr "Ni prepogosto?"
 
 msgctxt "RPCLocalization|"
 msgid "Pretty rare to move with the time."
-msgstr "Best wel zeldzaam om de tijd te verplaatsen"
+msgstr "Zelo nenavadno, da se premika s časom."
 
 msgctxt "RPCLocalization|"
 msgid "Maybe you'd let it be a little longer?"
-msgstr "Misschien kun je het ietsjes minder lang maken?"
+msgstr "Morda pustite, da je nekoliko daljše?"
 
 msgctxt "RPCLocalization|"
 msgid "Are you sure it's not too long?"
-msgstr "Weet je zeker dat het niet te lang is?"
+msgstr "Ste prepričani, da ni predolgo?"
 
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Only %n records? FDM can store much more!"
 msgid_plural "Only %n records? FDM can store much more!"
-msgstr[0] "Maar %n records? FDM kan er veel meer opslaan!"
-msgstr[1] ""
+msgstr[0] "Samo %n vnos? FDM jih lahko shrani veliko več!"
+msgstr[1] "Samo %n vnosa? FDM jih lahko shrani veliko več!"
+msgstr[2] "Samo %n vnosi? FDM jih lahko shrani veliko več!"
+msgstr[3] "Samo %n vnosov? FDM jih lahko shrani veliko več!"
 
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "%n records is too many to save."
 msgid_plural "%n records is too many to save."
-msgstr[0] "%n records zijn teveel om op te slaan."
-msgstr[1] ""
+msgstr[0] "%n vnos za shranitev je preveč."
+msgstr[1] "%n vnosa za shranitev sta preveč."
+msgstr[2] "%n vnosi za shranitev so preveč."
+msgstr[3] "%n vnosov za shranitev je preveč."
 
 msgctxt "RPCLocalization|"
 msgid "Do you actually want to connect?"
-msgstr "Wil je echt een verbinding maken?"
+msgstr "Se zares želite povezati?"
 
 msgctxt "RPCLocalization|"
 msgid "Oh no, too many connections!"
-msgstr "Oh nee, teveel verbindingen!"
+msgstr "O, ne, preveč povezav!"
 
 msgctxt "RPCLocalization|"
 msgid "It seems like an understatement."
-msgstr "Het lijkt een understatement."
+msgstr "Zdi se preblago."
 
 msgctxt "RPCLocalization|"
 msgid "So many? It's overwhelming!"
-msgstr "Zo veel? Het is overweldigend!"
+msgstr "Toliko? Kar preplavlja!"
 
 msgctxt "RPCLocalization|"
 msgid "General"
-msgstr "Algemeen"
+msgstr "Splošno"
 
 msgctxt "RPCLocalization|"
 msgid "Browser Integration"
-msgstr "Browser integratie"
+msgstr "Vključitev v brskalnik"
 
 msgctxt "RPCLocalization|"
 msgid "BitTorrent"
@@ -1190,36 +1189,35 @@ msgstr "BitTorrent"
 
 msgctxt "RPCLocalization|"
 msgid "Traffic Limits"
-msgstr "Bandbreedtebeperkingen"
+msgstr "Omejitve prometa"
 
-#, fuzzy
 msgctxt "RPCLocalization|settings"
 msgid "Traffic Limits"
-msgstr "Bandbreedtebeperkingen"
+msgstr "Omejitve prometa"
 
 msgctxt "RPCLocalization|"
 msgid "Advanced"
-msgstr "Geavanceerd"
+msgstr "Napredno"
 
 msgctxt "RPCLocalization|"
 msgid "Network"
-msgstr "Netwerk"
+msgstr "Omrežje"
 
 msgctxt "RPCLocalization|"
 msgid "Proxy"
-msgstr "Proxy"
+msgstr "Posredniški strežnik"
 
 msgctxt "RPCLocalization|"
 msgid "No proxy"
-msgstr "Geen proxy"
+msgstr "Brez posredniškega strežnika"
 
 msgctxt "RPCLocalization|"
 msgid "System proxy"
-msgstr "Systeemproxy"
+msgstr "Sistemski posredniški strežnik"
 
 msgctxt "RPCLocalization|"
 msgid "Configure manually:"
-msgstr "Handmatig configureren:"
+msgstr "Nastavite ročno:"
 
 msgctxt "RPCLocalization|"
 msgid "HTTP:"
@@ -1235,65 +1233,67 @@ msgstr "FTP:"
 
 msgctxt "RPCLocalization|"
 msgid "Address"
-msgstr "Adres"
+msgstr "Naslov"
 
 msgctxt "RPCLocalization|"
 msgid "Port"
-msgstr "Poort"
+msgstr "Vrata"
 
 msgctxt "RPCLocalization|"
 msgid "Login"
-msgstr "Aanmelden"
+msgstr "Prijava"
 
-#, fuzzy
 msgctxt "RPCLocalization|settings"
 msgid "Login"
-msgstr "Aanmelden"
+msgstr "Prijava"
 
 msgctxt "RPCLocalization|"
 msgid "Password"
-msgstr "Wachtwoord"
+msgstr "Geslo"
 
 msgctxt "RPCLocalization|"
 msgid "Startup"
-msgstr "Opstarten"
+msgstr "Zagon"
 
 msgctxt "RPCLocalization|"
 msgid "Downloads"
-msgstr "Downloads"
+msgstr "Prenosov"
 
 msgctxt "RPCLocalization|"
 msgid "Launch at startup (minimized)"
-msgstr "Starten bij het opstarten (geminimaliseerd)"
+msgstr "Zaženi ob zagonu (minimirano)"
 
 msgctxt "RPCLocalization|"
 msgid "Open at Login"
-msgstr "Openen bij aanmelden"
+msgstr "Odpri ob prijavi"
 
 msgctxt "RPCLocalization|"
 msgid "Close button minimizes window"
-msgstr "Afsluitknop minimaliseert venster"
+msgstr "Gumb za zapiranje minimira okno"
 
 msgctxt "RPCLocalization|"
 msgid "Check if FDM is your default torrent client"
-msgstr "Controleren of FDM jouw standaard torrentclient is"
+msgstr "Preveri, če je FDM vaš privzet odjemalec za torrent"
 
 msgctxt "RPCLocalization|"
 msgid "Update"
-msgstr "Update"
+msgstr "Posodobitev"
 
-#, fuzzy
 msgctxt "RPCLocalization|settings"
 msgid "Update"
-msgstr "Update"
+msgstr "Posodobitev"
 
 msgctxt "RPCLocalization|"
 msgid "Check for updates automatically"
-msgstr "Automatisch op updates controleren"
+msgstr "Samodejno preveri za posodobitve"
 
 msgctxt "RPCLocalization|"
 msgid "Install updates automatically"
-msgstr "Updates automatisch installeren"
+msgstr "Samodejno namesti posodobitve"
+
+msgctxt "RPCLocalization|"
+msgid "Use only HTTP ports to catch downloads in Edge"
+msgstr ""
 
 msgctxt "RPCLocalization|"
 msgid "Safari: enable FDM"
@@ -1304,23 +1304,27 @@ msgid "for context menu"
 msgstr ""
 
 msgctxt "RPCLocalization|"
-msgid "%1 B"
+msgid "Automatically catch downloads from browsers"
 msgstr ""
 
 msgctxt "RPCLocalization|"
-msgid "%1 KB"
+msgid "Use browser if you cancel download via FDM"
 msgstr ""
 
 msgctxt "RPCLocalization|"
-msgid "%1 MB"
+msgid "Use proxy for P2P connections"
 msgstr ""
 
 msgctxt "RPCLocalization|"
-msgid "%1 GB"
+msgid "Start and pause downloads at specified time"
 msgstr ""
 
 msgctxt "RPCLocalization|"
-msgid "%1 TB"
+msgid "Computer won't be put to sleep because there are scheduled downloads"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Don't catch downloads when Alt is pressed"
 msgstr ""
 
 msgctxt "RPCLocalization|"
@@ -1377,95 +1381,59 @@ msgstr ""
 
 msgctxt "RPCLocalization|"
 msgid "Suggest folders based on file type"
-msgstr "Mappen voorstellen op basis van bestandstype"
+msgstr "Predlagaj mape na podlagi vrste datoteke"
 
 msgctxt "RPCLocalization|"
 msgid "Suggest folders based on download URL"
-msgstr "Instellingen voorstellen op basis van download URL"
+msgstr "Predlagaj nastavitve na podlagi URL-ja za prenos"
 
 msgctxt "RPCLocalization|"
 msgid "Default folder:"
-msgstr "Standaard map:"
+msgstr "Privzeta mapa:"
 
 msgctxt "RPCLocalization|"
 msgid "Associate with torrents"
-msgstr "Koppelen met torrents"
+msgstr "Poveži s torrenti"
 
 msgctxt "RPCLocalization|"
 msgid "Notifications"
-msgstr "Notificaties"
+msgstr "Obvestila"
 
 msgctxt "RPCLocalization|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Notificaties van voltooide downloads via Actiecentrum"
+msgstr "O končanih prenosih me obvesti v Središču za obvestila"
 
 msgctxt "RPCLocalization|"
 msgid "Only when FDM window is inactive"
-msgstr "Alleen wanneer FDM venster inactief is"
+msgstr "Samo ko je okno FDM nedejavno"
 
 msgctxt "RPCLocalization|"
 msgid "Action of Remove button (main panel) or Delete key"
-msgstr "Actie bij Verwijderknop (hoofdpaneel) of Delete knop"
+msgstr "Dejanja gumba Odstrani (glavna plošča) ali tipke Izbriši"
 
 msgctxt "RPCLocalization|"
 msgid "Remove only from list"
-msgstr "Alleen uit de lijst verwijderen"
+msgstr "Odstrani samo s seznama"
 
 msgctxt "RPCLocalization|"
 msgid "Delete file(s) from disk"
-msgstr "Verwijder bestand(en) van schijf"
+msgstr "Izbriši datoteko z diska"
 
 msgctxt "RPCLocalization|"
 msgid "Always ask"
-msgstr "Altijd vragen"
+msgstr "Vedno vprašaj"
 
 msgctxt "RPCLocalization|"
 msgid "Don't catch downloads from"
-msgstr "Geen downloads overnemen van"
+msgstr "Ne prestrezi prenosov z domen"
 
 msgctxt "RPCLocalization|"
-msgid "Using Alt key"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Don't catch downloads when Alt is pressed"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Catch downloads only when Alt is pressed"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Skip domains:"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Don't put your computer to sleep if there is a scheduled download"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Don't put your computer to sleep if there is an active download"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Remove only from download list"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Go back to default settings"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Use only HTTP ports to catch downloads in Edge"
-msgstr ""
+msgid "Start downloading without confirmation"
+msgstr "Začni prenašati brez potrditve"
 
 msgctxt "RPCLocalization|"
 msgid "extension"
-msgstr "extensie"
-
-msgctxt "RPCLocalization|"
-msgid "Automatically catch downloads from browsers"
-msgstr "Automatisch links overnemen van browsers"
+msgstr "razširitev"
 
 msgctxt "RPCLocalization|"
 msgid "Edge"
@@ -1485,133 +1453,135 @@ msgstr "Chrome"
 
 msgctxt "RPCLocalization|"
 msgid "Verify if"
-msgstr "Zorg ervoor dat de"
+msgstr "Prepričajte se, da je"
 
 msgctxt "RPCLocalization|"
 msgid "is enabled"
-msgstr "is geïnstalleerd en ingeschakeld in Chrome"
+msgstr "nameščen in omogočen v Chromu"
 
 msgctxt "RPCLocalization|"
 msgid "No Chrome installation was found."
-msgstr "Geen Chrome installatie gevonden."
+msgstr "Nismo našli namestitve Chrome."
 
 msgctxt "RPCLocalization|"
 msgid "You can"
-msgstr "Je kunt"
+msgstr "Chrome lahko"
 
 msgctxt "RPCLocalization|"
 msgid "download Chrome here"
-msgstr "Chrome hier downloaden"
+msgstr "prenesete tukaj"
 
 msgctxt "RPCLocalization|"
 msgid "Don't catch downloads smaller than"
-msgstr "Geen downloads overnemen kleiner dan"
+msgstr "Ne prestrezi prenosov, manjših od"
 
 msgctxt "RPCLocalization|"
 msgid "Kbytes"
-msgstr "Kbytes"
+msgstr "Kbajtov"
 
 msgctxt "RPCLocalization|"
 msgid "Skip files with extensions:"
-msgstr "Bestanden overslaan met extensies:"
+msgstr "Preskoči datoteke s končnicami:"
 
 msgctxt "RPCLocalization|"
 msgid "Add FDM to browser context menu"
-msgstr "FDM toevoegen aan browser contextmenu"
-
-msgctxt "RPCLocalization|"
-msgid "Use proxy for P2P connections"
-msgstr "Proxy gebruiken voor peer-to-peer verbindingen"
+msgstr "Dodaj FDM v kontekstni meni brskalnika"
 
 msgctxt "RPCLocalization|"
 msgid "Parameters"
-msgstr "Parameters"
+msgstr "Parametri"
 
 msgctxt "RPCLocalization|"
 msgid "Low"
-msgstr "Laag"
+msgstr "Nizko"
 
 msgctxt "RPCLocalization|"
 msgid "Medium"
-msgstr "Medium"
+msgstr "Srednje"
 
 msgctxt "RPCLocalization|"
 msgid "High"
-msgstr "Hoog"
+msgstr "Visoko"
 
 msgctxt "RPCLocalization|"
 msgid "Normal"
-msgstr ""
+msgstr "Normalno"
 
 msgctxt "RPCLocalization|"
 msgid "Skip"
-msgstr ""
+msgstr "Preskoči"
 
 msgctxt "RPCLocalization|"
 msgid "Download speed"
-msgstr "Downloadsnelheid"
+msgstr "Hitrost prenašanja"
 
 msgctxt "RPCLocalization|"
 msgid "Upload speed"
-msgstr "Uploadsnelheid"
+msgstr "Hitrost nalaganja"
+
+msgctxt "RPCLocalization|"
+msgid "Maximum number of simultaneous downloads"
+msgstr "Največje število hkratnih prenosov"
 
 msgctxt "RPCLocalization|"
 msgid "Maximum number of connections"
-msgstr "Maximaal aantal verbindingen"
+msgstr "Največje število povezav"
 
 msgctxt "RPCLocalization|"
 msgid "History"
-msgstr "Geschiedenis"
+msgstr "Zgodovina"
 
 msgctxt "RPCLocalization|"
 msgid "Remember all destination folders"
-msgstr "Onthoudt alle doelmappen"
+msgstr "Zapomni si ciljne mape"
 
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Clear history older than"
 msgid_plural "Clear history older than"
-msgstr[0] "Geschiedenis wissen ouder dan"
-msgstr[1] ""
+msgstr[0] "Počisti zgodovino, starejšo od"
+msgstr[1] "Počisti zgodovino, starejšo od"
+msgstr[2] "Počisti zgodovino, starejšo od"
+msgstr[3] "Počisti zgodovino, starejšo od"
 
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "days"
 msgid_plural "days"
-msgstr[0] "dagen"
-msgstr[1] ""
+msgstr[0] "dan"
+msgstr[1] "dni"
+msgstr[2] "dni"
+msgstr[3] "dni"
 
 msgctxt "RPCLocalization|"
 msgid "Maximum number of history records:"
-msgstr "Maximaal aantal geschiedenisrecords:"
+msgstr "Največje število vnosov v zgodovini:"
 
 msgctxt "RPCLocalization|"
 msgid "Disk usage"
-msgstr "Schijfgebruik"
+msgstr "Uporaba diska"
 
 msgctxt "RPCLocalization|"
 msgid "Preallocate disk space for files larger than"
-msgstr "Vooraf ruimte toewijzen voor bestanden groter dan"
+msgstr "Predhodno dodeli prostor na disku za datoteke, večje od"
 
 msgctxt "RPCLocalization|"
 msgid "Gbytes"
-msgstr "Gbytes"
+msgstr "Gbajtov"
 
 msgctxt "RPCLocalization|"
 msgid "Power management"
-msgstr "Energiebeheer"
+msgstr "Možnosti porabe energije"
 
 msgctxt "RPCLocalization|"
 msgid "Prevent sleep if there are active downloads"
-msgstr "Slaapstand tegengaan bij actieve downloads"
+msgstr "Prepreči spanje, če obstajajo dejavni prenosi"
 
 msgctxt "RPCLocalization|"
 msgid "Delete button action"
-msgstr "Verwijderknop actie"
+msgstr "Dejanje gumba za izbris"
 
 msgctxt "RPCLocalization|"
 msgid "Delete files"
-msgstr "Bestanden verwijderen"
+msgstr "Izbriši datoteke"
 
 msgctxt "RPCLocalization|"
 msgid "DHT"
@@ -1619,15 +1589,15 @@ msgstr "DHT"
 
 msgctxt "RPCLocalization|"
 msgid "Port forwarding"
-msgstr "Port forwarding"
+msgstr "Posredovanje vrat"
 
 msgctxt "RPCLocalization|"
 msgid "Local peer discovery"
-msgstr "Local peer discovery"
+msgstr "Odkrivanje lokalnih vrstnikov"
 
 msgctxt "RPCLocalization|"
 msgid "Peer exchange"
-msgstr "Peer uitwisseling"
+msgstr "Izmenjava vrstnikov"
 
 msgctxt "RPCLocalization|"
 msgid "uTP"
@@ -1635,411 +1605,441 @@ msgstr "uTP"
 
 msgctxt "RPCLocalization|"
 msgid "Use ports in range:"
-msgstr "Poorten gebruiken in bereik:"
+msgstr "Uporabi vrata v območju:"
 
 msgctxt "RPCLocalization|"
 msgid "to"
-msgstr "tot"
+msgstr "do"
 
 msgctxt "RPCLocalization|"
 msgid "Reset"
-msgstr "Resetten"
+msgstr "Ponastavi"
 
 msgctxt "RPCLocalization|"
 msgid "Select All"
-msgstr "Alles selecteren"
+msgstr "Izberi vse"
 
 msgctxt "RPCLocalization|"
 msgid "Name"
-msgstr "Naam"
+msgstr "Ime"
 
 msgctxt "RPCLocalization|"
 msgid "Status"
-msgstr "Status"
+msgstr "Stanje"
 
 msgctxt "RPCLocalization|"
 msgid "Speed"
-msgstr "Snelheid"
+msgstr "Hitrost"
 
 msgctxt "RPCLocalization|"
 msgid "Size"
-msgstr "Grootte"
+msgstr "Velikost"
 
 msgctxt "RPCLocalization|"
 msgid "Added"
-msgstr "Toegevoegd"
+msgstr "Dodano"
 
 msgctxt "RPCLocalization|"
 msgid "Start all"
-msgstr "Alles starten"
+msgstr "Začni vse"
 
 msgctxt "RPCLocalization|"
 msgid "Pause all"
-msgstr "Alles pauzeren"
+msgstr "Začasno ustavi vse"
 
 msgctxt "RPCLocalization|"
 msgid "Start selected"
-msgstr "Selectie starten"
+msgstr "Začni izbrane"
 
 msgctxt "RPCLocalization|"
 msgid "Pause selected"
-msgstr "Selectie pauzeren"
+msgstr "Začasno ustavi izbrane"
 
 msgctxt "RPCLocalization|"
 msgid "Add new download..."
-msgstr "Nieuwe download toevoegen..."
+msgstr "Dodaj nov prenos ..."
 
 msgctxt "RPCLocalization|"
 msgid "Move to trash"
-msgstr "Naar prullenbak verwijderen"
+msgstr "Premakni v koš"
 
 msgctxt "RPCLocalization|"
 msgid "Remove from list"
-msgstr "Uit lijst verwijderen"
+msgstr "Odstrani s seznama"
 
 msgctxt "RPCLocalization|"
 msgid "Delete selected"
-msgstr "Selectie verwijderen"
+msgstr "Izbriši izbrane"
 
 msgctxt "RPCLocalization|"
 msgid "Move to..."
-msgstr "Verplaatsen naar..."
+msgstr "Premakni v ..."
 
 msgctxt "RPCLocalization|"
 msgid "Search"
-msgstr "Zoeken"
+msgstr "Iskanje"
 
 msgctxt "RPCLocalization|"
 msgid "Main menu"
-msgstr "Hoofdmenu"
+msgstr "Glavni meni"
 
 msgctxt "RPCLocalization|"
 msgid "Delete selected downloads"
-msgstr "Geselecteerde downloads verwijderen"
+msgstr "Izbriši izbrane prenose"
 
 msgctxt "RPCLocalization|"
 msgid "Remember my choice"
-msgstr "Mijn keuze onthouden"
+msgstr "Zapomni si mojo izbiro"
 
 msgctxt "RPCLocalization|"
 msgid "Delete file"
-msgstr "Bestand verwijderen"
+msgstr "Izbriši datoteko"
 
 msgctxt "RPCLocalization|"
 msgid "All"
-msgstr "Alle"
+msgstr "Vse"
 
 msgctxt "RPCLocalization|"
 msgid "Active"
-msgstr "Actief"
+msgstr "Dejavno"
 
 msgctxt "RPCLocalization|"
 msgid "Completed"
-msgstr "Voltooid"
+msgstr "Končano"
 
 msgctxt "RPCLocalization|"
 msgid "Customize color"
-msgstr "Kleur aanpassen"
+msgstr "Prilagodi barvo"
 
 msgctxt "RPCLocalization|"
 msgid "Remove tag"
-msgstr "Label verwijderen"
+msgstr "Odstrani oznako"
 
 msgctxt "RPCLocalization|"
 msgid ""
 "Would you like to make Free Download Manager the default torrent client?"
-msgstr "Wil je Free Download Manager instellen als standaard torrent-client?"
+msgstr ""
+"Želite Free Download Manager nastaviti kot privzet odjemalec za torrent?"
 
 msgctxt "RPCLocalization|"
 msgid "Don’t ask again"
-msgstr "Niet meer vragen"
+msgstr "Ne sprašuj ponovno"
 
 msgctxt "RPCLocalization|"
 msgid "Set as Default"
-msgstr "Als standaard instellen"
+msgstr "Nastavi kot privzeto"
 
 msgctxt "RPCLocalization|"
 msgid "Computer will be put to sleep after all downloads are completed."
-msgstr "Computer gaat in slaapstand na voltooiing downloads."
+msgstr "Po koncu vseh prenosov bo računalnik prešel v spanje."
 
 msgctxt "RPCLocalization|"
 msgid "Computer will shut down after all downloads are completed."
-msgstr "Computer gaat afsluiten na voltooiing downloads."
+msgstr "Po koncu vseh prenosov se bo računalnik zaustavil."
 
 msgctxt "RPCLocalization|"
 msgid "Computer will hibernate after all downloads are completed."
-msgstr "Computer gaat in sluimerstand na voltooiing downloads."
+msgstr "Po koncu vseh prenosov bo računalnik prešel v mirovanje."
 
 msgctxt "RPCLocalization|"
 msgid "Checking for updates..."
-msgstr "Controleren op updates..."
+msgstr "Preverjanje za posodobitve ..."
 
 msgctxt "RPCLocalization|"
 msgid "Retry"
-msgstr "Opnieuw"
+msgstr "Poskusi znova"
 
 msgctxt "RPCLocalization|"
 msgid "Error:"
-msgstr "Fout:"
+msgstr "Napaka:"
 
 msgctxt "RPCLocalization|"
 msgid "Error downloading update:"
-msgstr "Fout bij downloaden update:"
+msgstr "Napaka pri prenašanju posodobitve:"
 
 msgctxt "RPCLocalization|"
 msgid "Downloading update"
-msgstr "Update downloaden"
+msgstr "Prenašanje posodobitve"
 
 msgctxt "RPCLocalization|"
 msgid "Checking..."
-msgstr "Controleren..."
+msgstr "Preverjanje ..."
 
 msgctxt "RPCLocalization|"
 msgid "Update downloaded"
-msgstr "Update gedownload"
+msgstr "Posodobitev smo prenesli"
 
 msgctxt "RPCLocalization|"
 msgid "Install update"
-msgstr "Update installeren"
+msgstr "Namesti posodobitev"
 
 msgctxt "RPCLocalization|"
 msgid "Installing updates"
-msgstr "Updates installeren"
+msgstr "Nameščanje posodobitev"
 
 msgctxt "RPCLocalization|"
 msgid "Relaunch FDM to update"
-msgstr "FDM herstarten om te vernieuwen"
+msgstr "Za posodobitev ponovno zaženite FDM"
 
 msgctxt "RPCLocalization|"
 msgid "Relaunch"
-msgstr "Herstarten"
+msgstr "Ponovno zaženi"
 
 msgctxt "RPCLocalization|"
 msgid "Error occurred during installation:"
-msgstr "Fout tijdens installatie:"
+msgstr "Med namestitvijo je prišlo do napake:"
 
 msgctxt "RPCLocalization|"
 msgid "Restart computer to complete installation"
-msgstr "Herstart de computer om de installatie te voltooien"
+msgstr "Za dokončanje namestitve znova zaženite računalnik"
 
 msgctxt "RPCLocalization|"
 msgid "FDM is up to date!"
-msgstr "FDM is up-to-date!"
+msgstr "FDM je posodobljen!"
 
 msgctxt "RPCLocalization|"
 msgid "New version is available"
-msgstr ""
+msgstr "Na voljo je nova različica"
 
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "%ns"
 msgid_plural "%ns"
-msgstr[0] "%ns"
-msgstr[1] ""
+msgstr[0] "%n s"
+msgstr[1] "%n s"
+msgstr[2] "%n s"
+msgstr[3] "%n s"
 
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "%nm"
 msgid_plural "%nm"
-msgstr[0] "%nm"
-msgstr[1] ""
+msgstr[0] "%n m"
+msgstr[1] "%n m"
+msgstr[2] "%n m"
+msgstr[3] "%n m"
 
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "%nh"
 msgid_plural "%nh"
-msgstr[0] "%nh"
-msgstr[1] ""
+msgstr[0] "%n u"
+msgstr[1] "%n u"
+msgstr[2] "%n u"
+msgstr[3] "%n u"
 
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "%nd"
 msgid_plural "%nd"
-msgstr[0] "%nd"
-msgstr[1] ""
+msgstr[0] "%n d"
+msgstr[1] "%n d"
+msgstr[2] "%n d"
+msgstr[3] "%n d"
 
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "%nw"
 msgid_plural "%nw"
-msgstr[0] "%nw"
-msgstr[1] ""
+msgstr[0] "%n t"
+msgstr[1] "%n t"
+msgstr[2] "%n t"
+msgstr[3] "%n t"
 
-#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "%ny"
 msgid_plural "%ny"
-msgstr[0] "%ny"
-msgstr[1] ""
+msgstr[0] "%n l"
+msgstr[1] "%n l"
+msgstr[2] "%n l"
+msgstr[3] "%n l"
 
 msgctxt "RPCLocalization|"
 msgid "YouTube"
-msgstr ""
+msgstr "YouTube"
 
 msgctxt "RPCLocalization|"
 msgid "Torrent"
-msgstr ""
+msgstr "Torrent"
 
 msgctxt "RPCLocalization|"
 msgid "Options"
-msgstr ""
+msgstr "Možnosti"
 
 msgctxt "RPCLocalization|"
 msgid "Open Scheduler"
-msgstr ""
+msgstr "Odpri Načrtovalnik"
 
 msgctxt "RPCLocalization|"
 msgid "Sсheduler"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Start and pause downloads at specified time"
-msgstr ""
+msgstr "Načrtovalnik"
 
 msgctxt "RPCLocalization|"
 msgid "Enable Scheduler"
-msgstr ""
+msgstr "Omogoči Načrtovalnik"
 
 msgctxt "RPCLocalization|"
 msgid "Sun"
-msgstr ""
+msgstr "Ned"
 
 msgctxt "RPCLocalization|"
 msgid "Mon"
-msgstr ""
+msgstr "Pon"
 
 msgctxt "RPCLocalization|"
 msgid "Tue"
-msgstr ""
+msgstr "Tor"
 
 msgctxt "RPCLocalization|"
 msgid "Wed"
-msgstr ""
+msgstr "Sre"
 
 msgctxt "RPCLocalization|"
 msgid "Thu"
-msgstr ""
+msgstr "Čet"
 
 msgctxt "RPCLocalization|"
 msgid "Fri"
-msgstr ""
+msgstr "Pet"
 
 msgctxt "RPCLocalization|"
 msgid "Sat"
-msgstr ""
+msgstr "Sob"
 
 msgctxt "RPCLocalization|"
 msgid "From:"
-msgstr ""
+msgstr "Od:"
 
 msgctxt "RPCLocalization|"
 msgid "To:"
-msgstr ""
+msgstr "Do:"
 
 msgctxt "RPCLocalization|"
 msgid "Change settings"
-msgstr ""
+msgstr "Spremeni nastavitve"
 
 msgctxt "RPCLocalization|"
 msgid "Change preferences"
-msgstr ""
+msgstr "Spremeni nastavitve"
 
 msgctxt "RPCLocalization|"
 msgid "Tip"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Computer won't be put to sleep because there are scheduled downloads"
-msgstr ""
+msgstr "Namig"
 
 msgctxt "RPCLocalization|"
 msgid "Scheduler"
-msgstr ""
+msgstr "Načrtovalnik"
 
 msgctxt "RPCLocalization|"
 msgid "Don't put your computer to sleep if there're scheduled downloads"
+msgstr "Računalniku onemogoči prehod v spanje, če obstajajo načrtovani prenosi"
+
+msgctxt "RPCLocalization|"
+msgid "Press"
+msgstr "Pritisnite"
+
+msgctxt "RPCLocalization|"
+msgid "to let the browser process the download"
+msgstr "da pustite brskalniku, da obdela prenos"
+
+msgctxt "RPCLocalization|"
+msgid "Check file integrity"
+msgstr "Preverjanje celovitosti datoteke"
+
+msgctxt "RPCLocalization|"
+msgid "Calculate"
+msgstr "Izračunaj"
+
+msgctxt "RPCLocalization|"
+msgid "Calculating"
+msgstr "Izračunavanje"
+
+msgctxt "RPCLocalization|"
+msgid "Verification OK"
+msgstr "Preverjanje je bilo uspešno"
+
+msgctxt "RPCLocalization|"
+msgid "Verification failed"
+msgstr "Preverjanje je spodletelo"
+
+msgctxt "RPCLocalization|"
+msgid "Compare with:"
+msgstr "Primerjaj z:"
+
+msgctxt "RPCLocalization|"
+msgid "Close"
+msgstr "Zapri"
+
+msgctxt "RPCLocalization|"
+msgid "%1 left"
+msgstr "še %1"
+
+msgctxt "RPCLocalization|"
+msgid "Browsers:"
+msgstr "Brskalniki:"
+
+msgctxt "RPCLocalization|Advanced"
+msgid "Options"
+msgstr "Možnosti"
+
+msgctxt "RPCLocalization|"
+msgid "Done"
+msgstr "Končano"
+
+msgctxt "RPCLocalization|tags panel"
+msgid "Completed"
+msgstr "Končano"
+
+msgctxt "RPCLocalization|"
+msgid "%1 of %2"
+msgstr "%1 od %2"
+
+msgctxt "RPCLocalization|"
+msgid "%1 B"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "%1 KB"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "%1 MB"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "%1 GB"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "%1 TB"
 msgstr ""
 
 msgctxt "RPCLocalization|"
 msgid "Restore"
-msgstr ""
+msgstr "Obnovi"
 
 msgctxt "RPCLocalization|"
-msgid "Press"
-msgstr ""
+msgid "Using Alt key"
+msgstr "Z uporabo tipke Alt"
 
 msgctxt "RPCLocalization|"
-msgid "%1 B/s"
-msgstr ""
+msgid "Catch downloads only when Alt is pressed"
+msgstr "Prestrezi prenose samo, ko je pritisnjen Alt"
 
 msgctxt "RPCLocalization|"
-msgid "Start downloading without confirmation"
-msgstr ""
+msgid "Skip domains:"
+msgstr "Preskoči domene"
 
 msgctxt "RPCLocalization|"
-msgid "Use browser if you cancel download via FDM"
-msgstr ""
+msgid "Don't put your computer to sleep if there is a scheduled download"
+msgstr "Računalniku onemogoči prehod v spanje, če obstaja načrtovan prenos"
 
 msgctxt "RPCLocalization|"
-msgid "Maximum number of simultaneous downloads"
-msgstr ""
+msgid "Don't put your computer to sleep if there is an active download"
+msgstr "Računalniku onemogoči prehod v spanje, če obstaja dejaven prenos"
 
 msgctxt "RPCLocalization|"
-msgid "to let the browser process the download"
-msgstr ""
+msgid "Remove only from download list"
+msgstr "Odstrani samo s seznama prenosov"
 
 msgctxt "RPCLocalization|"
-msgid "Check file integrity"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Calculate"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Calculating"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Verification OK"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Verification failed"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Compare with:"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Close"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "%1 left"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Browsers:"
-msgstr ""
-
-msgctxt "RPCLocalization|Advanced"
-msgid "Options"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "Done"
-msgstr ""
-
-#, fuzzy
-msgctxt "RPCLocalization|tags panel"
-msgid "Completed"
-msgstr "Voltooid"
-
-msgctxt "RPCLocalization|"
-msgid "%1 of %2"
-msgstr ""
+msgid "Go back to default settings"
+msgstr "Ponastavi nastavitve na privzete vrednosti"
 
 msgctxt "RPCSystem|"
 msgid "Default download folder"
@@ -2056,7 +2056,7 @@ msgstr ""
 #, fuzzy
 msgctxt "RPCSystem|"
 msgid "OK"
-msgstr "Ok"
+msgstr "V redu"
 
 msgctxt "RPCSystem|"
 msgid "Open torrent file"
@@ -2068,51 +2068,46 @@ msgstr ""
 
 msgctxt "TorrentDownload|"
 msgid "File priorities changed"
-msgstr ""
+msgstr "Prišlo je do spremembe prednosti datotek"
 
 msgctxt "TorrentDownload|"
 msgid "Stopping seeding"
-msgstr ""
+msgstr "Ustavljanje sejanja"
 
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading enabled"
-msgstr ""
+msgstr "Zaporedno prenašanje je omogočeno"
 
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading disabled"
-msgstr ""
+msgstr "Zaporedno prenašanje je onemogočeno"
 
 msgctxt "TorrentDownload|"
 msgid "Trackers merged"
-msgstr ""
+msgstr "Sledilniki združeni"
 
 msgctxt "TorrentDownload|"
 msgid "Starting seeding"
-msgstr ""
+msgstr "Pričenjanje sejanja"
 
 msgctxt "TorrentDownload|"
 msgid "Unknown error occurred"
-msgstr ""
+msgstr "Prišlo je do neznane napake"
 
 msgctxt "TorrentDownload|"
 msgid "Error occurred: %1"
-msgstr ""
+msgstr "Prišlo je do napake: %1"
 
 msgctxt "TorrentDownload|"
 msgid "Maximum number of connections is %1"
-msgstr ""
+msgstr "Največje število povezav je %1"
 
-#, fuzzy
 msgctxt "TorrentDownload|"
 msgid "unlimited"
-msgstr "onbeperkt"
+msgstr "neomejeno"
 
 msgctxt "TorrentDownload|"
 msgid "Download speed is unlimited"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Download speed is limited to %1/s"
 msgstr ""
 
 msgctxt "TorrentDownload|"
@@ -2120,75 +2115,7 @@ msgid "Upload speed is unlimited"
 msgstr ""
 
 msgctxt "TorrentDownload|"
-msgid "Upload speed is limited to %1/s"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Pausing download"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Download paused"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Files are missing"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "File is missing"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Starting download"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Checking files"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Downloading"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Download complete"
-msgstr ""
-
-msgctxt "TorrentDownload|"
 msgid "Can't move files recursively"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Changing destination folder"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Moving files to %1"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Moving file to %1"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Waiting for metadata"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Updating"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Working"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Metadata received"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "User authorization required"
 msgstr ""
 
 msgctxt "TorrentDownload|"
@@ -2196,31 +2123,7 @@ msgid "Files mapped to new directory"
 msgstr ""
 
 msgctxt "TorrentDownload|"
-msgid "Files moving failed"
-msgstr ""
-
-msgctxt "TorrentDownload|"
 msgid "File moving failed"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Files moving declined: %1"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Moving file declined: %1"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Moved successfully"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid ", average speed: %1"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Files moving failed: %1"
 msgstr ""
 
 msgctxt "TorrentDownload|"
@@ -2228,276 +2131,351 @@ msgid "File moving failed: %1"
 msgstr ""
 
 msgctxt "TorrentDownload|"
+msgid "Download speed is limited to %1/s"
+msgstr "Hitrost prenosa je omejena na %1/s"
+
+msgctxt "TorrentDownload|"
+msgid "Upload speed is limited to %1/s"
+msgstr "Hitrost nalaganja je omejena na %1/s"
+
+msgctxt "TorrentDownload|"
+msgid "Pausing download"
+msgstr "Začasno ustavljanje prenosa"
+
+msgctxt "TorrentDownload|"
+msgid "Download paused"
+msgstr "Prenos je začasno ustavljen"
+
+msgctxt "TorrentDownload|"
+msgid "Files are missing"
+msgstr "Datoteke manjkajo"
+
+msgctxt "TorrentDownload|"
+msgid "File is missing"
+msgstr "Datoteka manjka"
+
+msgctxt "TorrentDownload|"
+msgid "Starting download"
+msgstr "Pričetek prenosa"
+
+msgctxt "TorrentDownload|"
+msgid "Checking files"
+msgstr "Preverjanje datotek"
+
+msgctxt "TorrentDownload|"
+msgid "Downloading"
+msgstr "Prenašanje"
+
+msgctxt "TorrentDownload|"
+msgid "Download complete"
+msgstr "Prenos je končan"
+
+msgctxt "TorrentDownload|"
+msgid "Changing destination folder"
+msgstr "Spreminjanje ciljne mape"
+
+msgctxt "TorrentDownload|"
+msgid "Moving files to %1"
+msgstr "Premikanje datotek na %1"
+
+msgctxt "TorrentDownload|"
+msgid "Moving file to %1"
+msgstr "Premikanje datoteke na %1"
+
+msgctxt "TorrentDownload|"
+msgid "Waiting for metadata"
+msgstr "Čakanje na metapodatke"
+
+msgctxt "TorrentDownload|"
+msgid "Updating"
+msgstr "Posodabljanje"
+
+msgctxt "TorrentDownload|"
+msgid "Working"
+msgstr "Delovanje"
+
+msgctxt "TorrentDownload|"
+msgid "Metadata received"
+msgstr "Prejeli smo metapodatke"
+
+msgctxt "TorrentDownload|"
+msgid "User authorization required"
+msgstr "Zahtevana je overitev uporabnika"
+
+msgctxt "TorrentDownload|"
+msgid "Files moving failed"
+msgstr "Premikanje datotek je spodletelo"
+
+msgctxt "TorrentDownload|"
+msgid "Files moving declined: %1"
+msgstr "Premikanje datotek je bilo odklonjeno: %1"
+
+msgctxt "TorrentDownload|"
+msgid "Moving file declined: %1"
+msgstr "Premikanje datoteke je bilo odklonjeno: %1"
+
+msgctxt "TorrentDownload|"
+msgid "Moved successfully"
+msgstr "Premikanje je bilo uspešno"
+
+msgctxt "TorrentDownload|"
+msgid ", average speed: %1"
+msgstr ", povprečna hitrost: %1"
+
+msgctxt "TorrentDownload|"
+msgid "Files moving failed: %1"
+msgstr "Premikanje datotek je spodletelo: %1"
+
+msgctxt "TorrentDownload|"
 msgid "Files moving cancelled"
-msgstr ""
+msgstr "Premikanje datotek je preklicano"
 
 msgctxt "TorrentDownload|"
 msgid "Moving file cancelled"
-msgstr ""
+msgstr "Premikanje datoteke je preklicano"
 
 msgctxt "TrayMenu|"
 msgid "Show main window"
-msgstr ""
+msgstr "Prikaži glavno okno"
 
-#, fuzzy
 msgctxt "TrayMenu|"
 msgid "Open at Login"
-msgstr "Openen bij aanmelden"
+msgstr "Odpri ob prijavi"
 
 msgctxt "TrayMenu|"
 msgid "Launch at startup"
-msgstr ""
+msgstr "Zaženi ob zagonu"
 
-#, fuzzy
 msgctxt "TrayMenu|"
 msgid "About FDM"
-msgstr "Over FDM"
+msgstr "O FDM"
 
 msgctxt "TrayMenu|"
 msgid "Quit FDM"
-msgstr ""
+msgstr "Zapri FDM"
 
-#, fuzzy
 msgctxt "TrayMenu|"
 msgid "Quit"
-msgstr "Sluiten"
+msgstr "Zapri"
 
 msgctxt "UIHelper|"
 msgid "About %1"
-msgstr ""
+msgstr "O %1"
 
 msgctxt "UIHelper|"
 msgid "Version %1 (%2)"
-msgstr ""
+msgstr "Različica %1 (%2)"
 
 msgctxt "UIHelper|"
 msgid "Open"
-msgstr ""
+msgstr "Odpri"
 
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Reveal in Finder"
-msgstr "Bekendmaken in Finder"
+msgstr "Razkrij v Iskalniku"
 
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Show in folder"
-msgstr "In map weergeven"
+msgstr "Prikaži v mapi"
 
 msgctxt "UIHelper|"
 msgid "Show info"
-msgstr ""
+msgstr "Prikaži informacije"
 
 msgctxt "UIHelper|"
 msgid "Choose files..."
-msgstr ""
+msgstr "Izberite datoteke ..."
 
 msgctxt "UIHelper|"
 msgid "Pause all except selected"
-msgstr ""
+msgstr "Začasno ustavi vse razen izbranih"
 
 msgctxt "UIHelper|"
 msgid "Pause all except this one"
-msgstr ""
+msgstr "Začasno ustavi vse razen tega"
 
 msgctxt "UIHelper|"
 msgid "Restart selected"
-msgstr ""
+msgstr "Ponovno zaženi izbrane"
 
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Restart"
-msgstr "Herstarten"
+msgstr "Ponovno zaženi"
 
 msgctxt "UIHelper|"
 msgid "Set priority"
-msgstr ""
+msgstr "Nastavi prednost"
 
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Move to..."
-msgstr "Verplaatsen naar..."
+msgstr "Premakni v ..."
 
 msgctxt "UIHelper|"
 msgid "Download to..."
-msgstr ""
+msgstr "Prenesi v ..."
 
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Move to trash"
-msgstr "Naar prullenbak verwijderen"
+msgstr "Premakni v koš"
 
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Delete files"
-msgstr "Bestanden verwijderen"
+msgstr "Izbriši datoteke"
 
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Delete file"
-msgstr "Bestand verwijderen"
+msgstr "Izbriši datoteko"
 
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Remove from list"
-msgstr "Uit lijst verwijderen"
+msgstr "Odstrani s seznama"
 
-#, fuzzy
 msgctxt "UIHelper|"
 msgid "Enable seeding"
-msgstr "Seeding inschakelen"
+msgstr "Omogoči sejanje"
 
 msgctxt "UIHelper|"
 msgid "Sequential download"
-msgstr ""
+msgstr "Zaporedno prenašanje"
 
 msgctxt "UIHelper|"
 msgid "Force recheck"
-msgstr ""
+msgstr "Vsili ponovno preverjanje"
 
 msgctxt "UIHelper|"
 msgid "Force reannounce"
-msgstr ""
+msgstr "Vsili ponovno naznanilo"
 
 msgctxt "UIHelper|"
 msgid "Copy link"
-msgstr ""
+msgstr "Kopiraj povezavo"
 
 msgctxt "UIHelper|"
 msgid "Add tag"
-msgstr ""
+msgstr "Dodaj oznako"
 
 msgctxt "UIHelper|"
 msgid "File integrity"
-msgstr ""
+msgstr "Celovitost datoteke"
 
 msgctxt "UIHelper|"
 msgid "Schedule"
-msgstr ""
+msgstr "Načrtuj"
 
 msgctxt "UIHelper|"
 msgid "High priority"
-msgstr ""
+msgstr "Visoka prednost"
 
 msgctxt "UIHelper|"
 msgid "Normal priority"
-msgstr ""
+msgstr "Navadna prednost"
 
 msgctxt "UIHelper|"
 msgid "Low priority"
-msgstr ""
+msgstr "Nizka prednost"
 
 msgctxt "UIHelper|"
 msgid "Skip"
-msgstr ""
+msgstr "Preskoči"
 
 msgctxt "UIHelper|"
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 msgctxt "UIHelper|"
 msgid "Remove"
-msgstr ""
+msgstr "Odstrani"
 
 msgctxt "UIHelper|"
 msgid "Untag"
-msgstr ""
+msgstr "Odstrani oznako"
 
 msgctxt "UIHelper|"
 msgid "Copy log to clipboard"
-msgstr ""
+msgstr "Kopiraj dnevnik v odložišče"
 
 msgctxt "UIHelper|"
 msgid "Save log to file"
-msgstr ""
+msgstr "Shrani dnevnik v odložišče"
 
 msgctxt "UIHelper|"
 msgid "FDM Log [%1].txt"
-msgstr ""
+msgstr "Dnevnik FDM [%1].txt"
 
 msgctxt "UIHelper|"
 msgid "Save Log"
-msgstr ""
+msgstr "Shrani dnevnik"
 
 msgctxt "UIHelper|"
 msgid "Text files"
-msgstr ""
+msgstr "Besedilne datoteke"
 
 msgctxt "UIHelper|"
 msgid "%1 K"
-msgstr ""
+msgstr "%1 K"
 
 msgctxt "UIHelper|"
 msgid "%1 M"
-msgstr ""
+msgstr "%1 M"
 
 msgctxt "YoutubeDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "Datoteka manjka"
 
 msgctxt "YoutubeDownload|"
 msgid "Error: files are missing."
-msgstr ""
+msgstr "Napaka: datoteke manjkajo."
 
 msgctxt "YoutubeDownload|"
 msgid "Files moved successfully"
-msgstr ""
+msgstr "Datoteke smo uspešno premaknili"
 
 msgctxt "YoutubeDownload|"
 msgid "Moving to %1"
-msgstr ""
+msgstr "Premikanje na %1"
 
 msgctxt "YoutubeDownload|"
 msgid "Merging failed"
-msgstr ""
+msgstr "Združevanje je spodletelo"
 
-#, fuzzy
 msgctxt "YoutubeDownload|"
 msgid "Merging media streams"
-msgstr "Mediastreams samenvoegen"
+msgstr "Združevanje tokov predstavnosti"
 
 msgctxt "YoutubeDownload|"
 msgid "Redirecting"
-msgstr ""
+msgstr "Preusmerjanje"
 
 msgctxt "YoutubeDownload|"
 msgid "Handling redirect"
-msgstr ""
+msgstr "Obdelava preusmeritve"
 
 msgctxt "YoutubeDownload|"
 msgid "AudioStream: %1"
-msgstr ""
+msgstr "Tok zvoka: %1"
 
 msgctxt "YoutubeDownload|"
 msgid "VideoStream: %1"
-msgstr ""
+msgstr "Tok videa: %1"
 
 msgctxt "YoutubeDownload|"
 msgid "Downloading page"
-msgstr ""
+msgstr "Prenašanje strani"
 
 msgctxt "YoutubeDownload|"
 msgid "Page is downloaded"
-msgstr ""
+msgstr "Stran smo prenesli"
 
 msgctxt "YoutubeDownload|"
 msgid "Launching parser"
-msgstr ""
+msgstr "Zaganjanje razčlenjevalnika"
 
 msgctxt "YoutubeDownload|"
 msgid "Page is parsed"
-msgstr ""
+msgstr "Stran smo razčlenili"
 
 msgctxt "YoutubeDownload|"
 msgid "Can't find video for this quality"
-msgstr ""
-
-msgctxt "YoutubeDownload|"
-msgid "Parsing failure: %1"
-msgstr ""
-
-msgctxt "YoutubeDownload|"
-msgid "Download complete"
 msgstr ""
 
 msgctxt "YoutubeDownload|"
@@ -2505,21 +2483,29 @@ msgid "Moving declined: %1"
 msgstr ""
 
 msgctxt "YoutubeDownload|"
-msgid "Moved successfully"
-msgstr ""
-
-msgctxt "YoutubeDownload|"
-msgid ", average speed: %1"
-msgstr ""
-
-msgctxt "YoutubeDownload|"
-msgid "File is renamed to %1"
-msgstr ""
-
-msgctxt "YoutubeDownload|"
 msgid "Moving failed: %1"
 msgstr ""
 
 msgctxt "YoutubeDownload|"
+msgid "Parsing failure: %1"
+msgstr "Napaka pri razčlenjevanju: %1"
+
+msgctxt "YoutubeDownload|"
+msgid "Download complete"
+msgstr "Prenos je končan"
+
+msgctxt "YoutubeDownload|"
+msgid "Moved successfully"
+msgstr "Premikanje je bilo uspešno"
+
+msgctxt "YoutubeDownload|"
+msgid ", average speed: %1"
+msgstr ", povprečna hitrost: %1"
+
+msgctxt "YoutubeDownload|"
+msgid "File is renamed to %1"
+msgstr "Datoteko smo preimenovali v %1"
+
+msgctxt "YoutubeDownload|"
 msgid "Moving cancelled."
-msgstr ""
+msgstr "Poseg premikanja je preklican."
