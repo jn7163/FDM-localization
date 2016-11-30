@@ -2060,7 +2060,7 @@ msgstr "计划任务"
 
 msgctxt "RPCLocalization|"
 msgid "Enable Scheduler"
-msgstr "启用计划"
+msgstr ""
 
 msgctxt "RPCLocalization|"
 msgid "Sun"
