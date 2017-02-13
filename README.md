@@ -21,7 +21,7 @@ If you are using Poedit, translate words in corresponding filed and pay attentio
 
 If you are using code editor like me, do not change the file structure and note that your translation should only be filled in `msgstr ""`. The .po file is in UTF-8 encoding and lines end with *nix format(LF).
 
-Once you finished translation and want to make l10n file avalible immediately, use Qt linguist, load the .po file, click File → publish, it will make a smae-named .qm file. Use this file to replace the origin file in FDM install folder/translations.  
+Once you finished translation and want to make l10n file avalible immediately, use Qt linguist, load the .po file, click File → publish, it will make a same-named .qm file. Use this file to replace the origin file in FDM install folder/translations.  
 
 Many thanks for your help! It's highly appreciated.
 
