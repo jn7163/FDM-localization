@@ -9,52 +9,54 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 
 msgid "Download with FDM"
-msgstr ""
+msgstr "FDM ile indir"
 
 msgid "Download selected with FDM"
-msgstr ""
+msgstr "FDM ile seçiliyi indir"
 
 msgid "Download video with FDM"
-msgstr ""
+msgstr "FDM ile videoyu indir"
 
 msgid "Error: 0x%x. Failed to transfer downloads to FDM."
-msgstr ""
+msgstr "Hata: 0x%x. FDM'ye indirmeleri aktarma başarısız oldu."
 
 msgid "No flash video found. Try reloading this page."
-msgstr ""
+msgstr "Flash video bulunamadı. Bu sayfayı yinelemeyi deneyin."
 
 msgctxt "DownloadFileInfo|"
 msgid "Skip"
-msgstr ""
+msgstr "Geç"
 
 msgctxt "DownloadFileInfo|"
 msgid "Low"
-msgstr ""
+msgstr "Düşük"
 
 msgctxt "DownloadFileInfo|"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 msgctxt "DownloadFileInfo|"
 msgid "High"
-msgstr ""
+msgstr "Yüksek"
 
 msgctxt "DownloadInfo|"
 msgid "Low"
-msgstr ""
+msgstr "Düşük"
 
 msgctxt "DownloadInfo|"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 msgctxt "DownloadInfo|"
 msgid "High"
-msgstr ""
+msgstr "Yüksek"
 
+#, qt-format
 msgctxt "HttpError|"
 msgid "HTTP Error %1: %2"
 msgstr ""
 
+#, qt-format
 msgctxt "HttpError|"
 msgid "Error %1"
 msgstr ""
@@ -311,297 +313,333 @@ msgctxt "HttpError|"
 msgid "Network connect timeout error"
 msgstr ""
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Maximum number of connections is %1"
-msgstr ""
+msgstr "Bağlantıların maksimum sayısı %1"
 
 msgctxt "HttpFileDownload|"
 msgid "unlimited"
-msgstr ""
+msgstr "limitsiz"
 
 msgctxt "HttpFileDownload|"
 msgid "Download speed is unlimited"
-msgstr ""
+msgstr "İndirme hızı limitsiz"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Download speed is limited to %1/s"
-msgstr ""
+msgstr "İndirme hızı %1/s ile limitli"
+
 
 msgctxt "HttpFileDownload|"
 msgid "Can't resume downloading file"
-msgstr ""
+msgstr "Dosya indirilmeye devam edilemiyor"
 
 msgctxt "HttpFileDownload|"
 msgid "Reconnecting"
-msgstr ""
+msgstr "Yeniden bağlanılıyor"
 
 msgctxt "HttpFileDownload|"
 msgid "Starting download"
-msgstr ""
+msgstr "İndirme başlatılıyor"
 
 msgctxt "HttpFileDownload|"
 msgid "Pausing download"
-msgstr ""
+msgstr "İndirme duraklatılıyor"
 
 msgctxt "HttpFileDownload|"
 msgid "Failed to resume as URL changed"
-msgstr ""
+msgstr "URL değişmiş olarak devam etme başarısız oldu"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Moving file to %1"
-msgstr ""
+msgstr "Dosya %1 taşınıyor"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "File \"%1\" exists. Saving as %2"
-msgstr ""
+msgstr "\"%1\" dosyası mevcut. %2 olarak kaydediliyor."
 
 msgctxt "HttpFileDownload|"
 msgid "Restarting download"
-msgstr ""
+msgstr "İndirme yeniden başlatılıyor"
 
 msgctxt "HttpFileDownload|"
 msgid "Failed to clear contents of original file."
-msgstr ""
+msgstr "Orijinal dosyanın içeriklerini temizleme başarısız oldu."
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "File is renamed to %1"
+msgstr "Dosya %1 olarak yeniden adlandırıldı"
+
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Reusing connection #%1"
 msgstr ""
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Opening connection #%1"
-msgstr ""
+msgstr "#%1 bağlantı açılıyor"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1 closed"
+msgstr "#%1 kapandı"
+
+msgctxt "HttpFileDownload|"
+msgid "Failed to complete the download"
 msgstr ""
 
 msgctxt "HttpFileDownload|"
 msgid "Opening file on disk..."
-msgstr ""
+msgstr "Disk üzerinde dosya açılıyor..."
 
 msgctxt "HttpFileDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "Dosya kayıp"
 
 msgctxt "HttpFileDownload|"
 msgid "Download complete"
-msgstr ""
+msgstr "İndirme tamamlandı"
 
 msgctxt "HttpFileDownload|"
 msgid "Removing temporary file extension"
-msgstr ""
+msgstr "Geçici dosya uzantısı kaldırılıyor"
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocating disk space for download"
+msgstr "İndirme için disk alanı ayırılıyor"
+
+msgctxt "HttpFileDownload|"
+msgid "Unexpected error"
 msgstr ""
 
 msgctxt "HttpFileDownload|"
 msgid "File changed on remote server"
+msgstr "Dosya uzak sunucuda değişti"
+
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Couldn't reuse connection #%1, closing"
 msgstr ""
 
 msgctxt "HttpFileDownload|"
 msgid "Failed writing received data to file"
-msgstr ""
+msgstr "Dosyaya alınan veri yazılırken başarısız oldu"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1 receiving data"
-msgstr ""
+msgstr "#%1 veri alınıyor"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "downloaded %1"
-msgstr ""
+msgstr "%1 indirildi"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "(%1/s)"
-msgstr ""
+msgstr "(%1/s)"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Redirecting to %1"
-msgstr ""
+msgstr "%1 yönlendiriliyor"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1: server ignored partial content request"
-msgstr ""
+msgstr "#%1: sunucu parçalı içerik isteğini yoksaydı"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1 failed with error: %2"
-msgstr ""
+msgstr "#%1 başarısız oldu. Hata: %2"
 
 msgctxt "HttpFileDownload|"
 msgid "File moved successfully"
-msgstr ""
+msgstr "Dosya başarıyla taşındı"
 
 msgctxt "HttpFileDownload|"
 msgid "File moving failed"
-msgstr ""
+msgstr "Dosya taşınırken başarısız oldu"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Preallocation failed: %1"
-msgstr ""
+msgstr "Ayırma başarısız oldu: %1"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "%1 finished successfully"
-msgstr ""
+msgstr "%1 başarıyla bitti"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr ", ortalama hız: %1"
 
 msgctxt "HttpFileDownload|"
 msgid "Space allocation"
-msgstr ""
+msgstr "Alan ayırma"
 
 msgctxt "HttpFileDownload|"
 msgid "Move"
-msgstr ""
+msgstr "Taşı"
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocation cancelled"
-msgstr ""
+msgstr "Ayırma iptal edildi"
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocating queued"
-msgstr ""
+msgstr "Ayırma sıraya alındı"
 
 msgctxt "HttpFileDownload|"
 msgid "Preallocating started"
-msgstr ""
+msgstr "Ayırma başladı"
 
 msgctxt "MacMainMenu|"
 msgid "Add Download from URL..."
-msgstr ""
+msgstr "URL'den indirme ekle"
 
 msgctxt "MacMainMenu|"
 msgid "Open Torrent File..."
-msgstr ""
+msgstr "Torrent Dosyasını Aç..."
 
 msgctxt "MacMainMenu|"
 msgid "Edit"
-msgstr ""
+msgstr "Düzenle"
 
 msgctxt "MacMainMenu|"
 msgid "Remove from List"
-msgstr ""
+msgstr "Listeden Kaldır"
 
+#, qt-format
 msgctxt "MacMainMenu|"
 msgid "About %1"
-msgstr ""
+msgstr "%1 Hakkında"
 
 msgctxt "MacMainMenu|"
 msgid "Preferences..."
-msgstr ""
+msgstr "Tercihler..."
 
 msgctxt "MacMainMenu|"
 msgid "Check for Updates..."
-msgstr ""
+msgstr "Güncellemeleri Kontrol Et..."
 
 msgctxt "MacMainMenu|"
 msgid "Start Selected"
-msgstr ""
+msgstr "Seçiliyi Başlat"
 
 msgctxt "MacMainMenu|"
 msgid "Pause Selected"
-msgstr ""
+msgstr "Seçiliyi Duraklat"
 
 msgctxt "MacMainMenu|"
 msgid "Restart Selected"
-msgstr ""
+msgstr "Seçiliyi Yeniden Başlat"
 
 msgctxt "MacMainMenu|"
 msgid "Contact Support"
-msgstr ""
+msgstr "Destekle İletişime Geç"
 
 msgctxt "MacMainMenu|"
 msgid "Vote for New Features"
-msgstr ""
+msgstr "Yeni Özellikler İçin Oy Ver"
 
 msgctxt "MacMainMenu|"
 msgid "File"
-msgstr ""
+msgstr "Dosya"
 
 msgctxt "MacMainMenu|"
 msgid "Downloads"
-msgstr ""
+msgstr "İndirilenler"
 
 msgctxt "MacMainMenu|"
 msgid "Help"
-msgstr ""
+msgstr "Yardım"
 
 msgctxt "QObject|"
 msgid "About Free Download Manager"
-msgstr ""
+msgstr "Free Download Manager Hakkında"
 
 msgctxt "QObject|"
 msgid "Preferences"
-msgstr ""
+msgstr "Tercihler"
 
 msgctxt "QObject|"
 msgid "Check for Updates..."
-msgstr ""
+msgstr "Güncellemeleri Kontrol Et..."
 
 msgctxt "QObject|"
 msgid "Window"
-msgstr ""
+msgstr "Pencere"
 
 msgctxt "QObject|"
 msgid "Minimize"
-msgstr ""
+msgstr "Küçült"
 
 msgctxt "QObject|"
 msgid "Zoom"
-msgstr ""
+msgstr "Yakınlaştırma"
 
 msgctxt "QObject|"
 msgid "Enter Full Screen"
-msgstr ""
+msgstr "Tam Ekran Yap"
 
 msgctxt "QObject|"
 msgid "Bring All to Front"
-msgstr ""
+msgstr "Tümünü En Öne Getir"
 
 msgctxt "QObject|"
 msgid "Contact Support"
-msgstr ""
+msgstr "Destekle İletişime Geç"
 
 msgctxt "QObject|"
 msgid "Open Torrent File..."
-msgstr ""
+msgstr "Torrent Dosyasını Aç..."
 
 msgctxt "QObject|"
 msgid "File"
-msgstr ""
+msgstr "Dosya"
 
 msgctxt "QObject|"
 msgid "Select All"
-msgstr ""
+msgstr "Tümünü Seç"
 
 msgctxt "QObject|"
 msgid "Delete"
-msgstr ""
+msgstr "Sil"
 
 msgctxt "QObject|"
 msgid "Paste"
-msgstr ""
+msgstr "Yapıştır"
 
 msgctxt "QObject|"
 msgid "Copy"
-msgstr ""
+msgstr "Kopyala"
 
 msgctxt "QObject|"
 msgid "Cut"
-msgstr ""
+msgstr "Kes"
 
 msgctxt "QObject|"
 msgid "Edit"
-msgstr ""
+msgstr "Düzenle"
 
 msgctxt "QObject|"
 msgid "Help"
-msgstr ""
+msgstr "Yardım"
 
 msgctxt "QObject|"
 msgid "Something went wrong with internal downloads."
-msgstr ""
+msgstr "İç indirmelerde bir şeyler ters gitti."
 
 msgctxt "QObject|"
 msgid "Selected filepath is not valid."
@@ -621,1387 +659,1442 @@ msgstr ""
 
 msgctxt "RPCLocalization|"
 msgid "locale"
-msgstr ""
+msgstr "yerel"
 
 msgctxt "RPCLocalization|"
 msgid "Drag & Drop"
-msgstr ""
+msgstr "Sürükle ve Bırak"
 
 msgctxt "RPCLocalization|"
 msgid "URL or torrent here"
-msgstr ""
+msgstr "Buraya URL veya torrent"
 
 msgctxt "RPCLocalization|"
 msgid "Add tag"
-msgstr ""
+msgstr "Etiket ekle"
 
 msgctxt "RPCLocalization|"
 msgid "Preferences"
-msgstr ""
+msgstr "Tercihler"
 
 msgctxt "RPCLocalization|"
 msgid "Unlimited"
-msgstr ""
+msgstr "Limitsiz"
 
 msgctxt "RPCLocalization|"
 msgid "Manual..."
-msgstr ""
+msgstr "Elle..."
 
 msgctxt "RPCLocalization|"
 msgid "Set limits manually"
-msgstr ""
+msgstr "Limitleri elle ayarla"
 
 msgctxt "RPCLocalization|"
 msgid "Download: unlimited, Upload: unlimited"
-msgstr ""
+msgstr "İndirme: limitsiz, Yükleme: limitsiz"
 
 msgctxt "RPCLocalization|"
 msgid "Download:"
-msgstr ""
+msgstr "İndirme:"
 
 msgctxt "RPCLocalization|"
 msgid "Upload:"
-msgstr ""
+msgstr "Yükleme:"
 
 msgctxt "RPCLocalization|"
 msgid "unlimited"
-msgstr ""
+msgstr "limitsiz"
 
 msgctxt "RPCLocalization|"
 msgid "Snail mode frees bandwidth without stopping downloads."
 msgstr ""
+"Salyangoz modu indirmeleri durdurmadan bant genişliğini serbest bırakır."
 
 msgctxt "RPCLocalization|"
 msgid "Hide details"
-msgstr ""
+msgstr "Detayları gizle"
 
 msgctxt "RPCLocalization|"
 msgid "Show details"
-msgstr ""
+msgstr "Detayları göster"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%n files selected."
 msgid_plural "%n files selected."
-msgstr[0] ""
+msgstr[0] "%n dosya seçildi."
 
 msgctxt "RPCLocalization|"
 msgid "Show in folder"
-msgstr ""
+msgstr "Klasörde göster"
 
 msgctxt "RPCLocalization|"
 msgid "Reveal in Finder"
-msgstr ""
+msgstr "Bulucu İçinde Göster"
 
 msgctxt "RPCLocalization|"
 msgid "Pause"
-msgstr ""
+msgstr "Duraklat"
 
 msgctxt "RPCLocalization|"
 msgid "Restart"
-msgstr ""
+msgstr "Yeniden başlat"
 
 msgctxt "RPCLocalization|"
 msgid "Start"
-msgstr ""
+msgstr "Başlat"
 
 msgctxt "RPCLocalization|"
 msgid "Selected size:"
-msgstr ""
+msgstr "Seçilen boyut:"
 
 msgctxt "RPCLocalization|"
 msgid "Size:"
-msgstr ""
+msgstr "Boyut:"
 
 msgctxt "RPCLocalization|"
 msgid "File size:"
-msgstr ""
+msgstr "Dosya boyutu:"
 
 msgctxt "RPCLocalization|"
 msgid "Disk space:"
-msgstr ""
+msgstr "Disk alanı:"
 
 msgctxt "RPCLocalization|"
 msgid "Total size:"
-msgstr ""
+msgstr "Toplam boyut:"
 
 msgctxt "RPCLocalization|"
 msgid "Checked size:"
-msgstr ""
+msgstr "Kontrol edilen boyut:"
 
 msgctxt "RPCLocalization|"
 msgid "Downloaded:"
-msgstr ""
+msgstr "İndirildi:"
 
 msgctxt "RPCLocalization|"
 msgid "Download speed:"
-msgstr ""
+msgstr "İndirme hızı:"
 
 msgctxt "RPCLocalization|"
 msgid "Seeds:"
-msgstr ""
+msgstr "Kaynaklar:"
 
 msgctxt "RPCLocalization|"
 msgid "Domain:"
-msgstr ""
+msgstr "Alan adı:"
 
 msgctxt "RPCLocalization|"
 msgid "Uploaded:"
-msgstr ""
+msgstr "Yüklendi:"
 
 msgctxt "RPCLocalization|"
 msgid "Upload speed:"
-msgstr ""
+msgstr "Yükleme hızı:"
 
 msgctxt "RPCLocalization|"
 msgid "Peers:"
-msgstr ""
+msgstr "Eşler:"
 
 msgctxt "RPCLocalization|"
 msgid "Share ratio:"
-msgstr ""
+msgstr "Paylaşım oranı:"
 
 msgctxt "RPCLocalization|"
 msgid "Availability:"
-msgstr ""
+msgstr "Kullanılabilirlik:"
 
 msgctxt "RPCLocalization|"
 msgid "DHT nodes:"
-msgstr ""
+msgstr "DHT düğümleri:"
 
 msgctxt "RPCLocalization|"
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 msgctxt "RPCLocalization|"
 msgid "Client"
-msgstr ""
+msgstr "İstemci"
 
 msgctxt "RPCLocalization|"
 msgid "Flags"
-msgstr ""
+msgstr "Bayraklar"
 
 msgctxt "RPCLocalization|"
 msgid "Requests"
-msgstr ""
+msgstr "İstekler"
 
 msgctxt "RPCLocalization|"
 msgid "Downloaded"
-msgstr ""
+msgstr "İndirildi"
 
 msgctxt "RPCLocalization|"
 msgid "Uploaded"
-msgstr ""
+msgstr "Yüklendi"
 
 msgctxt "RPCLocalization|"
 msgid "Files"
-msgstr ""
+msgstr "Dosyalar"
 
 msgctxt "RPCLocalization|"
 msgid "Trackers"
-msgstr ""
+msgstr "İzleyiciler"
 
 msgctxt "RPCLocalization|"
 msgid "Peers"
-msgstr ""
+msgstr "Eşler"
 
 msgctxt "RPCLocalization|"
 msgid "Log"
-msgstr ""
+msgstr "Günlük"
 
 msgctxt "RPCLocalization|"
 msgid "Enable seeding"
-msgstr ""
+msgstr "Kaynak olmayı etkinleştir"
 
 msgctxt "RPCLocalization|"
 msgid "Progress"
-msgstr ""
+msgstr "Süreç"
 
 msgctxt "RPCLocalization|"
 msgid "Priority"
-msgstr ""
+msgstr "Öncelik"
 
 msgctxt "RPCLocalization|"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 msgctxt "RPCLocalization|"
 msgid "Next announce"
-msgstr ""
+msgstr "Sıradaki duyuru"
 
 msgctxt "RPCLocalization|"
 msgid "Snail mode"
-msgstr ""
+msgstr "Salyangoz modu"
 
 msgctxt "RPCLocalization|"
 msgid "Bandwidth limits"
-msgstr ""
+msgstr "Bant genişliği limitleri"
 
 msgctxt "RPCLocalization|"
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 msgctxt "RPCLocalization|"
 msgid "Apply"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "KB/s"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "MB/s"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "%1 B/s"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "%1 KB/s"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "%1 MB/s"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "%1 GB/s"
-msgstr ""
+msgstr "Uygula"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "KB/s"
+#~ msgstr "KB/s"
+#~ msgctxt "RPCLocalization|"
+#~ msgid "MB/s"
+#~ msgstr "MB/s"
+#, qt-format
+#~ msgctxt "RPCLocalization|"
+#~ msgid "%1 B/s"
+#~ msgstr "%1 B/s"
+#, qt-format
+#~ msgctxt "RPCLocalization|"
+#~ msgid "%1 KB/s"
+#~ msgstr "%1 KB/s"
+#, qt-format
+#~ msgctxt "RPCLocalization|"
+#~ msgid "%1 MB/s"
+#~ msgstr "%1 MB/s"
+#, qt-format
+#~ msgctxt "RPCLocalization|"
+#~ msgid "%1 GB/s"
+#~ msgstr "%1 GB/s"
 
 msgctxt "RPCLocalization|"
 msgid "Browser integration"
-msgstr ""
+msgstr "Tarayıcı entegrasyonu"
 
 msgctxt "RPCLocalization|"
 msgid "Next"
-msgstr ""
+msgstr "Sonraki"
 
 msgctxt "RPCLocalization|"
 msgid "Proceed to download"
-msgstr ""
+msgstr "İndirmeye geçti"
 
 msgctxt "RPCLocalization|"
 msgid "Add download"
-msgstr ""
+msgstr "İndirme ekle"
 
 msgctxt "RPCLocalization|"
 msgid "Enter download URL:"
-msgstr ""
+msgstr "İndirme URL'ini girin:"
 
 msgctxt "RPCLocalization|"
 msgid "OK"
-msgstr ""
+msgstr "Tamam"
 
 msgctxt "RPCLocalization|"
 msgid "Download"
-msgstr ""
+msgstr "İndir"
 
 msgctxt "RPCLocalization|"
 msgid "Download anyway"
-msgstr ""
+msgstr "Olduğu gibi indir"
 
 msgctxt "RPCLocalization|"
 msgid "Add"
-msgstr ""
+msgstr "Ekle"
 
 msgctxt "RPCLocalization|"
 msgid "torrent"
-msgstr ""
+msgstr "torrent"
 
 msgctxt "RPCLocalization|"
 msgid "Save to:"
-msgstr ""
+msgstr "Kaydet:"
 
 msgctxt "RPCLocalization|"
 msgid "Select folder"
-msgstr ""
+msgstr "Klasör seç"
 
 msgctxt "RPCLocalization|"
 msgid "Requesting download info..."
-msgstr ""
+msgstr "İndirme bilgisi isteniyor..."
 
 msgctxt "RPCLocalization|"
 msgid "Quality:"
-msgstr ""
+msgstr "Kalite:"
 
 msgctxt "RPCLocalization|"
 msgid "Select all"
-msgstr ""
+msgstr "Tümünü seç"
 
 msgctxt "RPCLocalization|"
 msgid "Select none"
-msgstr ""
+msgstr "Hiçbirini seçme"
 
 msgctxt "RPCLocalization|"
 msgid "Torrent already exists"
-msgstr ""
+msgstr "Torrent zaten mevcut"
 
 msgctxt "RPCLocalization|"
 msgid "Want to load its trackers?"
-msgstr ""
+msgstr "İzleyicileri yüklemek ister misiniz?"
 
 msgctxt "RPCLocalization|"
 msgid "No active downloads"
-msgstr ""
+msgstr "Aktif indirmeler yok"
 
 msgctxt "RPCLocalization|"
 msgid "No completed downloads"
-msgstr ""
+msgstr "Tamamlanan indirmeler yok"
 
 msgctxt "RPCLocalization|"
 msgid "No results found for"
-msgstr ""
+msgstr "Sonuç bulunamadı"
 
 msgctxt "RPCLocalization|"
 msgid "No results tagged"
-msgstr ""
+msgstr "Etiketlenmiş sonuç yok"
 
 msgctxt "RPCLocalization|"
 msgid "found"
-msgstr ""
+msgstr "bulundu"
 
 msgctxt "RPCLocalization|"
 msgid "Show all"
-msgstr ""
+msgstr "Tümünü Göster"
 
 msgctxt "RPCLocalization|"
 msgid "Nothing found"
-msgstr ""
+msgstr "Hiçbir şey bulunamadı"
 
 msgctxt "RPCLocalization|"
 msgid "Moving"
-msgstr ""
+msgstr "Taşınıyor"
 
 msgctxt "RPCLocalization|"
 msgid "Unknown file size"
-msgstr ""
+msgstr "Bilinmeyen dosya boyutu"
 
 msgctxt "RPCLocalization|"
 msgid "Merging media streams"
-msgstr ""
+msgstr "Medya akışları birleştiriliyor"
 
 msgctxt "RPCLocalization|"
 msgid "Allocating disk space..."
-msgstr ""
+msgstr "Disk alanı ayırılıyor..."
 
 msgctxt "RPCLocalization|"
 msgid "Reconnecting..."
-msgstr ""
+msgstr "Yeniden bağlanılıyor..."
 
 msgctxt "RPCLocalization|"
 msgid "Reconnecting"
-msgstr ""
+msgstr "Yeniden bağlanılıyor"
 
 msgctxt "RPCLocalization|"
 msgid "Paused"
-msgstr ""
+msgstr "Duraklatıldı"
 
 msgctxt "RPCLocalization|"
 msgid "Downloading metadata"
-msgstr ""
+msgstr "Metaveri indiriliyor"
 
 msgctxt "RPCLocalization|"
 msgid "Downloading"
-msgstr ""
+msgstr "İndiriliyor"
 
 msgctxt "RPCLocalization|"
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 msgctxt "RPCLocalization|"
 msgid "Checking files..."
-msgstr ""
+msgstr "Dosyalar kontrol ediliyor..."
 
 msgctxt "RPCLocalization|"
 msgid "Downloading, allocating disk space..."
-msgstr ""
+msgstr "İndiriliyor, disk alanı ayırılıyor..."
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "Completed %n / %2 files"
 msgid_plural "Completed %n / %2 files"
-msgstr[0] ""
+msgstr[0] "%n / %2 dosya tamamlandı"
 
 msgctxt "RPCLocalization|"
 msgid "Complete"
-msgstr ""
+msgstr "Tamamla"
 
 msgctxt "RPCLocalization|"
 msgid "Queued"
-msgstr ""
+msgstr "Sıraya alındı"
 
 msgctxt "RPCLocalization|"
 msgid "Stop seeding"
-msgstr ""
+msgstr "Kaynak durdur"
 
 msgctxt "RPCLocalization|"
 msgid "Requesting info..."
-msgstr ""
+msgstr "Bilgi isteniyor..."
 
 msgctxt "RPCLocalization|"
 msgid "Open torrent file..."
-msgstr ""
+msgstr "Torrent dosyasını aç..."
 
 msgctxt "RPCLocalization|"
 msgid "Preferences..."
-msgstr ""
+msgstr "Tercihler..."
 
 msgctxt "RPCLocalization|"
 msgid "Settings..."
-msgstr ""
+msgstr "Seçenekler..."
 
 msgctxt "RPCLocalization|"
 msgid "Settings"
-msgstr ""
+msgstr "Seçenekler"
 
 msgctxt "RPCLocalization|"
 msgid "Contact support"
-msgstr ""
+msgstr "Destekle iletişime geç"
 
 msgctxt "RPCLocalization|"
 msgid "Auto shutdown"
-msgstr ""
+msgstr "Otomatik kapatma"
 
 msgctxt "RPCLocalization|"
 msgid "Sleep"
-msgstr ""
+msgstr "Uyku"
 
 msgctxt "RPCLocalization|"
 msgid "Hibernate"
-msgstr ""
+msgstr "Hazırda Beklet"
 
 msgctxt "RPCLocalization|"
 msgid "Shutdown"
-msgstr ""
+msgstr "Kapat"
 
 msgctxt "RPCLocalization|"
 msgid "Check for updates"
-msgstr ""
+msgstr "Güncellemeleri kontrol et"
 
 msgctxt "RPCLocalization|"
 msgid "About Free Download Manager"
-msgstr ""
+msgstr "Free Download Manager Hakkında"
 
 msgctxt "RPCLocalization|"
 msgid "Quit"
-msgstr ""
+msgstr "Çıkış"
 
 msgctxt "RPCLocalization|"
 msgid "Exit"
-msgstr ""
+msgstr "Çıkış"
 
 msgctxt "RPCLocalization|"
 msgid "Vote for new features"
-msgstr ""
+msgstr "Yeni özellikler için Oy Ver"
 
 msgctxt "RPCLocalization|"
 msgid "About FDM"
-msgstr ""
+msgstr "FDM Hakkında"
 
 msgctxt "RPCLocalization|"
 msgid "Are you sure this is a valid file extension?"
-msgstr ""
+msgstr "Bunun geçerli bir uzantı olduğundan emin misiniz?"
 
 msgctxt "RPCLocalization|"
 msgid "Please enter numbers only"
-msgstr ""
+msgstr "Sadece numara girin lütfen"
 
 msgctxt "RPCLocalization|"
 msgid "Are you sure it's not too small?"
-msgstr ""
+msgstr "Çok kısa olmadığından emin misiniz?"
 
 msgctxt "RPCLocalization|"
 msgid "Why should it be so huge?"
-msgstr ""
+msgstr "Neden bu kadar çok büyük olmalı?"
 
 msgctxt "RPCLocalization|"
 msgid "Extremely slow, isn't it?"
-msgstr ""
+msgstr "Çok yavaş, değil mi?"
 
 msgctxt "RPCLocalization|"
 msgid "Faster doesn't mean better"
-msgstr ""
+msgstr "Hızlı olması iyi olduğu anlamına gelmez"
 
 msgctxt "RPCLocalization|"
 msgid "Isn't it too frequent?"
-msgstr ""
+msgstr "Çok düzenli değil mi?"
 
 msgctxt "RPCLocalization|"
 msgid "Pretty rare to move with the time."
-msgstr ""
+msgstr "Zamanla birlikte hareket etmek çok nadirdir."
 
 msgctxt "RPCLocalization|"
 msgid "Maybe you'd let it be a little longer?"
-msgstr ""
+msgstr "Belki biraz daha fazla olsun mu?"
 
 msgctxt "RPCLocalization|"
 msgid "Are you sure it's not too long?"
-msgstr ""
+msgstr "Çok uzun olmadığından emin misiniz?"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "Only %n records? FDM can store much more!"
 msgid_plural "Only %n records? FDM can store much more!"
-msgstr[0] ""
+msgstr[0] "Sadece %n kayıt mı? FDM daha fazla saklayabilir!"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%n records is too many to save."
 msgid_plural "%n records is too many to save."
-msgstr[0] ""
+msgstr[0] "%n kayıt kaydetmek için çok fazla."
 
 msgctxt "RPCLocalization|"
 msgid "Do you actually want to connect?"
-msgstr ""
+msgstr "Gerçekten bağlanmayı istiyor musunuz?"
 
 msgctxt "RPCLocalization|"
 msgid "Oh no, too many connections!"
-msgstr ""
+msgstr "Oh hayır, çok fazla bağlantı!"
 
 msgctxt "RPCLocalization|"
 msgid "It seems like an understatement."
-msgstr ""
+msgstr "Eksik gibi görünüyor."
 
 msgctxt "RPCLocalization|"
 msgid "So many? It's overwhelming!"
-msgstr ""
+msgstr "Çok fazla mı? Ezici!"
 
 msgctxt "RPCLocalization|"
 msgid "General"
-msgstr ""
+msgstr "Genel"
 
 msgctxt "RPCLocalization|"
 msgid "Browser Integration"
-msgstr ""
+msgstr "Tarayıcı Entegrasyonu"
 
 msgctxt "RPCLocalization|"
 msgid "BitTorrent"
-msgstr ""
+msgstr "BitTorrent"
 
 msgctxt "RPCLocalization|"
 msgid "Traffic Limits"
-msgstr ""
+msgstr "Trafik Limitleri"
 
 msgctxt "RPCLocalization|settings"
 msgid "Traffic Limits"
-msgstr ""
+msgstr "Trafik Limitleri"
 
 msgctxt "RPCLocalization|"
 msgid "Advanced"
-msgstr ""
+msgstr "Gelişmiş"
 
 msgctxt "RPCLocalization|"
 msgid "Network"
-msgstr ""
+msgstr "Ağ"
 
 msgctxt "RPCLocalization|"
 msgid "Proxy"
-msgstr ""
+msgstr "Vekil sunucu"
 
 msgctxt "RPCLocalization|"
 msgid "No proxy"
-msgstr ""
+msgstr "Vekil sunucu yok"
 
 msgctxt "RPCLocalization|"
 msgid "System proxy"
-msgstr ""
+msgstr "Sistem vekil sunucusu"
 
 msgctxt "RPCLocalization|"
 msgid "Configure manually:"
-msgstr ""
+msgstr "Elle konfigüre et:"
 
 msgctxt "RPCLocalization|"
 msgid "HTTP:"
-msgstr ""
+msgstr "HTTP:"
 
 msgctxt "RPCLocalization|"
 msgid "HTTPS:"
-msgstr ""
+msgstr "HTTPS:"
 
 msgctxt "RPCLocalization|"
 msgid "FTP:"
-msgstr ""
+msgstr "FTP:"
 
 msgctxt "RPCLocalization|"
 msgid "Address"
-msgstr ""
+msgstr "Adres"
 
 msgctxt "RPCLocalization|"
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 msgctxt "RPCLocalization|"
 msgid "Login"
-msgstr ""
+msgstr "Giriş"
 
 msgctxt "RPCLocalization|settings"
 msgid "Login"
-msgstr ""
+msgstr "Giriş"
 
 msgctxt "RPCLocalization|"
 msgid "Password"
-msgstr ""
+msgstr "Şifre"
 
 msgctxt "RPCLocalization|"
 msgid "Startup"
-msgstr ""
+msgstr "Başlangıç"
 
 msgctxt "RPCLocalization|"
 msgid "Downloads"
-msgstr ""
+msgstr "İndirilenler"
 
 msgctxt "RPCLocalization|"
 msgid "Launch at startup (minimized)"
-msgstr ""
+msgstr "Başlangıçta çalıştır (küçültülmüş)"
 
 msgctxt "RPCLocalization|"
 msgid "Open at Login"
-msgstr ""
+msgstr "Girişte Aç"
 
 msgctxt "RPCLocalization|"
 msgid "Close button minimizes window"
-msgstr ""
+msgstr "Kapatma butonu pencereyi küçültür"
 
 msgctxt "RPCLocalization|"
 msgid "Check if FDM is your default torrent client"
-msgstr ""
+msgstr "FDM varsayılan torrent istemcisi mi kontrol et"
 
 msgctxt "RPCLocalization|"
 msgid "Update"
-msgstr ""
+msgstr "Güncelle"
 
 msgctxt "RPCLocalization|settings"
 msgid "Update"
-msgstr ""
+msgstr "Güncelle"
 
 msgctxt "RPCLocalization|"
 msgid "Check for updates automatically"
-msgstr ""
+msgstr "Güncellemeleri otomatik olarak kontrol et"
 
 msgctxt "RPCLocalization|"
 msgid "Install updates automatically"
-msgstr ""
+msgstr "Güncellemeleri otomatik olarak kur"
 
 msgctxt "RPCLocalization|"
 msgid "Suggest folders based on file type"
-msgstr ""
+msgstr "Dosya türü tabanlı klasörler öner"
 
 msgctxt "RPCLocalization|"
 msgid "Suggest folders based on download URL"
-msgstr ""
+msgstr "İndirme URL tabanlı klasörler öner"
 
 msgctxt "RPCLocalization|"
 msgid "Default folder:"
-msgstr ""
+msgstr "Varsayılan klasör:"
 
 msgctxt "RPCLocalization|"
 msgid "Associate with torrents"
-msgstr ""
+msgstr "Torrent ile ilişkilendir"
 
 msgctxt "RPCLocalization|"
 msgid "Notifications"
-msgstr ""
+msgstr "Bildirimler"
 
 msgctxt "RPCLocalization|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr ""
+msgstr "Bildirim Merkezi tarafından tamamlanan indirmeleri bildir bana"
 
 msgctxt "RPCLocalization|"
 msgid "Only when FDM window is inactive"
-msgstr ""
+msgstr "Sadece FDM penceresi aktif değilken"
 
 msgctxt "RPCLocalization|"
 msgid "Action of Remove button (main panel) or Delete key"
-msgstr ""
+msgstr "Kaldırma düğmesi (ana panel) veya Delete tuşu İşlemi"
 
 msgctxt "RPCLocalization|"
 msgid "Remove only from list"
-msgstr ""
+msgstr "Sadece listeden kaldır"
 
 msgctxt "RPCLocalization|"
 msgid "Delete file(s) from disk"
-msgstr ""
+msgstr "Diskten dosya(ları)yı sil"
 
 msgctxt "RPCLocalization|"
 msgid "Always ask"
-msgstr ""
+msgstr "Her zaman sor"
 
 msgctxt "RPCLocalization|"
 msgid "Don't catch downloads from"
-msgstr ""
+msgstr "İndirmeleri yakalama"
 
 msgctxt "RPCLocalization|"
 msgid "Start downloading without confirmation"
-msgstr ""
+msgstr "Onaylanamadan indirmeleri başlat"
 
 msgctxt "RPCLocalization|"
 msgid "Use only HTTP ports to catch downloads in Edge"
-msgstr ""
+msgstr "Edge'te indirmeleri yakalamak için sadece HTTP portlarını kullan"
 
 msgctxt "RPCLocalization|"
 msgid "Safari: enable FDM"
-msgstr ""
+msgstr "Safari: FDM etkinleştir"
 
 msgctxt "RPCLocalization|"
 msgid "extension"
-msgstr ""
+msgstr "uzantı"
 
 msgctxt "RPCLocalization|"
 msgid "for context menu"
-msgstr ""
+msgstr "bağlam menüsü için"
 
 msgctxt "RPCLocalization|"
 msgid "Automatically catch downloads from browsers"
-msgstr ""
+msgstr "Tarayıcılardan otomatik olarak indirmeleri yakala"
 
 msgctxt "RPCLocalization|"
 msgid "Edge"
-msgstr ""
+msgstr "Edge"
 
 msgctxt "RPCLocalization|"
 msgid "Internet Explorer"
-msgstr ""
+msgstr "Internet Explorer"
 
 msgctxt "RPCLocalization|"
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 msgctxt "RPCLocalization|"
 msgid "Chrome"
-msgstr ""
+msgstr "Chrome"
 
 msgctxt "RPCLocalization|"
 msgid "Verify if"
-msgstr ""
+msgstr "Doğrula eğer"
 
 msgctxt "RPCLocalization|"
 msgid "is enabled"
-msgstr ""
+msgstr "etkin"
 
 msgctxt "RPCLocalization|"
 msgid "No Chrome installation was found."
-msgstr ""
+msgstr "Chrome bulunamadı."
 
 msgctxt "RPCLocalization|"
 msgid "You can"
-msgstr ""
+msgstr "Yapabilirsin"
 
 msgctxt "RPCLocalization|"
 msgid "download Chrome here"
-msgstr ""
+msgstr "Chrome buradan indir"
 
 msgctxt "RPCLocalization|"
 msgid "Use browser if you cancel download via FDM"
-msgstr ""
+msgstr "FDM tarafından indirme iptal edilirse tarayıcıyı kullan"
 
 msgctxt "RPCLocalization|"
 msgid "Don't catch downloads smaller than"
-msgstr ""
+msgstr "Küçük olan indirmeleri yakalama"
 
 msgctxt "RPCLocalization|"
 msgid "Kbytes"
-msgstr ""
+msgstr "Kbytes"
 
 msgctxt "RPCLocalization|"
 msgid "Skip files with extensions:"
-msgstr ""
+msgstr "Uzantılı dosyaları atla:"
 
 msgctxt "RPCLocalization|"
 msgid "Add FDM to browser context menu"
-msgstr ""
+msgstr "Tarayıcı bağlam menüsüne FDM ekle"
 
 msgctxt "RPCLocalization|"
 msgid "Use proxy for P2P connections"
-msgstr ""
+msgstr "P2P bağlantıları için vekil sunucu kullan"
 
 msgctxt "RPCLocalization|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parametreler"
 
 msgctxt "RPCLocalization|"
 msgid "Low"
-msgstr ""
+msgstr "Düşük"
 
 msgctxt "RPCLocalization|"
 msgid "Medium"
-msgstr ""
+msgstr "Orta"
 
 msgctxt "RPCLocalization|"
 msgid "High"
-msgstr ""
+msgstr "Yüksek"
 
 msgctxt "RPCLocalization|"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 msgctxt "RPCLocalization|"
 msgid "Skip"
-msgstr ""
+msgstr "Geç"
 
 msgctxt "RPCLocalization|"
 msgid "Download speed"
-msgstr ""
+msgstr "İndirme hızı"
 
 msgctxt "RPCLocalization|"
 msgid "Upload speed"
-msgstr ""
+msgstr "Yükleme hızı"
 
 msgctxt "RPCLocalization|"
 msgid "Maximum number of simultaneous downloads"
-msgstr ""
+msgstr "Eşzamanlı indirmelerin maksimum sayısı"
 
 msgctxt "RPCLocalization|"
 msgid "Maximum number of connections"
-msgstr ""
+msgstr "Bağlantıların maksimum sayısı"
 
 msgctxt "RPCLocalization|"
 msgid "History"
-msgstr ""
+msgstr "Geçmiş"
 
 msgctxt "RPCLocalization|"
 msgid "Remember all destination folders"
-msgstr ""
+msgstr "Tüm hedef klasörleri hatırla"
 
 msgctxt "RPCLocalization|"
 msgid "Clear history older than"
 msgid_plural "Clear history older than"
-msgstr[0] ""
+msgstr[0] "Önceki geçmişi temizle"
 
 msgctxt "RPCLocalization|"
 msgid "days"
 msgid_plural "days"
-msgstr[0] ""
+msgstr[0] "gün"
 
 msgctxt "RPCLocalization|"
 msgid "Maximum number of history records:"
-msgstr ""
+msgstr "Geçmiş kayıtlarının maksimum sayısı:"
 
 msgctxt "RPCLocalization|"
 msgid "Disk usage"
-msgstr ""
+msgstr "Disk kullanımı"
 
 msgctxt "RPCLocalization|"
 msgid "Preallocate disk space for files larger than"
-msgstr ""
+msgstr "Büyük dosyalar için disk alanı ayırma"
 
 msgctxt "RPCLocalization|"
 msgid "Gbytes"
-msgstr ""
+msgstr "Gbytes"
 
 msgctxt "RPCLocalization|"
 msgid "Power management"
-msgstr ""
+msgstr "Güç yönetimi"
 
 msgctxt "RPCLocalization|"
 msgid "Prevent sleep if there are active downloads"
-msgstr ""
+msgstr "Aktif indirmeler varsa uykuya geçmeyi önle"
 
 msgctxt "RPCLocalization|"
 msgid "Delete button action"
-msgstr ""
+msgstr "Delete düğme işlemi"
 
 msgctxt "RPCLocalization|"
 msgid "Delete files"
-msgstr ""
+msgstr "Dosyaları sil"
 
 msgctxt "RPCLocalization|"
 msgid "DHT"
-msgstr ""
+msgstr "DHT"
 
 msgctxt "RPCLocalization|"
 msgid "Port forwarding"
-msgstr ""
+msgstr "Port yönlendirme"
 
 msgctxt "RPCLocalization|"
 msgid "Local peer discovery"
-msgstr ""
+msgstr "Yerel eş bulma"
 
 msgctxt "RPCLocalization|"
 msgid "Peer exchange"
-msgstr ""
+msgstr "Eş değişimi"
 
 msgctxt "RPCLocalization|"
 msgid "uTP"
-msgstr ""
+msgstr "uTP"
 
 msgctxt "RPCLocalization|"
 msgid "Use ports in range:"
-msgstr ""
+msgstr "Port aralığını kullan:"
 
 msgctxt "RPCLocalization|"
 msgid "to"
-msgstr ""
+msgstr "-"
 
 msgctxt "RPCLocalization|"
 msgid "Reset"
-msgstr ""
+msgstr "Sıfırla"
 
 msgctxt "RPCLocalization|"
 msgid "Select All"
-msgstr ""
+msgstr "Tümünü Seç"
 
 msgctxt "RPCLocalization|"
 msgid "Name"
-msgstr ""
+msgstr "Ad"
 
 msgctxt "RPCLocalization|"
 msgid "Status"
-msgstr ""
+msgstr "Durum"
 
 msgctxt "RPCLocalization|"
 msgid "Speed"
-msgstr ""
+msgstr "Hız"
 
 msgctxt "RPCLocalization|"
 msgid "Size"
-msgstr ""
+msgstr "Boyut"
 
 msgctxt "RPCLocalization|"
 msgid "Added"
-msgstr ""
+msgstr "Eklendi"
 
 msgctxt "RPCLocalization|"
 msgid "Start all"
-msgstr ""
+msgstr "Tümünü başlat"
 
 msgctxt "RPCLocalization|"
 msgid "Pause all"
-msgstr ""
+msgstr "Tümünü duraklat"
 
 msgctxt "RPCLocalization|"
 msgid "Start selected"
-msgstr ""
+msgstr "Seçiliyi başlat"
 
 msgctxt "RPCLocalization|"
 msgid "Pause selected"
-msgstr ""
+msgstr "Seçiliyi duraklat"
 
 msgctxt "RPCLocalization|"
 msgid "Add new download..."
-msgstr ""
+msgstr "Yeni indirme ekle..."
 
 msgctxt "RPCLocalization|"
 msgid "Move to trash"
-msgstr ""
+msgstr "Çöp kutusuna taşı"
 
 msgctxt "RPCLocalization|"
 msgid "Remove from list"
-msgstr ""
+msgstr "Listeden kaldır"
 
 msgctxt "RPCLocalization|"
 msgid "Delete selected"
-msgstr ""
+msgstr "Seçiliyi sil"
 
 msgctxt "RPCLocalization|"
 msgid "Move to..."
-msgstr ""
+msgstr "Taşı..."
 
 msgctxt "RPCLocalization|"
 msgid "Search"
-msgstr ""
+msgstr "Arama"
 
 msgctxt "RPCLocalization|"
 msgid "Main menu"
-msgstr ""
+msgstr "Ana menü"
 
 msgctxt "RPCLocalization|"
 msgid "Delete selected downloads"
-msgstr ""
+msgstr "Seçili indirmeleri sil"
 
 msgctxt "RPCLocalization|"
 msgid "Remember my choice"
-msgstr ""
+msgstr "Seçimimi hatırla"
 
 msgctxt "RPCLocalization|"
 msgid "Delete file"
-msgstr ""
+msgstr "Dosyayı sil"
 
 msgctxt "RPCLocalization|"
 msgid "All"
-msgstr ""
+msgstr "Tümü"
 
 msgctxt "RPCLocalization|"
 msgid "Active"
-msgstr ""
+msgstr "Aktif"
 
 msgctxt "RPCLocalization|"
 msgid "Completed"
-msgstr ""
+msgstr "Tamamlandı"
 
 msgctxt "RPCLocalization|"
 msgid "Customize color"
-msgstr ""
+msgstr "Rengi özelleştir"
 
 msgctxt "RPCLocalization|"
 msgid "Remove tag"
-msgstr ""
+msgstr "Etiketi kaldır"
 
 msgctxt "RPCLocalization|"
 msgid ""
 "Would you like to make Free Download Manager the default torrent client?"
 msgstr ""
+"Free Download Manager'ı varsayılan torrent istemcisi yapmak istiyor musunuz?"
 
 msgctxt "RPCLocalization|"
 msgid "Don’t ask again"
-msgstr ""
+msgstr "Tekrar sorma"
 
 msgctxt "RPCLocalization|"
 msgid "Set as Default"
-msgstr ""
+msgstr "Varsayılan Yap"
 
 msgctxt "RPCLocalization|"
 msgid "Computer will be put to sleep after all downloads are completed."
-msgstr ""
+msgstr "Bilgisayar tüm indirmeler tamamlandıktan sonra uykuya geçecektir."
 
 msgctxt "RPCLocalization|"
 msgid "Computer will shut down after all downloads are completed."
-msgstr ""
+msgstr "Bilgisayar tüm indirmeler tamamlandıktan sonra kapatılacaktır."
 
 msgctxt "RPCLocalization|"
 msgid "Computer will hibernate after all downloads are completed."
 msgstr ""
+"Bilgisayar tüm indirmeler tamamlandıktan sonra hazırda bekletilecektir."
 
 msgctxt "RPCLocalization|"
 msgid "Checking for updates..."
-msgstr ""
+msgstr "Güncellemeler kontrol ediliyor..."
 
 msgctxt "RPCLocalization|"
 msgid "Retry"
-msgstr ""
+msgstr "Yeniden dene"
 
 msgctxt "RPCLocalization|"
 msgid "Error:"
-msgstr ""
+msgstr "Hata:"
 
 msgctxt "RPCLocalization|"
 msgid "Error downloading update:"
-msgstr ""
+msgstr "Güncelleme indirilirken hata:"
 
 msgctxt "RPCLocalization|"
 msgid "Downloading update"
-msgstr ""
+msgstr "Güncelleme indiriliyor"
 
 msgctxt "RPCLocalization|"
 msgid "Checking..."
-msgstr ""
+msgstr "Kontrol ediliyor..."
 
 msgctxt "RPCLocalization|"
 msgid "Update downloaded"
-msgstr ""
+msgstr "İndirileni güncelle"
 
 msgctxt "RPCLocalization|"
 msgid "Install update"
-msgstr ""
+msgstr "Güncellemeyi kur"
 
 msgctxt "RPCLocalization|"
 msgid "Installing updates"
-msgstr ""
+msgstr "Güncellemeler kuruluyor"
 
 msgctxt "RPCLocalization|"
 msgid "Relaunch FDM to update"
-msgstr ""
+msgstr "Güncelleme için FDM'yi yeniden başlat"
 
 msgctxt "RPCLocalization|"
 msgid "Relaunch"
-msgstr ""
+msgstr "Yeniden başlat"
 
 msgctxt "RPCLocalization|"
 msgid "Error occurred during installation:"
-msgstr ""
+msgstr "Kurulum sırasında hata oluştu:"
 
 msgctxt "RPCLocalization|"
 msgid "Restart computer to complete installation"
-msgstr ""
+msgstr "Kurulum tamamlanınca bilgisayarı yeniden başlat"
 
 msgctxt "RPCLocalization|"
 msgid "FDM is up to date!"
-msgstr ""
+msgstr "FDM güncel!"
 
 msgctxt "RPCLocalization|"
 msgid "New version is available"
-msgstr ""
+msgstr "Yeni sürüm mevcut"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%ns"
 msgid_plural "%ns"
-msgstr[0] ""
+msgstr[0] "%n sn"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nm"
 msgid_plural "%nm"
-msgstr[0] ""
+msgstr[0] "%n dk"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nh"
 msgid_plural "%nh"
-msgstr[0] ""
+msgstr[0] "%n sa"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nd"
 msgid_plural "%nd"
-msgstr[0] ""
+msgstr[0] "%n g"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nw"
 msgid_plural "%nw"
-msgstr[0] ""
+msgstr[0] "%n hf"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%ny"
 msgid_plural "%ny"
-msgstr[0] ""
+msgstr[0] "%n y"
 
 msgctxt "RPCLocalization|"
 msgid "YouTube"
-msgstr ""
+msgstr "YouTube"
 
 msgctxt "RPCLocalization|"
 msgid "Torrent"
-msgstr ""
+msgstr "Torrent"
 
 msgctxt "RPCLocalization|"
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 msgctxt "RPCLocalization|"
 msgid "Open Scheduler"
-msgstr ""
+msgstr "Zamanlayıcıyı Aç"
 
 msgctxt "RPCLocalization|"
 msgid "Sсheduler"
-msgstr ""
+msgstr "Zamanlayıcı"
 
 msgctxt "RPCLocalization|"
 msgid "Start and pause downloads at specified time"
-msgstr ""
+msgstr "Belirtilen saatte indirmeleri başlat ve duraklat"
 
 msgctxt "RPCLocalization|"
 msgid "Enable Scheduler"
-msgstr ""
+msgstr "Zamanlayıcıyı Etkinleştir"
 
 msgctxt "RPCLocalization|"
 msgid "Sun"
-msgstr ""
+msgstr "Paz"
 
 msgctxt "RPCLocalization|"
 msgid "Mon"
-msgstr ""
+msgstr "Pts"
 
 msgctxt "RPCLocalization|"
 msgid "Tue"
-msgstr ""
+msgstr "Sal"
 
 msgctxt "RPCLocalization|"
 msgid "Wed"
-msgstr ""
+msgstr "Çar"
 
 msgctxt "RPCLocalization|"
 msgid "Thu"
-msgstr ""
+msgstr "Per"
 
 msgctxt "RPCLocalization|"
 msgid "Fri"
-msgstr ""
+msgstr "Cum"
 
 msgctxt "RPCLocalization|"
 msgid "Sat"
-msgstr ""
+msgstr "Cts"
 
 msgctxt "RPCLocalization|"
 msgid "From:"
-msgstr ""
+msgstr "Kimden:"
 
 msgctxt "RPCLocalization|"
 msgid "To:"
-msgstr ""
+msgstr "Kime:"
 
 msgctxt "RPCLocalization|"
 msgid "Change settings"
-msgstr ""
+msgstr "Ayarları değiştir"
 
 msgctxt "RPCLocalization|"
 msgid "Change preferences"
-msgstr ""
+msgstr "Tercihleri değiştir"
 
 msgctxt "RPCLocalization|"
 msgid "Tip"
-msgstr ""
+msgstr "İpucu"
 
 msgctxt "RPCLocalization|"
 msgid "Computer won't be put to sleep because there are scheduled downloads"
-msgstr ""
+msgstr "Bilgisayar uykuya geçemeyecek çünkü zamanlanmış indirmeler var."
 
 msgctxt "RPCLocalization|"
 msgid "Scheduler"
-msgstr ""
+msgstr "Zamanlayıcı"
 
 msgctxt "RPCLocalization|"
 msgid "Don't put your computer to sleep if there're scheduled downloads"
-msgstr ""
+msgstr "Zamanlanmış indirmeler varsa bilgisayarı uykuya geçirme"
 
 msgctxt "RPCLocalization|"
 msgid "Press"
-msgstr ""
+msgstr "Bas"
 
 msgctxt "RPCLocalization|"
 msgid "to let the browser process the download"
-msgstr ""
+msgstr "indirme işlemini tarayıcıya bırak"
 
 msgctxt "RPCLocalization|"
 msgid "Check file integrity"
-msgstr ""
+msgstr "Dosya bütünlüğünü kontrol et"
 
 msgctxt "RPCLocalization|"
 msgid "Calculate"
-msgstr ""
+msgstr "Hesapla"
 
 msgctxt "RPCLocalization|"
 msgid "Calculating"
-msgstr ""
+msgstr "Hesaplanıyor"
 
 msgctxt "RPCLocalization|"
 msgid "Verification OK"
-msgstr ""
+msgstr "Doğrulama başarılı"
 
 msgctxt "RPCLocalization|"
 msgid "Verification failed"
-msgstr ""
+msgstr "Doğrulama başarısız oldu"
 
 msgctxt "RPCLocalization|"
 msgid "Compare with:"
-msgstr ""
+msgstr "Karşılaştır:"
 
 msgctxt "RPCLocalization|"
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%1 left"
-msgstr ""
+msgstr "%1 kaldı"
 
 msgctxt "RPCLocalization|"
 msgid "Browsers:"
-msgstr ""
+msgstr "Tarayıcılar:"
 
 msgctxt "RPCLocalization|Advanced"
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 msgctxt "RPCLocalization|"
 msgid "Done"
-msgstr ""
+msgstr "Tamam"
 
 msgctxt "RPCLocalization|tags panel"
 msgid "Completed"
-msgstr ""
+msgstr "Tamamlandı"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%1 of %2"
+msgstr "%1 - %2"
+
+msgctxt "RPCLocalization|"
+msgid "Start download"
 msgstr ""
 
 msgctxt "RPCLocalization|"
-msgid "%1 B"
+msgid "Seeding"
 msgstr ""
 
 msgctxt "RPCLocalization|"
-msgid "%1 KB"
+msgid "Use server time for file creation"
 msgstr ""
 
 msgctxt "RPCLocalization|"
-msgid "%1 MB"
+msgid "Set days of the week to enable Scheduler"
 msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "%1 GB"
-msgstr ""
-
-msgctxt "RPCLocalization|"
-msgid "%1 TB"
-msgstr ""
+#, qt-format
+#~ msgctxt "RPCLocalization|"
+#~ msgid "%1 B"
+#~ msgstr "%1 B"
+#, qt-format
+#~ msgctxt "RPCLocalization|"
+#~ msgid "%1 KB"
+#~ msgstr "%1 KB"
+#, qt-format
+#~ msgctxt "RPCLocalization|"
+#~ msgid "%1 MB"
+#~ msgstr "%1 MB"
+#, qt-format
+#~ msgctxt "RPCLocalization|"
+#~ msgid "%1 GB"
+#~ msgstr "%1 GB"
+#, qt-format
+#~ msgctxt "RPCLocalization|"
+#~ msgid "%1 TB"
+#~ msgstr "%1 TB"
 
 msgctxt "RPCLocalization|"
 msgid "Restore"
-msgstr ""
+msgstr "Geri Yükle"
 
 msgctxt "RPCLocalization|"
 msgid "Using Alt key"
-msgstr ""
+msgstr "Alt tuşu kullanımı"
 
 msgctxt "RPCLocalization|"
 msgid "Don't catch downloads when Alt is pressed"
-msgstr ""
+msgstr "Alt basılıyken indirmeleri yakalama"
 
 msgctxt "RPCLocalization|"
 msgid "Catch downloads only when Alt is pressed"
-msgstr ""
+msgstr "Sadece Alt basılıyken indirmeleri yakala"
 
 msgctxt "RPCLocalization|"
 msgid "Skip domains:"
-msgstr ""
+msgstr "Alan adlarını geç:"
 
 msgctxt "RPCLocalization|"
 msgid "Don't put your computer to sleep if there is a scheduled download"
-msgstr ""
+msgstr "Zamanlanmış indirme varsa bilgisayarı uykuya geçirme"
 
 msgctxt "RPCLocalization|"
 msgid "Don't put your computer to sleep if there is an active download"
-msgstr ""
+msgstr "Aktif indirme varsa bilgisayarı uykuya geçirme"
 
 msgctxt "RPCLocalization|"
 msgid "Remove only from download list"
-msgstr ""
+msgstr "Sadece indirme listeden kaldır"
 
 msgctxt "RPCLocalization|"
 msgid "Go back to default settings"
-msgstr ""
+msgstr "Varsayılan seçeneklere geri dön"
 
 msgctxt "RPCLocalization|"
 msgid "Hold"
-msgstr ""
+msgstr "Basılı Tutma"
 
 msgctxt "RPCLocalization|"
 msgid "Alt key"
-msgstr ""
+msgstr "Alt tuşu"
 
 msgctxt "RPCLocalization|"
 msgid "Holding Alt, click link to download via browser."
 msgstr ""
+"Alt basılı tutun, tarayıcı tarafından indirmek için bağlantıya tıklayın"
 
 msgctxt "RPCLocalization|"
 msgid "Disk space needed:"
-msgstr ""
+msgstr "Gereken disk alanı:"
 
 msgctxt "RPCLocalization|"
 msgid "Hide bottom panel"
-msgstr ""
+msgstr "Alt paneli gizle"
 
 msgctxt "RPCLocalization|"
 msgid "Show bottom panel"
-msgstr ""
+msgstr "Alt paneli göster"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "disk %1"
-msgstr ""
+msgstr "%1 disk"
 
 msgctxt "RPCLocalization|"
 msgid "Tag with the same name already exists"
-msgstr ""
+msgstr "Aynı isimde bir etiket mevcut"
 
 msgctxt "RPCLocalization|"
 msgid "Enable sleep mode while seeding torrents"
-msgstr ""
+msgstr "Torrentlere kaynak olunduğunda uyku modunu etkinleştir"
 
 msgctxt "RPCLocalization|"
 msgid "on"
-msgstr ""
+msgstr "üzerinde"
 
 msgctxt "RPCLocalization|"
 msgid "and"
-msgstr ""
+msgstr "ve"
 
 msgctxt "RPCLocalization|"
-msgid "Automatically remove deleted files from the download list"
-msgstr ""
+msgid "Automatically remove deleted files from download list"
+msgstr "İndirme listesinden otomatik olarak silinmiş dosyaları kaldır"
 
 msgctxt "RPCLocalization|"
 msgid "Some files corrupted"
+msgstr "Bazı dosyalar bozuk"
+
+msgctxt "RPCLocalization|"
+msgid "Save"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Share with friends"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Paste urls from clipboard"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Change download URL"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Saved as:"
+msgstr ""
+
+msgctxt "RPCLocalization|"
+msgid "Invalid URL"
 msgstr ""
 
 msgctxt "RPCSystem|"
@@ -2016,9 +2109,10 @@ msgctxt "RPCSystem|"
 msgid "Download to"
 msgstr ""
 
+#, fuzzy
 msgctxt "RPCSystem|"
 msgid "OK"
-msgstr ""
+msgstr "Tamam"
 
 msgctxt "RPCSystem|"
 msgid "Open torrent file"
@@ -2030,444 +2124,471 @@ msgstr ""
 
 msgctxt "TorrentDownload|"
 msgid "File priorities changed"
-msgstr ""
+msgstr "Dosya öncelikleri değiştirildi"
 
 msgctxt "TorrentDownload|"
 msgid "Stopping seeding"
-msgstr ""
+msgstr "Kaynak durduruluyor"
 
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading enabled"
-msgstr ""
+msgstr "Ardışık indirme etkin"
 
 msgctxt "TorrentDownload|"
 msgid "Sequential downloading disabled"
-msgstr ""
+msgstr "Ardışık indirme devre dışı"
 
 msgctxt "TorrentDownload|"
 msgid "Trackers merged"
-msgstr ""
+msgstr "İzleyiciler birleştirildi"
 
 msgctxt "TorrentDownload|"
 msgid "Starting seeding"
-msgstr ""
+msgstr "Kaynak başlatılıyor"
 
 msgctxt "TorrentDownload|"
 msgid "Unknown error occurred"
-msgstr ""
+msgstr "Bilinmeyen hata oluştu"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Error occurred: %1"
-msgstr ""
+msgstr "Hata oluştu: %1"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Maximum number of connections is %1"
-msgstr ""
+msgstr "Bağlantıların maksimum sayısı %1"
 
 msgctxt "TorrentDownload|"
 msgid "unlimited"
-msgstr ""
+msgstr "limitsiz"
 
 msgctxt "TorrentDownload|"
 msgid "Download speed is unlimited"
-msgstr ""
+msgstr "İndirme hızı limitsiz"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Download speed is limited to %1/s"
-msgstr ""
+msgstr "İndirme hızı %1/s ile limitli"
 
 msgctxt "TorrentDownload|"
 msgid "Upload speed is unlimited"
-msgstr ""
+msgstr "Yükleme hızı limitsiz"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Upload speed is limited to %1/s"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Pausing download"
-msgstr ""
-
-msgctxt "TorrentDownload|"
-msgid "Download paused"
-msgstr ""
+msgstr "Yükleme hızı %1/s olarak limitli"
+#~ msgctxt "TorrentDownload|"
+#~ msgid "Pausing download"
+#~ msgstr "İndirme duraklatılıyor"
+#~ msgctxt "TorrentDownload|"
+#~ msgid "Download paused"
+#~ msgstr "İndirme duraklatıldı"
 
 msgctxt "TorrentDownload|"
 msgid "Files are missing"
-msgstr ""
+msgstr "Dosyalar kayıp"
 
 msgctxt "TorrentDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "Dosya kayıp"
 
 msgctxt "TorrentDownload|"
 msgid "Starting download"
-msgstr ""
+msgstr "İndirme başlatılıyor"
 
 msgctxt "TorrentDownload|"
 msgid "Checking files"
-msgstr ""
+msgstr "Dosyalar kontrol ediliyor"
 
 msgctxt "TorrentDownload|"
 msgid "Downloading"
-msgstr ""
+msgstr "İndiriliyor"
 
 msgctxt "TorrentDownload|"
 msgid "Download complete"
-msgstr ""
+msgstr "İndirme tamamlandı"
 
 msgctxt "TorrentDownload|"
 msgid "Can't move files recursively"
-msgstr ""
+msgstr "Yinelemeli dosyalar taşınamıyor"
 
 msgctxt "TorrentDownload|"
 msgid "Changing destination folder"
-msgstr ""
+msgstr "Hedef klasör değiştiriliyor"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving files to %1"
-msgstr ""
+msgstr "Dosyalar %1 taşınıyor"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file to %1"
-msgstr ""
+msgstr "Dosya %1 taşınıyor"
 
 msgctxt "TorrentDownload|"
 msgid "Waiting for metadata"
-msgstr ""
+msgstr "Metaveri için bekleniyor"
 
 msgctxt "TorrentDownload|"
 msgid "Updating"
-msgstr ""
+msgstr "Güncelleniliyor"
 
 msgctxt "TorrentDownload|"
 msgid "Working"
-msgstr ""
+msgstr "Çalışıyor"
 
 msgctxt "TorrentDownload|"
 msgid "Metadata received"
-msgstr ""
+msgstr "Metaveri alındı"
 
 msgctxt "TorrentDownload|"
 msgid "User authorization required"
-msgstr ""
+msgstr "Kullanıcı yetkilendirmesi grekli"
 
 msgctxt "TorrentDownload|"
 msgid "Files mapped to new directory"
-msgstr ""
+msgstr "Dosyalar yeni dizinle eşlendi"
 
 msgctxt "TorrentDownload|"
 msgid "Files moving failed"
-msgstr ""
+msgstr "Dosya taşınırken başarısız oldu"
 
 msgctxt "TorrentDownload|"
 msgid "File moving failed"
-msgstr ""
+msgstr "Dosya taşınırken başarısız oldu"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving declined: %1"
-msgstr ""
+msgstr "Dosya taşınırken reddedildi: %1"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file declined: %1"
-msgstr ""
+msgstr "Dosya taşıma reddedildi: %1"
 
 msgctxt "TorrentDownload|"
 msgid "Moved successfully"
-msgstr ""
+msgstr "Başarıyla taşındı"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr ", ortalama hız: %1"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving failed: %1"
-msgstr ""
+msgstr "Dosya taşınırken başarısız oldu: %1"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "File moving failed: %1"
-msgstr ""
+msgstr "Dosya taşınırken başarısız oldu: %1"
 
 msgctxt "TorrentDownload|"
 msgid "Files moving cancelled"
-msgstr ""
+msgstr "Dosya taşınırken iptal edildi"
 
 msgctxt "TorrentDownload|"
 msgid "Moving file cancelled"
-msgstr ""
+msgstr "Dosya taşıma iptal edildi"
 
 msgctxt "TrayMenu|"
 msgid "Show main window"
-msgstr ""
+msgstr "Ana pencereyi göster"
 
 msgctxt "TrayMenu|"
 msgid "Open at Login"
-msgstr ""
+msgstr "Girişte Aç"
 
 msgctxt "TrayMenu|"
 msgid "Launch at startup"
-msgstr ""
+msgstr "Başlangıçta çalıştır"
 
 msgctxt "TrayMenu|"
 msgid "About FDM"
-msgstr ""
+msgstr "FDM Hakkında"
 
 msgctxt "TrayMenu|"
 msgid "Quit FDM"
-msgstr ""
+msgstr "FDM Çıkış"
 
 msgctxt "TrayMenu|"
 msgid "Quit"
-msgstr ""
+msgstr "Çıkış"
 
+#, qt-format
 msgctxt "UIHelper|"
 msgid "About %1"
-msgstr ""
+msgstr "%1 Hakkında"
 
+#, qt-format
 msgctxt "UIHelper|"
 msgid "Version %1 (%2)"
-msgstr ""
+msgstr "Sürüm %1 (%2)"
 
 msgctxt "UIHelper|"
 msgid "Open"
-msgstr ""
+msgstr "Aç"
 
 msgctxt "UIHelper|"
 msgid "Reveal in Finder"
-msgstr ""
+msgstr "Bulucu İçinde Göster"
 
 msgctxt "UIHelper|"
 msgid "Show in folder"
-msgstr ""
+msgstr "Klasörde göster"
 
 msgctxt "UIHelper|"
 msgid "Show info"
-msgstr ""
+msgstr "Bilgi göster"
 
 msgctxt "UIHelper|"
 msgid "Choose files..."
-msgstr ""
+msgstr "Dosyaları seç..."
 
 msgctxt "UIHelper|"
 msgid "Pause all except selected"
-msgstr ""
+msgstr "Seçili hariç tümünü duraklat"
 
 msgctxt "UIHelper|"
 msgid "Pause all except this one"
-msgstr ""
+msgstr "Bu hariç tümünü duraklat"
 
 msgctxt "UIHelper|"
 msgid "Restart selected"
-msgstr ""
+msgstr "Seçiliyi yeniden başlat"
 
 msgctxt "UIHelper|"
 msgid "Restart"
-msgstr ""
+msgstr "Yeniden başlat"
 
 msgctxt "UIHelper|"
 msgid "Set priority"
-msgstr ""
+msgstr "Önceliği ayarla"
 
 msgctxt "UIHelper|"
 msgid "Move to..."
-msgstr ""
+msgstr "Taşı..."
 
 msgctxt "UIHelper|"
 msgid "Download to..."
-msgstr ""
+msgstr "İndir..."
 
 msgctxt "UIHelper|"
 msgid "Move to trash"
-msgstr ""
+msgstr "Çöp kutusuna taşı"
 
 msgctxt "UIHelper|"
 msgid "Delete files"
-msgstr ""
+msgstr "Dosyaları sil"
 
 msgctxt "UIHelper|"
 msgid "Delete file"
-msgstr ""
+msgstr "Dosyayı sil"
 
 msgctxt "UIHelper|"
 msgid "Remove from list"
-msgstr ""
+msgstr "Listeden kaldır"
 
 msgctxt "UIHelper|"
 msgid "Enable seeding"
-msgstr ""
+msgstr "Kaynak olmayı etkinleştir"
 
 msgctxt "UIHelper|"
 msgid "Sequential download"
-msgstr ""
+msgstr "Ardışık indirme"
 
 msgctxt "UIHelper|"
 msgid "Force recheck"
-msgstr ""
+msgstr "Zorla yeniden kontrol et"
 
 msgctxt "UIHelper|"
 msgid "Force reannounce"
-msgstr ""
+msgstr "Zorla yeniden duyur"
 
 msgctxt "UIHelper|"
 msgid "Copy link"
-msgstr ""
+msgstr "Bağlantıyı kopyala"
 
 msgctxt "UIHelper|"
 msgid "Add tag"
-msgstr ""
+msgstr "Etiket ekle"
 
 msgctxt "UIHelper|"
 msgid "File integrity"
-msgstr ""
+msgstr "Dosya bütünlüğü"
 
 msgctxt "UIHelper|"
 msgid "Schedule"
+msgstr "Zamanlama"
+
+msgctxt "UIHelper|"
+msgid "Change URL"
 msgstr ""
 
 msgctxt "UIHelper|"
 msgid "High priority"
-msgstr ""
+msgstr "Yüksek öncelik"
 
 msgctxt "UIHelper|"
 msgid "Normal priority"
-msgstr ""
+msgstr "Normal öncelik"
 
 msgctxt "UIHelper|"
 msgid "Low priority"
-msgstr ""
+msgstr "Düşük öncelik"
 
 msgctxt "UIHelper|"
 msgid "Skip"
-msgstr ""
+msgstr "Geç"
 
 msgctxt "UIHelper|"
 msgid "Edit"
-msgstr ""
+msgstr "Düzenle"
 
 msgctxt "UIHelper|"
 msgid "Remove"
-msgstr ""
+msgstr "Kaldır"
 
 msgctxt "UIHelper|"
 msgid "Untag"
-msgstr ""
+msgstr "Etiketlenmemiş"
 
 msgctxt "UIHelper|"
 msgid "Copy log to clipboard"
-msgstr ""
+msgstr "Günlüğü panoya kopyala"
 
 msgctxt "UIHelper|"
 msgid "Save log to file"
-msgstr ""
+msgstr "Günlüğü dosyaya kaydet"
 
+#, qt-format
 msgctxt "UIHelper|"
 msgid "FDM Log [%1].txt"
-msgstr ""
+msgstr "FDM Günlüğü [%1].txt"
 
 msgctxt "UIHelper|"
 msgid "Save Log"
-msgstr ""
+msgstr "Günlüğü kaydet"
 
 msgctxt "UIHelper|"
 msgid "Text files"
-msgstr ""
+msgstr "Metin dosyaları"
 
+#, qt-format
 msgctxt "UIHelper|"
 msgid "%1 K"
-msgstr ""
+msgstr "%1 K"
 
+#, qt-format
 msgctxt "UIHelper|"
 msgid "%1 M"
-msgstr ""
+msgstr "%1 M"
+
 
 msgctxt "YoutubeDownload|"
 msgid "File is missing"
-msgstr ""
+msgstr "Dosya kayıp"
 
 msgctxt "YoutubeDownload|"
 msgid "Error: files are missing."
-msgstr ""
+msgstr "Hata: dosyalar kayıp."
 
 msgctxt "YoutubeDownload|"
 msgid "Files moved successfully"
-msgstr ""
+msgstr "Dosya başarıyla taşındı"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving to %1"
-msgstr ""
+msgstr "%1 taşı"
 
 msgctxt "YoutubeDownload|"
 msgid "Merging failed"
-msgstr ""
+msgstr "Birleştirme başarısız oldu"
 
 msgctxt "YoutubeDownload|"
 msgid "Merging media streams"
-msgstr ""
+msgstr "Medya akışları birleştiriliyor"
 
 msgctxt "YoutubeDownload|"
 msgid "Redirecting"
-msgstr ""
+msgstr "Yönlendiriliyor"
 
 msgctxt "YoutubeDownload|"
 msgid "Handling redirect"
-msgstr ""
+msgstr "Yönlendirme yapılıyor"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "AudioStream: %1"
-msgstr ""
+msgstr "Ses Akışı: %1"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "VideoStream: %1"
-msgstr ""
+msgstr "Video Akışı: %1"
 
 msgctxt "YoutubeDownload|"
 msgid "Downloading page"
-msgstr ""
+msgstr "Sayfa indiriliyor"
 
 msgctxt "YoutubeDownload|"
 msgid "Page is downloaded"
-msgstr ""
+msgstr "Sayfa indirildi"
 
 msgctxt "YoutubeDownload|"
 msgid "Launching parser"
-msgstr ""
+msgstr "Ayrıştırıcı başlatılıyor"
 
 msgctxt "YoutubeDownload|"
 msgid "Page is parsed"
-msgstr ""
+msgstr "Sayfa ayrıştırıldı"
 
 msgctxt "YoutubeDownload|"
 msgid "Can't find video for this quality"
-msgstr ""
+msgstr "Bu kalite için video bulunamıyor"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Parsing failure: %1"
-msgstr ""
+msgstr "Ayrıştırma başarısız oldu: %1"
 
 msgctxt "YoutubeDownload|"
 msgid "Download complete"
-msgstr ""
+msgstr "İndirme tamamlandı"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving declined: %1"
-msgstr ""
+msgstr "Taşıma reddedildi: %1"
 
 msgctxt "YoutubeDownload|"
 msgid "Moved successfully"
-msgstr ""
+msgstr "Başarıyla taşındı"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid ", average speed: %1"
-msgstr ""
+msgstr ", ortalama hız: %1"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "File is renamed to %1"
-msgstr ""
+msgstr "Dosya %1 olarak yeniden adlandırıldı"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving failed: %1"
-msgstr ""
+msgstr "Taşıma başarısız oldu: %1"
 
 msgctxt "YoutubeDownload|"
 msgid "Moving cancelled."
-msgstr ""
+msgstr "Taşıma iptal edildi."
