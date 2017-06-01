@@ -24,6 +24,45 @@ msgid "No flash video found. Try reloading this page."
 msgstr ""
 "No se encuentra ningún vídeo flash. Intenta volver a cargar esta página."
 
+#, qt-format
+msgctxt "Download|"
+msgid "Specified folder path is relative, full path is %1"
+msgstr ""
+
+#, qt-format
+msgctxt "Download|"
+msgid "%1 B"
+msgstr ""
+
+#, qt-format
+msgctxt "Download|"
+msgid "%1 KB"
+msgstr ""
+
+#, qt-format
+msgctxt "Download|"
+msgid "%1 MB"
+msgstr ""
+
+#, qt-format
+msgctxt "Download|"
+msgid "Reconnecting in %1 seconds"
+msgstr ""
+
+#, qt-format
+msgctxt "Download|"
+msgid "Priority set to %1"
+msgstr ""
+
+msgctxt "Download|"
+msgid "Queued: Snail mode is on. Turn it off to continue"
+msgstr ""
+
+#, fuzzy
+msgctxt "Download|"
+msgid "Queued"
+msgstr "En cola"
+
 msgctxt "DownloadFileInfo|"
 msgid "Skip"
 msgstr "Saltar"
@@ -53,21 +92,29 @@ msgctxt "DownloadInfo|"
 msgid "High"
 msgstr "Alto"
 
+#, fuzzy, qt-format
 msgctxt "HttpError|"
 msgid "HTTP Error %1: %2"
-msgstr ""
+msgstr "%1 de Error de HTTP: %2"
+#, fuzzy, qt-format
+#~ msgctxt "HttpError|"
+#~ msgid "Error %1"
+#~ msgstr "Error %1"
 
+#, qt-format
 msgctxt "HttpError|"
-msgid "Error %1"
+msgid "HTTP Error %1"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Unknown error"
-msgstr ""
+msgstr "Error desconocido"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Remote host name not found"
-msgstr ""
+msgstr "Nombre de host remoto no se encuentra"
 
 msgctxt "HttpError|"
 msgid "Operation canceled"
@@ -77,29 +124,34 @@ msgctxt "HttpError|"
 msgid "Remote server closed connection"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Connection timed out"
-msgstr ""
+msgstr "Agotado el tiempo de conexión"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "SSL/TLS handshake failed"
-msgstr ""
+msgstr "SSL/TLS handshake no se pudo"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Connection refused"
-msgstr ""
+msgstr "Conexión rechazada"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Unknown network-related error detected"
-msgstr ""
+msgstr "Desconocido relacionado con la red de error detectado"
 
 msgctxt "HttpError|"
 msgid "Requested operation is not permitted"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Bad Request"
-msgstr ""
+msgstr "Bad Request"
 
 msgctxt "HttpError|"
 msgid "Unauthorized"
@@ -109,13 +161,15 @@ msgctxt "HttpError|"
 msgid "Payment Required"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Forbidden"
-msgstr ""
+msgstr "Prohibido"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Not Found"
-msgstr ""
+msgstr "No Se Encuentra"
 
 msgctxt "HttpError|"
 msgid "Method Not Allowed"
@@ -129,37 +183,44 @@ msgctxt "HttpError|"
 msgid "Proxy Authentication Required"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Request Timeout"
-msgstr ""
+msgstr "Solicitud De Tiempo De Espera"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Conflict"
-msgstr ""
+msgstr "Conflicto"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Gone"
-msgstr ""
+msgstr "Ido"
 
 msgctxt "HttpError|"
 msgid "Length Required"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Precondition Failed"
-msgstr ""
+msgstr "Error En La Condición Previa"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Request Entity Too Large"
-msgstr ""
+msgstr "Solicitud De La Entidad Demasiado Grande"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Request-URI Too Long"
-msgstr ""
+msgstr "URI de la solicitud es Demasiado Largo"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Unsupported Media Type"
-msgstr ""
+msgstr "No Admitido Tipo De Medios"
 
 msgctxt "HttpError|"
 msgid "Requested Range Not Satisfiable"
@@ -169,21 +230,25 @@ msgctxt "HttpError|"
 msgid "Expectation Failed"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "I'm a teapot"
-msgstr ""
+msgstr "Soy una tetera"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Authentication Timeout"
-msgstr ""
+msgstr "Tiempo De Espera De Autenticación"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Method Failure / Enhance Your Calm"
-msgstr ""
+msgstr "La Falla De Un Método / Mejorar Tu Calma"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Unprocessable Entity"
-msgstr ""
+msgstr "Unprocessable Entidad"
 
 msgctxt "HttpError|"
 msgid "Locked"
@@ -193,9 +258,10 @@ msgctxt "HttpError|"
 msgid "Failed Dependency / Method Failure"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Unordered Collection"
-msgstr ""
+msgstr "Colección Desordenada"
 
 msgctxt "HttpError|"
 msgid "Upgrade Required"
@@ -205,9 +271,10 @@ msgctxt "HttpError|"
 msgid "Precondition Required"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Too Many Requests"
-msgstr ""
+msgstr "Demasiadas Solicitudes"
 
 msgctxt "HttpError|"
 msgid "Request Header Fields Too Large"
@@ -217,9 +284,10 @@ msgctxt "HttpError|"
 msgid "Login Timeout"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "No Response"
-msgstr ""
+msgstr "No Hay Respuesta"
 
 msgctxt "HttpError|"
 msgid "Retry With"
@@ -233,41 +301,49 @@ msgctxt "HttpError|"
 msgid "Unavailable For Legal Reasons"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Request Header Too Large"
-msgstr ""
+msgstr "Encabezado De Solicitud Demasiado Grande"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Cert Error"
-msgstr ""
+msgstr "Cert Error"
 
 msgctxt "HttpError|"
 msgid "No Cert"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "HTTP to HTTPS"
-msgstr ""
+msgstr "HTTP a HTTPS"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Token expired/invalid"
-msgstr ""
+msgstr "Token vencido/no válido"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Client Closed Request"
-msgstr ""
+msgstr "Cliente Cerrado Solicitud De"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Error Interno Del Servidor"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Not Implemented"
-msgstr ""
+msgstr "No Implementado"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Bad Gateway"
-msgstr ""
+msgstr "Bad Gateway"
 
 msgctxt "HttpError|"
 msgid "Service Unavailable"
@@ -281,17 +357,20 @@ msgctxt "HttpError|"
 msgid "HTTP Version Not Supported"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Variant Also Negotiates"
-msgstr ""
+msgstr "Variante También Negocia"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Insufficient Storage"
-msgstr ""
+msgstr "De Almacenamiento Insuficiente"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Loop Detected"
-msgstr ""
+msgstr "Bucle Detectado"
 
 msgctxt "HttpError|"
 msgid "Bandwidth Limit Exceeded"
@@ -305,30 +384,30 @@ msgctxt "HttpError|"
 msgid "Network Authentication Required"
 msgstr ""
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Network read timeout error"
-msgstr ""
+msgstr "Red de lectura error de tiempo de espera"
 
+#, fuzzy
 msgctxt "HttpError|"
 msgid "Network connect timeout error"
-msgstr ""
+msgstr "Red connect timeout error"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Maximum number of connections is %1"
 msgstr "Número máximo de conexiones es %1"
-
-#, fuzzy
-msgctxt "HttpFileDownload|"
-msgid "unlimited"
-msgstr "ilimitada"
 
 msgctxt "HttpFileDownload|"
 msgid "Download speed is unlimited"
 msgstr "La velocidad de descarta es ilimitada"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Download speed is limited to %1/s"
 msgstr "La velocidad de descarta está limitada al %1/s"
+
 
 msgctxt "HttpFileDownload|"
 msgid "Can't resume downloading file"
@@ -350,6 +429,7 @@ msgctxt "HttpFileDownload|"
 msgid "Failed to resume as URL changed"
 msgstr "Error en  reiniciar porque cambió la URL"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Moving file to %1"
 msgstr "Moviendo el archivo a %1"
@@ -362,34 +442,42 @@ msgctxt "HttpFileDownload|"
 msgid "Failed to clear contents of original file."
 msgstr "Error al eliminar los contenidos del archivo original"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "File is renamed to %1"
 msgstr "El archivo se renombro a %1"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Opening connection #%1"
 msgstr "Abriendo conexión a #%1"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1 closed"
 msgstr "#%1 cerrado"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1 receiving data"
 msgstr "#%1 recibiendo datos"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "downloaded %1"
 msgstr "descargando #%1"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "(%1/s)"
 msgstr "(#%1)"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1: server ignored partial content request"
 msgstr "#%1: el servidor ignora la solicitud de contenido parcial"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "#%1 failed with error: %2"
 msgstr "#%1 fallo con error: %2"
@@ -398,8 +486,23 @@ msgctxt "HttpFileDownload|"
 msgid "Opening file on disk..."
 msgstr "Abriendo archivo en disco..."
 
+#, fuzzy
+msgctxt "HttpFileDownload|"
+msgid "unlimited"
+msgstr "ilimitada"
+
+#, fuzzy, qt-format
 msgctxt "HttpFileDownload|"
 msgid "File \"%1\" exists. Saving as %2"
+msgstr "Archivo \"%1\" existe. El ahorro como %2"
+
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Reusing connection #%1"
+msgstr ""
+
+msgctxt "HttpFileDownload|"
+msgid "Failed to complete the download"
 msgstr ""
 
 msgctxt "HttpFileDownload|"
@@ -418,14 +521,25 @@ msgctxt "HttpFileDownload|"
 msgid "Preallocating disk space for download"
 msgstr "Preasignación de espacio en disco para descarga"
 
+#, fuzzy
+msgctxt "HttpFileDownload|"
+msgid "Unexpected error"
+msgstr "Error inesperado"
+
 msgctxt "HttpFileDownload|"
 msgid "File changed on remote server"
 msgstr "Archivo cambiado en el servidor remoto"
+
+#, qt-format
+msgctxt "HttpFileDownload|"
+msgid "Couldn't reuse connection #%1, closing"
+msgstr ""
 
 msgctxt "HttpFileDownload|"
 msgid "Failed writing received data to file"
 msgstr "Error al escribir los datos recibidos en el archivo"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Redirecting to %1"
 msgstr "Redireccionando a %1"
@@ -438,14 +552,17 @@ msgctxt "HttpFileDownload|"
 msgid "File moving failed"
 msgstr "Error al mover el archivo"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "Preallocation failed: %1"
 msgstr "Error de asignación de prioridad: %1"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid "%1 finished successfully"
 msgstr "%1 terminado correctamente"
 
+#, qt-format
 msgctxt "HttpFileDownload|"
 msgid ", average speed: %1"
 msgstr ", velocidad media: % 1"
@@ -486,18 +603,19 @@ msgctxt "MacMainMenu|"
 msgid "Edit"
 msgstr "Editar"
 
+#, fuzzy, qt-format
 msgctxt "MacMainMenu|"
 msgid "About %1"
 msgstr "Cerca de %1"
 
+#, fuzzy
+msgctxt "MacMainMenu|"
+msgid "Preferences..."
+msgstr "Preferencias..."
+
 msgctxt "MacMainMenu|"
 msgid "Check for Updates..."
 msgstr "Buscar actualizaciones ..."
-
-#, fuzzy
-msgctxt "MacMainMenu|"
-msgid "Downloads"
-msgstr "Descargas"
 
 msgctxt "MacMainMenu|"
 msgid "Start Selected"
@@ -515,6 +633,11 @@ msgctxt "MacMainMenu|"
 msgid "Remove from List"
 msgstr "Quitar de la lista"
 
+#, fuzzy
+msgctxt "MacMainMenu|"
+msgid "Downloads"
+msgstr "Descargas"
+
 msgctxt "MacMainMenu|"
 msgid "Help"
 msgstr "Ayuda"
@@ -526,11 +649,6 @@ msgstr "Soporte de contacto"
 msgctxt "MacMainMenu|"
 msgid "Vote for New Features"
 msgstr "Vota por nuevas características"
-
-#, fuzzy
-msgctxt "MacMainMenu|"
-msgid "Preferences..."
-msgstr "Preferencias..."
 
 #, fuzzy
 msgctxt "QObject|"
@@ -610,9 +728,10 @@ msgctxt "QObject|"
 msgid "Something went wrong with internal downloads."
 msgstr "Algo salió mal con descargas internas."
 
+#, fuzzy
 msgctxt "QObject|"
 msgid "Selected filepath is not valid."
-msgstr ""
+msgstr "La ruta seleccionada no es válida."
 
 msgctxt "QObject|"
 msgid "Selected filename is too long"
@@ -625,6 +744,43 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Specified directory can't be accessed."
 msgstr ""
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Confirm"
+msgstr "Confirmar"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Attention! "
+msgstr "¡Atención!"
+
+msgctxt "QObject|"
+msgid "Your computer will be put to Sleep mode."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Your computer will be hibernated."
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Your computer will be shut down."
+msgstr ""
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Files are missing"
+msgstr "Archivos no encontrado"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "File is missing"
+msgstr "Falta el archive"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Incorrect login or password"
+msgstr "Usuario o contraseña incorrecta"
 
 msgctxt "RPCLocalization|"
 msgid "locale"
@@ -686,6 +842,7 @@ msgctxt "RPCLocalization|"
 msgid "Show details"
 msgstr "Mostrar detalles"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%n files selected."
 msgid_plural "%n files selected."
@@ -841,36 +998,12 @@ msgid "Snail mode"
 msgstr "Modo caracol"
 
 msgctxt "RPCLocalization|"
-msgid "Bandwidth limits"
-msgstr "Límites de ancho de banda"
-
-msgctxt "RPCLocalization|"
 msgid "Cancel"
 msgstr "Cancelar"
 
 msgctxt "RPCLocalization|"
 msgid "Apply"
 msgstr "Aplicar"
-
-msgctxt "RPCLocalization|"
-msgid "KB/s"
-msgstr "KB/s"
-
-msgctxt "RPCLocalization|"
-msgid "MB/s"
-msgstr "MB/s"
-
-msgctxt "RPCLocalization|"
-msgid "%1 KB/s"
-msgstr "%1 KB/s"
-
-msgctxt "RPCLocalization|"
-msgid "%1 MB/s"
-msgstr "%1 MB/s"
-
-msgctxt "RPCLocalization|"
-msgid "%1 GB/s"
-msgstr "%1 GB/s"
 
 msgctxt "RPCLocalization|"
 msgid "Browser integration"
@@ -1016,12 +1149,12 @@ msgctxt "RPCLocalization|"
 msgid "Checking files..."
 msgstr "Comprobando archivos..."
 
-#, fuzzy
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "Completed %n / %2 files"
 msgid_plural "Completed %n / %2 files"
-msgstr[0] "Completado %n / %2 archivos"
-msgstr[1] ""
+msgstr[0] "%n / %2 archivo completado"
+msgstr[1] "%n / %2 archivos completados"
 
 msgctxt "RPCLocalization|"
 msgid "Complete"
@@ -1139,19 +1272,19 @@ msgctxt "RPCLocalization|"
 msgid "Are you sure it's not too long?"
 msgstr "¿Estas seguro que no es demasiado largo?"
 
-#, fuzzy
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "Only %n records? FDM can store much more!"
 msgid_plural "Only %n records? FDM can store much more!"
-msgstr[0] "¿Solo %n registros? ¡FDM puede almacenar mucho más!"
-msgstr[1] ""
+msgstr[0] "¿Solo %n registro? ¡FDM puede almacenar mucho más!"
+msgstr[1] "¿Solo %n registros? ¡FDM puede almacenar mucho más!"
 
-#, fuzzy
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%n records is too many to save."
 msgid_plural "%n records is too many to save."
-msgstr[0] "%n registros son demasiados para guardar."
-msgstr[1] ""
+msgstr[0] "%n registro es demasiado para almacenarlo."
+msgstr[1] "%n registros son demasiados para almacenarlos."
 
 msgctxt "RPCLocalization|"
 msgid "Do you actually want to connect?"
@@ -1290,39 +1423,66 @@ msgstr "Instalar actualizaciones automáticamente"
 
 msgctxt "RPCLocalization|"
 msgid "Suggest folders based on download URL"
-msgstr ""
+msgstr "Sugerir carpetas basadas en la URL de descarga"
 
 msgctxt "RPCLocalization|"
 msgid "Verify if"
-msgstr ""
+msgstr "Verificar si"
 
+#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "is enabled"
-msgstr ""
+msgstr "está habilitado"
 
 msgctxt "RPCLocalization|"
-msgid "%1 B"
-msgstr "%1 B"
+msgid "Clear history older than"
+msgid_plural "Clear history older than"
+msgstr[0] "Limpiar del histórico el registro con más de"
+msgstr[1] "Limpiar del histórico los registros con más de"
 
 msgctxt "RPCLocalization|"
-msgid "%1 KB"
-msgstr "%1 KB"
-
+msgid "days"
+msgid_plural "days"
+msgstr[0] "día"
+msgstr[1] "días"
+# I'm assuming that this refers to the abbreviation for second(s). I guess m is for minute(s), h is for hour(s) and d for day(s).
+#, fuzzy, qt-format
 msgctxt "RPCLocalization|"
-msgid "%1 MB"
-msgstr "%1 MB"
+msgid "%ns"
+msgid_plural "%ns"
+msgstr[0] "%n s"
+msgstr[1] "%n s"
 
+#, fuzzy, qt-format
 msgctxt "RPCLocalization|"
-msgid "%1 GB"
-msgstr "%1 GB"
+msgid "%nm"
+msgid_plural "%nm"
+msgstr[0] "%n m"
+msgstr[1] "%n m"
 
+#, fuzzy, qt-format
 msgctxt "RPCLocalization|"
-msgid "%1 TB"
-msgstr "%1 TB"
+msgid "%nh"
+msgid_plural "%nh"
+msgstr[0] "%n h"
+msgstr[1] "%n h"
 
+#, fuzzy, qt-format
+msgctxt "RPCLocalization|"
+msgid "%nd"
+msgid_plural "%nd"
+msgstr[0] "%n d"
+msgstr[1] "%n d"
+
+#, fuzzy
+msgctxt "RPCLocalization|tags panel"
+msgid "Completed"
+msgstr "Completada"
+
+#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Skip domains:"
-msgstr ""
+msgstr "Saltar dominios:"
 
 msgctxt "RPCLocalization|"
 msgid "Hold"
@@ -1344,6 +1504,7 @@ msgctxt "RPCLocalization|"
 msgid "Show bottom panel"
 msgstr "Mostrar panel inferior"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "disk %1"
 msgstr "disco %1"
@@ -1449,6 +1610,11 @@ msgctxt "RPCLocalization|"
 msgid "Chrome"
 msgstr "Chrome"
 
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Traffic limits"
+msgstr "Límites de tráfico"
+
 msgctxt "RPCLocalization|"
 msgid "No Chrome installation was found."
 msgstr "No se encontró la instalación de Chrome."
@@ -1524,20 +1690,6 @@ msgstr "Historial"
 msgctxt "RPCLocalization|"
 msgid "Remember all destination folders"
 msgstr "Recordar todas las carpetas de destino"
-
-#, fuzzy
-msgctxt "RPCLocalization|"
-msgid "Clear history older than"
-msgid_plural "Clear history older than"
-msgstr[0] "Borrar historial antiguo de"
-msgstr[1] ""
-
-#, fuzzy
-msgctxt "RPCLocalization|"
-msgid "days"
-msgid_plural "days"
-msgstr[0] "días"
-msgstr[1] ""
 
 msgctxt "RPCLocalization|"
 msgid "Maximum number of history records:"
@@ -1794,40 +1946,14 @@ msgctxt "RPCLocalization|"
 msgid "New version is available"
 msgstr "Nueva versión disponible"
 
-#, fuzzy
-msgctxt "RPCLocalization|"
-msgid "%ns"
-msgid_plural "%ns"
-msgstr[0] "%ns"
-msgstr[1] ""
-
-#, fuzzy
-msgctxt "RPCLocalization|"
-msgid "%nm"
-msgid_plural "%nm"
-msgstr[0] "%nm"
-msgstr[1] ""
-
-#, fuzzy
-msgctxt "RPCLocalization|"
-msgid "%nh"
-msgid_plural "%nh"
-msgstr[0] "%nh"
-msgstr[1] ""
-
-#, fuzzy
-msgctxt "RPCLocalization|"
-msgid "%nd"
-msgid_plural "%nd"
-msgstr[0] "%nd"
-msgstr[1] ""
-
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%nw"
 msgid_plural "%nw"
 msgstr[0] "%ns"
 msgstr[1] ""
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%ny"
 msgid_plural "%ny"
@@ -1922,6 +2048,11 @@ msgctxt "RPCLocalization|"
 msgid "Don't put your computer to sleep if there're scheduled downloads"
 msgstr "No pongas su computadora en sleep si hay descargas programadas"
 
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Compare with"
+msgstr "Comparar con"
+
 msgctxt "RPCLocalization|"
 msgid "Restore"
 msgstr "Restaurar"
@@ -1929,54 +2060,199 @@ msgstr "Restaurar"
 msgctxt "RPCLocalization|"
 msgid "Holding Alt, click link to download via browser."
 msgstr ""
+"Manteniendo Alt pulsado, haga clic en el enlace para descargar vía el "
+"navegador."
 
 msgctxt "RPCLocalization|"
 msgid "Tag with the same name already exists"
-msgstr ""
+msgstr "Etiquetar con el mismo nombre que ya existe"
 
+#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Enable sleep mode while seeding torrents"
-msgstr ""
-
+msgstr "Habilitar modo de suspensión mientras siembra torrentes"
+# This preposition can be translated in many different ways in Spanish depending on the context. I've chosen the most common one, not necessarily the right one.
+#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "on"
-msgstr ""
+msgstr "en"
 
+#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "and"
-msgstr ""
+msgstr "y"
 
 msgctxt "RPCLocalization|"
-msgid "Automatically remove deleted files from the download list"
+msgid "Automatically remove deleted files from download list"
 msgstr ""
+"Eliminar automáticamente de la lista de descargas los archivos borrados"
 
 msgctxt "RPCLocalization|"
 msgid "Some files corrupted"
-msgstr ""
+msgstr "Algunos archivos están dañados"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Save"
+msgstr "Guardar"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Share with friends"
+msgstr "Compartir con amigos"
+
+msgctxt "RPCLocalization|"
+msgid "Paste urls from clipboard"
+msgstr "Pegar las URL desde el portapapeles"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Change download URL"
+msgstr "Cambiar URL de descarga"
+
+msgctxt "RPCLocalization|"
+msgid "Saved as:"
+msgstr "Guardado como:"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Invalid URL"
+msgstr "URL no válida"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Start download"
+msgstr "Iniciar descarga"
+
+msgctxt "RPCLocalization|"
+msgid "Seeding"
+msgstr "Compartiendo"
+
+msgctxt "RPCLocalization|"
+msgid "Use server time for file creation"
+msgstr "Usar la fecha del sistema para crear ficheros"
+
+msgctxt "RPCLocalization|"
+msgid "Set days of the week to enable Scheduler"
+msgstr "Seleccionar los días de la semana en que activar el Planificador"
+
+msgctxt "RPCLocalization|"
+msgid "Enter URL or choose torrent file"
+msgstr "Escriba la URL o elija un archivo torrent"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "New file"
+msgstr "Nuevo archivo"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "New files"
+msgstr "Nuevos archivos"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "New video"
+msgstr "Nuevo video"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "New torrent"
+msgstr "Nuevo torrent"
+
+msgctxt "RPCLocalization|"
+msgid "Save to"
+msgstr "Guardar en"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "File name"
+msgstr "Nombre de archivo"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Create subfolder"
+msgstr "Crear subcarpeta"
+
+msgctxt "RPCLocalization|"
+msgid "Torrent contents"
+msgstr "Contenido del torrent"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Authentication required:"
+msgstr "Autenticación requerida:"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Enter new URL"
+msgstr "Introducir nueva URL"
+
+msgctxt "RPCLocalization|"
+msgid "File location"
+msgstr "Ubicación del archivo"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Download links"
+msgstr "Links de descarga"
+
+msgctxt "RPCLocalization|"
+msgid "Restore default settings?"
+msgstr "¿Restaurar los valores por defecto?"
+
+msgctxt "RPCLocalization|"
+msgid "Default settings"
+msgstr "Valores por defecto"
+
+msgctxt "RPCLocalization|"
+msgid "Found incomplete download with same name and size."
+msgstr "Se ha encontrado una descarga incompleta con el mismo nombre y tamaño."
+
+msgctxt "RPCLocalization|"
+msgid "Would you like to start new or resume downloading?"
+msgstr "¿Le gustaría empezar de nuevo o continuar con la descarga?"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Start new"
+msgstr "Inicio nuevo"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Resume"
+msgstr "Curriculum Vitae"
+
+#, fuzzy
+msgctxt "RPCLocalization|"
+msgid "Hash"
+msgstr "Hash"
+
+msgctxt "RPCLocalization|"
+msgid "Selected filepath is not valid."
+msgstr "La ruta seleccionada no es válida."
 
 msgctxt "RPCLocalization|"
 msgid "Press"
 msgstr "Prensa"
 
 msgctxt "RPCLocalization|"
-msgid "%1 B/s"
-msgstr "%1 B/s"
-
-msgctxt "RPCLocalization|"
 msgid "Downloading, allocating disk space..."
-msgstr ""
+msgstr "Descargando, asignando espacio en disco..."
 
 msgctxt "RPCLocalization|"
 msgid "Start downloading without confirmation"
 msgstr "Iniciar la descarga sin confirmación"
 
+#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "Safari: enable FDM"
-msgstr ""
+msgstr "Safari: habilitar FDM"
 
+#, fuzzy
 msgctxt "RPCLocalization|"
 msgid "for context menu"
-msgstr ""
+msgstr "para el menú de contexto"
 
 msgctxt "RPCLocalization|"
 msgid "Use browser if you cancel download via FDM"
@@ -2011,13 +2287,10 @@ msgid "Verification failed"
 msgstr "Falla en verificación"
 
 msgctxt "RPCLocalization|"
-msgid "Compare with:"
-msgstr "Comparar con:"
-
-msgctxt "RPCLocalization|"
 msgid "Close"
 msgstr "Cerrar"
 
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%1 left"
 msgstr "Queda %1"
@@ -2026,22 +2299,18 @@ msgctxt "RPCLocalization|"
 msgid "Browsers:"
 msgstr "Buscadores"
 
-msgctxt "RPCLocalization|Advanced"
-msgid "Options"
-msgstr "Opciones"
-
 msgctxt "RPCLocalization|"
 msgid "Done"
 msgstr "Hecho"
 
-#, fuzzy
-msgctxt "RPCLocalization|tags panel"
-msgid "Completed"
-msgstr "Completada"
-
+#, qt-format
 msgctxt "RPCLocalization|"
 msgid "%1 of %2"
 msgstr "%1 de%2"
+
+msgctxt "RPCLocalization|Advanced"
+msgid "Options"
+msgstr "Opciones"
 
 msgctxt "RPCSystem|"
 msgid "Default download folder"
@@ -2051,22 +2320,25 @@ msgctxt "RPCSystem|"
 msgid "Accept"
 msgstr ""
 
+#, fuzzy
 msgctxt "RPCSystem|"
 msgid "Download to"
-msgstr ""
+msgstr "Descargar a"
 
 #, fuzzy
 msgctxt "RPCSystem|"
 msgid "OK"
 msgstr "Aceptar"
 
+#, fuzzy
 msgctxt "RPCSystem|"
 msgid "Open torrent file"
-msgstr ""
+msgstr "Archivo torrent abierto"
 
+#, fuzzy
 msgctxt "RPCSystem|"
 msgid "Torrent files"
-msgstr ""
+msgstr "Archivos torrent"
 
 msgctxt "TorrentDownload|"
 msgid "File priorities changed"
@@ -2096,10 +2368,12 @@ msgctxt "TorrentDownload|"
 msgid "Unknown error occurred"
 msgstr "Ha ocurrido un error desconocido"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Error occurred: %1"
 msgstr "Ha ocurrido un error:%1"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Maximum number of connections is %1"
 msgstr "Número máximo de conexiones es %1"
@@ -2113,6 +2387,7 @@ msgctxt "TorrentDownload|"
 msgid "Download speed is unlimited"
 msgstr "La velocidad de descarta es ilimitada"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Download speed is limited to %1/s"
 msgstr "La velocidad de descarta está limitada al %1/s"
@@ -2121,25 +2396,16 @@ msgctxt "TorrentDownload|"
 msgid "Upload speed is unlimited"
 msgstr "La velocidad de subida es ilimitada"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Upload speed is limited to %1/s"
 msgstr "La velocidad de subida está limitada al %1/s"
-
-msgctxt "TorrentDownload|"
-msgid "Pausing download"
-msgstr "Pausando descarga"
-
-msgctxt "TorrentDownload|"
-msgid "Download paused"
-msgstr "Descarga pausada"
-
-msgctxt "TorrentDownload|"
-msgid "Files are missing"
-msgstr "Archivos no encontrado"
-
-msgctxt "TorrentDownload|"
-msgid "File is missing"
-msgstr "Archivo no encontrado"
+#~ msgctxt "TorrentDownload|"
+#~ msgid "Files are missing"
+#~ msgstr "Archivos no encontrado"
+#~ msgctxt "TorrentDownload|"
+#~ msgid "File is missing"
+#~ msgstr "Archivo no encontrado"
 
 msgctxt "TorrentDownload|"
 msgid "Starting download"
@@ -2165,10 +2431,12 @@ msgctxt "TorrentDownload|"
 msgid "Changing destination folder"
 msgstr "Cambiando carpeta de destino"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving files to %1"
 msgstr "Moviendo el archivo a %1"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file to %1"
 msgstr "Moviendo el archivo a %1"
@@ -2205,10 +2473,12 @@ msgctxt "TorrentDownload|"
 msgid "File moving failed"
 msgstr "Error al mover el archivo"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving declined: %1"
 msgstr "Mover archivo declinado: 1%"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Moving file declined: %1"
 msgstr "Mover archivo declinado: 1%"
@@ -2217,14 +2487,17 @@ msgctxt "TorrentDownload|"
 msgid "Moved successfully"
 msgstr "Movido correctamente"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid ", average speed: %1"
 msgstr ", velocidad media: % 1"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "Files moving failed: %1"
 msgstr "Falla al mover el archivo: 1%"
 
+#, qt-format
 msgctxt "TorrentDownload|"
 msgid "File moving failed: %1"
 msgstr "Error al mover el archivo: 1%"
@@ -2236,6 +2509,11 @@ msgstr "Mover archivo cancelado: 1%"
 msgctxt "TorrentDownload|"
 msgid "Moving file cancelled"
 msgstr "Mover archivo cancelado: 1%"
+
+#, fuzzy
+msgctxt "TorrentDownload|"
+msgid "Unexpected error"
+msgstr "Error inesperado"
 
 msgctxt "TrayMenu|"
 msgid "Show main window"
@@ -2264,13 +2542,15 @@ msgctxt "TrayMenu|"
 msgid "Quit"
 msgstr "Cerrar"
 
+#, qt-format
 msgctxt "UIHelper|"
 msgid "About %1"
 msgstr "Cerca de %1"
 
+#, qt-format
 msgctxt "UIHelper|"
 msgid "Version %1 (%2)"
-msgstr "Versión 1%"
+msgstr ""
 
 msgctxt "UIHelper|"
 msgid "Open"
@@ -2377,6 +2657,11 @@ msgctxt "UIHelper|"
 msgid "Schedule"
 msgstr "Programar"
 
+#, fuzzy
+msgctxt "UIHelper|"
+msgid "Change URL"
+msgstr "Cambiar URL"
+
 msgctxt "UIHelper|"
 msgid "High priority"
 msgstr "Alta prioridad"
@@ -2388,10 +2673,9 @@ msgstr "Prioridad normal"
 msgctxt "UIHelper|"
 msgid "Low priority"
 msgstr "Prioridad baja"
-
-msgctxt "UIHelper|"
-msgid "Skip"
-msgstr "Saltar"
+#~ msgctxt "UIHelper|"
+#~ msgid "Skip"
+#~ msgstr "Saltar"
 
 msgctxt "UIHelper|"
 msgid "Edit"
@@ -2413,6 +2697,7 @@ msgctxt "UIHelper|"
 msgid "Save log to file"
 msgstr "Guardar registro"
 
+#, qt-format
 msgctxt "UIHelper|"
 msgid "FDM Log [%1].txt"
 msgstr "Log FDM"
@@ -2425,13 +2710,16 @@ msgctxt "UIHelper|"
 msgid "Text files"
 msgstr "Archivos de texto"
 
+#, qt-format
 msgctxt "UIHelper|"
 msgid "%1 K"
 msgstr "%1 KB"
 
+#, qt-format
 msgctxt "UIHelper|"
 msgid "%1 M"
 msgstr "%1 MB"
+
 
 msgctxt "YoutubeDownload|"
 msgid "File is missing"
@@ -2445,6 +2733,7 @@ msgctxt "YoutubeDownload|"
 msgid "Files moved successfully"
 msgstr "Archivos movidos correctamente"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving to %1"
 msgstr "Moviendo el archivo a %1"
@@ -2466,10 +2755,12 @@ msgctxt "YoutubeDownload|"
 msgid "Handling redirect"
 msgstr "Manejando redirección"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "AudioStream: %1"
 msgstr "Audiostream"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "VideoStream: %1"
 msgstr "Videostream"
@@ -2494,6 +2785,7 @@ msgctxt "YoutubeDownload|"
 msgid "Can't find video for this quality"
 msgstr "No se puede encontrar video para esta calidad"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Parsing failure: %1"
 msgstr "Error de analizador%1"
@@ -2502,6 +2794,7 @@ msgctxt "YoutubeDownload|"
 msgid "Download complete"
 msgstr "Descarga completa"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving declined: %1"
 msgstr "Mover archivo declinado"
@@ -2510,14 +2803,17 @@ msgctxt "YoutubeDownload|"
 msgid "Moved successfully"
 msgstr "Movido correctamente"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid ", average speed: %1"
 msgstr ", velocidad media: % 1"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "File is renamed to %1"
 msgstr "El archivo se renombro a %1"
 
+#, qt-format
 msgctxt "YoutubeDownload|"
 msgid "Moving failed: %1"
 msgstr "Error al mover el archivo: 1%"
