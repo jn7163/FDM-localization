@@ -3,7 +3,7 @@
 Kindly help us improve Free Download Manager :)
 
 
-This repository contains .po files for [FDM 5.x](http://www.freedownloadmanager.org/download.htm) localization. To edit and publish files, it's recommanded to use [Qt Linguist](http://down.admin5.com/app/113027.html). However, you can use other code editors or [Poedit](https://poedit.net/download), but you cannot publish .qm files and use the localized files immediately.
+This repository contains .po files for [FDM 5.x](http://www.freedownloadmanager.org/download.htm) localization. To edit and publish files, it's recommanded to use [Qt Linguist](https://github.com/thurask/Qt-Linguist/releases). However, you can use other code editors or [Poedit](https://poedit.net/download), but you cannot publish .qm files and use the localized files immediately.
 
 
 There are two ways to download the .po file for your language from GitHub.
